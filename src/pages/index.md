@@ -78,21 +78,37 @@ roadmap:
         roadmap_item_title: Strategic partnership with Nouryon
         roadmap_item_icon: /img/coffee-gear.png
         roadmap_item_image: /img/coffee-gear.png
+        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
+          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
+          bibendum
     - roadmap_item:
         roadmap_item_year: "2019"
         roadmap_item_title: Validation in pilot plant
         roadmap_item_icon: /img/coffee-gear.png
         roadmap_item_image: /img/coffee-gear.png
+        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
+          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
+          bibendum
     - roadmap_item:
         roadmap_item_year: "2020"
         roadmap_item_title: Demonstration plant construction
         roadmap_item_icon: /img/coffee-gear.png
         roadmap_item_image: /img/coffee-gear.png
+        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
+          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
+          bibendum
     - roadmap_item:
         roadmap_item_year: "2021"
         roadmap_item_title: Demonstration plan operational
         roadmap_item_icon: /img/coffee-gear.png
         roadmap_item_image: /img/coffee-gear.png
+        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
+          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
+          bibendum
 technology:
   technology_pretitle: this is how we do it
   technology_title: Use natural all-in-one mini factories
@@ -120,6 +136,22 @@ infographic:
 partners:
   partners_pretitle: we believe in working together
   partners_title: We are proud of our ecosystem
+  partners_logos:
+    - logo:
+        logo_image: /img/mibiton.svg
+        logo_link: https://www.mibiton.nl/
+    - logo:
+        logo_image: /img/nouryon.svg
+        logo_link: https://www.nouryon.com/
+    - logo:
+        logo_image: /img/renolit.svg
+        logo_link: https://www.renolit.com/
+    - logo:
+        logo_image: /img/uva.svg
+        logo_link: https://www.uva.nl/
+    - logo:
+        logo_image: /img/wef.svg
+        logo_link: https://www.weforum.org/
 title: Great coffee with a conscience
 main:
   heading: Great coffee with no compromises
