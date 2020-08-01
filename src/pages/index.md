@@ -183,6 +183,24 @@ team:
           molestie. "
         employee_linkedin: https://www.linkedin.com/in/monkeystation/
         employee_image: /img/maria.jpg
+    - employee:
+        employee_name: Veronique De Bruijn
+        employee_function: CEO
+        employee_text: Véronique has been an Investment director at ICOS Capital,
+          previously she raised early-stage funding for 3 companies as an
+          independent consultant and corporate finance role at PwC in the
+          Netherlands.
+        employee_linkedin: https://www.linkedin.com/in/monkeystation/
+        employee_image: /img/maria.jpg
+    - employee:
+        employee_name: Paul Koekoek
+        employee_function: COO
+        employee_text: Paul has over 25 years of process & manufacturing experience and
+          is highly skilled in process engineering, hazard, analysis, critical
+          control points and GMP. Paul studied Chemical Engineering in
+          Groningen.
+        employee_linkedin: https://www.linkedin.com/in/monkeystation/
+        employee_image: /img/maria.jpg
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
