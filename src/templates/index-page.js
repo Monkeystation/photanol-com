@@ -179,7 +179,13 @@ export const pageQuery = graphql`
             roadmap_item_year
             roadmap_item_title
             roadmap_item_text
-            roadmap_item_icon
+            roadmap_item_icon {
+              childImageSharp {
+                fluid(maxWidth: 1500, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             roadmap_item_image {
               childImageSharp {
                 fluid(maxWidth: 1500, quality: 60) {
