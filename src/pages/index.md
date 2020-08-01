@@ -201,6 +201,33 @@ team:
           Groningen.
         employee_linkedin: https://www.linkedin.com/in/monkeystation/
         employee_image: /img/maria.jpg
+  vacancies:
+    - vacancy:
+        vacancy_title: Researchers Strain Development Team
+        vacancy_description_short: Photanol is opening a whole new research line in
+          collaboration with a new partner Renolit. Multiple positions are
+          available.
+        vacancy_description_full: >-
+          Photanol is opening a whole new research line in collaboration with a
+          new partner
+          (https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE
+          ). Multiple positions are available in the strain engineering team.
+
+
+          Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
+    - vacancy:
+        vacancy_title: Junior Researchers Strain Development Team
+        vacancy_description_short: Photanol is opening a whole new research line in
+          collaboration with a new partner Renolit. Multiple positions are
+          available.
+        vacancy_description_full: >-
+          Photanol is opening a whole new research line in collaboration with a
+          new partner
+          (https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE
+          ). Multiple positions are available in the strain engineering team.
+
+
+          Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
