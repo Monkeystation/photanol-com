@@ -173,6 +173,16 @@ image: /img/home-jumbotron.jpg
 team:
   team_pretitle: our people and culture
   team_title: Our great team behind it all
+  employees:
+    - employee:
+        employee_name: Maria João Correia
+        employee_function: Junior Researcher
+        employee_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+          dictum dui metus, non tincidunt libero convallis sit amet. Aenean
+          volutpat sit amet sapien at vestibulum. Ut rutrum neque quis imperdiet
+          molestie. "
+        employee_linkedin: https://www.linkedin.com/in/monkeystation/
+        employee_image: /img/maria.jpg
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
