@@ -5,13 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
+  
 }) => (
   <div>
     <section className="section intro py-0" >
@@ -106,7 +100,7 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  intro_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -115,6 +109,8 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  
+  
 }
 
 const IndexPage = ({ data }) => {
@@ -123,117 +119,11 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+        intro_image={frontmatter.intro_image}
       />
     </Layout>
   )
 }
-
-/*
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">  
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  */
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -249,35 +139,86 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        intro {
+          intro_pretitle
+          intro_title
+          intro_image {
+            childImageSharp {
+              fluid(maxWidth: 1500, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
+        mission {
+          mission_pretitle
+          mission_title
+          mission_video_item {
+            mission_video_item_label
+            mission_video_item_link
+          }
         }
-        description
-        intro {
-          blurbs {
-            image {
+        solution {
+          solution_pretitle
+          solution_title
+          solution_animation {
+            solution_animation_title1
+            solution_animation_title2
+            solution_animation_title3
+            solution_animation_title4
+            solution_animation_title5
+            solution_animation_title6
+            solution_animation_title7
+            solution_animation_title8
+          }
+        }
+        roadmap {
+          roadmap_pretitle
+          roadmap_title
+          roadmap_items {
+            roadmap_item_year
+            roadmap_item_title
+            roadmap_item_text
+            roadmap_item_icon
+            roadmap_item_image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 1500, quality: 60) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            text
           }
-          heading
-          description
         }
+        technology {
+          technology_pretitle
+          technology_title
+          technology_image {
+            childImageSharp {
+              fluid(maxWidth: 1500, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          technology_text
+          technology_video_item {
+            technology_video_item_label
+            technology_video_item_link
+          }
+        }
+        infographic {
+          infographic_pretitle
+          infographic_items {
+            infographic_stage1
+            infographic_stage2
+            infographic_stage3
+            infographic_stage4
+            infographic_stage5
+            infographic_stage6
+            infographic_stage7
+            infographic_stage8
+          }
+        }
+
       }
     }
   }
