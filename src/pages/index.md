@@ -2,7 +2,10 @@
 templateKey: index-page
 intro:
   intro_pretitle: powered by the sun
-  intro_title: We transform CO₂ into renewable carbon compounds.
+  intro_title: |-
+    We transform CO₂
+    into renewable 
+    carbon compounds.
   intro_image: /img/coffee-gear.png
 mission:
   mission_pretitle: what we stand for
@@ -26,44 +29,6 @@ solution:
     solution_animation_title8: But we’ve closed the circle
   solution_image: /img/coffee-gear.png
   solution_button: Lalala
-technology:
-  technology_pretitle: this is how we do it
-  technology_title: Use natural all-in-one mini factories
-  technology_text: >-
-    Our solution bypasses a whole range of resource-heavy activities in the
-    production cycle of carbon compounds. By combining photosynthesis and
-    fermentation capabilities in cyano bacteria, we efficiently and cost. 
-
-    Our solution bypasses a whole range of resource-heavy activities in the production cycle of carbon compounds. 
-  technology_video_item:
-    technology_video_item_label: Watch  corporate movie
-    technology_video_item_link: https://www.youtube.com/watch?v=ijMRUWfbp88
-  technology_image: /img/coffee-gear.png
-partners:
-  partners_pretitle: we believe in working together
-  partners_title: We are proud of our ecosystem
-  partners_logos:
-    - logo_image: /img/mibiton.svg
-      logo_link: https://www.mibiton.nl/
-    - logo_image: /img/nouryon.svg
-      logo_link: https://www.nouryon.com/
-    - logo_image: /img/renolit.svg
-      logo_link: https://www.renolit.com/
-    - logo_image: /img/uva.svg
-      logo_link: https://www.uva.nl/
-    - logo_image: /img/wef.svg
-      logo_link: https://www.weforum.org/
-infographic:
-  infographic_pretitle: Let us show you in detail
-  infographic_items:
-    infographic_stage1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    infographic_stage2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    infographic_stage3: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    infographic_stage4: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    infographic_stage5: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    infographic_stage6: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    infographic_stage7: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    infographic_stage8: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 roadmap:
   roadmap_pretitle: it is looking bright
   roadmap_title: Past, present and future
@@ -100,10 +65,34 @@ roadmap:
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
+technology:
+  technology_pretitle: this is how we do it
+  technology_title: Use natural all-in-one mini factories
+  technology_text: >-
+    Our solution bypasses a whole range of resource-heavy activities in the
+    production cycle of carbon compounds. By combining photosynthesis and
+    fermentation capabilities in cyano bacteria, we efficiently and cost. 
+
+    Our solution bypasses a whole range of resource-heavy activities in the production cycle of carbon compounds. 
+  technology_video_item:
+    technology_video_item_label: Watch  corporate movie
+    technology_video_item_link: https://www.youtube.com/watch?v=ijMRUWfbp88
+  technology_image: /img/coffee-gear.png
+infographic:
+  infographic_pretitle: Let us show you in detail
+  infographic_items:
+    infographic_stage1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    infographic_stage2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    infographic_stage3: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    infographic_stage4: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    infographic_stage5: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    infographic_stage6: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    infographic_stage7: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    infographic_stage8: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 team:
   team_pretitle: our people and culture
   team_title: Our great team behind it all
-  employees: 
+  employees:
     - employee_name: Maria João Correia
       employee_function: Junior Researcher
       employee_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -124,8 +113,7 @@ team:
       employee_function: COO
       employee_text: Paul has over 25 years of process & manufacturing experience and
         is highly skilled in process engineering, hazard, analysis, critical
-        control points and GMP. Paul studied Chemical Engineering in
-        Groningen.
+        control points and GMP. Paul studied Chemical Engineering in Groningen.
       employee_linkedin: https://www.linkedin.com/in/monkeystation/
       employee_image: /img/maria.jpg
   vacancies:
@@ -153,6 +141,20 @@ team:
 
 
         Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
+partners:
+  partners_pretitle: we believe in working together
+  partners_title: We are proud of our ecosystem
+  partners_logos:
+    - logo_image: /img/mibiton.svg
+      logo_link: https://www.mibiton.nl/
+    - logo_image: /img/nouryon.svg
+      logo_link: https://www.nouryon.com/
+    - logo_image: /img/renolit.svg
+      logo_link: https://www.renolit.com/
+    - logo_image: /img/uva.svg
+      logo_link: https://www.uva.nl/
+    - logo_image: /img/wef.svg
+      logo_link: https://www.weforum.org/
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
