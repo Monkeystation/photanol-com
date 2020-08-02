@@ -8,13 +8,35 @@ const IndexPagePreview = ({ entry, getAsset }) => {
   if (data) {
     return (
       <IndexPageTemplate
-        image={getAsset(data.image)}
-        title={data.title}
-        heading={data.heading}
-        subheading={data.subheading}
-        description={data.description}
-        intro={data.intro || { blurbs: [] }}
-        mainpitch={data.mainpitch || {}}
+        intro_pretitle={data.intro.intro_pretitle}
+        intro_title={data.intro.intro_title}
+        intro_image={getAsset(data.intro.intro_image)}
+        mission_pretitle={data.mission.mission_pretitle}
+        mission_title={data.mission.mission_title}
+        mission_video_item={data.mission.mission_video_item || {}}
+        solution_pretitle={data.solution.solution_pretitle}
+        solution_title={data.solution.solution_title}
+        solution_animation={data.solution.solution_animation || []}
+        roadmap_pretitle={data.roadmap.roadmap_pretitle}
+        roadmap_title={data.roadmap.roadmap_title}
+        roadmap_items={data.roadmap.roadmap_items || []}
+        technology_pretitle={data.technology.technology_pretitle}
+        technology_title={data.technology.technology_title}
+        technology_image={getAsset(data.technology.technology_image)}
+        technology_text={data.technology.technology_text}
+        technology_video_item={data.technology.technology_video_item || {}}
+        infographic_pretitle={data.infographic.infographic_pretitle}
+        infographic_items={data.infographic.infographic_items || []}
+        team_pretitle={data.team.team_pretitle}
+        team_title={data.team.team_title}
+        employees={data.team.employees || []}
+        vacancies={data.team.vacancies || []}
+        partners_pretitle={data.partners.partners_pretitle}
+        partners_title={data.partners.partners_title}
+        partners_logos={data.partners.partners_logos || []}
+        footer_pretitle={data.footer.footer_pretitle}
+        footer_title={data.footer.footer_title}
+        footer_links={data.footer.footer_links || []}
       />
     )
   } else {
