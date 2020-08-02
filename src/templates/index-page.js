@@ -57,7 +57,7 @@ export const IndexPageTemplate = ({
               <span class="icon">
                 <i class="fab fa-github"></i>
               </span>
-              <span>{mission_video_item.mission_video_item_label}</span>
+              <span>{}</span>
             </button>
           </div>
           </div>
