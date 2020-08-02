@@ -3,7 +3,7 @@ templateKey: index-page
 intro:
   intro_pretitle: powered by the sun
   intro_title: |-
-    We transform CO₂<br>\
+    We transform CO₂dfs<br>\
     into renewable <br>\
     carbon compounds.<br>
   intro_image: /img/coffee-gear.png
