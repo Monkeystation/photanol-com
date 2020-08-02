@@ -41,22 +41,7 @@ technology:
 partners:
   partners_pretitle: we believe in working together
   partners_title: We are proud of our ecosystem
-  partners_logos:
-    - logo:
-        logo_image: /img/mibiton.svg
-        logo_link: https://www.mibiton.nl/
-    - logo:
-        logo_image: /img/nouryon.svg
-        logo_link: https://www.nouryon.com/
-    - logo:
-        logo_image: /img/renolit.svg
-        logo_link: https://www.renolit.com/
-    - logo:
-        logo_image: /img/uva.svg
-        logo_link: https://www.uva.nl/
-    - logo:
-        logo_image: /img/wef.svg
-        logo_link: https://www.weforum.org/
+  partners_logos: []
 title: Great coffee with a conscience
 main:
   heading: Great coffee with no compromises
@@ -99,91 +84,19 @@ roadmap:
           Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
           scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
           bibendum
-    - roadmap_item:
-        roadmap_item_year: "2019"
-        roadmap_item_title: Validation in pilot plant
-        roadmap_item_icon: /img/coffee-gear.png
-        roadmap_item_image: /img/coffee-gear.png
-        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-          bibendum
-    - roadmap_item:
-        roadmap_item_year: "2020"
-        roadmap_item_title: Demonstration plant construction
-        roadmap_item_icon: /img/coffee-gear.png
-        roadmap_item_image: /img/coffee-gear.png
-        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-          bibendum
-    - roadmap_item:
-        roadmap_item_year: "2021"
-        roadmap_item_title: Demonstration plan operational
-        roadmap_item_icon: /img/coffee-gear.png
-        roadmap_item_image: /img/coffee-gear.png
-        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-          bibendum
+      roadmap_item_year: "2016"
+      roadmap_item_title: Strategic partnership with Nouryon
+      roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
+        scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
+        bibendum
+      roadmap_item_icon: /img/coffee-gear.png
+      roadmap_item_image: /img/coffee-gear.png
 team:
   team_pretitle: our people and culture
   team_title: Our great team behind it all
-  employees:
-    - employee:
-        employee_name: Maria João Correia
-        employee_function: Junior Researcher
-        employee_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-          dictum dui metus, non tincidunt libero convallis sit amet. Aenean
-          volutpat sit amet sapien at vestibulum. Ut rutrum neque quis imperdiet
-          molestie. "
-        employee_linkedin: https://www.linkedin.com/in/monkeystation/
-        employee_image: /img/maria.jpg
-    - employee:
-        employee_name: Veronique De Bruijn
-        employee_function: CEO
-        employee_text: Véronique has been an Investment director at ICOS Capital,
-          previously she raised early-stage funding for 3 companies as an
-          independent consultant and corporate finance role at PwC in the
-          Netherlands.
-        employee_linkedin: https://www.linkedin.com/in/monkeystation/
-        employee_image: /img/maria.jpg
-    - employee:
-        employee_name: Paul Koekoek
-        employee_function: COO
-        employee_text: Paul has over 25 years of process & manufacturing experience and
-          is highly skilled in process engineering, hazard, analysis, critical
-          control points and GMP. Paul studied Chemical Engineering in
-          Groningen.
-        employee_linkedin: https://www.linkedin.com/in/monkeystation/
-        employee_image: /img/maria.jpg
-  vacancies:
-    - vacancy:
-        vacancy_title: Researchers Strain Development Team
-        vacancy_description_short: Photanol is opening a whole new research line in
-          collaboration with a new partner Renolit. Multiple positions are
-          available.
-        vacancy_description_full: >-
-          Photanol is opening a whole new research line in collaboration with a
-          new partner
-          (https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE
-          ). Multiple positions are available in the strain engineering team.
-
-
-          Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
-    - vacancy:
-        vacancy_title: Junior Researchers Strain Development Team
-        vacancy_description_short: Photanol is opening a whole new research line in
-          collaboration with a new partner Renolit. Multiple positions are
-          available.
-        vacancy_description_full: >-
-          Photanol is opening a whole new research line in collaboration with a
-          new partner
-          (https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE
-          ). Multiple positions are available in the strain engineering team.
-
-
-          Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
+  employees: []
+  vacancies: []
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
