@@ -6,6 +6,8 @@ import showdown from 'showdown'
 import Layout from '../components/Layout'
 
 const converter = new showdown.Converter()
+converter.setOption('simpleLineBreaks', true);
+
 
 export const IndexPageTemplate = ({
   intro_pretitle,
@@ -42,7 +44,7 @@ export const IndexPageTemplate = ({
     <section className="section intro has-background-light" >
       <div className="container">
         <div className="columns">
-          <div className="column is-5-desktop is-4 is-offset-4 py-6">
+          <div className="column is-offset-4 py-6">
             <h5 class="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
             <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
           </div>
@@ -160,7 +162,7 @@ IndexPageTemplate.propTypes = {
   technology_text: PropTypes.string,
   technology_video_item: PropTypes.object,
   infographic_pretitle: PropTypes.string,
-  infographic_items: PropTypes.array,
+  infographic_items: PropTypes.object,
   team_pretitle: PropTypes.string,
   team_title: PropTypes.string,
   employees: PropTypes.array,
@@ -170,7 +172,7 @@ IndexPageTemplate.propTypes = {
   partners_logos: PropTypes.array,
   footer_pretitle: PropTypes.string,
   footer_title: PropTypes.string,
-  footer_links: PropTypes.array, 
+  footer_links: PropTypes.object, 
 }
 
 const IndexPage = ({ data }) => {
