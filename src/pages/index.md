@@ -39,28 +39,28 @@ roadmap:
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
-      roadmap_item_icon: /img/coffee-gear.png
-      roadmap_item_image: /img/coffee-gear.png
+      roadmap_item_icon: /img/roadmap-item-icon.png
+      roadmap_item_image: /img/roadmap-item-image.jpg
     - roadmap_item_year: "2019"
       roadmap_item_title: Validation in pilot plant
-      roadmap_item_icon: /img/coffee-gear.png
-      roadmap_item_image: /img/coffee-gear.png
+      roadmap_item_icon: /img/roadmap-item-icon.png
+      roadmap_item_image: /img/roadmap-item-image.jpg
       roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
     - roadmap_item_year: "2020"
       roadmap_item_title: Demonstration plant construction
-      roadmap_item_icon: /img/coffee-gear.png
-      roadmap_item_image: /img/coffee-gear.png
+      roadmap_item_icon: /img/roadmap-item-icon.png
+      roadmap_item_image: /img/roadmap-item-image.jpg
       roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
     - roadmap_item_year: "2021"
       roadmap_item_title: Demonstration plan operational
-      roadmap_item_icon: /img/coffee-gear.png
-      roadmap_item_image: /img/coffee-gear.png
+      roadmap_item_icon: /img/roadmap-item-icon.png
+      roadmap_item_image: /img/roadmap-item-image.jpg
       roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
@@ -77,7 +77,7 @@ technology:
   technology_video_item:
     technology_video_item_label: Watch  corporate movie
     technology_video_item_link: https://www.youtube.com/watch?v=ijMRUWfbp88
-  technology_image: /img/coffee-gear.png
+  technology_image: /img/bioplastic.jpeg
 infographic:
   infographic_pretitle: Let us show you in detail
   infographic_items:
