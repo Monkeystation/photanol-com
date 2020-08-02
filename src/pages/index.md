@@ -1,4 +1,5 @@
 ---
+templateKey: index-page
 intro:
   intro_pretitle: powered by the sun
   intro_title: We transform CO₂ into renewable carbon compounds.
