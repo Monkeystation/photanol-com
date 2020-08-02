@@ -6,7 +6,7 @@ intro:
     We transform CO₂
     into renewable
     carbon compounds.
-  intro_image: /img/coffee-gear.png
+  intro_image: /img/intro.png
 mission:
   mission_pretitle: what we stand for
   mission_title: Caring for a bright future on this planet, we believe in
