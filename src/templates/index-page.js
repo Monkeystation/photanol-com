@@ -5,19 +5,43 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 export const IndexPageTemplate = ({
-  
+  intro_pretitle,
+  intro_title,
+  intro_image,
+  mission_pretitle,
+  mission_title,
+  mission_video_item,
+  solution_pretitle,
+  solution_title,
+  solution_animation,
+  roadmap_pretitle,
+  roadmap_title,
+  roadmap_items,
+  technology_pretitle,
+  technology_title,
+  technology_image,
+  technology_text,
+  technology_video_item,
+  infographic_pretitle,
+  infographic_items,
+  team_pretitle,
+  team_title,
+  employees,
+  vacancies,
+  partners_pretitle,
+  partners_title,
+  partners_logos,
+  footer_pretitle,
+  footer_title,
+  footer_links, 
 }) => (
   <div>
-    <section className="section intro py-0" >
-      <div className="has-background-light">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-5-desktop is-4 is-offset-4 py-6">
-              <h5 class="subtitle green-text has-text-weight-bold is-uppercase">powered by the sun</h5>
-              <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd">
-                We transform CO₂ into renewable carbon compounds.
-              </h1>
-            </div>
+    <section className="section intro has-background-light" >
+      <div className="container">
+        <div className="columns">
+          <div className="column is-5-desktop is-4 is-offset-4 py-6">
+            <h5 class="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
+            <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd">{intro_title}</h1>
           </div>
         </div>
       </div>
@@ -27,15 +51,13 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-12 has-background-light">
             <div className="column is-12 py-6">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">what we stand for</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-2-fullhd">
-              Caring for a bright future on this planet, we believe in restoring balance through human ingenuity.
-            </h1>
+            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-2-fullhd">{mission_title}</h1>
             <button class="button">
               <span class="icon">
                 <i class="fab fa-github"></i>
               </span>
-              <span>Watch brandmovie</span>
+              <span>{mission_video_item.mission_video_item_label}</span>
             </button>
           </div>
           </div>
@@ -46,21 +68,17 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-12 has-background-light">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">what we are working on</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">
-              The future is circulair
-            </h1>
+            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{solution_pretitle}</h5>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{solution_title}</h1>
           </div>
         </div>
       </div>
     </section>
-    <section className="section timeline has-background-primary" style={{height:'500px'}}>
+    <section className="section timeline has-background-primary">
       <div className="columns">
         <div className="column is-12">
-          <h5 class="subtitle white-text has-text-weight-bold is-uppercase">it is looking bright</h5>
-          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">
-            Past, present and future
-          </h1>
+          <h5 class="subtitle white-text has-text-weight-bold is-uppercase">{roadmap_pretitle}</h5>
+          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{roadmap_title}</h1>
         </div>
       </div>
     </section>
@@ -68,10 +86,8 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-12 has-background-light">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">this is how we do it</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">
-              Create natural all-in-one mini factories
-            </h1>
+            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{technology_pretitle}</h5>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{technology_title}</h1>
           </div>
         </div>
       </div>
@@ -79,17 +95,40 @@ export const IndexPageTemplate = ({
     <section className="section infographic">
       <div className="container">
         <div className="columns">
-          <div className="column is-12 has-background-dark" style={{height:'500px'}}>
+          <div className="column is-12 has-background-light" >
+            <div className="column is-12">
+              <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{infographic_pretitle}</h5>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section className="section team has-background-light" style={{height:'500px'}}>
+    <section className="section team has-background-light">
+      <div className="container">
+        <div className="columns">
+          <div className="column is-12 has-background-light">
+            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{team_pretitle}</h5>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{team_title}</h1>
+          </div>
+        </div>
+      </div>
     </section>
     <section className="section partners">
       <div className="container">
         <div className="columns">
-          <div className="column is-12 has-background-dark" style={{height:'500px'}}>
+          <div className="column is-12 has-background-light">
+            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{partners_pretitle}</h5>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{partners_title}</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="section footer has-background-light">
+      <div className="container">
+        <div className="columns">
+          <div className="column is-12 has-background-light">
+            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{footer_pretitle}</h5>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{footer_title}</h1>
           </div>
         </div>
       </div>
@@ -100,17 +139,35 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
+  intro_pretitle: PropTypes.string,
+  intro_title: PropTypes.string,
   intro_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-  
-  
+  mission_pretitle: PropTypes.string,
+  mission_title: PropTypes.string,
+  mission_video_item: PropTypes.object,
+  solution_pretitle: PropTypes.string,
+  solution_title: PropTypes.string,
+  solution_animation: PropTypes.object,
+  roadmap_pretitle: PropTypes.string,
+  roadmap_title: PropTypes.string,
+  roadmap_items: PropTypes.array,
+  technology_pretitle: PropTypes.string,
+  technology_title: PropTypes.string,
+  technology_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  technology_text: PropTypes.string,
+  technology_video_item: PropTypes.object,
+  infographic_pretitle: PropTypes.string,
+  infographic_items: PropTypes.array,
+  team_pretitle: PropTypes.string,
+  team_title: PropTypes.string,
+  employees: PropTypes.array,
+  vacancies: PropTypes.array,
+  partners_pretitle: PropTypes.string,
+  partners_title: PropTypes.string,
+  partners_logos: PropTypes.array,
+  footer_pretitle: PropTypes.string,
+  footer_title: PropTypes.string,
+  footer_links: PropTypes.array, 
 }
 
 const IndexPage = ({ data }) => {
@@ -119,7 +176,35 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        intro_image={frontmatter.intro_image}
+        intro_pretitle={frontmatter.intro.intro_pretitle}
+        intro_title={frontmatter.intro.intro_title}
+        intro_image={frontmatter.intro.intro_image}
+        mission_pretitle={frontmatter.mission.mission_pretitle}
+        mission_title={frontmatter.mission.mission_title}
+        mission_video_item={frontmatter.mission.mission_video_item}
+        solution_pretitle={frontmatter.solution.solution_pretitle}
+        solution_title={frontmatter.solution.solution_title}
+        solution_animation={frontmatter.solution.solution_animation}
+        roadmap_pretitle={frontmatter.roadmap.roadmap_pretitle}
+        roadmap_title={frontmatter.roadmap.roadmap_title}
+        roadmap_items={frontmatter.roadmap.roadmap_items}
+        technology_pretitle={frontmatter.technology.technology_pretitle}
+        technology_title={frontmatter.technology.technology_title}
+        technology_image={frontmatter.technology.technology_image}
+        technology_text={frontmatter.technology.technology_text}
+        technology_video_item={frontmatter.technology.technology_video_item}
+        infographic_pretitle={frontmatter.infographic.infographic_pretitle}
+        infographic_items={frontmatter.infographic.infographic_items}
+        team_pretitle={frontmatter.team.team_pretitle}
+        team_title={frontmatter.team.team_title}
+        employees={frontmatter.team.employees}
+        vacancies={frontmatter.team.vacancies}
+        partners_pretitle={frontmatter.partners.partners_pretitle}
+        partners_title={frontmatter.partners.partners_title}
+        partners_logos={frontmatter.partners.partners_logos}
+        footer_pretitle={frontmatter.footer.footer_pretitle}
+        footer_title={frontmatter.footer.footer_title}
+        footer_links={frontmatter.footer.footer_links}
       />
     </Layout>
   )
@@ -224,7 +309,54 @@ export const pageQuery = graphql`
             infographic_stage8
           }
         }
-
+        team {
+          team_pretitle
+          team_title
+          employees {
+            employee_name
+            employee_function
+            employee_text
+            employee_linkedin
+            employee_image {
+              childImageSharp {
+                fluid(maxWidth: 1500, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          vacancies {
+            vacancy_title
+            vacancy_description_short
+            vacancy_description_full
+          }
+        }
+        partners {
+          partners_pretitle
+          partners_title
+          partners_logos {
+            logo_image {
+              childImageSharp {
+                fluid(maxWidth: 1500, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            logo_link
+          }
+        }
+        footer {
+          footer_pretitle
+          footer_title
+          footer_links {
+            footer_email_general
+            footer_email_press
+            footer_email_vacanties
+            footer_link_twitter
+            footer_link_linkedin
+            footer_link_youtube
+          }
+        }
       }
     }
   }
