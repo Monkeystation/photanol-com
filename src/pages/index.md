@@ -92,6 +92,11 @@ roadmap:
         bibendum
       roadmap_item_icon: /img/coffee-gear.png
       roadmap_item_image: /img/coffee-gear.png
+    - roadmap_item_year: "2020"
+      roadmap_item_title: Test
+      roadmap_item_text: Test
+      roadmap_item_icon: /img/coffee-gear.png
+      roadmap_item_image: /img/coffee-gear.png
 team:
   team_pretitle: our people and culture
   team_title: Our great team behind it all
