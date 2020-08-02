@@ -2,8 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import showdown from 'showdown'
+import Img from 'gatsby-image'
+
 
 import Layout from '../components/Layout'
+import Roadmap from '../components/Roadmap'
+import Team from '../components/Team'
+import Vacancies from '../components/Vacancies'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true);
@@ -39,109 +44,137 @@ export const IndexPageTemplate = ({
   footer_pretitle,
   footer_title,
   footer_links, 
-}) => (
-  <div>
-    <section className="section intro has-background-light" >
-      <div className="container">
-        <div className="columns">
-          <div className="column is-offset-4 py-6">
-            <h5 class="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
-            <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section className="section mission">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-12 has-background-light">
-            <div className="column is-12 py-6">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-2-fullhd">{mission_title}</h1>
-            <button class="button">
-              <span class="icon">
-                <i class="fab fa-github"></i>
-              </span>
-              <span>{mission_video_item.mission_video_item_label}</span>
-            </button>
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section className="section animation">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-12 has-background-light">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{solution_pretitle}</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{solution_title}</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section className="section timeline has-background-primary">
-      <div className="columns">
-        <div className="column is-12">
-          <h5 class="subtitle white-text has-text-weight-bold is-uppercase">{roadmap_pretitle}</h5>
-          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{roadmap_title}</h1>
-        </div>
-      </div>
-    </section>
-    <section className="section how">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-12 has-background-light">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{technology_pretitle}</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{technology_title}</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section className="section infographic">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-12 has-background-light" >
-            <div className="column is-12">
-              <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{infographic_pretitle}</h5>
+}) => {
+  return (
+    <div>
+      <section className="section intro" style={{backgroundImage:`url(${intro_image.childImageSharp.fluid.src})`, backgroundSize:'cover'}}>
+        <div className="container">
+          <div className="columns">
+            <div className="column is-offset-4 py-6">
+              <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
+              <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section className="section team has-background-light">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-12 has-background-light">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{team_pretitle}</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{team_title}</h1>
+      </section>
+      <section className="section mission">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-12">
+              <div className="column is-12 py-6">
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
+              <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-2-fullhd">{mission_title}</h1>
+              <button className="button">
+                <span className="icon">
+                  <i className="fab fa-github"></i>
+                </span>
+                <span>{mission_video_item.mission_video_item_label}</span>
+              </button>
+            </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section className="section partners">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-12 has-background-light">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{partners_pretitle}</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{partners_title}</h1>
+      </section>
+      <section className="section solution" id="product">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-12">
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{solution_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{solution_title}</h1>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column is-8 is-offset-2">
+              <img src="/img/animation-placeholder.png" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section className="section footer has-background-light">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-12 has-background-light">
-            <h5 class="subtitle blue-text has-text-weight-bold is-uppercase">{footer_pretitle}</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{footer_title}</h1>
+      </section>
+      <section className="section roadmap has-background-primary">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-12">
+              <h5 className="subtitle white-text has-text-weight-bold is-uppercase">{roadmap_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{roadmap_title}</h1>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-  
-  
-)
+        <Roadmap items={roadmap_items} />
+      </section>
+      <section className="section technology" id="technology">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-12">
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{technology_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{technology_title}</h1>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column is-5">
+              <Img fluid={technology_image.childImageSharp.fluid} alt="" />
+            </div>
+            <div className="column is-4">
+              <p className="blue-text">{technology_text}</p>
+              <button className="button">
+                <span className="icon">
+                  <i className="fab fa-github"></i>
+                </span>
+                <span>{technology_video_item.technology_video_item_label}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section infographic">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1" >
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{infographic_pretitle}</h5>
+                <img src="/img/infographic-placeholder.png" width='100%' />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section team" id="team">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-offset-5">
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{team_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{team_title}</h1>
+            </div>
+          </div>
+        </div>
+        <Team employees={employees} />
+        <div className="columns pt-6">
+          <div className="column is-offset-5 is-5">
+            <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
+            <Vacancies vacancies={vacancies} id="jobs" />
+          </div>
+        </div>
+      </section>
+      <section className="section partners">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-12">
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{partners_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{partners_title}</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section footer has-background-light mx-6 my-6">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-12">
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{footer_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{footer_title}</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
 
 IndexPageTemplate.propTypes = {
   intro_pretitle: PropTypes.string,
@@ -341,11 +374,7 @@ export const pageQuery = graphql`
           partners_title
           partners_logos {
             logo_image {
-              childImageSharp {
-                fluid(maxWidth: 1500, quality: 60) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+              publicURL
             }
             logo_link
           }
