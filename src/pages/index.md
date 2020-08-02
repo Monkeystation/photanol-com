@@ -1,49 +1,4 @@
 ---
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
-templateKey: index-page
-mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
   intro_pretitle: powered by the sun
   intro_title: We transform CO₂ into renewable carbon compounds.
   intro_image: /img/coffee-gear.png
@@ -72,43 +27,6 @@ solution:
 roadmap:
   roadmap_pretitle: it is looking bright
   roadmap_title: Past, present and future
-  roadmap_items:
-    - roadmap_item:
-        roadmap_item_year: "2016"
-        roadmap_item_title: Strategic partnership with Nouryon
-        roadmap_item_icon: /img/coffee-gear.png
-        roadmap_item_image: /img/coffee-gear.png
-        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-          bibendum
-    - roadmap_item:
-        roadmap_item_year: "2019"
-        roadmap_item_title: Validation in pilot plant
-        roadmap_item_icon: /img/coffee-gear.png
-        roadmap_item_image: /img/coffee-gear.png
-        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-          bibendum
-    - roadmap_item:
-        roadmap_item_year: "2020"
-        roadmap_item_title: Demonstration plant construction
-        roadmap_item_icon: /img/coffee-gear.png
-        roadmap_item_image: /img/coffee-gear.png
-        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-          bibendum
-    - roadmap_item:
-        roadmap_item_year: "2021"
-        roadmap_item_title: Demonstration plan operational
-        roadmap_item_icon: /img/coffee-gear.png
-        roadmap_item_image: /img/coffee-gear.png
-        roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-          scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-          bibendum
 technology:
   technology_pretitle: this is how we do it
   technology_title: Use natural all-in-one mini factories
