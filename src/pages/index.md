@@ -6,7 +6,7 @@ intro:
     We transform CO₂
     into renewable
     carbon compounds.
-  intro_image: /img/intro.png
+  intro_image: /img/intro.jpg
 mission:
   mission_pretitle: what we stand for
   mission_title: Caring for a bright future on this planet, we believe in
@@ -176,4 +176,5 @@ footer:
     footer_link_twitter: https://twitter.com/photanol
     footer_link_linkedin: https://www.linkedin.com/company/photanol
     footer_link_youtube: https://www.youtube.com/user/Amsterdamsciencepark
+    footer_email_vacanties: jobs@photanol.com
 ---
