@@ -42,6 +42,7 @@ export const IndexPageTemplate = ({
   partners_pretitle,
   partners_title,
   partners_logos,
+  partners_side_logo,
   footer_pretitle,
   footer_title,
   footer_links, 
@@ -164,6 +165,7 @@ export const IndexPageTemplate = ({
                   <Partners logos={partners_logos} />
                 </div>
                 <div className="column has-background-dark">
+                  <Img fluid={partners_side_logo.childImageSharp.fluid} alt="" />
                 </div>
               </div>
             </div>
@@ -211,6 +213,7 @@ IndexPageTemplate.propTypes = {
   partners_pretitle: PropTypes.string,
   partners_title: PropTypes.string,
   partners_logos: PropTypes.array,
+  partners_side_logo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   footer_pretitle: PropTypes.string,
   footer_title: PropTypes.string,
   footer_links: PropTypes.object, 
@@ -248,6 +251,7 @@ const IndexPage = ({ data }) => {
         partners_pretitle={frontmatter.partners.partners_pretitle}
         partners_title={frontmatter.partners.partners_title}
         partners_logos={frontmatter.partners.partners_logos}
+        partners_side_logo={frontmatter.partners.partners_side_logo}
         footer_pretitle={frontmatter.footer.footer_pretitle}
         footer_title={frontmatter.footer.footer_title}
         footer_links={frontmatter.footer.footer_links}
@@ -385,6 +389,13 @@ export const pageQuery = graphql`
               publicURL
             }
             logo_link
+          }
+          partners_side_logo {
+            childImageSharp {
+              fluid(maxWidth: 1500, quality: 60) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
         footer {
