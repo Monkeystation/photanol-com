@@ -165,8 +165,8 @@ export const IndexPageTemplate = ({
                   <Partners logos={partners_logos} />
                 </div>
                 <div className="column has-background-dark">
-                  <div style={{maxWidth: '270px'}}>
-                  <Img fluid={partners_side_logo.childImageSharp.fluid} alt="" />
+                  <div className="side-image">
+                    <Img fixed={partners_side_logo.childImageSharp.fixed} alt="" />
                   </div>
                 </div>
               </div>
@@ -394,8 +394,8 @@ export const pageQuery = graphql`
           }
           partners_side_logo {
             childImageSharp {
-              fluid(maxWidth: 1500, quality: 60) {
-                ...GatsbyImageSharpFluid
+              fixed(height: 500, quality: 60) {
+                ...GatsbyImageSharpFixed
               }
             }
           }
