@@ -47,9 +47,12 @@ export const IndexPageTemplate = ({
   footer_title,
   footer_links, 
 }) => {
+  intro_image = !!intro_image.childImageSharp ? intro_image.childImageSharp.fluid.src : intro_image
+  technology_image = !!technology_image.childImageSharp ? technology_image.childImageSharp.fluid.src : technology_image
+  partners_side_logo = !!partners_side_logo.childImageSharp ? partners_side_logo.childImageSharp.fluid.src : partners_side_logo
   return (
     <div>
-      <section className="section intro" style={{backgroundImage:`url(${intro_image.childImageSharp.fluid.src})`, backgroundSize:'cover'}}>
+      <section className="section intro" style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}>
         <div className="container">
           <div className="columns">
             <div className="column is-offset-4 py-6">
@@ -113,7 +116,7 @@ export const IndexPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-5">
-              <Img fluid={technology_image.childImageSharp.fluid} alt="" />
+              <Img fluid={technology_image} alt="" />
             </div>
             <div className="column is-4">
               <p className="blue-text">{technology_text}</p>
@@ -166,7 +169,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="column side-image-column">
                   <div className="side-image">
-                    <Img fluid={partners_side_logo.childImageSharp.fluid} alt="" style={{maxHeight: '100%'}} imgStyle={{objectFit: 'contain'}} />
+                    <Img fluid={partners_side_logo} alt="" style={{maxHeight: '100%'}} imgStyle={{objectFit: 'contain'}} />
                   </div>
                 </div>
               </div>
