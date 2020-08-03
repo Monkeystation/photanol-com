@@ -2,12 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import Img from "gatsby-image"
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const Team = ({ employees }) => {
-  employee_image = !!employees[0].employee_image.childImageSharp ? employees[0].employee_image.childImageSharp.fluid.src : employees[0].employee_image
+  const employee_image = employees[0].employee_image
   return (
     <div className="employees">
-      <Img className="employee-image" fluid={employee_image} alt="" />
+      <PreviewCompatibleImage 
+        imageInfo={{image: employee_image, alt: '', className: 'employee-image'}} 
+      />
       <div className="tile is-parent">
       {employees.map((employee) => {
 

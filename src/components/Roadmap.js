@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import Img from "gatsby-image"
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const Roadmap = ({ items }) => (
   <div className="columns">
@@ -12,7 +13,7 @@ const Roadmap = ({ items }) => (
             <h4 className="white-text has-text-centered has-text-weight-bold">
               {item.roadmap_item_title}
             </h4>
-            <Img fluid={item.roadmap_item_icon.childImageSharp.fluid} alt="" />
+            <PreviewCompatibleImage imageInfo={{image: item.roadmap_item_icon, alt: ''}} />
             <p className="white-text">{item.roadmap_item_text}</p>
             <h2 className="white-text has-text-weight-bold has-text-centered">
               {item.roadmap_item_year}

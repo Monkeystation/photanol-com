@@ -22,7 +22,8 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         roadmap_items={data.roadmap.roadmap_items || []}
         technology_pretitle={data.technology.technology_pretitle}
         technology_title={data.technology.technology_title}
-        technology_image={getAsset(data.technology.technology_image)}
+        technology_image={data.technology.technology_image}
+        //technology_image={entry.getIn(['data', 'technology', 'technology_image'])}
         technology_text={data.technology.technology_text}
         technology_video_item={data.technology.technology_video_item || {}}
         infographic_pretitle={data.infographic.infographic_pretitle}
@@ -34,6 +35,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         partners_pretitle={data.partners.partners_pretitle}
         partners_title={data.partners.partners_title}
         partners_logos={data.partners.partners_logos || []}
+        partners_side_logo={data.partners.partners_side_logo}
         footer_pretitle={data.footer.footer_pretitle}
         footer_title={data.footer.footer_title}
         footer_links={data.footer.footer_links || {}}

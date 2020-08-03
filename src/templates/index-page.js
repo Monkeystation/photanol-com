@@ -10,6 +10,7 @@ import Roadmap from '../components/Roadmap'
 import Team from '../components/Team'
 import Vacancies from '../components/Vacancies'
 import Partners from '../components/Partners'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true);
@@ -47,9 +48,10 @@ export const IndexPageTemplate = ({
   footer_title,
   footer_links, 
 }) => {
-  console.log(intro_image)
+  console.log('partners_side_logo', partners_side_logo)
   intro_image = !!intro_image.childImageSharp ? intro_image.childImageSharp.fluid.src : intro_image
-  
+  //technology_image = !!technology_image.childImageSharp ? technology_image.childImageSharp.fluid : technology_image
+  //partners_side_logo = !!partners_side_logo.childImageSharp ? partners_side_logo.childImageSharp.fluid : partners_side_logo
   return (
     <div>
       <section className="section intro" style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}>
@@ -116,7 +118,7 @@ export const IndexPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-5">
-              
+              <PreviewCompatibleImage imageInfo={{image: technology_image, alt: ''}} />
             </div>
             <div className="column is-4">
               <p className="blue-text">{technology_text}</p>
@@ -169,7 +171,12 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="column side-image-column">
                   <div className="side-image">
-                    
+                    <PreviewCompatibleImage imageInfo={{
+                      image: partners_side_logo, 
+                      alt: '',
+                      style: {maxHeight: '100%'},
+                      imgStyle: {objectFit: 'contain'}
+                    }} />
                   </div>
                 </div>
               </div>
@@ -221,8 +228,6 @@ export const IndexPageTemplate = ({
     </div>
   )
 }
-// <Img fluid={technology_image.childImageSharp.fluid} alt="" />
-// <Img fluid={partners_side_logo.childImageSharp.fluid} alt="" style={{maxHeight: '100%'}} imgStyle={{objectFit: 'contain'}} />
 
 IndexPageTemplate.propTypes = {
   intro_pretitle: PropTypes.string,
