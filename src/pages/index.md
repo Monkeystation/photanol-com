@@ -155,6 +155,16 @@ partners:
       logo_link: https://www.uva.nl/
     - logo_image: /img/wef.svg
       logo_link: https://www.weforum.org/
+    - logo_image: /img/mibiton.svg
+      logo_link: https://www.mibiton.nl/
+    - logo_image: /img/nouryon.svg
+      logo_link: https://www.nouryon.com/
+    - logo_image: /img/renolit.svg
+      logo_link: https://www.renolit.com/
+    - logo_image: /img/uva.svg
+      logo_link: https://www.uva.nl/
+    - logo_image: /img/wef.svg
+      logo_link: https://www.weforum.org/
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us

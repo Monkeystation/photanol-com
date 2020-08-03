@@ -9,6 +9,7 @@ import Layout from '../components/Layout'
 import Roadmap from '../components/Roadmap'
 import Team from '../components/Team'
 import Vacancies from '../components/Vacancies'
+import Partners from '../components/Partners'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true);
@@ -158,6 +159,13 @@ export const IndexPageTemplate = ({
             <div className="column is-12">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{partners_pretitle}</h5>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{partners_title}</h1>
+              <div className="columns">
+                <div className="column is-three-quarters-tablet has-background-light">
+                  <Partners logos={partners_logos} />
+                </div>
+                <div className="column has-background-dark">
+                </div>
+              </div>
             </div>
           </div>
         </div>
