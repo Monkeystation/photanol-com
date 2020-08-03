@@ -165,7 +165,7 @@ partners:
       logo_link: https://www.uva.nl/
     - logo_image: /img/wef.svg
       logo_link: https://www.weforum.org/
-  partners_side_logo: /img/renewable-carbon.png
+  partners_side_logo: /img/renewable-carbon-logo.png
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
