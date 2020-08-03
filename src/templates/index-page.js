@@ -295,8 +295,8 @@ const IndexPage = ({ data }) => {
         partners_pretitle={frontmatter.partners.partners_pretitle}
         partners_title={frontmatter.partners.partners_title}
         partners_logos={frontmatter.partners.partners_logos}
-        partners_side_logo_image={frontmatter.partners.partners_side_logo.partners_side_logo_image}
-        partners_side_logo_link={frontmatter.partners.partners_side_logo.partners_side_logo_link}
+        partners_side_logo_image={frontmatter.partners.partners_side_logo.side_logo_image}
+        partners_side_logo_link={frontmatter.partners.partners_side_logo.side_logo_link}
         footer_pretitle={frontmatter.footer.footer_pretitle}
         footer_title={frontmatter.footer.footer_title}
         footer_links={frontmatter.footer.footer_links}
@@ -436,14 +436,14 @@ export const pageQuery = graphql`
             logo_link
           }
           partners_side_logo {
-            partners_side_logo_image {
+            side_logo_image {
               childImageSharp {
                 fluid(maxWidth: 500, quality: 60) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            partners_side_logo_link
+            side_logo_link
           } 
         }
         footer {

@@ -35,7 +35,8 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         partners_pretitle={data.partners.partners_pretitle}
         partners_title={data.partners.partners_title}
         partners_logos={data.partners.partners_logos || []}
-        partners_side_logo={data.partners.partners_side_logo}
+        partners_side_logo_image={data.partners.partners_side_logo.side_logo_image}
+        partners_side_logo_link={data.partners.partners_side_logo.side_logo_link}
         footer_pretitle={data.footer.footer_pretitle}
         footer_title={data.footer.footer_title}
         footer_links={data.footer.footer_links || {}}
