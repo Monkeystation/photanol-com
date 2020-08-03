@@ -52,9 +52,15 @@ $navbar-label-color: $black
   
 .blue-300-text
   color: $blue-300
+
+.grey-text
+  color: $grey-600
   
 .white-text
   color: #fff
+
+.black-text
+  color: #000
   
 // Mission
 .mission .title
@@ -96,10 +102,25 @@ $navbar-label-color: $black
   
 .partners .partner-logo
   flex-basis: 20%
-
-.partners .side-image 
-  max-width:  270px
   
+.partners .side-image-column 
+  display: flex
+  border-left: 2px solid $grey-400
+  align-items: center
+  
+.partners .side-image 
+  flex: 1
+  height:  180px
+
+// Footer
+.footer .footer-elements
+  display: flex
+  align-items: space-between
+
+.footer .footer-element
+  flex: 1
+
+
 // responsiveness
 +tablet-only
 

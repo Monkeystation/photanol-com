@@ -172,7 +172,7 @@ footer:
   footer_links:
     footer_email_general: contact@photanol.com
     footer_email_press: press@photanol.com
-    footer_email_vacanties: jobs@photanol.com
+    footer_email_vacancies: jobs@photanol.com
     footer_link_twitter: https://twitter.com/photanol
     footer_link_linkedin: https://www.linkedin.com/company/photanol
     footer_link_youtube: https://www.youtube.com/user/Amsterdamsciencepark

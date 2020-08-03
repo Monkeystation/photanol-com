@@ -147,10 +147,10 @@ export const IndexPageTemplate = ({
           </div>
         </div>
         <Team employees={employees} />
-        <div className="columns pt-6">
+        <div className="columns pt-6" id="jobs">
           <div className="column is-offset-5 is-5">
             <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
-            <Vacancies vacancies={vacancies} id="jobs" />
+            <Vacancies vacancies={vacancies} />
           </div>
         </div>
       </section>
@@ -161,12 +161,12 @@ export const IndexPageTemplate = ({
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{partners_pretitle}</h5>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{partners_title}</h1>
               <div className="columns">
-                <div className="column is-three-quarters-tablet has-background-light">
+                <div className="column is-three-quarters-tablet">
                   <Partners logos={partners_logos} />
                 </div>
-                <div className="column has-background-dark">
+                <div className="column side-image-column">
                   <div className="side-image">
-                    <Img fixed={partners_side_logo.childImageSharp.fixed} alt="" />
+                    <Img fluid={partners_side_logo.childImageSharp.fluid} alt="" style={{maxHeight: '100%'}} imgStyle={{objectFit: 'contain'}} />
                   </div>
                 </div>
               </div>
@@ -174,12 +174,30 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
-      <section className="section footer has-background-light mx-6 my-6">
+      <section className="section footer has-background-light mx-6 my-6" id="contact">
         <div className="container">
           <div className="columns">
             <div className="column is-12">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{footer_pretitle}</h5>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{footer_title}</h1>
+              <div className="footer-elements">
+                <div className="footer-element">
+                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">General inquiries</h7>
+                  <div><a href={`mailto:${footer_links.footer_email_general}`} className="black-text">{footer_links.footer_email_general}</a></div>
+                </div>
+                <div className="footer-element">
+                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">press & interviews</h7>
+                  <div><a href={`mailto:${footer_links.footer_email_press}`} className="black-text">{footer_links.footer_email_press}</a></div>
+                </div>
+                <div className="footer-element">
+                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">vacancies</h7>
+                  <div><a href={`mailto:${footer_links.footer_email_vacancies}`} className="black-text">{footer_links.footer_email_vacancies}</a></div>
+                </div>
+                <div className="footer-element">
+                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">Follow us on social media</h7>
+                  <div></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -394,8 +412,8 @@ export const pageQuery = graphql`
           }
           partners_side_logo {
             childImageSharp {
-              fixed(height: 500, quality: 60) {
-                ...GatsbyImageSharpFixed
+              fluid(maxWidth: 500, quality: 60) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
@@ -406,7 +424,7 @@ export const pageQuery = graphql`
           footer_links {
             footer_email_general
             footer_email_press
-            footer_email_vacanties
+            footer_email_vacancies
             footer_link_twitter
             footer_link_linkedin
             footer_link_youtube
