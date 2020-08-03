@@ -92,7 +92,7 @@ export const IndexPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-8 is-offset-2">
-              <img src="/img/animation-placeholder.png" />
+              <img src="/img/animation-placeholder.jpg" />
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1" >
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{infographic_pretitle}</h5>
-                <img src="/img/infographic-placeholder.png" width='100%' />
+                <img src="/img/infographic-placeholder.jpg" width='100%' />
             </div>
           </div>
         </div>
