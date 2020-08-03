@@ -7,6 +7,7 @@
 //font-style: normal;
 
 // Config vars
+$white: #FFFFFF
 $blue-900: #0A064A
 $blue-500: #4CB4E7
 $blue-300: #9EB4CD
@@ -15,6 +16,7 @@ $gradient: linear-gradient(59.48deg, #009EE2 1.36%, #05A0DE 8.97%, #15A4D1 18.39
 $grey-200: #F7F8FA
 $grey-400: #D5D5D5
 $grey-600: #949598
+$yellow: #FCEA0D
 
 $primary: $blue-900
 $primary-invert: $blue-300
@@ -41,6 +43,78 @@ $navbar-item-hover-background-color: $white
 $navbar-item-active-color: $green-500
 $navbar-item-active-background-color: $white
 $navbar-label-color: $black
+
+.button-primary
+  cursor: pointer
+  font-family: $family-serif
+  font-weight: bold
+  font-size: $size-6
+  color: $primary
+  display: inline-flex
+  align-items: center
+  background-color: transparent
+  border: none
+  padding: 10px
+  outline-color: none
+  .icon
+    height: 30px
+    width: 30px
+    &:first-child:not(:last-child)
+      margin-right: 10px  
+  &:hover
+    color: $white
+    background-image: $gradient
+    svg
+      fill: $white
+  &:focus
+    &:not(:active)
+      outline-color: $yellow !important
+    &:active
+      outline-color: transparent !important
+  &:active
+    box-shadow: inset 0px 3px 0px rgba(10, 6, 74, 0.5)
+
+.button-secondary
+  cursor: pointer
+  font-family: $family-sans-serif
+  font-weight: bold
+  font-size: $size-7
+  color: $primary
+  display: inline-flex
+  align-items: center
+  background-color: transparent
+  border: none
+  padding: 0px
+  outline-color: none
+  &.is-white
+    color: $white
+    svg
+      fill: $white
+  &.is-grey
+    color: $grey-600
+    svg
+      fill: $grey-600
+  .icon
+    height: 20px
+    width: 20px
+    &:first-child:not(:last-child)
+      margin-right: 5px  
+    &:last-child:not(:first-child)
+      margin-left: 10px  
+  &:hover
+    color: $green-500
+    svg
+      fill: $green-500
+  &:focus
+    &:not(:active)
+      outline-color: $yellow !important
+    &:active
+      outline-color: transparent !important
+  
+.icon-play 
+  width: 25px
+  height: 25px
+  display: inline-block
 
 @import "~bulma"
 

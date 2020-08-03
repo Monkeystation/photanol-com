@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import showdown from 'showdown'
 import Img from 'gatsby-image'
-
+import {IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
 
 import Layout from '../components/Layout'
 import Roadmap from '../components/Roadmap'
@@ -43,12 +43,12 @@ export const IndexPageTemplate = ({
   partners_pretitle,
   partners_title,
   partners_logos,
-  partners_side_logo,
+  partners_side_logo_image,
+  partners_side_logo_link,
   footer_pretitle,
   footer_title,
   footer_links, 
 }) => {
-  console.log('partners_side_logo', partners_side_logo)
   intro_image = !!intro_image.childImageSharp ? intro_image.childImageSharp.fluid.src : intro_image
   //technology_image = !!technology_image.childImageSharp ? technology_image.childImageSharp.fluid : technology_image
   //partners_side_logo = !!partners_side_logo.childImageSharp ? partners_side_logo.childImageSharp.fluid : partners_side_logo
@@ -71,9 +71,9 @@ export const IndexPageTemplate = ({
               <div className="column is-12 py-6">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
               <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-2-fullhd">{mission_title}</h1>
-              <button className="button">
+              <button className="button-primary">
                 <span className="icon">
-                  <i className="fab fa-github"></i>
+                  <IconPlay />
                 </span>
                 <span>{mission_video_item.mission_video_item_label}</span>
               </button>
@@ -122,9 +122,9 @@ export const IndexPageTemplate = ({
             </div>
             <div className="column is-4">
               <p className="blue-text">{technology_text}</p>
-              <button className="button">
+              <button className="button-primary">
                 <span className="icon">
-                  <i className="fab fa-github"></i>
+                  <IconPlay />
                 </span>
                 <span>{technology_video_item.technology_video_item_label}</span>
               </button>
@@ -170,14 +170,14 @@ export const IndexPageTemplate = ({
                   <Partners logos={partners_logos} />
                 </div>
                 <div className="column side-image-column">
-                  <div className="side-image">
+                  <a className="side-image" href={partners_side_logo_link} target="_blank">
                     <PreviewCompatibleImage imageInfo={{
-                      image: partners_side_logo, 
+                      image: partners_side_logo_image, 
                       alt: '',
                       style: {maxHeight: '100%'},
                       imgStyle: {objectFit: 'contain'}
                     }} />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -206,16 +206,16 @@ export const IndexPageTemplate = ({
                 <div className="footer-element">
                   <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">Follow us on social media</h5>
                   <div>
-                    <a href={footer_links.footer_link_twitter} target="_blank" className="button">
-                      <span className="icon"><i className="fab fa-github"></i></span>
+                    <a href={footer_links.footer_link_twitter} target="_blank" className="button-secondary">
+                      <span className="icon"><IconTwitter /></span>
                       <span>{'TWITTER'}</span>
                     </a>
-                    <a href={footer_links.footer_link_linkedin} target="_blank" className="button">
-                      <span className="icon"><i className="fab fa-github"></i></span>
+                    <a href={footer_links.footer_link_linkedin} target="_blank" className="button-secondary">
+                      <span className="icon"><IconLinkedIn /></span>
                       <span>{'LINKEDIN'}</span>
                     </a>
-                    <a href={footer_links.footer_link_youtube} target="_blank" className="button">
-                      <span className="icon"><i className="fab fa-github"></i></span>
+                    <a href={footer_links.footer_link_youtube} target="_blank" className="button-secondary">
+                      <span className="icon"><IconYoutube /></span>
                       <span>{'YOUTUBE'}</span>
                     </a>
                   </div>
@@ -256,7 +256,8 @@ IndexPageTemplate.propTypes = {
   partners_pretitle: PropTypes.string,
   partners_title: PropTypes.string,
   partners_logos: PropTypes.array,
-  partners_side_logo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  partners_side_logo_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  partners_side_logo_link: PropTypes.string,
   footer_pretitle: PropTypes.string,
   footer_title: PropTypes.string,
   footer_links: PropTypes.object, 
@@ -294,7 +295,8 @@ const IndexPage = ({ data }) => {
         partners_pretitle={frontmatter.partners.partners_pretitle}
         partners_title={frontmatter.partners.partners_title}
         partners_logos={frontmatter.partners.partners_logos}
-        partners_side_logo={frontmatter.partners.partners_side_logo}
+        partners_side_logo_image={frontmatter.partners.partners_side_logo.partners_side_logo_image}
+        partners_side_logo_link={frontmatter.partners.partners_side_logo.partners_side_logo_link}
         footer_pretitle={frontmatter.footer.footer_pretitle}
         footer_title={frontmatter.footer.footer_title}
         footer_links={frontmatter.footer.footer_links}
@@ -434,12 +436,15 @@ export const pageQuery = graphql`
             logo_link
           }
           partners_side_logo {
-            childImageSharp {
-              fluid(maxWidth: 500, quality: 60) {
-                ...GatsbyImageSharpFluid
+            partners_side_logo_image {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
               }
             }
-          }
+            partners_side_logo_link
+          } 
         }
         footer {
           footer_pretitle

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
+import {IconArrow} from '../img/icons/Icons'
 
 const Vacancies = ({ vacancies }) => (
   <div className="vacancies">
@@ -14,10 +15,10 @@ const Vacancies = ({ vacancies }) => (
           <p className="blue-text py-5">
             {vacancy.vacancy_description_short}
           </p>
-          <button className="button">
+          <button className="button-secondary is-grey">
             <span>{'VIEW VACANCY'}</span>
             <span className="icon">
-              <i className="fab fa-github"></i>
+              <IconArrow />
             </span>
           </button>
         </div>

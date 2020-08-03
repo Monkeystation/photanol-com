@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import Img from "gatsby-image"
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import {IconLinkedIn} from './Icons'
 
 const Team = ({ employees }) => {
   const employee_image = employees[0].employee_image
@@ -23,9 +24,9 @@ const Team = ({ employees }) => {
               {employee.employee_function}
             </h5>
             <p className="white-text pt-5">{employee.employee_text}</p>
-            <button className="button">
+            <button className="button-secondary is-white">
               <span className="icon">
-                <i className="fab fa-github"></i>
+                <IconLinkedIn />
               </span>
               <span>{'VIEW PROFILE'}</span>
             </button>
