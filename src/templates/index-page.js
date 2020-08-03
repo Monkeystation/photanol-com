@@ -165,7 +165,9 @@ export const IndexPageTemplate = ({
                   <Partners logos={partners_logos} />
                 </div>
                 <div className="column has-background-dark">
+                  <div style={{maxWidth: '270px'}}>
                   <Img fluid={partners_side_logo.childImageSharp.fluid} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
