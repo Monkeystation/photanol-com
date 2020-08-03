@@ -47,9 +47,9 @@ export const IndexPageTemplate = ({
   footer_title,
   footer_links, 
 }) => {
+  console.log(intro_image)
   intro_image = !!intro_image.childImageSharp ? intro_image.childImageSharp.fluid.src : intro_image
-  technology_image = !!technology_image.childImageSharp ? technology_image.childImageSharp.fluid.src : technology_image
-  partners_side_logo = !!partners_side_logo.childImageSharp ? partners_side_logo.childImageSharp.fluid.src : partners_side_logo
+  
   return (
     <div>
       <section className="section intro" style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}>
@@ -116,7 +116,7 @@ export const IndexPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-5">
-              <Img fluid={technology_image} alt="" />
+              
             </div>
             <div className="column is-4">
               <p className="blue-text">{technology_text}</p>
@@ -169,7 +169,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="column side-image-column">
                   <div className="side-image">
-                    <Img fluid={partners_side_logo} alt="" style={{maxHeight: '100%'}} imgStyle={{objectFit: 'contain'}} />
+                    
                   </div>
                 </div>
               </div>
@@ -185,20 +185,33 @@ export const IndexPageTemplate = ({
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{footer_title}</h1>
               <div className="footer-elements">
                 <div className="footer-element">
-                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">General inquiries</h7>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">General inquiries</h5>
                   <div><a href={`mailto:${footer_links.footer_email_general}`} className="black-text">{footer_links.footer_email_general}</a></div>
                 </div>
                 <div className="footer-element">
-                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">press & interviews</h7>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">press & interviews</h5>
                   <div><a href={`mailto:${footer_links.footer_email_press}`} className="black-text">{footer_links.footer_email_press}</a></div>
                 </div>
                 <div className="footer-element">
-                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">vacancies</h7>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">vacancies</h5>
                   <div><a href={`mailto:${footer_links.footer_email_vacancies}`} className="black-text">{footer_links.footer_email_vacancies}</a></div>
                 </div>
                 <div className="footer-element">
-                  <h7 className="grey-text has-text-weight-bold is-uppercase is-size-7">Follow us on social media</h7>
-                  <div></div>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">Follow us on social media</h5>
+                  <div>
+                    <a href={footer_links.footer_link_twitter} target="_blank" className="button">
+                      <span className="icon"><i className="fab fa-github"></i></span>
+                      <span>{'TWITTER'}</span>
+                    </a>
+                    <a href={footer_links.footer_link_linkedin} target="_blank" className="button">
+                      <span className="icon"><i className="fab fa-github"></i></span>
+                      <span>{'LINKEDIN'}</span>
+                    </a>
+                    <a href={footer_links.footer_link_youtube} target="_blank" className="button">
+                      <span className="icon"><i className="fab fa-github"></i></span>
+                      <span>{'YOUTUBE'}</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -208,6 +221,8 @@ export const IndexPageTemplate = ({
     </div>
   )
 }
+// <Img fluid={technology_image.childImageSharp.fluid} alt="" />
+// <Img fluid={partners_side_logo.childImageSharp.fluid} alt="" style={{maxHeight: '100%'}} imgStyle={{objectFit: 'contain'}} />
 
 IndexPageTemplate.propTypes = {
   intro_pretitle: PropTypes.string,
