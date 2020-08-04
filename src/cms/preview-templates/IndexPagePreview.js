@@ -4,7 +4,6 @@ import { IndexPageTemplate } from '../../templates/index-page'
 
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
-
   if (data) {
     return (
       <IndexPageTemplate
@@ -23,7 +22,6 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         technology_pretitle={data.technology.technology_pretitle}
         technology_title={data.technology.technology_title}
         technology_image={data.technology.technology_image}
-        //technology_image={entry.getIn(['data', 'technology', 'technology_image'])}
         technology_text={data.technology.technology_text}
         technology_video_item={data.technology.technology_video_item || {}}
         infographic_pretitle={data.infographic.infographic_pretitle}
