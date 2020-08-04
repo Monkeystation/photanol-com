@@ -167,7 +167,7 @@ partners:
       logo_link: https://www.weforum.org/
   partners_side_logo:
     side_logo_image: /img/renewable-carbon-logo.png
-    side_logo_link: https://www.renolit.com/
+    side_logo_link: https://www.renewable-carbon.eu
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
