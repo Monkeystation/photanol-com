@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import showdown from 'showdown'
 import Img from 'gatsby-image'
-import {IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
+import {LogoPhotanol, IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
 
 import Layout from '../components/Layout'
 import Roadmap from '../components/Roadmap'
@@ -54,7 +54,8 @@ export const IndexPageTemplate = ({
   //partners_side_logo = !!partners_side_logo.childImageSharp ? partners_side_logo.childImageSharp.fluid : partners_side_logo
   return (
     <div>
-      <section className="section intro" style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}>
+      <section className="section intro parallaxParent" style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}>
+        <div className="logo-container"><LogoPhotanol /></div>
         <div className="container">
           <div className="columns">
             <div className="column is-offset-4 py-6">
@@ -68,7 +69,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <div className="column is-12 py-6">
+              <div className="column py-6">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
               <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-2-fullhd">{mission_title}</h1>
               <button className="button-primary">
@@ -436,14 +437,14 @@ export const pageQuery = graphql`
             logo_link
           }
           partners_side_logo {
+            side_logo_link
             side_logo_image {
               childImageSharp {
                 fluid(maxWidth: 500, quality: 60) {
                   ...GatsbyImageSharpFluid
                 }
               }
-            }
-            side_logo_link
+            }         
           } 
         }
         footer {

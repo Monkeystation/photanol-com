@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
-import {IconArrow} from '../img/icons/Icons'
+import {IconArrow} from './Icons'
 
 const Vacancies = ({ vacancies }) => (
   <div className="vacancies">

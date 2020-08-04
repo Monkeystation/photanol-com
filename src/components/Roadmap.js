@@ -5,20 +5,20 @@ import Img from "gatsby-image"
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const Roadmap = ({ items }) => (
-  <div className="columns">
+  <div className="items columns">
     {items.map((item) => {
       return (
         <div key={v4()} className="column">
-          <section className="section">
-            <h4 className="white-text has-text-centered has-text-weight-bold">
+          <div className="item">
+            <h4 className="white-text has-text-centered has-text-weight-bold item-title">
               {item.roadmap_item_title}
             </h4>
-            <PreviewCompatibleImage imageInfo={{image: item.roadmap_item_icon, alt: ''}} />
-            <p className="white-text">{item.roadmap_item_text}</p>
-            <h2 className="white-text has-text-weight-bold has-text-centered">
+            <PreviewCompatibleImage imageInfo={{image: item.roadmap_item_icon, alt: '', className: 'item-image'}} />
+            <p className="white-text item-text">{item.roadmap_item_text}</p>
+            <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
               {item.roadmap_item_year}
             </h2>
-          </section>
+          </div>
         </div>
       )
     }

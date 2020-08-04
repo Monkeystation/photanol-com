@@ -13,6 +13,7 @@ $blue-500: #4CB4E7
 $blue-300: #9EB4CD
 $green-500: #62B55A
 $gradient: linear-gradient(59.48deg, #009EE2 1.36%, #05A0DE 8.97%, #15A4D1 18.39%, #2EACBB 28.77%, #51B69E 39.85%, #7EC477 51.48%, #B6D549 63.56%, #F6E812 75.81%, #FCEA0D 76.96%)
+$grey-100: #F7F8FA
 $grey-200: #F7F8FA
 $grey-400: #D5D5D5
 $grey-600: #949598
@@ -52,7 +53,7 @@ $navbar-label-color: $black
   color: $primary
   display: inline-flex
   align-items: center
-  background-color: transparent
+  background-color: $grey-100
   border: none
   padding: 10px
   outline-color: none
@@ -136,11 +137,65 @@ $navbar-label-color: $black
 .black-text
   color: #000
   
+
+.intro 
+  height: 40vw
+  
+.logo-container
+  width: 30vw
+  height: 35vw
+  background-color: $blue-900
+  display: flex
+  align-items: center
+  justify-content: center
+  position: absolute
+  left: 0
+  top: 0
+  z-index: 999
+
+#logo-photanol
+  width: 10vw
+  
 // Mission
 .mission .title
-  background: linear-gradient(30.91deg, #009EE2 1.36%, #05A0DE 8.97%, #15A4D1 18.39%, #2EACBB 28.77%, #51B69E 39.85%, #7EC477 51.48%, #B6D549 63.56%, #F6E812 75.81%, #FCEA0D 76.96%)
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  //background: linear-gradient(30.91deg, #009EE2 1.36%, #05A0DE 8.97%, #15A4D1 18.39%, #2EACBB 28.77%, #51B69E 39.85%, #7EC477 51.48%, #B6D549 63.56%, #F6E812 75.81%, #FCEA0D 76.96%)
+  background: linear-gradient(30.91deg, #009EE2 1%, #05A0DE 5%, #15A4D1 10%, #2EACBB 15%, #51B69E 20%, #7EC477 25%, #B6D549 30%, #F6E812 35%, #FCEA0D 40%, #009EE2 51%, #05A0DE 55%, #15A4D1 60%, #2EACBB 65%, #51B69E 70%, #7EC477 75%, #B6D549 80%, #F6E812 85%, #FCEA0D 90%)
+  background-size: 250% 100%;
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  -webkit-animation: AnimationName 30s linear infinite
+  
+@keyframes AnimationName 
+  0%
+    background-position: 0% 0%
+  100%
+    background-position: 100% 0%
+
+// Roadmap
+.roadmap .items
+  padding-top: 80px
+  padding-bottom: 50px
+  
+.roadmap .item
+  display: flex
+  flex-direction: column
+  align-items: center
+  
+.roadmap .item-title
+  font-size: $size-5
+  max-width: 180px
+  
+.roadmap .item-year  
+  font-size: $size-5
+
+.roadmap .item-text
+  display: none
+  
+.roadmap .item-image 
+  width: 110px
+  border-radius: 50%
+  border: 3px solid $white
+  margin: 30px 0
 
 // Team
 .team .employees
