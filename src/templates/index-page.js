@@ -4,6 +4,8 @@ import { graphql } from 'gatsby'
 import showdown from 'showdown'
 import Img from 'gatsby-image'
 import {LogoPhotanol, IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
+import { Controller, Scene } from 'react-scrollmagic'
+import { Tween, Timeline } from 'react-gsap'
 
 import Layout from '../components/Layout'
 import Roadmap from '../components/Roadmap'
@@ -49,22 +51,55 @@ export const IndexPageTemplate = ({
   footer_title,
   footer_links, 
 }) => {
-  intro_image = !!intro_image.childImageSharp ? intro_image.childImageSharp.fluid.src : intro_image
+  //intro_image = !!intro_image.childImageSharp ? intro_image.childImageSharp.fluid.src : intro_image
   //technology_image = !!technology_image.childImageSharp ? technology_image.childImageSharp.fluid : technology_image
   //partners_side_logo = !!partners_side_logo.childImageSharp ? partners_side_logo.childImageSharp.fluid : partners_side_logo
+  // style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}
+  /*
+  <section className="section intro2">
+        <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
+          <Scene pin duration={500} indicators={true}>
+            <div className="panel has-background-dark"></div>
+          </Scene>
+        </Controller>
+      </section>
+  */
   return (
     <div>
-      <section className="section intro parallaxParent" style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}>
-        <div className="logo-container"><LogoPhotanol /></div>
-        <div className="container">
-          <div className="columns">
-            <div className="column is-offset-4 py-6">
-              <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
-              <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
+      <div className="logo-container"><LogoPhotanol /></div>
+      <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
+        <Scene pin duration={500} indicators={false}>
+          {(progress) => (
+          <section className="section intro">
+            <div className="video-panel">
+              <video width="100%" height="100%" controls={false} autoPlay muted loop>
+                <source src={intro_image.publicURL} type="video/mp4" />
+              </video>
             </div>
-          </div>
-        </div>
-      </section>
+            <Tween
+              paused
+              from={{ clipPath: 'inset(0 0 0% 0)' }}
+              to={{ clipPath: 'inset(0 0 100% 0)' }}
+              totalProgress={progress}
+            >
+            <section className="section text-panel-wrapper">
+              <div className="text-panel">
+                <div className="container">
+                  <div className="columns">
+                    <div className="column is-offset-4 py-6">
+                      <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
+                      <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </Tween>
+          </section>
+          )} 
+        </Scene>
+      </Controller>
+      
       <section className="section mission">
         <div className="container">
           <div className="columns">
@@ -233,7 +268,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   intro_pretitle: PropTypes.string,
   intro_title: PropTypes.string,
-  intro_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  intro_image: PropTypes.object,
   mission_pretitle: PropTypes.string,
   mission_title: PropTypes.string,
   mission_video_item: PropTypes.object,
@@ -324,11 +359,7 @@ export const pageQuery = graphql`
           intro_pretitle
           intro_title
           intro_image {
-            childImageSharp {
-              fluid(maxWidth: 1500, quality: 60) {
-                ...GatsbyImageSharpFluid
-              }
-            }
+            publicURL
           }
         }
         mission {

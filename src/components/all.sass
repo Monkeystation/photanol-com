@@ -137,9 +137,28 @@ $navbar-label-color: $black
 .black-text
   color: #000
   
-
 .intro 
   height: 40vw
+  position: relative
+
+.text-panel,
+.video-panel
+  width: 100%
+  height: 100%
+  overflow: hidden
+  
+.text-panel-wrapper
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  
+.text-panel
+  padding-top: 100px
+  background-color: #F2F2F2
+  clip-path: inset(0% 0% 0% 0%)
+  overflow: hidden
   
 .logo-container
   width: 30vw
@@ -155,7 +174,7 @@ $navbar-label-color: $black
 
 #logo-photanol
   width: 10vw
-  
+
 // Mission
 .mission .title
   //background: linear-gradient(30.91deg, #009EE2 1.36%, #05A0DE 8.97%, #15A4D1 18.39%, #2EACBB 28.77%, #51B69E 39.85%, #7EC477 51.48%, #B6D549 63.56%, #F6E812 75.81%, #FCEA0D 76.96%)

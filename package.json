@@ -19,6 +19,7 @@
     "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-remark": "^2.7.5",
     "gatsby-transformer-sharp": "^2.4.7",
+    "gsap": "^3.4.2",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms-app": "^2.9.6",
@@ -28,7 +29,9 @@
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-gsap": "^2.2.1",
     "react-helmet": "^6.0.0",
+    "react-scrollmagic": "^2.2.0",
     "showdown": "^1.9.1",
     "uuid": "^7.0.0"
   },
