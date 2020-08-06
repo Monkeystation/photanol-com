@@ -10,7 +10,8 @@ const Team = ({ employees }) => {
   return (
     <div className="employees">
       <PreviewCompatibleImage 
-        imageInfo={{image: employee_image, alt: '', className: 'employee-image'}} 
+        className='employee-image'
+        imageInfo={{image: employee_image, alt: ''}} 
       />
       <div className="tile is-parent">
       {employees.map((employee) => {

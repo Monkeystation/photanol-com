@@ -102,6 +102,7 @@ class Timeline extends React.Component {
     const {position, layout, tweenTarget} = this.state        
     return (
       <div className="timeline" ref={el => this.tlRef = el}>
+        <div className="line" />
         <Draggable
           axis="x"
           position={{x: position, y: 0}}
