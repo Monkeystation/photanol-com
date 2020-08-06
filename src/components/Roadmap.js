@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import Draggable from 'react-draggable'
-import { TweenLite } from 'gsap/all';
+import { TweenLite } from 'gsap/all'
 
 const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600
@@ -25,7 +25,6 @@ class Roadmap extends React.Component {
       layout: layout,
       tweenTarget: 0
     };
-    
   }
   
   componentDidMount() {
