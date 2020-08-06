@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import Img from "gatsby-image"
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import Timeline from './Timeline'
 
 const Roadmap = ({ items }) => (
   <div className="items columns">
-    {items.map((item) => {
+    {/*items.map((item) => {
       return (
         <div key={v4()} className="column">
           <div className="item">
@@ -22,7 +23,8 @@ const Roadmap = ({ items }) => (
         </div>
       )
     }
-    )}
+    )*/}
+    <Timeline items={items} />
   </div>
 )
 
