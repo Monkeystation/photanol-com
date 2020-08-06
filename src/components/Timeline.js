@@ -2,22 +2,28 @@ import React from 'react'
 import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import Draggable from 'react-draggable'
+import { TweenLite } from 'gsap/all';
 
 const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600
 const ACTIVE_ITEM_SCALE = 2
 
 class Timeline extends React.Component {
-  timer = null
   
   constructor(props) {
     super(props);
     console.log(props.items[0])
+    var layout = []
+    const nrOfItems = props.items.length
+    for (var i = 0; i < nrOfItems; i++) {
+      layout.push({width: ITEM_WIDTH, scale: 1, active: false, text: false})
+    }
+    
     this.state = {
-      nrOfItems: props.items.length, 
-      activeItemWidth: 0, 
-      activeItemScale: 2, 
-      timelineWidth: 0, 
+      position: 0,
+      nrOfItems: nrOfItems, 
+      layout: layout,
+      tweenTarget: 0
     };
     
   }
@@ -25,94 +31,99 @@ class Timeline extends React.Component {
   componentDidMount() {
     const {nrOfItems} = this.state
     var sw = this.tlRef.getBoundingClientRect().width
-    var width = ((nrOfItems - 1) * ITEM_WIDTH) + sw
-    this.itemsRef.style.width = width + 'px'
-    setTimeout(() => this.onScroll(), 100)
-    this.onScroll()
+    var startPos = (sw / 2) - (ACTIVE_ITEM_WIDTH / 2)
+    this.updateItems(startPos)
   }
 
   componentWillUnmount() {
   }
   
-  onScroll = () => {
-    const {nrOfItems} = this.state
-    var sw = this.tlRef.getBoundingClientRect().width
-    var scroll = this.tlRef.scrollLeft
+  handleStart = (e, data) => {
+    console.log('handleStart', e, data)
+  }
+  
+  handleDrag = (e, data) => {
+    var scroll = data.x
+    this.updateItems(scroll)
+  }
+  
+  handleStop = (e, data) => {
+    console.log('handleStop', e, data, this.activeItem)
+    const {nrOfItems, activeItemId} = this.state
+    var tlw = this.tlRef.getBoundingClientRect().width
+    var target = (activeItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)
+    var position = -target + (tlw / 2)
+    //this.updateItems(position)
+    
+    var obj = {position: this.state.position}
+    TweenLite.to(obj, 0.3, {position:position, onUpdate:(el) => {
+      console.log(obj.position)
+      this.updateItems(obj.position)
+    }});
+  }
+  
+  updateItems = (position) => {
+    if (!this.tlRef) return
+    const {nrOfItems, layout} = this.state
+    var tlw = this.tlRef.getBoundingClientRect().width
+    var activeItemId = null
+    var scroll = position - (tlw / 2)
     
     for (var i = 0; i < nrOfItems; i++) {
-      var rect = this['item' + i].getBoundingClientRect()
-      var center = rect.x + (rect.width / 2)
-      var offset = Math.abs(center - (sw / 2))
-      console.log(offset, (ITEM_WIDTH / 2))
-      if (offset < (ITEM_WIDTH / 2)) {
-        var norm = (ITEM_WIDTH / 2) - offset
+      var center = -((i * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2))
+      var dist = Math.abs(scroll - center)
+      if (dist < (ITEM_WIDTH / 2)) {
+        activeItemId = i
+        var norm = (ITEM_WIDTH / 2) - dist
         var scale = norm / (ITEM_WIDTH / 2)
-        this['item' + i].style.width = ITEM_WIDTH + (scale * (ACTIVE_ITEM_WIDTH - ITEM_WIDTH)) + 'px'
-        this['itemImage' + i].style.zoom = 1 + scale
-        this['itemText' + i].style.display = (scale > .6) ? 'block' : 'none'
-        break;
+        layout[i].width = ITEM_WIDTH + (scale * (ACTIVE_ITEM_WIDTH - ITEM_WIDTH)) + 'px'
+        layout[i].scale = 1 + scale
+        layout[i].active = true
+        layout[i].text = (scale > .7) ? true : false
       } else {
-        this['item' + i].style.width = ITEM_WIDTH + 'px'
-        this['itemImage' + i].style.zoom = 1
-        this['itemText' + i].style.display = 'none'
+        layout[i].width = ITEM_WIDTH + 'px'
+        layout[i].scale = 1
+        layout[i].active = false
+        layout[i].text = false
       }
     }
     
-    if(this.timer !== null) clearTimeout(this.timer)
-    this.timer = setTimeout(() => this.onScrollStop(), 150)
-    
+    this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
-  onScrollStop = () => {
-    console.log(this.state)
-    const {nrOfItems} = this.state
-    var sw = this.tlRef.getBoundingClientRect().width
-    
-    for (var i = 0; i < nrOfItems; i++) {
-      var rect = this['item' + i].getBoundingClientRect()
-      var center = rect.x + (rect.width / 2)
-      var offset = Math.abs(center - (sw / 2))
-      if (offset < (ITEM_WIDTH / 2)) {
-        console.log('scroll')
-        this.tlRef.scrollTo(-(center - (sw / 2)), 0)
-        break;
-      }
-    }
-  }
-  
-  /*
-  <PreviewCompatibleImage 
-                ref={el => this['itemImage' + index] = el}
-                className="item-image"
-                imageInfo={{image: item.roadmap_item_icon, alt: '', className: 'item-image'}} 
-              />
-              */
   render() {
     const {items} = this.props
-    
+    const {position, layout, tweenTarget} = this.state        
     return (
-      <div className="timeline" onScroll={this.onScroll} ref={el => this.tlRef = el}>
+      <div className="timeline" ref={el => this.tlRef = el}>
         <Draggable
-          axis="x">
-        <div className="items" ref={el => this.itemsRef = el}>
-          {items.map((item, index) => (
-            <div key={v4()} className="item" ref={el => this['item' + index] = el}>
-              <div className="item-elements">
-                <h4 className="white-text has-text-centered has-text-weight-bold item-title">
-                  {item.roadmap_item_title}
-                </h4>
-                <img className="item-image" ref={el => this['itemImage' + index] = el} src={item.roadmap_item_icon.publicURL} />
-                <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
-                  {item.roadmap_item_year}
-                </h2>
-              </div>
-              <div className="item-text" ref={el => this['itemText' + index] = el}>
-                <p className="white-text">{item.roadmap_item_text}</p>
-              </div>
+          axis="x"
+          position={{x: position, y: 0}}
+          onStart={this.handleStart}
+          onDrag={this.handleDrag}
+          onStop={this.handleStop}>
+            <div className="items" ref={el => this.itemsRef = el}>
+              {items.map((item, index) => (
+                <div key={v4()} className="item" style={{width: layout[index].width}} id={"item" + index} ref={el => this['item' + index] = el}>
+                  <div className="item-elements">
+                    <h4 className="white-text has-text-centered has-text-weight-bold item-title">
+                      {item.roadmap_item_title}
+                    </h4>
+                    <img className="item-image" style={{width: (100 * layout[index].scale)}} ref={el => this['itemImage' + index] = el} src={item.roadmap_item_icon.publicURL} />
+                    <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
+                      {item.roadmap_item_year}
+                    </h2>
+                  </div>
+                  <div className="item-text" style={{
+                      display: (layout[index].text) ? 'block' : 'none',
+                      opacity: (layout[index].text) ? 1 : 0,
+                    }}  ref={el => this['itemText' + index] = el}>
+                    <p className="white-text">{item.roadmap_item_text}</p>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-        </Draggable>
+          </Draggable>
       </div>
     )
   }
