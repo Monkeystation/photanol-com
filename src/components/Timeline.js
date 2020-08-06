@@ -12,7 +12,6 @@ class Timeline extends React.Component {
   
   constructor(props) {
     super(props);
-    console.log(props.items[0])
     var layout = []
     const nrOfItems = props.items.length
     for (var i = 0; i < nrOfItems; i++) {
@@ -48,16 +47,14 @@ class Timeline extends React.Component {
   }
   
   handleStop = (e, data) => {
-    console.log('handleStop', e, data, this.activeItem)
+    console.log('handleStop', e, data)
     const {nrOfItems, activeItemId} = this.state
     var tlw = this.tlRef.getBoundingClientRect().width
     var target = (activeItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)
     var position = -target + (tlw / 2)
-    //this.updateItems(position)
     
     var obj = {position: this.state.position}
     TweenLite.to(obj, 0.3, {position:position, onUpdate:(el) => {
-      console.log(obj.position)
       this.updateItems(obj.position)
     }});
   }
@@ -91,6 +88,15 @@ class Timeline extends React.Component {
     this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
+  itemClick = (index) => {
+    var tlw = this.tlRef.getBoundingClientRect().width
+    var obj = {position: this.state.position}
+    var target = -((index * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)) + (tlw / 2)
+    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
+      this.updateItems(obj.position)
+    }});
+  }
+  
   render() {
     const {items} = this.props
     const {position, layout, tweenTarget} = this.state        
@@ -104,7 +110,7 @@ class Timeline extends React.Component {
           onStop={this.handleStop}>
             <div className="items" ref={el => this.itemsRef = el}>
               {items.map((item, index) => (
-                <div key={v4()} className="item" style={{width: layout[index].width}} id={"item" + index} ref={el => this['item' + index] = el}>
+                <div key={v4()} className="item" style={{width: layout[index].width}} id={"item" + index} ref={el => this['item' + index] = el} onClick={() => this.itemClick(index)}>
                   <div className="item-elements">
                     <h4 className="white-text has-text-centered has-text-weight-bold item-title">
                       {item.roadmap_item_title}
