@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import Draggable from 'react-draggable'
@@ -134,6 +135,18 @@ class Timeline extends React.Component {
       </div>
     )
   }
+}
+
+Timeline.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      roadmap_item_year: PropTypes.string,
+      roadmap_item_title: PropTypes.string,
+      roadmap_item_text: PropTypes.string,
+      roadmap_item_icon: PropTypes.object,
+      roadmap_item_image: PropTypes.object,
+    })
+  ),
 }
 
 export default Timeline
