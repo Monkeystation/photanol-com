@@ -147,12 +147,9 @@ export const IndexPageTemplate = ({
             </div>
           </div>
           <div className="columns">
-            <div className="column is-5">
-              <PreviewCompatibleImage imageInfo={{image: technology_image, alt: ''}} />
-            </div>
-            <div className="column is-4">
-              <p className="blue-text">{technology_text}</p>
-              <button className="button-primary">
+            <div className="column is-8 text-columns">
+              <p className="blue-text technology-text">{technology_text}</p>
+              <button className="button-primary mt-4">
                 <span className="icon">
                   <IconPlay />
                 </span>
