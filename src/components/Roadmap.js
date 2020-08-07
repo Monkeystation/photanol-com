@@ -117,35 +117,47 @@ class Roadmap extends React.Component {
           onDrag={this.handleDrag}
           onStop={this.handleStop}>
             <div className="items" ref={el => this.itemsRef = el}>
-              {items.map((item, index) => (
-                <div key={v4()} className="item" style={{width: layout[index].width}} id={"item" + index} ref={el => this['item' + index] = el} onClick={() => this.itemClick(index)}>
-                  <div className="item-elements">
-                    <div className="item-element-top">
-                      <h4 className="white-text has-text-centered has-text-weight-bold item-title">
-                        {item.roadmap_item_title}
-                      </h4>
-                    </div>             
-                    <div className="item-element-center item-images">
-                      <img className="item-icon" style={{height: (100 * layout[index].scale)}} ref={el => this['itemImage' + index] = el} src={item.roadmap_item_icon.publicURL} />
-                      <img className="item-image" style={{
-                        height: (100 * layout[index].scale),
-                        opacity: layout[index].fade,              
-                        }} ref={el => this['itemImage' + index] = el} src={item.roadmap_item_image.publicURL} />
+              {items.map((item, index) => {
+                var imageSize = (100 * layout[index].scale)
+                return (
+                  <div key={v4()} className="item" style={{width: layout[index].width}} id={"item" + index} ref={el => this['item' + index] = el} onClick={() => this.itemClick(index)}>
+                    <div className="item-elements">
+                      <div className="item-element-top">
+                        <h4 className="white-text has-text-centered has-text-weight-bold item-title">
+                          {item.roadmap_item_title}
+                        </h4>
+                      </div>             
+                      <div className="item-element-center item-images">
+                        <img 
+                          className="item-icon" 
+                          style={{ width: imageSize, height: imageSize }} 
+                          ref={el => this['itemImage' + index] = el} 
+                          src={item.roadmap_item_icon.publicURL} 
+                        />
+                        <img className="item-image" 
+                          style={{
+                            width: imageSize, height: imageSize,
+                            opacity: layout[index].fade,              
+                            }} 
+                            ref={el => this['itemImage' + index] = el} 
+                            src={item.roadmap_item_image.publicURL}
+                          />
+                      </div>
+                      <div className="item-element-bottom">
+                        <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
+                          {item.roadmap_item_year}
+                        </h2>
+                      </div>
                     </div>
-                    <div className="item-element-bottom">
-                      <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
-                        {item.roadmap_item_year}
-                      </h2>
+                    <div className="item-text" style={{
+                      display: (layout[index].text) ? 'block' : 'none',
+                      opacity: layout[index].fade,
+                      }}  ref={el => this['itemText' + index] = el}>
+                      <p className="white-text">{item.roadmap_item_text}</p>
                     </div>
                   </div>
-                  <div className="item-text" style={{
-                    display: (layout[index].text) ? 'block' : 'none',
-                    opacity: layout[index].fade,
-                    }}  ref={el => this['itemText' + index] = el}>
-                    <p className="white-text">{item.roadmap_item_text}</p>
-                  </div>
-                </div>
-              ))}
+                )}
+              )}
             </div>
           </Draggable>
       </div>
