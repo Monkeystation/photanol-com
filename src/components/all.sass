@@ -39,6 +39,7 @@ $size-6: 16px
 $size-7: 14px
 
 $fullhd: 1744px + (2 * $gap)
+$link-hover: $green-500
 
 //Menu overrides
 $navbar-item-color: $blue-900
@@ -47,9 +48,10 @@ $navbar-item-hover-background-color: $white
 $navbar-item-active-color: $green-500
 $navbar-item-active-background-color: $white
 $navbar-label-color: $black
+$navbar-breakpoint: $tablet
 
 .navbar
-  position: sticky
+  position: sticky !important
   top: 0
 
 .button-primary
@@ -64,6 +66,7 @@ $navbar-label-color: $black
   border: none
   padding: 10px
   outline-color: none
+  transition: all 0.3s $easing;
   .icon
     height: 30px
     width: 30px
@@ -94,6 +97,7 @@ $navbar-label-color: $black
   border: none
   padding: 0px
   outline-color: none
+  transition: all 0.3s $easing;
   &.is-white
     color: $white
     svg
@@ -149,6 +153,7 @@ $navbar-label-color: $black
 .intro 
   height: 470px
   position: relative
+  margin-top: 50px
   padding-top: 0
   padding-bottom: 0
   +tablet
@@ -159,9 +164,13 @@ $navbar-label-color: $black
 .text-panel,
 .video-panel
   width: 100%
-  height: 100%
+  height: 100% !important
   overflow: hidden
-  
+
+.video-panel video
+  height: 100%
+  object-fit: cover
+
 .text-panel-wrapper
   position: absolute
   left: 0
@@ -175,7 +184,6 @@ $navbar-label-color: $black
   padding-top: 100px
   background-color: #F2F2F2
   clip-path: inset(0% 0% 0% 0%)
-  overflow: hidden
   
 .text-panel .text
   position: absolute
@@ -218,7 +226,6 @@ $navbar-label-color: $black
 
 // Mission
 .mission .title
-  //background: linear-gradient(30.91deg, #009EE2 1.36%, #05A0DE 8.97%, #15A4D1 18.39%, #2EACBB 28.77%, #51B69E 39.85%, #7EC477 51.48%, #B6D549 63.56%, #F6E812 75.81%, #FCEA0D 76.96%)
   background: linear-gradient(30.91deg, #009EE2 1%, #05A0DE 5%, #15A4D1 10%, #2EACBB 15%, #51B69E 20%, #7EC477 25%, #B6D549 30%, #F6E812 35%, #FCEA0D 40%, #009EE2 51%, #05A0DE 55%, #15A4D1 60%, #2EACBB 65%, #51B69E 70%, #7EC477 75%, #B6D549 80%, #F6E812 85%, #FCEA0D 90%)
   background-size: 250% 100%;
   -webkit-background-clip: text
@@ -232,9 +239,6 @@ $navbar-label-color: $black
     background-position: 100% 0%
 
 // Roadmap
-.roadmap  
-  padding-left: 0
-  padding-right: 0
   
 // Team
 .team

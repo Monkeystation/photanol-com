@@ -68,11 +68,11 @@ export const IndexPageTemplate = ({
     <div>
       <div className="logo-container"><LogoPhotanol /></div>
       <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-        <Scene pin duration={500} indicators={false}>
+        <Scene pin duration={500} offset={-100} indicators={false}>
           {(progress) => (
           <section className="section intro">
             <div className="video-panel">
-              <video width="100%" height="100%" controls={false} autoPlay muted loop>
+              <video width="100%" height="100%" controls={false} playsInline autoPlay muted loop>
                 <source src={intro_image.publicURL} type="video/mp4" />
               </video>
             </div>
