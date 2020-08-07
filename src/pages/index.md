@@ -13,7 +13,7 @@ mission:
     restoring balance through human ingenuity and utilising the power of nature.
   mission_video_item:
     mission_video_item_label: Watch  brandmovie
-    mission_video_item_link: https://www.youtube.com/watch?v=ijMRUWfbp88
+    mission_video_item_link: ijMRUWfbp88
   mission_image: /img/coffee-gear.png
 solution:
   solution_pretitle: what we are working on
