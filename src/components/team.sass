@@ -9,20 +9,24 @@
 .employees .items-wrapper
   position: relative
   overflow: hidden
-  left: 30%
   
 .employees .items
   display: flex
   height: 470px
 
 .employees .item
+  width: 382px
+  max-width: 382px
+  display: flex
+
+.employees .item-content
   display: flex
   flex-direction: column
   background-color: #0A064A
-  width: 350px
   padding: 32px
-  margin: 16px !important
-
+  margin: 16px
+  overflow: hidden
+  
 .employees .item p
   flex-grow: 1
   pointer-events: none

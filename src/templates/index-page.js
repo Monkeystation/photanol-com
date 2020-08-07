@@ -5,7 +5,7 @@ import showdown from 'showdown'
 import Img from 'gatsby-image'
 import {LogoPhotanol, IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
 import { Controller, Scene } from 'react-scrollmagic'
-import { Tween, Timeline } from 'react-gsap'
+import { Tween } from 'react-gsap'
 
 import Layout from '../components/Layout'
 import Roadmap from '../components/Roadmap'

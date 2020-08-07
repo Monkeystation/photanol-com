@@ -6,7 +6,7 @@ import {IconLinkedIn} from './Icons'
 import Draggable from 'react-draggable'
 import { TweenLite } from 'gsap/all'
 
-const ITEM_WIDTH = 300
+const ITEM_WIDTH = 382
 
 class Team extends React.Component {
   
@@ -15,7 +15,7 @@ class Team extends React.Component {
     var layout = []
     const nrOfItems = props.employees.length
     for (var i = 0; i < nrOfItems; i++) {
-      layout.push({width: ITEM_WIDTH, scale: 1, fade: 0, active: false, text: false})
+      layout.push({width: ITEM_WIDTH, itemOpacity: 1, imageOpacity: 0, active: false})
     }
     
     this.state = {
@@ -33,8 +33,60 @@ class Team extends React.Component {
     this.updateItems(startPos)
   }
   
-  updateItems = (position) => {
+  handleStart = (e, data) => {
+    console.log('handleStart', e, data)
+  }
+  
+  handleDrag = (e, data) => {
+    var scroll = data.x
+    this.updateItems(scroll)
+  }
+  
+  handleStop = (e, data) => {
+    console.log('handleStop', e, data)
+    const {nrOfItems, activeItemId} = this.state
+    var emw = this.emRef.getBoundingClientRect().width
+    var target = (activeItemId * ITEM_WIDTH) + (ITEM_WIDTH / 2)
+    var position = -target + (emw / 2)
     
+    var obj = {position: this.state.position}
+    TweenLite.to(obj, 0.3, {position:position, onUpdate:(el) => {
+      this.updateItems(obj.position)
+    }});
+  }
+  
+  updateItems = (position) => {
+    if (!this.emRef) return
+    const {nrOfItems, layout} = this.state
+    var emw = this.emRef.getBoundingClientRect().width
+    var activeItemId = null
+    var scroll = position - (emw / 2)
+    
+    for (var i = 0; i < nrOfItems; i++) {
+      var center = -((i * ITEM_WIDTH) + (ITEM_WIDTH / 2))
+      var dist = Math.abs(scroll - center)
+      var pos = (scroll - center) / ITEM_WIDTH
+      if (pos < 0) {
+        layout[i].itemOpacity = pos + 1
+      } else {
+        layout[i].itemOpacity = 1
+      }
+      
+      if (dist < (ITEM_WIDTH / 2)) {
+        activeItemId = i
+        var norm = (ITEM_WIDTH / 2) - dist
+        var scale = norm / (ITEM_WIDTH / 2)
+        layout[i].active = true
+        layout[i].imageOpacity = scale
+      } else {
+        
+        layout[i].active = false
+        layout[i].imageOpacity = 0
+        
+      }
+    }
+    
+    this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
   itemClick = (index) => {
@@ -49,13 +101,18 @@ class Team extends React.Component {
   render() {
     const {employees} = this.props
     const {position, layout, tweenTarget} = this.state  
-    const employee_image = employees[0].employee_image
     return (
       <div className="employees" ref={el => this.emRef = el}>
-      <PreviewCompatibleImage 
-        className='employee-image'
-        imageInfo={{image: employee_image, alt: ''}} 
-      />
+      <div className="images">
+        {employees.map((employee, index) => (
+          <PreviewCompatibleImage 
+            key={v4()}
+            className='employee-image'
+            imageInfo={{image: employee.employee_image, alt: '', style:{
+            opacity: layout[index].imageOpacity}}}
+          />
+        ))}
+      </div>
       <div className="items-wrapper">
         <Draggable
             axis="x"
@@ -64,21 +121,25 @@ class Team extends React.Component {
             onDrag={this.handleDrag}
             onStop={this.handleStop}>
           <div className="items" ref={el => this.itemsRef = el}>
-          {employees.map((employee, index) => (
-              <div key={v4()} className="item" id={"item" + index} ref={el => this['item' + index] = el} onClick={() => this.itemClick(index)}>
-                <h3 className="is-size-3 is-family-secondary white-text has-text-weight-bold">
-                  {employee.employee_name}
-                </h3>
-                <h5 className="is-size-5 blue-300-text has-text-weight-bold pb-3">
-                  {employee.employee_function}
-                </h5>
-                <p className="white-text pt-5">{employee.employee_text}</p>
-                <button className="button-secondary is-white">
-                  <span className="icon">
-                    <IconLinkedIn />
-                  </span>
-                  <span>{'VIEW PROFILE'}</span>
-                </button>
+            {employees.map((employee, index) => (
+              <div key={v4()} className="item" ref={el => this['item' + index] = el} style={{
+                opacity: layout[index].itemOpacity,
+              }}>
+                <div className="item-content" id={"item" + index} onClick={() => this.itemClick(index)}>
+                  <h3 className="is-size-3 is-family-secondary white-text has-text-weight-bold">
+                    {employee.employee_name}
+                  </h3>
+                  <h5 className="is-size-5 blue-300-text has-text-weight-bold pb-3">
+                    {employee.employee_function}
+                  </h5>
+                  <p className="white-text pt-5">{employee.employee_text}</p>
+                  <button className="button-secondary is-white">
+                    <span className="icon">
+                      <IconLinkedIn />
+                    </span>
+                    <span>{'VIEW PROFILE'}</span>
+                  </button>
+                </div>
               </div>
             )
           )}
