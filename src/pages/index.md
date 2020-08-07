@@ -101,21 +101,20 @@ team:
         molestie. "
       employee_linkedin: https://www.linkedin.com/in/monkeystation/
       employee_image: /img/maria.jpg
-    - employee_name: Veronique De Bruijn
-      employee_function: CEO
-      employee_text: Véronique has been an Investment director at ICOS Capital,
-        previously she raised early-stage funding for 3 companies as an
-        independent consultant and corporate finance role at PwC in the
-        Netherlands.
+    - employee_name: Peter Brenninkmeijer
+      employee_function: CFO
+      employee_text: Peter has a track record in fundraising, cash flow management and
+        taking companies to market. Peter is managing change in the organization
+        and always seeking creative solutions.
       employee_linkedin: https://www.linkedin.com/in/monkeystation/
-      employee_image: /img/maria.jpg
-    - employee_name: Paul Koekoek
-      employee_function: COO
-      employee_text: Paul has over 25 years of process & manufacturing experience and
-        is highly skilled in process engineering, hazard, analysis, critical
-        control points and GMP. Paul studied Chemical Engineering in Groningen.
+      employee_image: /img/peter.jpg
+    - employee_name: " Klaas Hellingwerf"
+      employee_function: CSO
+      employee_text: Klaas is one of our co-founders and a highly respected academic
+        microbiologist at the University of Amsterdam. He is very active in the
+        early stage development work and strategic decision-making at Photanol.
       employee_linkedin: https://www.linkedin.com/in/monkeystation/
-      employee_image: /img/maria.jpg
+      employee_image: /img/klaas.jpg
   vacancies:
     - vacancy_title: Researchers Strain Development Team
       vacancy_description_short: Photanol is opening a whole new research line in
