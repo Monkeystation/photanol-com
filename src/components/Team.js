@@ -34,6 +34,8 @@ class Team extends React.Component {
     } else {
       this.setState({itemWidth: ITEM_WIDTH})
     } 
+    
+    this.updateItems(this.state.position)
   }
   
   componentDidMount() {
