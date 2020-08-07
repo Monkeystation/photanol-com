@@ -84,13 +84,9 @@ export const IndexPageTemplate = ({
             >
             <section className="section text-panel-wrapper">
               <div className="text-panel">
-                <div className="container">
-                  <div className="columns">
-                    <div className="column is-offset-4 py-6">
-                      <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
-                      <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-3-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
-                    </div>
-                  </div>
+                <div className="container text">
+                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
+                  <h1 className="title blue-text has-text-weight-bold is-size-4-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
                 </div>
               </div>
             </section>
@@ -104,16 +100,14 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <div className="column py-6">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
-              <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-2-fullhd">{mission_title}</h1>
+              <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission_title}</h1>
               <button className="button-primary">
                 <span className="icon">
                   <IconPlay />
                 </span>
                 <span>{mission_video_item.mission_video_item_label}</span>
               </button>
-            </div>
             </div>
           </div>
         </div>
@@ -179,20 +173,14 @@ export const IndexPageTemplate = ({
         </div>
       </section>
       <section className="section team" id="team">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-offset-5">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{team_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{team_title}</h1>
-            </div>
-          </div>
+        <div className="container text">
+          <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{team_pretitle}</h5>
+          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{team_title}</h1>
         </div>
         <Team employees={employees} />
-        <div className="columns pt-6" id="jobs">
-          <div className="column is-offset-5 is-5">
-            <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
-            <Vacancies vacancies={vacancies} />
-          </div>
+        <div className="jobs mt-4" id="jobs">
+          <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
+          <Vacancies vacancies={vacancies} />
         </div>
       </section>
       <section className="section partners">
@@ -241,7 +229,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="footer-element">
                   <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">Follow us on social media</h5>
-                  <div>
+                  <div className="social-media">
                     <a href={footer_links.footer_link_twitter} target="_blank" className="button-secondary">
                       <span className="icon"><IconTwitter /></span>
                       <span>{'TWITTER'}</span>
@@ -437,11 +425,7 @@ export const pageQuery = graphql`
             employee_text
             employee_linkedin
             employee_image {
-              childImageSharp {
-                fluid(maxWidth: 1500, quality: 60) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+              publicURL
             }
           }
           vacancies {

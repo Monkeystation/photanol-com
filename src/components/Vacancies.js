@@ -12,7 +12,7 @@ const Vacancies = ({ vacancies }) => (
           <p className="blue-text has-text-weight-bold">
             {vacancy.vacancy_title}
           </p>
-          <p className="blue-text py-5">
+          <p className="blue-text py-3">
             {vacancy.vacancy_description_short}
           </p>
           <button className="button-secondary is-grey">

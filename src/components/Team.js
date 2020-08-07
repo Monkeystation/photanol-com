@@ -7,6 +7,7 @@ import Draggable from 'react-draggable'
 import { TweenLite } from 'gsap/all'
 
 const ITEM_WIDTH = 382
+const ITEM_WIDTH_TABLET = 280
 
 class Team extends React.Component {
   
@@ -15,10 +16,11 @@ class Team extends React.Component {
     var layout = []
     const nrOfItems = props.employees.length
     for (var i = 0; i < nrOfItems; i++) {
-      layout.push({width: ITEM_WIDTH, itemOpacity: 1, imageOpacity: 0, active: false})
+      layout.push({itemOpacity: 1, imageOpacity: 0, active: false})
     }
     
     this.state = {
+      itemWidth: ITEM_WIDTH,
       position: 0,
       nrOfItems: nrOfItems, 
       layout: layout,
@@ -26,11 +28,26 @@ class Team extends React.Component {
     };
   }
   
+  onWindowResize = () => {
+    if (window.innerWidth <= 768) {
+      this.setState({itemWidth: ITEM_WIDTH_TABLET})
+    } else {
+      this.setState({itemWidth: ITEM_WIDTH})
+    } 
+  }
+  
   componentDidMount() {
-    const {nrOfItems} = this.state
+    window.addEventListener('resize', this.onWindowResize);
+    this.onWindowResize()
+    
+    const {itemWidth, nrOfItems} = this.state
     var sw = this.emRef.getBoundingClientRect().width
-    var startPos = (sw / 2) - (ITEM_WIDTH / 2)
+    var startPos = (sw / 2) - (itemWidth / 2)
     this.updateItems(startPos)
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateDimensions);
   }
   
   handleStart = (e, data) => {
@@ -44,9 +61,9 @@ class Team extends React.Component {
   
   handleStop = (e, data) => {
     console.log('handleStop', e, data)
-    const {nrOfItems, activeItemId} = this.state
+    const {itemWidth, nrOfItems, activeItemId} = this.state
     var emw = this.emRef.getBoundingClientRect().width
-    var target = (activeItemId * ITEM_WIDTH) + (ITEM_WIDTH / 2)
+    var target = (activeItemId * itemWidth) + (itemWidth / 2)
     var position = -target + (emw / 2)
     
     var obj = {position: this.state.position}
@@ -57,32 +74,30 @@ class Team extends React.Component {
   
   updateItems = (position) => {
     if (!this.emRef) return
-    const {nrOfItems, layout} = this.state
+    const {itemWidth, nrOfItems, layout} = this.state
     var emw = this.emRef.getBoundingClientRect().width
     var activeItemId = null
     var scroll = position - (emw / 2)
     
     for (var i = 0; i < nrOfItems; i++) {
-      var center = -((i * ITEM_WIDTH) + (ITEM_WIDTH / 2))
+      var center = -((i * itemWidth) + (itemWidth / 2))
       var dist = Math.abs(scroll - center)
-      var pos = (scroll - center) / ITEM_WIDTH
+      var pos = (scroll - center) / itemWidth
       if (pos < 0) {
         layout[i].itemOpacity = pos + 1
       } else {
         layout[i].itemOpacity = 1
       }
       
-      if (dist < (ITEM_WIDTH / 2)) {
+      if (dist < (itemWidth / 2)) {
         activeItemId = i
-        var norm = (ITEM_WIDTH / 2) - dist
-        var scale = norm / (ITEM_WIDTH / 2)
+        var norm = (itemWidth / 2) - dist
+        var scale = norm / (itemWidth / 2)
         layout[i].active = true
         layout[i].imageOpacity = scale
       } else {
-        
         layout[i].active = false
         layout[i].imageOpacity = 0
-        
       }
     }
     
@@ -90,9 +105,10 @@ class Team extends React.Component {
   }
   
   itemClick = (index) => {
+    const {itemWidth} = this.state
     var emw = this.emRef.getBoundingClientRect().width
     var obj = {position: this.state.position}
-    var target = -((index * ITEM_WIDTH) + (ITEM_WIDTH / 2)) + (emw / 2)
+    var target = -((index * itemWidth) + (itemWidth / 2)) + (emw / 2)
     TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
@@ -100,16 +116,15 @@ class Team extends React.Component {
   
   render() {
     const {employees} = this.props
+    console.log(employees[0])
     const {position, layout, tweenTarget} = this.state  
     return (
       <div className="employees" ref={el => this.emRef = el}>
       <div className="images">
         {employees.map((employee, index) => (
-          <PreviewCompatibleImage 
-            key={v4()}
-            className='employee-image'
-            imageInfo={{image: employee.employee_image, alt: '', style:{
-            opacity: layout[index].imageOpacity}}}
+          <div key={v4()} className="employee-image" style={{
+            backgroundImage: `url(${employee.employee_image.publicURL})`,
+            opacity: layout[index].imageOpacity}} 
           />
         ))}
       </div>
@@ -126,7 +141,7 @@ class Team extends React.Component {
                 opacity: layout[index].itemOpacity,
               }}>
                 <div className="item-content" id={"item" + index} onClick={() => this.itemClick(index)}>
-                  <h3 className="is-size-3 is-family-secondary white-text has-text-weight-bold">
+                  <h3 className="is-size-4 is-size-3-desktop is-family-secondary white-text has-text-weight-bold">
                     {employee.employee_name}
                   </h3>
                   <h5 className="is-size-5 blue-300-text has-text-weight-bold pb-3">
