@@ -118,7 +118,6 @@ class Team extends React.Component {
   
   render() {
     const {employees} = this.props
-    console.log(employees[0])
     const {position, layout, tweenTarget} = this.state  
     return (
       <div className="employees" ref={el => this.emRef = el}>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import showdown from 'showdown'
@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 import {LogoPhotanol, IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween } from 'react-gsap'
+import YouTube from 'react-youtube'
 
 import Layout from '../components/Layout'
 import Roadmap from '../components/Roadmap'
@@ -15,7 +16,7 @@ import Partners from '../components/Partners'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true);
+converter.setOption('simpleLineBreaks', true)
 
 
 export const IndexPageTemplate = ({
@@ -51,28 +52,57 @@ export const IndexPageTemplate = ({
   footer_title,
   footer_links, 
 }) => {
-  //intro_image = !!intro_image.childImageSharp ? intro_image.childImageSharp.fluid.src : intro_image
-  //technology_image = !!technology_image.childImageSharp ? technology_image.childImageSharp.fluid : technology_image
-  //partners_side_logo = !!partners_side_logo.childImageSharp ? partners_side_logo.childImageSharp.fluid : partners_side_logo
-  // style={{backgroundImage:`url(${intro_image})`, backgroundSize:'cover'}}
-  /*
-  <section className="section intro2">
-        <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-          <Scene pin duration={500} indicators={true}>
-            <div className="panel has-background-dark"></div>
-          </Scene>
-        </Controller>
-      </section>
-  */
+  const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
+  const [missionVideoPlayer, setMissionVideoPlayer] = useState(null)
+  const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
+  const [brandVideoPlayer, setBrandVideoPlayer] = useState(null)
+  
+  const onMissionYoutubeReady = (event) => {
+    setMissionVideoPlayer(event.target)
+  }
+  
+  const onMissionVideoModalOpen = () => {
+    setShowMissionVideoModal(true)
+    var html = document.getElementsByTagName("html")[0];
+    html.classList.add("is-clipped")
+  }
+  
+  const onMissionVideoModalClose = () => {
+    if (missionVideoPlayer) missionVideoPlayer.stopVideo()
+    setShowMissionVideoModal(false)
+    var html = document.getElementsByTagName("html")[0];
+    html.classList.remove("is-clipped")
+  }
+  
+  const onBrandYoutubeReady = (event) => {
+    setBrandVideoPlayer(event.target)
+  }
+  
+  const onBrandVideoModalOpen = () => {
+    setShowBrandVideoModal(true)
+    var html = document.getElementsByTagName("html")[0];
+    html.classList.add("is-clipped")
+  }
+  
+  const onBrandVideoModalClose = () => {
+    if (brandVideoPlayer) brandVideoPlayer.stopVideo()
+    setShowBrandVideoModal(false)
+    var html = document.getElementsByTagName("html")[0];
+    html.classList.remove("is-clipped")
+  }
+  
   return (
     <div>
       <div className="logo-container"><LogoPhotanol /></div>
+      {/* 
+        INTRO 
+      */}
       <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
         <Scene pin duration={500} offset={-100} indicators={false}>
           {(progress) => (
           <section className="section intro">
-            <div className="video-panel">
-              <video width="100%" height="100%" controls={false} playsInline autoPlay muted loop>
+            <div className="video-panel hero-video">
+              <video playsInline autoPlay muted loop>
                 <source src={intro_image.publicURL} type="video/mp4" />
               </video>
             </div>
@@ -95,14 +125,16 @@ export const IndexPageTemplate = ({
           )} 
         </Scene>
       </Controller>
-      
+      {/* 
+        MISSION 
+      */}
       <section className="section mission">
         <div className="container">
           <div className="columns">
             <div className="column is-12">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
               <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission_title}</h1>
-              <button className="button-primary">
+              <button className="button-primary" onClick={onMissionVideoModalOpen}>
                 <span className="icon">
                   <IconPlay />
                 </span>
@@ -111,7 +143,19 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
+        <div className={`modal ${showMissionVideoModal ? 'is-active' : ''}`}>
+          <div className="modal-background" onClick={onMissionVideoModalClose}></div>
+          <div className="modal-content is-full">
+            <figure className="image is-16by9">
+              <YouTube className="has-ratio" videoId={mission_video_item.mission_video_item_link} onReady={onMissionYoutubeReady} />
+            </figure>
+          </div>
+          <button className="modal-close is-large" aria-label="close" onClick={onMissionVideoModalClose}></button>
+        </div>
       </section>
+      {/* 
+        SOLUTION 
+      */}
       <section className="section solution" id="product">
         <div className="container">
           <div className="columns">
@@ -127,6 +171,9 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
+      {/* 
+        ROADMAP 
+      */}
       <section className="section roadmap has-background-primary">
         <div className="container">
           <div className="columns">
@@ -138,6 +185,9 @@ export const IndexPageTemplate = ({
         </div>
         <Roadmap items={roadmap_items} />
       </section>
+      {/* 
+        TECHNOLOGY 
+      */}
       <section className="section technology" id="technology">
         <div className="container">
           <div className="columns">
@@ -149,16 +199,28 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-8 text-columns">
               <p className="blue-text technology-text">{technology_text}</p>
-              <button className="button-primary mt-4">
+              <button className="button-primary mt-4" onClick={onBrandVideoModalOpen}>
                 <span className="icon">
                   <IconPlay />
                 </span>
                 <span>{technology_video_item.technology_video_item_label}</span>
               </button>
             </div>
+            <div className={`modal ${showBrandVideoModal ? 'is-active' : ''}`}>
+              <div className="modal-background" onClick={onBrandVideoModalClose}></div>
+              <div className="modal-content  is-full">
+                <figure className="image is-16by9">
+                  <YouTube className="has-ratio" videoId={technology_video_item.mission_video_item_link} onReady={onBrandYoutubeReady} />
+                </figure>
+              </div>
+              <button className="modal-close is-large" aria-label="close" onClick={onBrandVideoModalClose}></button>
+            </div>
           </div>
         </div>
       </section>
+      {/* 
+        INFOGRAPHIC 
+      */}
       <section className="section infographic">
         <div className="container">
           <div className="columns">
@@ -169,17 +231,23 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
+      {/* 
+        TEAM 
+      */}
       <section className="section team" id="team">
         <div className="container text">
           <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{team_pretitle}</h5>
           <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{team_title}</h1>
         </div>
         <Team employees={employees} />
-        <div className="jobs mt-4" id="jobs">
+        <div className="vacancies-wrapper mt-4" id="jobs">
           <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
           <Vacancies vacancies={vacancies} />
         </div>
       </section>
+      {/* 
+        PARTNERS 
+      */}
       <section className="section partners">
         <div className="container">
           <div className="columns">
@@ -205,6 +273,9 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
+      {/* 
+        FOOTER 
+      */}
       <section className="section footer has-background-light mx-6 my-6" id="contact">
         <div className="container">
           <div className="columns">

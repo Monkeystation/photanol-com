@@ -38,7 +38,6 @@ class Roadmap extends React.Component {
   }
   
   handleStart = (e, data) => {
-    console.log('handleStart', e, data)
   }
   
   handleDrag = (e, data) => {
@@ -47,7 +46,6 @@ class Roadmap extends React.Component {
   }
   
   handleStop = (e, data) => {
-    console.log('handleStop', e, data)
     const {nrOfItems, activeItemId} = this.state
     var tlw = this.tlRef.getBoundingClientRect().width
     var target = (activeItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)

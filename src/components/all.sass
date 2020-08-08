@@ -22,6 +22,8 @@ $yellow: #FCEA0D
 
 $primary: $blue-900
 $primary-invert: $blue-300
+$scheme-invert: $blue-900
+$link: $blue-500
 
 // Typography
 $family-sans-serif: 'DM Sans', sans-serif
@@ -40,6 +42,7 @@ $size-7: 14px
 
 $fullhd: 1744px + (2 * $gap)
 $link-hover: $green-500
+$modal-content-width: 768px
 
 //Menu overrides
 $navbar-item-color: $blue-900
@@ -50,9 +53,54 @@ $navbar-item-active-background-color: $white
 $navbar-label-color: $black
 $navbar-breakpoint: $tablet
 
+$transition-duration: .3s
+
 .navbar
   position: sticky !important
   top: 0
+      
+@import "~bulma"
+@import "./roadmap"
+@import "./team"
+
+.green-text
+  color: $green-500
+  
+.blue-text
+  color: $blue-900
+  
+.blue-300-text
+  color: $blue-300
+
+.grey-text
+  color: $grey-600
+  
+.white-text
+  color: #fff
+
+.black-text
+  color: #000
+
+.modal
+  display: flex
+  visibility: hidden
+  .modal-background
+    transition: all $transition-duration
+    opacity: 0
+  .modal-content
+    transform: scale(0.7)
+    opacity: 0
+    transition: all $transition-duration
+    &.is-full
+      +tablet
+        width: 80%
+  &.is-active
+    visibility: visible
+    .modal-background
+      opacity: 1
+    .modal-content
+      transform: scale(1)
+      opacity: 1
 
 .button-primary
   cursor: pointer
@@ -122,81 +170,8 @@ $navbar-breakpoint: $tablet
       outline-color: $yellow !important
     &:active
       outline-color: transparent !important
-  
-.icon-play 
-  width: 25px
-  height: 25px
-  display: inline-block
 
-@import "~bulma"
-@import "./roadmap"
-@import "./team"
-
-.green-text
-  color: $green-500
-  
-.blue-text
-  color: $blue-900
-  
-.blue-300-text
-  color: $blue-300
-
-.grey-text
-  color: $grey-600
-  
-.white-text
-  color: #fff
-
-.black-text
-  color: #000
-  
-.intro 
-  height: 470px
-  position: relative
-  margin-top: 50px
-  padding-top: 0
-  padding-bottom: 0
-  +tablet
-    height: 560px
-  +fullhd
-    height: 768px
-
-.text-panel,
-.video-panel
-  width: 100%
-  height: 100% !important
-  overflow: hidden
-
-.video-panel video
-  height: 100%
-  object-fit: cover
-
-.text-panel-wrapper
-  position: absolute
-  left: 0
-  top: 0
-  width: 100%
-  height: 100%
-  padding-top: 0
-  padding-bottom: 0
-  
-.text-panel
-  padding-top: 100px
-  background-color: #F2F2F2
-  clip-path: inset(0% 0% 0% 0%)
-  
-.text-panel .text
-  position: absolute
-  left: 36px
-  top: 240px
-  +tablet
-    left: 328px
-    top: 96px
-  +desktop
-    left: 576px
-  +fullhd
-    left: 787px
-  
+// LOGO
 .logo-container
   width: 240px
   height: 240px
@@ -207,7 +182,7 @@ $navbar-breakpoint: $tablet
   position: absolute
   left: 0
   top: 0
-  z-index: 999
+  z-index: 30
   +tablet
     width: 264px
     height: 432px
@@ -217,14 +192,55 @@ $navbar-breakpoint: $tablet
   +fullhd
     width: 723px
     height: 775px
+  #logo-photanol
+    width: 50%
+    margin-top: -10%
+    +desktop
+      width: 40%
 
-#logo-photanol
-  width: 50%
-  margin-top: -10%
-  +desktop
-    width: 40%
+// INTRO
+.intro 
+  height: 470px
+  position: relative
+  margin-top: 50px
+  padding-top: 0
+  padding-bottom: 0
+  +tablet
+    height: 560px
+  +fullhd
+    height: 768px
+  .text-panel
+    height: 100% !important
+  .video-panel
+    margin: 0 1.5rem
+  .video-panel video
+    object-fit: cover
+  .text-panel-wrapper
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    padding-top: 0
+    padding-bottom: 0
+  .text-panel
+    padding-top: 100px
+    background-color: #F2F2F2
+    clip-path: inset(0% 0% 0% 0%)
+  .text-panel .text
+    position: absolute
+    left: 36px
+    top: 240px
+    +tablet
+      left: 328px
+      top: 96px
+    +desktop
+      left: 576px
+    +fullhd
+      left: 787px
 
-// Mission
+
+// MISSION
 .mission .title
   background: linear-gradient(30.91deg, #009EE2 1%, #05A0DE 5%, #15A4D1 10%, #2EACBB 15%, #51B69E 20%, #7EC477 25%, #B6D549 30%, #F6E812 35%, #FCEA0D 40%, #009EE2 51%, #05A0DE 55%, #15A4D1 60%, #2EACBB 65%, #51B69E 70%, #7EC477 75%, #B6D549 80%, #F6E812 85%, #FCEA0D 90%)
   background-size: 250% 100%;
@@ -238,65 +254,84 @@ $navbar-breakpoint: $tablet
   100%
     background-position: 100% 0%
 
-// Technology
-.technology .technology-text
-  column-count: 2
-  column-gap: 32px
+// TECHNOLOGY
+.technology 
+  .technology-text
+    column-count: 2
+    column-gap: 32px
   
-// Team
+// TEAM
 .team
   padding-left: 0
   padding-right: 0
+  .text,
+  .vacancies-wrapper
+    margin-left: 407px
+    +desktop
+      margin-left: 632px
+    +fullhd
+      margin-left: 832px
+  .vacancies-wrapper
+    max-width: 500px
+  .modal
+    .box
+      border-radius: 0
+      +tablet
+        padding: 5rem
+      
 
-.team .text,
-.team .jobs
-  margin-left: 407px
-  +desktop
-    margin-left: 632px
-  +fullhd
-    margin-left: 832px
+.vacancy-body
+  h4
+    margin-top: 3em
+    margin-bottom: 1em
+    font-weight: bold;
+  p
+    margin-top: 1em
+    margin-bottom: 1em
+    line-height: 137%
+  ul
+    list-style: none
+    margin-top: 1em
+    margin-bottom: 1em
+    padding-left: 30px
+    li
+      padding: 10px 0
+    li:before
+      content: url('../img/list.svg')
+      width: 16px
+      height: 16px
+      padding-right: 10px
+      margin-left: -26px
   
-.team .jobs
-  max-width: 500px
-  
-// Partners
-.partners .logos
-  align-items: center
-  flex-wrap: wrap
-  
-.partners .partner-logo
-  flex-basis: 20%
-  padding: 0 20px
-  
-.partners .side-image-column 
-  display: flex
-  border-left: 2px solid $grey-400
-  align-items: center
-  padding: 20px
-  
-.partners .side-image 
-  flex: 1
-  height:  180px
+// PARTNERS
+.partners 
+  .logos
+    align-items: center
+    flex-wrap: wrap
+  .partner-logo
+    flex-basis: 20%
+    padding: 0 20px
+  .side-image-column 
+    display: flex
+    border-left: 2px solid $grey-400
+    align-items: center
+    padding: 20px
+  .side-image 
+    flex: 1
+    height:  180px
 
-// Footer
-.footer .footer-elements
-  display: flex
-  align-items: space-between
-  flex-wrap: wrap
-
-.footer .footer-element
-  flex: 1
-  padding: 16px
-
-.footer .social-media 
-  display: flex
-  flex-wrap: no-wrap
-
-.footer .social-media > a
-  padding-right: 32px
-  
-// responsiveness
-+tablet-only
-
-+mobile
+// FOOTER
+.footer 
+  .footer-elements
+    display: flex
+    align-items: space-between
+    flex-wrap: wrap
+  .footer-element
+    flex: 1
+    padding: 16px
+  .social-media 
+    display: flex
+    flex-wrap: no-wrap
+  .social-media > a
+    padding-right: 32px
 
