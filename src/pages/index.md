@@ -160,7 +160,7 @@ team:
         * Development, supervision, training and support of junior lab personnel and interns
 
 
-        APPLY AND DEADLINE
+        #### APPLY AND DEADLINE
 
         Please send your cover letter and resume to [hiring@photanol.com](mailto:hiring@photanol.com)​
 
@@ -205,7 +205,7 @@ team:
         * Development of new strain engineering tools and research protocols
 
 
-        APPLY AND DEADLINE
+        #### APPLY AND DEADLINE
 
         Please send your cover letter and resume to [hiring@photanol.com](mailto:hiring@photanol.com)​
 
