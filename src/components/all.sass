@@ -36,9 +36,10 @@ $size-1: 100px
 $size-2: 66px
 $size-3: 42px
 $size-4: 36px
-$size-5: 20px
-$size-6: 16px
-$size-7: 14px
+$size-5: 28px
+$size-6: 20px
+$size-7: 16px
+$size-8: 14px
 
 $fullhd: 1744px + (2 * $gap)
 $link-hover: $green-500
@@ -106,7 +107,7 @@ $transition-duration: .3s
   cursor: pointer
   font-family: $family-serif
   font-weight: bold
-  font-size: $size-6
+  font-size: $size-7
   color: $primary
   display: inline-flex
   align-items: center
@@ -193,8 +194,10 @@ $transition-duration: .3s
     width: 723px
     height: 775px
   #logo-photanol
-    width: 50%
+    width: 40%
     margin-top: -10%
+    +tablet 
+      width: 50%
     +desktop
       width: 40%
 
@@ -202,7 +205,6 @@ $transition-duration: .3s
 .intro 
   height: 470px
   position: relative
-  margin-top: 50px
   padding-top: 0
   padding-bottom: 0
   +tablet
@@ -210,9 +212,25 @@ $transition-duration: .3s
   +fullhd
     height: 768px
   .text-panel
-    height: 100% !important
+    height: calc(100% - 40px) !important
+    background-color: #F2F2F2
+    clip-path: inset(0% 0% 0% 0%)
+    margin-right: 35px
+    .text
+      position: absolute
+      left: 36px
+      top: 240px
+      +tablet
+        left: 328px
+        top: 96px
+      +desktop
+        left: 576px
+      +fullhd
+        left: 787px
   .video-panel
-    margin: 0 1.5rem
+    margin-right: 35px
+    +mobile
+      display: block
   .video-panel video
     object-fit: cover
   .text-panel-wrapper
@@ -223,21 +241,7 @@ $transition-duration: .3s
     height: 100%
     padding-top: 0
     padding-bottom: 0
-  .text-panel
-    padding-top: 100px
-    background-color: #F2F2F2
-    clip-path: inset(0% 0% 0% 0%)
-  .text-panel .text
-    position: absolute
-    left: 36px
-    top: 240px
-    +tablet
-      left: 328px
-      top: 96px
-    +desktop
-      left: 576px
-    +fullhd
-      left: 787px
+    
 
 
 // MISSION
@@ -257,22 +261,30 @@ $transition-duration: .3s
 // TECHNOLOGY
 .technology 
   .technology-text
-    column-count: 2
-    column-gap: 32px
-  
+    column-count: 1
+    
+      column-count: 2
+      column-gap: 32px
+    
 // TEAM
 .team
   padding-left: 0
   padding-right: 0
   .text,
   .vacancies-wrapper
-    margin-left: 407px
+    margin-left: 1.5rem
+    margin-right: 1.5rem
+    +tablet
+      margin-left: 407px
     +desktop
       margin-left: 632px
     +fullhd
       margin-left: 832px
   .vacancies-wrapper
-    max-width: 500px
+    +tablet
+      max-width: 500px
+    .tile.is-parent
+      padding: 0
   .modal
     .box
       border-radius: 0
@@ -309,19 +321,31 @@ $transition-duration: .3s
     align-items: center
     flex-wrap: wrap
   .partner-logo
-    flex-basis: 20%
+    flex-basis: 50%
     padding: 0 20px
+    text-align: center
+    +tablet
+      flex-basis: 20%
+    img 
+
   .side-image-column 
     display: flex
-    border-left: 2px solid $grey-400
     align-items: center
-    padding: 20px
+    padding-top: 50px
+    border-top: 2px solid $grey-400
+    +tablet 
+      border-top: none
+      border-left: 2px solid $grey-400
+      padding: 30px
   .side-image 
     flex: 1
     height:  180px
 
 // FOOTER
 .footer 
+  margin: 1rem
+  +tablet
+    margin: 3rem
   .footer-elements
     display: flex
     align-items: space-between
@@ -331,7 +355,9 @@ $transition-duration: .3s
     padding: 16px
   .social-media 
     display: flex
-    flex-wrap: no-wrap
+    flex-wrap: wrap
+    +tablet
+      flex-wrap: nowrap
   .social-media > a
     padding-right: 32px
 

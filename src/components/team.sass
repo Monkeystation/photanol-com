@@ -1,10 +1,12 @@
 // Team
 .employees
-  margin-top: 50px
+  margin-top: 250px
   width: 100%
   display: block
   height: 500px
   position: relative
+  +tablet
+    margin-top: 50px
   
 .employees .items-wrapper
   position: relative
@@ -48,10 +50,14 @@
   
 .employees .images
   position: absolute
-  width: 375px
-  height: 780px
-  top: -170px
+  width: 300px
+  height: 400px
+  top: -230px
   left: 0
+  +tablet
+    top: -170px
+    width: 375px
+    height: 780px
   +desktop
     width: 600px
   +widescreen

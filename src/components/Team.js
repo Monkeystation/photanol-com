@@ -145,7 +145,7 @@ class Team extends React.Component {
                   <h3 className="is-size-4 is-size-3-desktop is-family-secondary white-text has-text-weight-bold">
                     {employee.employee_name}
                   </h3>
-                  <h5 className="is-size-5 blue-300-text has-text-weight-bold pb-3">
+                  <h5 className="is-size-7 blue-300-text has-text-weight-bold pb-3">
                     {employee.employee_function}
                   </h5>
                   <p className="white-text pt-5">{employee.employee_text}</p>

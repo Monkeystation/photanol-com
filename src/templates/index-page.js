@@ -98,9 +98,9 @@ export const IndexPageTemplate = ({
         INTRO 
       */}
       <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-        <Scene pin duration={500} offset={-100} indicators={false}>
+        <Scene pin duration={600} offset={0} indicators={false}>
           {(progress) => (
-          <section className="section intro">
+          <section className="intro">
             <div className="video-panel hero-video">
               <video poster={intro_video.poster.publicURL} playsInline autoPlay muted loop>
                 <source src={intro_video.file.publicURL} type="video/mp4" />
@@ -112,11 +112,11 @@ export const IndexPageTemplate = ({
               to={{ clipPath: 'inset(0 0 100% 0)' }}
               totalProgress={progress}
             >
-            <section className="section text-panel-wrapper">
+            <section className="text-panel-wrapper">
               <div className="text-panel">
                 <div className="container text">
-                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{intro_pretitle}</h5>
-                  <h1 className="title blue-text has-text-weight-bold is-size-4-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
+                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-size-7-mobile">{intro_pretitle}</h5>
+                  <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
                 </div>
               </div>
             </section>
@@ -132,8 +132,8 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{mission_pretitle}</h5>
-              <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission_title}</h1>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{mission_pretitle}</h5>
+              <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission_title}</h1>
               <button className="button-primary" onClick={onMissionVideoModalOpen}>
                 <span className="icon">
                   <IconPlay />
@@ -160,8 +160,8 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{solution_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{solution_title}</h1>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{solution_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution_title}</h1>
             </div>
           </div>
           <div className="columns">
@@ -178,8 +178,8 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle white-text has-text-weight-bold is-uppercase">{roadmap_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{roadmap_title}</h1>
+              <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-size-7-mobile">{roadmap_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap_title}</h1>
             </div>
           </div>
         </div>
@@ -192,8 +192,8 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{technology_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{technology_title}</h1>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{technology_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology_title}</h1>
             </div>
           </div>
           <div className="columns">
@@ -208,7 +208,7 @@ export const IndexPageTemplate = ({
             </div>
             <div className={`modal ${showBrandVideoModal ? 'is-active' : ''}`}>
               <div className="modal-background" onClick={onBrandVideoModalClose}></div>
-              <div className="modal-content  is-full">
+              <div className="modal-content is-full">
                 <figure className="image is-16by9">
                   <YouTube className="has-ratio" videoId={technology_video_item.mission_video_item_link} onReady={onBrandYoutubeReady} />
                 </figure>
@@ -225,7 +225,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1" >
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{infographic_pretitle}</h5>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{infographic_pretitle}</h5>
                 <img src="/img/infographic-placeholder.jpg" width='100%' />
             </div>
           </div>
@@ -236,8 +236,8 @@ export const IndexPageTemplate = ({
       */}
       <section className="section team" id="team">
         <div className="container text">
-          <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{team_pretitle}</h5>
-          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{team_title}</h1>
+          <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{team_pretitle}</h5>
+          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{team_title}</h1>
         </div>
         <Team employees={employees} />
         <div className="vacancies-wrapper mt-4" id="jobs">
@@ -252,8 +252,8 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{partners_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{partners_title}</h1>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{partners_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners_title}</h1>
               <div className="columns">
                 <div className="column is-three-quarters-tablet">
                   <Partners logos={partners_logos} />
@@ -276,12 +276,12 @@ export const IndexPageTemplate = ({
       {/* 
         FOOTER 
       */}
-      <section className="section footer has-background-light mx-6 my-6" id="contact">
+      <section className="section footer has-background-light" id="contact">
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase">{footer_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3">{footer_title}</h1>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{footer_pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer_title}</h1>
               <div className="footer-elements">
                 <div className="footer-element">
                   <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">General inquiries</h5>
