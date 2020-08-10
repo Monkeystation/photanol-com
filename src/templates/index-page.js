@@ -22,7 +22,7 @@ converter.setOption('simpleLineBreaks', true)
 export const IndexPageTemplate = ({
   intro_pretitle,
   intro_title,
-  intro_image,
+  intro_video,
   mission_pretitle,
   mission_title,
   mission_video_item,
@@ -102,8 +102,8 @@ export const IndexPageTemplate = ({
           {(progress) => (
           <section className="section intro">
             <div className="video-panel hero-video">
-              <video playsInline autoPlay muted loop>
-                <source src={intro_image.publicURL} type="video/mp4" />
+              <video poster={intro_video.poster.publicURL} playsInline autoPlay muted loop>
+                <source src={intro_video.file.publicURL} type="video/mp4" />
               </video>
             </div>
             <Tween
@@ -324,7 +324,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   intro_pretitle: PropTypes.string,
   intro_title: PropTypes.string,
-  intro_image: PropTypes.object,
+  intro_video: PropTypes.object,
   mission_pretitle: PropTypes.string,
   mission_title: PropTypes.string,
   mission_video_item: PropTypes.object,
@@ -363,7 +363,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         intro_pretitle={frontmatter.intro.intro_pretitle}
         intro_title={frontmatter.intro.intro_title}
-        intro_image={frontmatter.intro.intro_image}
+        intro_video={frontmatter.intro.intro_video}
         mission_pretitle={frontmatter.mission.mission_pretitle}
         mission_title={frontmatter.mission.mission_title}
         mission_video_item={frontmatter.mission.mission_video_item}
@@ -414,8 +414,13 @@ export const pageQuery = graphql`
         intro {
           intro_pretitle
           intro_title
-          intro_image {
-            publicURL
+          intro_video {
+            file {
+              publicURL
+            }
+            poster {
+              publicURL
+            }
           }
         }
         mission {

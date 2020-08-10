@@ -9,7 +9,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
       <IndexPageTemplate
         intro_pretitle={data.intro.intro_pretitle}
         intro_title={data.intro.intro_title}
-        intro_image={getAsset(data.intro.intro_image)}
+        intro_video={getAsset(data.intro.intro_video)}
         mission_pretitle={data.mission.mission_pretitle}
         mission_title={data.mission.mission_title}
         mission_video_item={data.mission.mission_video_item || {}}

@@ -21,7 +21,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           
-          - {label: Intro, name: intro, widget: object, fields: [{label: Pretitle, name: intro_pretitle, widget: string}, {label: Title, name: intro_title, widget: markdown}, {label: Video, name: intro_image, widget: file, allow_multiple: false}]}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Pretitle, name: intro_pretitle, widget: string}, {label: Title, name: intro_title, widget: markdown}, {label: Video, name: intro_video, widget: object, fields: [{label: Video file, name: file, widget: file, allow_multiple: false}, {label: Video poster, name: poster, widget: file, allow_multiple: false}]}]}
           
           - {label: Mission, name: mission, widget: object, fields: [{label: Pretitle, name: mission_pretitle, widget: string}, {label: Title, name: mission_title, widget: string}, {label: Brand Movie, name: mission_video_item, widget: object, fields: [{label: Label, name: mission_video_item_label, widget: string}, {label: Link, name: mission_video_item_link, widget: string}]}]}
           
