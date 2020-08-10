@@ -7,6 +7,9 @@ intro:
     into renewable
     carbon compounds.
   intro_image: /img/intro_video.mp4
+  intro_video:
+    file: /img/intro_video.mp4
+    poster: /img/intro_video_poster.jpg
 mission:
   mission_pretitle: what we stand for
   mission_title: Caring for a bright future on this planet, we believe in
