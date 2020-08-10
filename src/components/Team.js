@@ -142,7 +142,7 @@ class Team extends React.Component {
                 opacity: layout[index].itemOpacity,
               }}>
                 <div className="item-content" id={"item" + index} onClick={() => this.itemClick(index)}>
-                  <h3 className="is-size-4 is-size-3-desktop is-family-secondary white-text has-text-weight-bold">
+                  <h3 className="is-size-6 is-size-5-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold">
                     {employee.employee_name}
                   </h3>
                   <h5 className="is-size-7 blue-300-text has-text-weight-bold pb-3">

@@ -209,6 +209,7 @@ $transition-duration: .3s
   padding-bottom: 0
   +tablet
     height: 560px
+    margin-top: 50px
   +fullhd
     height: 768px
   .text-panel
@@ -216,6 +217,9 @@ $transition-duration: .3s
     background-color: #F2F2F2
     clip-path: inset(0% 0% 0% 0%)
     margin-right: 35px
+    +tablet
+      margin-left: 64px
+      margin-right: 64px
     .text
       position: absolute
       left: 36px
@@ -231,6 +235,9 @@ $transition-duration: .3s
     margin-right: 35px
     +mobile
       display: block
+    +tablet
+      margin-left: 64px
+      margin-right: 64px
   .video-panel video
     object-fit: cover
   .text-panel-wrapper
