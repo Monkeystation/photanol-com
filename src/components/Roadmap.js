@@ -122,7 +122,7 @@ class Roadmap extends React.Component {
                     <div className="item-elements">
                       <div className="item-element-top">
                         <h4 className="white-text has-text-centered has-text-weight-bold item-title">
-                          {item.roadmap_item_title}
+                          {item.title}
                         </h4>
                       </div>             
                       <div className="item-element-center item-images">
@@ -130,7 +130,7 @@ class Roadmap extends React.Component {
                           className="item-icon" 
                           style={{ width: imageSize, height: imageSize }} 
                           ref={el => this['itemImage' + index] = el} 
-                          src={item.roadmap_item_icon.publicURL} 
+                          src={item.icon.publicURL} 
                         />
                         <img className="item-image" 
                           style={{
@@ -138,12 +138,12 @@ class Roadmap extends React.Component {
                             opacity: layout[index].fade,              
                             }} 
                             ref={el => this['itemImage' + index] = el} 
-                            src={item.roadmap_item_image.publicURL}
+                            src={item.image.publicURL}
                           />
                       </div>
                       <div className="item-element-bottom">
                         <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
-                          {item.roadmap_item_year}
+                          {item.year}
                         </h2>
                       </div>
                     </div>
@@ -151,7 +151,7 @@ class Roadmap extends React.Component {
                       display: (layout[index].text) ? 'block' : 'none',
                       opacity: layout[index].fade,
                       }}  ref={el => this['itemText' + index] = el}>
-                      <p className="white-text">{item.roadmap_item_text}</p>
+                      <p className="white-text">{item.text}</p>
                     </div>
                   </div>
                 )}
@@ -166,11 +166,11 @@ class Roadmap extends React.Component {
 Roadmap.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
-      roadmap_item_year: PropTypes.string,
-      roadmap_item_title: PropTypes.string,
-      roadmap_item_text: PropTypes.string,
-      roadmap_item_icon: PropTypes.object,
-      roadmap_item_image: PropTypes.object,
+      year: PropTypes.string,
+      title: PropTypes.string,
+      text: PropTypes.string,
+      icon: PropTypes.object,
+      image: PropTypes.object,
     })
   ),
 }
