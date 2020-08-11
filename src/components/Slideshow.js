@@ -11,11 +11,10 @@ const Slideshow = ({ slideshow }) => {
   const height = (size.width / 3) / 16 * 9
   console.log(size, height)
   return (
-    <section className="section slideshow" style={{height: height}}>
     <Controller>
       <Scene triggerHook="onCenter" duration={height * 2} pin indicators={false}>
         {(progress) => (
-          
+          <section className="section slideshow" style={{height: height}}>
             <Tween
               from={{ top: '0%', right: '14%', paddingTop: '6%' }}
               to={{ bottom: '0%', left: '0%', paddingTop: '0%'  }}
@@ -64,11 +63,10 @@ const Slideshow = ({ slideshow }) => {
                 }} />
               </div>
             </Tween>
-          
+          </section>
         )}
       </Scene>
     </Controller>
-    </section>
   )
 }
 
@@ -90,25 +88,3 @@ Slideshow.propTypes = {
 }
 
 export default Slideshow
-
-/*
-<Scene triggerHook="onLeave" duration={1000} pin indicators={true}>
-        {(progress) => (
-          <Timeline totalProgress={progress} paused>
-            <Tween
-              from={{ x: '10%', top: '60%' }}
-              to={{ x: '60%', top: '10%' }}
-            >
-              <div className="image" id="image1">
-                <PreviewCompatibleImage imageInfo={{
-                  image: slideshow.image1.image, 
-                  alt: slideshow.image1.alt,
-                  style: {maxHeight: '100%'},
-                  imgStyle: {objectFit: 'contain'}
-                }} />
-              </div>
-            </Tween>
-          </Timeline>
-        )}
-      </Scene>
-      */
