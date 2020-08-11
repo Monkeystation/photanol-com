@@ -10,6 +10,7 @@ import YouTube from 'react-youtube'
 
 import Layout from '../components/Layout'
 import Roadmap from '../components/Roadmap'
+import Slideshow from '../components/Slideshow'
 import Team from '../components/Team'
 import Vacancies from '../components/Vacancies'
 import Partners from '../components/Partners'
@@ -27,6 +28,7 @@ export const IndexPageTemplate = ({
   roadmap,
   technology,
   infographic,
+  slideshow,
   team,
   vacancies,
   partners,
@@ -80,7 +82,7 @@ export const IndexPageTemplate = ({
         INTRO 
       */}
       <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-        <Scene pin duration={600} offset={0} indicators={false}>
+        <Scene pin duration={"100%"} offset={0} indicators={false}>
           {(progress) => (
           <section className="intro">
             <div className="video-panel hero-video">
@@ -93,6 +95,7 @@ export const IndexPageTemplate = ({
               from={{ clipPath: 'inset(0 0 0% 0)' }}
               to={{ clipPath: 'inset(0 0 100% 0)' }}
               totalProgress={progress}
+              ease={"power1.inOut"}
             >
             <section className="text-panel-wrapper">
               <div className="text-panel">
@@ -116,12 +119,12 @@ export const IndexPageTemplate = ({
             <div className="column is-12">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{mission.pretitle}</h5>
               <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
-              <button className="button-primary" onClick={onMissionVideoModalOpen}>
+              {/* <button className="button-primary" onClick={onMissionVideoModalOpen}>
                 <span className="icon">
                   <IconPlay />
                 </span>
                 <span>{mission.video_item.label}</span>
-              </button>
+              </button>*/}
             </div>
           </div>
         </div>
@@ -213,6 +216,10 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
+      {/* 
+        SLIDESHOW 
+      */}
+      <Slideshow slideshow={slideshow} />
       {/* 
         TEAM 
       */}
@@ -337,6 +344,20 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     items: PropTypes.object,
   }),
+  slideshow: PropTypes.shape({
+    image1: PropTypes.shape({
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      alt: PropTypes.string,
+    }),
+    image2: PropTypes.shape({
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      alt: PropTypes.string,
+    }),
+    image3: PropTypes.shape({
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      alt: PropTypes.string,
+    }),
+  }),
   team: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
@@ -369,6 +390,7 @@ const IndexPage = ({ data }) => {
         roadmap={frontmatter.roadmap}
         technology={frontmatter.technology}
         infographic={frontmatter.infographic}
+        slideshow={frontmatter.slideshow}
         team={frontmatter.team}
         vacancies={frontmatter.vacancies}
         partners={frontmatter.partners}

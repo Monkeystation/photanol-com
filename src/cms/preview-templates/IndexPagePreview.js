@@ -13,6 +13,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         roadmap={data.roadmap}
         technology={data.technology}
         infographic={data.infographic}
+        slideshow={data.slideshow}
         team={data.team}
         vacancies={data.vacancies}
         partners={data.partners}
