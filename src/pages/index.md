@@ -123,101 +123,101 @@ team:
         early stage development work and strategic decision-making at Photanol.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/klaas.jpg
-  vacancies:
-    - title: Researchers Strain Development Team
-      description_short: Photanol is opening a whole new research line in
-        collaboration with a new partner Renolit. Multiple positions are
-        available.
-      description_full: >-
-        Photanol is opening a whole new research line in collaboration with a
-        [new
-        partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
-        Multiple positions are available in the strain engineering team.
+vacancies:
+  - title: Researchers Strain Development Team
+    description_short: Photanol is opening a whole new research line in
+      collaboration with a new partner Renolit. Multiple positions are
+      available.
+    description_full: >-
+      Photanol is opening a whole new research line in collaboration with a
+      [new
+      partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
+      Multiple positions are available in the strain engineering team.
 
 
-        Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
+      Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
 
 
-        #### CHARACTERISTICS
+      #### CHARACTERISTICS
 
-        * Proven track record in molecular biology or biotechnology
+      * Proven track record in molecular biology or biotechnology
 
-        * PhD level in synthetic biology or >3-year experience in industrial R&D
+      * PhD level in synthetic biology or >3-year experience in industrial R&D
 
-        * Background with cyanobacterial research (photosynthesis & metabolism) or enzyme characterization
+      * Background with cyanobacterial research (photosynthesis & metabolism) or enzyme characterization
 
-        * Team player, versatile, performs under pressure
+      * Team player, versatile, performs under pressure
 
-        * Creative, but target-oriented
+      * Creative, but target-oriented
 
-        * Good report and writing skills, in English
-
-
-        #### RESPONSIBILITIES INCLUDE:
-
-        * Formulation of research strategy for green chemicals
-
-        * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment
-
-        * Development of new strain engineering tools and research protocols
-
-        * Application and development of molecular techniques for strain construction and evaluation
-
-        * Cultivating cyanobacteria to evaluate performance of developed strains
-
-        * Development, supervision, training and support of junior lab personnel and interns
+      * Good report and writing skills, in English
 
 
-        #### APPLY AND DEADLINE
+      #### RESPONSIBILITIES INCLUDE:
 
-        Please send your cover letter and resume to [hiring@photanol.com](mailto:hiring@photanol.com)​
+      * Formulation of research strategy for green chemicals
 
-        Closing date: 24 July 2020
-    - title: Junior Researchers Strain Development Team
-      description_short: Photanol is opening a whole new research line in
-        collaboration with a new partner Renolit. Multiple positions are
-        available.
-      description_full: >-
-        Photanol is opening a whole new research line in collaboration with a
-        [new
-        partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
-        Multiple positions are available in the strain engineering team.
+      * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment
 
+      * Development of new strain engineering tools and research protocols
 
-        Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
+      * Application and development of molecular techniques for strain construction and evaluation
+
+      * Cultivating cyanobacteria to evaluate performance of developed strains
+
+      * Development, supervision, training and support of junior lab personnel and interns
 
 
-        #### CHARACTERISTICS
+      #### APPLY AND DEADLINE
+
+      Please send your cover letter and resume to [hiring@photanol.com](mailto:hiring@photanol.com)​
+
+      Closing date: 24 July 2020
+  - title: Junior Researchers Strain Development Team
+    description_short: Photanol is opening a whole new research line in
+      collaboration with a new partner Renolit. Multiple positions are
+      available.
+    description_full: >-
+      Photanol is opening a whole new research line in collaboration with a
+      [new
+      partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
+      Multiple positions are available in the strain engineering team.
 
 
-        * Trained in molecular biology or biotechnology/systems biology (MSc/HLO level)
-
-        * Experience in industrial R&D and/or experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated
-
-        * Team player, versatile, performs under pressure
-
-        * Creative, but target-oriented
-
-        * Good report and writing skills, in English
+      Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
 
 
-        #### RESPONSIBILITIES INCLUDE:
+      #### CHARACTERISTICS
 
 
-        * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment
+      * Trained in molecular biology or biotechnology/systems biology (MSc/HLO level)
 
-        * Application/development of molecular techniques for strain construction and evaluation
+      * Experience in industrial R&D and/or experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated
 
-        * Cultivating cyanobacteria to evaluate performance of developed strains
+      * Team player, versatile, performs under pressure
 
-        * Development of new strain engineering tools and research protocols
+      * Creative, but target-oriented
+
+      * Good report and writing skills, in English
 
 
-        #### APPLY AND DEADLINE
+      #### RESPONSIBILITIES INCLUDE:
 
-        Please send your cover letter and resume to [hiring@photanol.com](mailto:hiring@photanol.com)​
 
-        Closing date: 24 July 2020
+      * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment
+
+      * Application/development of molecular techniques for strain construction and evaluation
+
+      * Cultivating cyanobacteria to evaluate performance of developed strains
+
+      * Development of new strain engineering tools and research protocols
+
+
+      #### APPLY AND DEADLINE
+
+      Please send your cover letter and resume to [hiring@photanol.com](mailto:hiring@photanol.com)​
+
+      Closing date: 24 July 2020
 partners:
   pretitle: we believe in working together
   title: We are proud of our ecosystem

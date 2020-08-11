@@ -370,7 +370,7 @@ const IndexPage = ({ data }) => {
         technology={frontmatter.technology}
         infographic={frontmatter.infographic}
         team={frontmatter.team}
-        vacancies={frontmatter.team.vacancies}
+        vacancies={frontmatter.vacancies}
         partners={frontmatter.partners}
         footer={frontmatter.footer}
       />
@@ -507,11 +507,11 @@ export const pageQuery = graphql`
               publicURL
             }
           }
-          vacancies {
-            title
-            description_short
-            description_full
-          }
+        }
+        vacancies {
+          title
+          description_short
+          description_full
         }
         partners {
           pretitle
