@@ -71,6 +71,8 @@ export const IndexPageTemplate = ({
     html.classList.remove("is-clipped")
   }
   
+  console.log(intro, PreviewCompatibleFile(intro.video.poster))
+  
   return (
     <div>
       <div className="logo-container"><LogoPhotanol /></div>
@@ -239,9 +241,9 @@ export const IndexPageTemplate = ({
                   <Partners logos={partners.logos} />
                 </div>
                 <div className="column side-image-column">
-                  <a className="side-image" href={partners.side_logo_link} target="_blank">
+                  <a className="side-image" href={partners.side_logo.link} target="_blank">
                     <PreviewCompatibleImage imageInfo={{
-                      image: partners.side_logo_image, 
+                      image: partners.side_logo.image, 
                       alt: '',
                       style: {maxHeight: '100%'},
                       imgStyle: {objectFit: 'contain'}

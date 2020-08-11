@@ -6,7 +6,7 @@ const PreviewCompatibleFile = (link) => {
   if (typeof link === 'string') {
     return link
   } else {
-    return link.publicUrl
+    return link.publicURL
   }
 
   return null

@@ -14,7 +14,7 @@ mission:
   title: Caring for a bright future on this planet, we believe in
     restoring balance through human ingenuity and utilising the power of nature.
   video_item:
-    label: Watch  brandmovie
+    label: Watch brandmovie
     link: ijMRUWfbp88
 solution:
   pretitle: what we are working on
@@ -74,8 +74,8 @@ technology:
 
     Our solution bypasses a whole range of resource-heavy activities in the production cycle of carbon compounds. 
   video_item:
-    label: Watch  corporate movie
-    link: https://www.youtube.com/watch?v=ijMRUWfbp88
+    label: Watch corporate movie
+    link: ijMRUWfbp88
 infographic:
   pretitle: Let us show you in detail
   items:
