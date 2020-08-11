@@ -92,6 +92,16 @@ infographic:
     infographic_stage6: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     infographic_stage7: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     infographic_stage8: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+slideshow:
+  image1:
+    image: /img/slide1.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
 team:
   team_pretitle: our people and culture
   team_title: Our great team behind it all
@@ -219,27 +229,38 @@ partners:
   partners_logos:
     - logo_image: /img/mibiton.svg
       logo_link: https://www.mibiton.nl/
+      alt: Mibiton
     - logo_image: /img/nouryon.svg
       logo_link: https://www.nouryon.com/
+      alt: Nouryon
     - logo_image: /img/renolit.svg
       logo_link: https://www.renolit.com/
+      alt: Renolit
     - logo_image: /img/uva.svg
       logo_link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
     - logo_image: /img/wef.svg
       logo_link: https://www.weforum.org/
+      alt: World Economic Forum
     - logo_image: /img/mibiton.svg
       logo_link: https://www.mibiton.nl/
+      alt: Mibiton
     - logo_image: /img/nouryon.svg
       logo_link: https://www.nouryon.com/
+      alt: Nouryon
     - logo_image: /img/renolit.svg
       logo_link: https://www.renolit.com/
+      alt: RENOLIT
     - logo_image: /img/uva.svg
       logo_link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
     - logo_image: /img/wef.svg
       logo_link: https://www.weforum.org/
+      alt: World Economic Forum
   partners_side_logo:
     side_logo_image: /img/renewable-carbon-logo.png
     side_logo_link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
 footer:
   footer_pretitle: let’s talk and stay up to date
   footer_title: Get in touch with us
