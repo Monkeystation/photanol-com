@@ -7,10 +7,10 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 const Partners = ({ logos }) => (
   <div className="logos is-flex">
     {logos.map((logo) => {
-      const logo_image = !!logo.logo_image.publicURL ? logo.logo_image.publicURL : logo.logo_image
+      const image = !!logo.image.publicURL ? logo.image.publicURL : logo.image
       return (
-        <a href={logo.logo_link} key={v4()} className="partner-logo" target="_blank">
-          <img src={logo_image} alt='' />
+        <a href={logo.link} key={v4()} className="partner-logo" target="_blank">
+          <img src={image} alt='' />
         </a>
       )
     }
@@ -21,8 +21,8 @@ const Partners = ({ logos }) => (
 Partners.propTypes = {
   logos: PropTypes.arrayOf(
     PropTypes.shape({
-      logo_image: PropTypes.object,
-      logo_link: PropTypes.string,
+      image: PropTypes.object,
+      link: PropTypes.string,
     })
   ),
 }

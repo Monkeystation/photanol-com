@@ -36,10 +36,10 @@ const Vacancies = ({ vacancies }) => {
         return (
           <div key={v4()} className="vacancy-card tile is-child pb-3">
             <p className="blue-text has-text-weight-bold">
-              {vacancy.vacancy_title}
+              {vacancy.title}
             </p>
             <p className="blue-text py-3">
-              {vacancy.vacancy_description_short}
+              {vacancy.description_short}
             </p>
             <button className="button-secondary is-grey" onClick={() => onVacancyButtonClick(vacancy)}>
               <span>{'VIEW VACANCY'}</span>
@@ -57,7 +57,7 @@ const Vacancies = ({ vacancies }) => {
         <div className="modal-content" ref={modalContent}>
           <div className="box">
             <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4">{vacancyData.vacancy_title}</h1>
-            <div className="vacancy-body blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancyData.vacancy_description_full)}}></div>
+            <div className="vacancy-body blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancyData.description_full)}}></div>
           </div>
         </div>
         <button className="modal-close is-large" aria-label="close" onClick={onVacancyModalClose}></button>
@@ -69,9 +69,9 @@ const Vacancies = ({ vacancies }) => {
 Vacancies.propTypes = {
   vacancies: PropTypes.arrayOf(
     PropTypes.shape({
-      vacancy_title: PropTypes.string,
-      vacancy_description_short: PropTypes.string,
-      vacancy_description_full: PropTypes.string,
+      title: PropTypes.string,
+      description_short: PropTypes.string,
+      description_full: PropTypes.string,
     })
   ),
 }

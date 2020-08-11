@@ -124,7 +124,7 @@ class Team extends React.Component {
       <div className="images">
         {employees.map((employee, index) => (
           <div key={v4()} className="employee-image" style={{
-            backgroundImage: `url(${employee.employee_image.publicURL})`,
+            backgroundImage: `url(${employee.image.publicURL})`,
             opacity: layout[index].imageOpacity}} 
           />
         ))}
@@ -143,12 +143,12 @@ class Team extends React.Component {
               }}>
                 <div className="item-content" id={"item" + index} onClick={() => this.itemClick(index)}>
                   <h3 className="is-size-6 is-size-5-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold">
-                    {employee.employee_name}
+                    {employee.name}
                   </h3>
                   <h5 className="is-size-7 blue-300-text has-text-weight-bold pb-3">
-                    {employee.employee_function}
+                    {employee.function}
                   </h5>
-                  <p className="white-text pt-5">{employee.employee_text}</p>
+                  <p className="white-text pt-5">{employee.text}</p>
                   <button className="button-secondary is-white">
                     <span className="icon">
                       <IconLinkedIn />
@@ -170,11 +170,11 @@ class Team extends React.Component {
 Team.propTypes = {
   employees: PropTypes.arrayOf(
     PropTypes.shape({
-      employee_name: PropTypes.string,
-      employee_function: PropTypes.string,
-      employee_text: PropTypes.string,
-      employee_linkedin: PropTypes.string,
-      employee_image: PropTypes.object,
+      name: PropTypes.string,
+      function: PropTypes.string,
+      text: PropTypes.string,
+      linkedin: PropTypes.string,
+      image: PropTypes.object,
     })
   ),
 }
