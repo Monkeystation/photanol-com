@@ -1,13 +1,12 @@
 ---
 templateKey: index-page
 intro:
-  intro_pretitle: powered by the sun
-  intro_title: |-
+  pretitle: powered by the sun
+  title: |-
     We transform CO₂
     into renewable
     carbon compounds.
-  intro_image: /img/intro_video.mp4
-  intro_video:
+  video:
     file: /img/intro_video.mp4
     poster: /img/intro_video_poster.jpg
 mission:

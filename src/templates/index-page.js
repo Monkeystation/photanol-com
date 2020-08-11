@@ -20,9 +20,7 @@ converter.setOption('simpleLineBreaks', true)
 
 
 export const IndexPageTemplate = ({
-  intro_pretitle,
-  intro_title,
-  intro_video,
+  intro,
   mission_pretitle,
   mission_title,
   mission_video_item,
@@ -102,8 +100,8 @@ export const IndexPageTemplate = ({
           {(progress) => (
           <section className="intro">
             <div className="video-panel hero-video">
-              <video poster={intro_video.poster.publicURL} playsInline autoPlay muted loop>
-                <source src={intro_video.file.publicURL} type="video/mp4" />
+              <video poster={intro.video.poster.publicURL} playsInline autoPlay muted loop>
+                <source src={intro.video.file.publicURL} type="video/mp4" />
               </video>
             </div>
             <Tween
@@ -115,8 +113,8 @@ export const IndexPageTemplate = ({
             <section className="text-panel-wrapper">
               <div className="text-panel">
                 <div className="container text">
-                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-size-7-mobile">{intro_pretitle}</h5>
-                  <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro_title)}}></h1>
+                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-size-7-mobile">{intro.pretitle}</h5>
+                  <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro.title)}}></h1>
                 </div>
               </div>
             </section>
@@ -322,9 +320,17 @@ export const IndexPageTemplate = ({
 }
 
 IndexPageTemplate.propTypes = {
-  intro_pretitle: PropTypes.string,
-  intro_title: PropTypes.string,
-  intro_video: PropTypes.object,
+  intro: PropTypes.shape({
+    pretitle: PropTypes.string,
+    title: PropTypes.string,
+    video: PropTypes.shape({
+      file: PropTypes.object,
+      poster: PropTypes.object,
+    })
+  }),
+  //intro_pretitle: PropTypes.string,
+  //intro_title: PropTypes.string,
+  //intro_video: PropTypes.object,
   mission_pretitle: PropTypes.string,
   mission_title: PropTypes.string,
   mission_video_item: PropTypes.object,
@@ -361,9 +367,10 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        intro_pretitle={frontmatter.intro.intro_pretitle}
-        intro_title={frontmatter.intro.intro_title}
-        intro_video={frontmatter.intro.intro_video}
+        intro={frontmatter.intro}
+        //intro_pretitle={frontmatter.intro.intro_pretitle}
+        //intro_title={frontmatter.intro.intro_title}
+        //intro_video={frontmatter.intro.intro_video}
         mission_pretitle={frontmatter.mission.mission_pretitle}
         mission_title={frontmatter.mission.mission_title}
         mission_video_item={frontmatter.mission.mission_video_item}
@@ -412,9 +419,9 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         intro {
-          intro_pretitle
-          intro_title
-          intro_video {
+          pretitle
+          title
+          video {
             file {
               publicURL
             }
@@ -489,6 +496,38 @@ export const pageQuery = graphql`
             infographic_stage8
           }
         }
+        slideshow {
+          image1 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1280, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }   
+            alt
+          }
+          image2 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1280, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            alt
+          }
+          image3 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1280, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            alt
+          }
+        }
         team {
           team_pretitle
           team_title
@@ -515,16 +554,18 @@ export const pageQuery = graphql`
               publicURL
             }
             logo_link
+            alt
           }
           partners_side_logo {
-            side_logo_link
             side_logo_image {
               childImageSharp {
                 fluid(maxWidth: 500, quality: 60) {
                   ...GatsbyImageSharpFluid
                 }
               }
-            }         
+            }
+            side_logo_link
+            alt
           } 
         }
         footer {
