@@ -14,6 +14,7 @@ import Team from '../components/Team'
 import Vacancies from '../components/Vacancies'
 import Partners from '../components/Partners'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
@@ -21,15 +22,18 @@ converter.setOption('simpleLineBreaks', true)
 
 export const IndexPageTemplate = ({
   intro,
-  mission_pretitle,
-  mission_title,
-  mission_video_item,
-  solution_pretitle,
-  solution_title,
-  solution_animation,
-  roadmap_pretitle,
-  roadmap_title,
-  roadmap_items,
+  mission,
+  solution,
+  roadmap,
+//  mission_pretitle,
+//  mission_title,
+//  mission_video_item,
+//  solution_pretitle,
+//  solution_title,
+//  solution_animation,
+//  roadmap_pretitle,
+//  roadmap_title,
+//  roadmap_items,
   technology_pretitle,
   technology_title,
   technology_image,
@@ -100,8 +104,8 @@ export const IndexPageTemplate = ({
           {(progress) => (
           <section className="intro">
             <div className="video-panel hero-video">
-              <video poster={intro.video.poster.publicURL} playsInline autoPlay muted loop>
-                <source src={intro.video.file.publicURL} type="video/mp4" />
+              <video poster={PreviewCompatibleFile(intro.video.poster)} playsInline autoPlay muted loop>
+                <source src={PreviewCompatibleFile(intro.video.file)} type="video/mp4" />
               </video>
             </div>
             <Tween
@@ -130,13 +134,13 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{mission_pretitle}</h5>
-              <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission_title}</h1>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{mission.pretitle}</h5>
+              <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
               <button className="button-primary" onClick={onMissionVideoModalOpen}>
                 <span className="icon">
                   <IconPlay />
                 </span>
-                <span>{mission_video_item.mission_video_item_label}</span>
+                <span>{mission.video_item.label}</span>
               </button>
             </div>
           </div>
@@ -145,7 +149,7 @@ export const IndexPageTemplate = ({
           <div className="modal-background" onClick={onMissionVideoModalClose}></div>
           <div className="modal-content is-full">
             <figure className="image is-16by9">
-              <YouTube className="has-ratio" videoId={mission_video_item.mission_video_item_link} onReady={onMissionYoutubeReady} />
+              <YouTube className="has-ratio" videoId={mission.video_item.link} onReady={onMissionYoutubeReady} />
             </figure>
           </div>
           <button className="modal-close is-large" aria-label="close" onClick={onMissionVideoModalClose}></button>
@@ -158,8 +162,8 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{solution_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution_title}</h1>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{solution.pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution.title}</h1>
             </div>
           </div>
           <div className="columns">
@@ -176,12 +180,12 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-size-7-mobile">{roadmap_pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap_title}</h1>
+              <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-size-7-mobile">{roadmap.pretitle}</h5>
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
             </div>
           </div>
         </div>
-        <Roadmap items={roadmap_items} />
+        <Roadmap items={roadmap.items} />
       </section>
       {/* 
         TECHNOLOGY 
@@ -324,22 +328,37 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     video: PropTypes.shape({
-      file: PropTypes.object,
-      poster: PropTypes.object,
+      file: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      poster: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     })
+  }),
+  mission: PropTypes.shape({
+    pretitle: PropTypes.string,
+    title: PropTypes.string,
+    video_item: PropTypes.object,
+  }),
+  solution: PropTypes.shape({
+    pretitle: PropTypes.string,
+    title: PropTypes.string,
+    animation: PropTypes.object,
+  }),
+  roadmap: PropTypes.shape({
+    pretitle: PropTypes.string,
+    title: PropTypes.string,
+    items: PropTypes.array,
   }),
   //intro_pretitle: PropTypes.string,
   //intro_title: PropTypes.string,
   //intro_video: PropTypes.object,
-  mission_pretitle: PropTypes.string,
-  mission_title: PropTypes.string,
-  mission_video_item: PropTypes.object,
-  solution_pretitle: PropTypes.string,
-  solution_title: PropTypes.string,
-  solution_animation: PropTypes.object,
-  roadmap_pretitle: PropTypes.string,
-  roadmap_title: PropTypes.string,
-  roadmap_items: PropTypes.array,
+//  mission_pretitle: PropTypes.string,
+//  mission_title: PropTypes.string,
+//  mission_video_item: PropTypes.object,
+//  solution_pretitle: PropTypes.string,
+//  solution_title: PropTypes.string,
+//  solution_animation: PropTypes.object,
+//  roadmap_pretitle: PropTypes.string,
+//  roadmap_title: PropTypes.string,
+//  roadmap_items: PropTypes.array,
   technology_pretitle: PropTypes.string,
   technology_title: PropTypes.string,
   technology_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -368,18 +387,21 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         intro={frontmatter.intro}
+        mission={frontmatter.mission}
+        solution={frontmatter.solution}
+        roadmap={frontmatter.roadmap}
         //intro_pretitle={frontmatter.intro.intro_pretitle}
         //intro_title={frontmatter.intro.intro_title}
         //intro_video={frontmatter.intro.intro_video}
-        mission_pretitle={frontmatter.mission.mission_pretitle}
-        mission_title={frontmatter.mission.mission_title}
-        mission_video_item={frontmatter.mission.mission_video_item}
-        solution_pretitle={frontmatter.solution.solution_pretitle}
-        solution_title={frontmatter.solution.solution_title}
-        solution_animation={frontmatter.solution.solution_animation}
-        roadmap_pretitle={frontmatter.roadmap.roadmap_pretitle}
-        roadmap_title={frontmatter.roadmap.roadmap_title}
-        roadmap_items={frontmatter.roadmap.roadmap_items}
+        //mission_pretitle={frontmatter.mission.mission_pretitle}
+        //mission_title={frontmatter.mission.mission_title}
+        //mission_video_item={frontmatter.mission.mission_video_item}
+        //solution_pretitle={frontmatter.solution.solution_pretitle}
+        //solution_title={frontmatter.solution.solution_title}
+        //solution_animation={frontmatter.solution.solution_animation}
+        //roadmap_pretitle={frontmatter.roadmap.roadmap_pretitle}
+        //roadmap_title={frontmatter.roadmap.roadmap_title}
+        //roadmap_items={frontmatter.roadmap.roadmap_items}
         technology_pretitle={frontmatter.technology.technology_pretitle}
         technology_title={frontmatter.technology.technology_title}
         technology_image={frontmatter.technology.technology_image}
@@ -431,38 +453,38 @@ export const pageQuery = graphql`
           }
         }
         mission {
-          mission_pretitle
-          mission_title
-          mission_video_item {
-            mission_video_item_label
-            mission_video_item_link
+          pretitle
+          title
+          video_item {
+            label
+            link
           }
         }
         solution {
-          solution_pretitle
-          solution_title
-          solution_animation {
-            solution_animation_title1
-            solution_animation_title2
-            solution_animation_title3
-            solution_animation_title4
-            solution_animation_title5
-            solution_animation_title6
-            solution_animation_title7
-            solution_animation_title8
+          pretitle
+          title
+          animation {
+            title1
+            title2
+            title3
+            title4
+            title5
+            title6
+            title7
+            title8
           }
         }
         roadmap {
-          roadmap_pretitle
-          roadmap_title
-          roadmap_items {
-            roadmap_item_year
-            roadmap_item_title
-            roadmap_item_text
-            roadmap_item_icon {
+          pretitle
+          title
+          items {
+            year
+            title
+            text
+            icon {
               publicURL
             }
-            roadmap_item_image {
+            image {
               publicURL
             }
           }

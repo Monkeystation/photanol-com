@@ -10,60 +10,57 @@ intro:
     file: /img/intro_video.mp4
     poster: /img/intro_video_poster.jpg
 mission:
-  mission_pretitle: what we stand for
-  mission_title: Caring for a bright future on this planet, we believe in
+  pretitle: what we stand for
+  title: Caring for a bright future on this planet, we believe in
     restoring balance through human ingenuity and utilising the power of nature.
-  mission_video_item:
-    mission_video_item_label: Watch  brandmovie
-    mission_video_item_link: ijMRUWfbp88
-  mission_image: /img/coffee-gear.png
+  video_item:
+    label: Watch  brandmovie
+    link: ijMRUWfbp88
 solution:
-  solution_pretitle: what we are working on
-  solution_title: The future is circular production
-  solution_animation:
-    solution_animation_title1: "Oil is used to create the chemicals to create products "
-    solution_animation_title2: Products are made and delivered to shops
-    solution_animation_title3: Which in turn turns to waste
-    solution_animation_title4: All while harmfull co2 pollutes the air
-    solution_animation_title5: "Bacteria are modified to consumes CO2 "
-    solution_animation_title6: The chemical are now renewable
-    solution_animation_title7: Just like before products are delivered
-    solution_animation_title8: But we’ve closed the circle
-  solution_image: /img/coffee-gear.png
-  solution_button: Lalala
+  pretitle: what we are working on
+  title: The future is circular production
+  animation:
+    title1: "Oil is used to create the chemicals to create products "
+    title2: Products are made and delivered to shops
+    title3: Which in turn turns to waste
+    title4: All while harmfull co2 pollutes the air
+    title5: "Bacteria are modified to consumes CO2 "
+    title6: The chemical are now renewable
+    title7: Just like before products are delivered
+    title8: But we’ve closed the circle
 roadmap:
-  roadmap_pretitle: it is looking bright
-  roadmap_title: Past, present and future
-  roadmap_items:
-    - roadmap_item_year: "2016"
-      roadmap_item_title: Strategic partnership with Nouryon
-      roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  pretitle: it is looking bright
+  title: Past, present and future
+  items:
+    - year: "2016"
+      title: Strategic partnership with Nouryon
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
-      roadmap_item_icon: /img/roadmap-item-icon.png
-      roadmap_item_image: /img/roadmap-item-image.jpg
-    - roadmap_item_year: "2019"
-      roadmap_item_title: Validation in pilot plant
-      roadmap_item_icon: /img/roadmap-item-icon.png
-      roadmap_item_image: /img/roadmap-item-image.jpg
-      roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
+    - year: "2019"
+      title: Validation in pilot plant
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
-    - roadmap_item_year: "2020"
-      roadmap_item_title: Demonstration plant construction
-      roadmap_item_icon: /img/roadmap-item-icon.png
-      roadmap_item_image: /img/roadmap-item-image.jpg
-      roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - year: "2020"
+      title: Demonstration plant construction
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
-    - roadmap_item_year: "2021"
-      roadmap_item_title: Demonstration plan operational
-      roadmap_item_icon: /img/roadmap-item-icon.png
-      roadmap_item_image: /img/roadmap-item-image.jpg
-      roadmap_item_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - year: "2021"
+      title: Demonstration plan operational
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
         scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
         bibendum
