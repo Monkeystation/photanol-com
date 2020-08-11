@@ -14,7 +14,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         technology={data.technology}
         infographic={data.infographic}
         team={data.team}
-        vacancies={data.team.vacancies}
+        vacancies={data.vacancies}
         partners={data.partners}
         footer={data.footer}
       />

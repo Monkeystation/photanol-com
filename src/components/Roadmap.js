@@ -4,6 +4,7 @@ import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import Draggable from 'react-draggable'
 import { TweenLite } from 'gsap/all'
+import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 
 const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600
@@ -130,7 +131,7 @@ class Roadmap extends React.Component {
                           className="item-icon" 
                           style={{ width: imageSize, height: imageSize }} 
                           ref={el => this['itemImage' + index] = el} 
-                          src={item.icon.publicURL} 
+                          src={PreviewCompatibleFile(item.icon)} 
                         />
                         <img className="item-image" 
                           style={{
@@ -138,7 +139,7 @@ class Roadmap extends React.Component {
                             opacity: layout[index].fade,              
                             }} 
                             ref={el => this['itemImage' + index] = el} 
-                            src={item.image.publicURL}
+                            src={PreviewCompatibleFile(item.image)}
                           />
                       </div>
                       <div className="item-element-bottom">

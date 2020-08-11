@@ -5,6 +5,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 import {IconLinkedIn} from './Icons'
 import Draggable from 'react-draggable'
 import { TweenLite } from 'gsap/all'
+import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 
 const ITEM_WIDTH = 382
 const ITEM_WIDTH_TABLET = 280
@@ -124,7 +125,7 @@ class Team extends React.Component {
       <div className="images">
         {employees.map((employee, index) => (
           <div key={v4()} className="employee-image" style={{
-            backgroundImage: `url(${employee.image.publicURL})`,
+            backgroundImage: `url(${PreviewCompatibleFile(employee.image)})`,
             opacity: layout[index].imageOpacity}} 
           />
         ))}
