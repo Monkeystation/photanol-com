@@ -386,6 +386,10 @@ $transition-duration: .3s
   .logos
     align-items: center
     flex-wrap: wrap
+    border-bottom: 1px solid $grey-400
+    +tablet 
+      border-bottom: none
+      border-right: 1px solid $grey-400
   .partner-logo
     flex-basis: 50%
     padding: 0 20px
@@ -398,10 +402,7 @@ $transition-duration: .3s
     display: flex
     align-items: center
     padding-top: 50px
-    border-top: 2px solid $grey-400
     +tablet 
-      border-top: none
-      border-left: 2px solid $grey-400
       padding: 30px
   .side-image 
     flex: 1
