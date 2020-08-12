@@ -83,7 +83,7 @@ export const IndexPageTemplate = ({
         INTRO 
       */}
       <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-        <Scene pin duration={"100%"} offset={0} indicators={false}>
+        <Scene pin duration={"100%"} offset={-80} indicators={false}>
           {(progress) => (
           <section className="intro">
             <div className="video-panel hero-video">
@@ -240,12 +240,15 @@ export const IndexPageTemplate = ({
           </div>
         </ScrollRevealTween>
         <Team employees={team.employees} />
-        <div className="vacancies-wrapper mt-4" id="jobs">
-          <ScrollRevealTween>
-            <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
-          </ScrollRevealTween>
-          <Vacancies vacancies={vacancies} />
-        </div>
+      </section>
+      {/* 
+        JOBS 
+      */}
+      <section className="jobs vacancies-wrapper mt-4" id="jobs">
+        <ScrollRevealTween>
+          <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
+        </ScrollRevealTween>
+        <Vacancies vacancies={vacancies} />
       </section>
       {/* 
         PARTNERS 

@@ -32,6 +32,7 @@
     "react-draggable": "^4.4.3",
     "react-gsap": "^2.2.1",
     "react-helmet": "^6.0.0",
+    "react-scroll": "^1.8.1",
     "react-scrollmagic": "^2.2.0",
     "react-youtube": "^7.11.3",
     "showdown": "^1.9.1",

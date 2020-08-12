@@ -46,6 +46,7 @@ $link-hover: $green-500
 $modal-content-width: 768px
 
 //Menu overrides
+$navbar-height: 5rem
 $navbar-item-color: $blue-900
 $navbar-item-hover-color: $green-500 !important
 $navbar-item-hover-background-color: $white
@@ -59,7 +60,7 @@ $transition-duration: .3s
 .navbar
   position: sticky !important
   top: 0
-      
+  
 @import "~bulma"
 @import "./roadmap"
 @import "./team"
@@ -209,7 +210,6 @@ $transition-duration: .3s
   padding-bottom: 0
   +tablet
     height: 560px
-    margin-top: 50px
   +fullhd
     height: 768px
   .text-panel
@@ -253,8 +253,8 @@ $transition-duration: .3s
 
 // MISSION
 .mission .title
-  background: linear-gradient(30.91deg, #009EE2 1%, #05A0DE 5%, #15A4D1 10%, #2EACBB 15%, #51B69E 20%, #7EC477 25%, #B6D549 30%, #F6E812 35%, #FCEA0D 40%, #009EE2 51%, #05A0DE 55%, #15A4D1 60%, #2EACBB 65%, #51B69E 70%, #7EC477 75%, #B6D549 80%, #F6E812 85%, #FCEA0D 90%)
-  background-size: 250% 100%;
+  background: linear-gradient(45deg, #4CB4E7 0%, #62B55A 12.5%, #FCEA0D 25%, #62B55A 37.5%, #4CB4E7 50%, #62B55A 62.5%, #FCEA0D 75%, #62B55A 87.5%, #4CB4E7 100%)
+  background-size: 400% 100%;
   -webkit-background-clip: text
   -webkit-text-fill-color: transparent
   -webkit-animation: AnimationName 20s linear infinite
@@ -263,7 +263,7 @@ $transition-duration: .3s
   0%
     background-position: 0% 0%
   100%
-    background-position: 100% 0%
+    background-position: 200% 0%
 
 // TECHNOLOGY
 .technology 
@@ -287,8 +287,8 @@ $transition-duration: .3s
 .team
   padding-left: 0
   padding-right: 0
-  .text,
-  .vacancies-wrapper
+  padding-bottom: 0
+  .text
     margin-left: 1.5rem
     margin-right: 1.5rem
     +tablet
@@ -297,17 +297,23 @@ $transition-duration: .3s
       margin-left: 632px
     +fullhd
       margin-left: 832px
-  .vacancies-wrapper
-    +tablet
-      max-width: 500px
-    .tile.is-parent
-      padding: 0
+
+//  JOBS
+.jobs
+  margin-left: 1.5rem
+  margin-right: 1.5rem
+  +tablet
+    margin-left: 407px
+    max-width: 500px
+  +desktop
+    margin-left: 632px
+  +fullhd
+    margin-left: 832px
   .modal
     .box
       border-radius: 0
       +tablet
         padding: 5rem
-      
 
 .vacancy-body
   h4

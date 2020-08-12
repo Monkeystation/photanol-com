@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from 'react-scroll'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -55,20 +55,20 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="#product">
-                Product
+              <Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={500} offset={-50}>
+                product
               </Link>
-              <Link className="navbar-item" to="#technology">
-                Technology
+              <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} smooth={true} duration={500} offset={-50}>
+                technology
               </Link>
-              <Link className="navbar-item" to="#team">
-                Team
+              <Link className="navbar-item" activeClass="is-active" to="team" spy={true} smooth={true} duration={500} offset={-50}>
+                team
               </Link>
-              <Link className="navbar-item" to="#jobs">
-                Jobs
+              <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} smooth={true} duration={500} offset={-100}>
+                jobs
               </Link>
-              <Link className="navbar-item" to="#contact">
-                Contact
+              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} smooth={true} duration={500} offset={-50}>
+                contact
               </Link>
             </div>
           </div>
@@ -79,3 +79,29 @@ const Navbar = class extends React.Component {
 }
 
 export default Navbar
+
+/*
+
+ <li><Link activeClass="active" to="first" spy={true} smooth={true} duration={250} containerId="containerElement">1st element</Link></li>
+ 
+ 
+<Link className="navbar-item" to="#product">
+  Product
+</Link>
+<Link className="navbar-item" to="#technology">
+  Technology
+</Link>
+<Link className="navbar-item" to="#team">
+  Team
+</Link>
+<Link className="navbar-item" to="#jobs">
+  Jobs
+</Link>
+<Link className="navbar-item" to="#contact">
+  Contact
+</Link>
+
+
+
+
+*/
