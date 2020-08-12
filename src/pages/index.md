@@ -88,14 +88,25 @@ roadmap:
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
 technology:
-  pretitle: this is how we do it
-  title: Use natural all-in-one mini factories
+  pretitle: WE WORK WITH CYANO-BACTERIA
+  title: A natural, all-in-one circular factory
   text: >-
-    Our solution bypasses a whole range of resource-heavy activities in the
-    production cycle of carbon compounds. By combining photosynthesis and
-    fermentation capabilities in cyano bacteria, we efficiently and cost. 
+    Today’s petrochemicals used for our daily plastics, materials and products
+    mean mining more fossil fuels, pumping more carbon into the atmosphere. Yet
+    scientists agree we have less than ten years before the point of the no
+    return, if we continue business as unusual. 
 
-    Our solution bypasses a whole range of resource-heavy activities in the production cycle of carbon compounds. 
+
+    Photanol is business as unusual. 
+
+
+    We can make any chemical compound - and therefore the monomers and polymers used for different plastics - clean, renewable and circular. Leaving fossil fuel in the ground. Extracting CO2  from the atmosphere. Using just sunlight and water. We do it with innovation that follows nature’s lead. 
+
+
+    Photanol’s platform technology uses the natural power of cyano-bacteria; the bacteria that uses sunlight to drive photosynthesis - to create any organic acid. Think of it as an all-in-one, renewable factory. The Photanol process absorbs CO2 - transforming it from harmful waste energy into circular feedstock, and adapts the cyano-bacteria’s metabolic pathways to produce any desired chemical. Super efficiently and with just oxygen as downstream by-product.
+
+
+    In our short history, we’ve collaborated to develop biodegradable, circular plastic packaging, clean pharmaceuticals and beauty products. Our latest partnership will see us transform the polymers used across the healthcare industry to biofuelled variants. And, we’re just getting started. Photanol is the systemic change manufacturing needs to keep us below 1.5o  rise; a biotech revolution.
   video_item:
     label: Watch corporate movie
     link: ijMRUWfbp88
@@ -121,16 +132,30 @@ slideshow:
     image: /img/slide3.jpg
     alt: Bioplastics
 team:
-  pretitle: our people and culture
-  title: Our great team behind it all
+  pretitle: MEET THE TEAM
+  title: Our passion is our purpose
   employees:
-    - name: Maria João Correia
-      function: Junior Researcher
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum dui
-        metus, non tincidunt libero convallis sit amet. Aenean volutpat sit amet
-        sapien at vestibulum. Ut rutrum neque quis imperdiet molestie. "
+    - name: Veronique de Bruijn, MBA
+      function: CEO
+      text: Véronique has been an Investment director at ICOS Capital, previously she
+        raised early-stage funding for 3 companies as an independent consultant
+        and corporate finance role at PwC in the Netherlands.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/maria.jpg
+    - name: Prof. dr. Klaas Hellingwerf
+      function: CSO
+      text: Klaas is one of our co-founders and a highly respected academic
+        microbiologist at the University of Amsterdam. He is very active in the
+        early stage development work and strategic decision-making at Photanol.
+      linkedin: https://www.linkedin.com/in/monkeystation/
+      image: /img/klaas.jpg
+    - name: Paul Koekoek
+      function: Director of Operations
+      text: Paul has over 25 years of process & manufacturing experience and is highly
+        skilled in process engineering, hazard, analysis, critical control
+        points and GMP. Paul studied Chemical Engineering in Groningen.
+      linkedin: https://www.linkedin.com/in/monkeystation/
+      image: /img/klaas.jpg
     - name: Peter Brenninkmeijer
       function: CFO
       text: Peter has a track record in fundraising, cash flow management and taking
@@ -138,13 +163,14 @@ team:
         always seeking creative solutions.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/peter.jpg
-    - name: " Klaas Hellingwerf"
-      function: CSO
-      text: Klaas is one of our co-founders and a highly respected academic
-        microbiologist at the University of Amsterdam. He is very active in the
-        early stage development work and strategic decision-making at Photanol.
+    - name: Caroline van der Horst
+      function: CTO (INTERIM)
+      text: Caroline is an experienced director of R&D with over 20 years of
+        experience in industry. Caroline is a research professional, skilled in
+        innovation management, bio-technology, product innovation and product
+        development.
       linkedin: https://www.linkedin.com/in/monkeystation/
-      image: /img/klaas.jpg
+      image: /img/maria.jpg
 vacancies:
   - title: Researchers Strain Development Team
     description_short: Photanol is opening a whole new research line in
