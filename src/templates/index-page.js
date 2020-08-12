@@ -101,7 +101,7 @@ export const IndexPageTemplate = ({
             <section className="text-panel-wrapper">
               <div className="text-panel">
                 <div className="container text">
-                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-size-7-mobile">{intro.pretitle}</h5>
+                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{intro.pretitle}</h5>
                   <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro.title)}}></h1>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-12">      
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{mission.pretitle}</h5>
+              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
               <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
               {/* <button className="button-primary" onClick={onMissionVideoModalOpen}>
                 <span className="icon">
@@ -147,7 +147,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <ScrollRevealTween>
               <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{solution.pretitle}</h5>
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{solution.pretitle}</h5>
                 <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution.title}</h1>
               </div>
             </ScrollRevealTween>
@@ -167,13 +167,13 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <ScrollRevealTween>
               <div className="column is-12">
-                <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-size-7-mobile">{roadmap.pretitle}</h5>
+                <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-7">{roadmap.pretitle}</h5>
                 <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
               </div>
             </ScrollRevealTween>
           </div>
         </div>
-        <Roadmap items={roadmap.items} />
+        <Roadmap active={roadmap.active} items={roadmap.items} />
       </section>
       {/* 
         TECHNOLOGY 
@@ -183,7 +183,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <ScrollRevealTween>
               <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{technology.pretitle}</h5>
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{technology.pretitle}</h5>
                 <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology.title}</h1>
               </div>
             </ScrollRevealTween>
@@ -218,7 +218,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1" >
               <ScrollRevealTween>
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{infographic.pretitle}</h5>
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
               </ScrollRevealTween>
               <img src="/img/infographic-placeholder.jpg" width='100%' />
             </div>
@@ -235,7 +235,7 @@ export const IndexPageTemplate = ({
       <section className="section team" id="team">
         <ScrollRevealTween>
           <div className="container text">
-            <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{team.pretitle}</h5>
+            <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{team.pretitle}</h5>
             <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{team.title}</h1>
           </div>
         </ScrollRevealTween>
@@ -246,7 +246,7 @@ export const IndexPageTemplate = ({
       */}
       <section className="jobs vacancies-wrapper mt-4" id="jobs">
         <ScrollRevealTween>
-          <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
+          <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
         </ScrollRevealTween>
         <Vacancies vacancies={vacancies} />
       </section>
@@ -258,7 +258,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <ScrollRevealTween>
               <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{partners.pretitle}</h5>
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{partners.pretitle}</h5>
                 <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners.title}</h1>
               </div>
             </ScrollRevealTween>
@@ -288,7 +288,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <ScrollRevealTween>
               <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{footer.pretitle}</h5>
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{footer.pretitle}</h5>
                 <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer.title}</h1>
               </div>
             </ScrollRevealTween>
@@ -356,6 +356,7 @@ IndexPageTemplate.propTypes = {
   roadmap: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
+    active: PropTypes.number,
     items: PropTypes.array,
   }),
   technology: PropTypes.shape({
@@ -475,6 +476,7 @@ export const pageQuery = graphql`
         roadmap {
           pretitle
           title
+          active
           items {
             year
             title

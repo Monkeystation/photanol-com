@@ -5,6 +5,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 import Draggable from 'react-draggable'
 import { TweenLite } from 'gsap/all'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import Cursor from '../components/Cursor'
 
 const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600
@@ -29,9 +30,10 @@ class Roadmap extends React.Component {
   }
   
   componentDidMount() {
+    const {active} = this.props
     const {nrOfItems} = this.state
     var sw = this.tlRef.getBoundingClientRect().width
-    var startPos = (sw / 2) - (ACTIVE_ITEM_WIDTH / 2)
+    var startPos = (sw / 2) - ((active - 1) * ITEM_WIDTH) - (ACTIVE_ITEM_WIDTH / 2)
     this.updateItems(startPos)
   }
 
@@ -108,6 +110,7 @@ class Roadmap extends React.Component {
     const {position, layout, tweenTarget} = this.state        
     return (
       <div className="timeline" ref={el => this.tlRef = el}>
+        {this.tlRef &&  (<Cursor parent={this.tlRef} />)}
         <div className="line" />
         <Draggable
           axis="x"
@@ -165,6 +168,7 @@ class Roadmap extends React.Component {
 }
 
 Roadmap.propTypes = {
+  active: PropTypes.number,
   items: PropTypes.arrayOf(
     PropTypes.shape({
       year: PropTypes.string,

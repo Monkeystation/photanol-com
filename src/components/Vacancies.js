@@ -56,7 +56,7 @@ const Vacancies = ({ vacancies }) => {
         <div className="modal-background" onClick={onVacancyModalClose}></div>
         <div className="modal-content" ref={modalContent}>
           <div className="box">
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4">{vacancyData.vacancy_title}</h1>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4">{vacancyData.title}</h1>
             <div className="vacancy-body blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancyData.description_full)}}></div>
           </div>
         </div>

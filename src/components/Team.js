@@ -6,6 +6,7 @@ import {IconLinkedIn} from './Icons'
 import Draggable from 'react-draggable'
 import { TweenLite } from 'gsap/all'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import Cursor from '../components/Cursor'
 
 const ITEM_WIDTH = 382
 const ITEM_WIDTH_TABLET = 280
@@ -122,48 +123,48 @@ class Team extends React.Component {
     const {position, layout, tweenTarget} = this.state  
     return (
       <div className="employees" ref={el => this.emRef = el}>
-      <div className="images">
-        {employees.map((employee, index) => (
-          <div key={v4()} className="employee-image" style={{
-            backgroundImage: `url(${PreviewCompatibleFile(employee.image)})`,
-            opacity: layout[index].imageOpacity}} 
-          />
-        ))}
-      </div>
-      <div className="items-wrapper">
-        <Draggable
-            axis="x"
-            position={{x: position, y: 0}}
-            onStart={this.handleStart}
-            onDrag={this.handleDrag}
-            onStop={this.handleStop}>
-          <div className="items" ref={el => this.itemsRef = el}>
-            {employees.map((employee, index) => (
-              <div key={v4()} className="item" ref={el => this['item' + index] = el} style={{
-                opacity: layout[index].itemOpacity,
-              }}>
-                <div className="item-content" id={"item" + index} onClick={() => this.itemClick(index)}>
-                  <h3 className="is-size-6 is-size-5-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold">
-                    {employee.name}
-                  </h3>
-                  <h5 className="is-size-7 blue-300-text has-text-weight-bold pb-3">
-                    {employee.function}
-                  </h5>
-                  <p className="white-text pt-5">{employee.text}</p>
-                  <button className="button-secondary is-white">
-                    <span className="icon">
-                      <IconLinkedIn />
-                    </span>
-                    <span>{'VIEW PROFILE'}</span>
-                  </button>
+        {this.emRef &&  (<Cursor parent={this.emRef} />)}
+        <div className="images">
+          {employees.map((employee, index) => (
+            <div key={v4()} className="employee-image" style={{
+              backgroundImage: `url(${PreviewCompatibleFile(employee.image)})`,
+              opacity: layout[index].imageOpacity}} 
+            />
+          ))}
+        </div>
+        <div className="items-wrapper">
+          <Draggable
+              axis="x"
+              position={{x: position, y: 0}}
+              onStart={this.handleStart}
+              onDrag={this.handleDrag}
+              onStop={this.handleStop}>
+            <div className="items" ref={el => this.itemsRef = el}>
+              {employees.map((employee, index) => (
+                <div key={v4()} className="item" ref={el => this['item' + index] = el} style={{
+                  opacity: layout[index].itemOpacity,
+                }}>
+                  <div className="item-content" id={"item" + index} onClick={() => this.itemClick(index)}>
+                    <h3 className="title is-size-6 is-size-5-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold pb-2">
+                      {employee.name}
+                    </h3>
+                    <h5 className="subtitle is-size-6 blue-300-text has-text-weight-bold">
+                      {employee.function}
+                    </h5>
+                    <p className="white-text">{employee.text}</p>
+                    <button className="button-secondary is-white">
+                      <span className="icon">
+                        <IconLinkedIn />
+                      </span>
+                      <span>{'VIEW PROFILE'}</span>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            )
-          )}
-          </div>
-        </Draggable>
-      </div>
-    </div> 
+              ))}
+            </div>
+          </Draggable>
+        </div>
+      </div> 
     )
   }
 }

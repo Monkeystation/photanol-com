@@ -9,7 +9,6 @@ import useWindowSize from '../hooks/useWindowSize'
 const Slideshow = ({ slideshow }) => {
   const size = useWindowSize()
   const height = (size.width / 3) / 16 * 9
-  console.log(size, height)
   return (
     <Controller>
       <Scene triggerHook="onCenter" duration={height * 2} pin indicators={false}>
