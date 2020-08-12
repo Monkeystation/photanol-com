@@ -104,9 +104,6 @@ technology:
 
 
     Photanol’s platform technology uses the natural power of cyano-bacteria; the bacteria that uses sunlight to drive photosynthesis - to create any organic acid. Think of it as an all-in-one, renewable factory. The Photanol process absorbs CO2 - transforming it from harmful waste energy into circular feedstock, and adapts the cyano-bacteria’s metabolic pathways to produce any desired chemical. Super efficiently and with just oxygen as downstream by-product.
-
-
-    In our short history, we’ve collaborated to develop biodegradable, circular plastic packaging, clean pharmaceuticals and beauty products. Our latest partnership will see us transform the polymers used across the healthcare industry to biofuelled variants. And, we’re just getting started. Photanol is the systemic change manufacturing needs to keep us below 1.5o  rise; a biotech revolution.
   video_item:
     label: Watch corporate movie
     link: ijMRUWfbp88
