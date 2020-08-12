@@ -87,6 +87,7 @@ roadmap:
       title: STRATEGIC PARTNERSHIP WITH RENOIT
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
+  active: 3
 technology:
   pretitle: WE WORK WITH CYANO-BACTERIA
   title: A natural, all-in-one circular factory
