@@ -5,7 +5,7 @@ import showdown from 'showdown'
 import Img from 'gatsby-image'
 import {LogoPhotanol, IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
 import { Controller, Scene } from 'react-scrollmagic'
-import { Tween } from 'react-gsap'
+import { Reveal, Tween } from 'react-gsap'
 import YouTube from 'react-youtube'
 
 import Layout from '../components/Layout'
@@ -16,6 +16,7 @@ import Vacancies from '../components/Vacancies'
 import Partners from '../components/Partners'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import ScrollRevealTween from '../hooks/ScrollRevealTween'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
@@ -116,7 +117,7 @@ export const IndexPageTemplate = ({
       <section className="section mission">
         <div className="container">
           <div className="columns">
-            <div className="column is-12">
+            <div className="column is-12">      
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{mission.pretitle}</h5>
               <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
               {/* <button className="button-primary" onClick={onMissionVideoModalOpen}>
@@ -144,10 +145,12 @@ export const IndexPageTemplate = ({
       <section className="section solution" id="product">
         <div className="container">
           <div className="columns">
-            <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{solution.pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution.title}</h1>
-            </div>
+            <ScrollRevealTween>
+              <div className="column is-12">
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{solution.pretitle}</h5>
+                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution.title}</h1>
+              </div>
+            </ScrollRevealTween>
           </div>
           <div className="columns">
             <div className="column is-8 is-offset-2">
@@ -162,10 +165,12 @@ export const IndexPageTemplate = ({
       <section className="section roadmap has-background-primary">
         <div className="container">
           <div className="columns">
-            <div className="column is-12">
-              <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-size-7-mobile">{roadmap.pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
-            </div>
+            <ScrollRevealTween>
+              <div className="column is-12">
+                <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-size-7-mobile">{roadmap.pretitle}</h5>
+                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
+              </div>
+            </ScrollRevealTween>
           </div>
         </div>
         <Roadmap items={roadmap.items} />
@@ -176,10 +181,12 @@ export const IndexPageTemplate = ({
       <section className="section technology" id="technology">
         <div className="container">
           <div className="columns">
-            <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{technology.pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology.title}</h1>
-            </div>
+            <ScrollRevealTween>
+              <div className="column is-12">
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{technology.pretitle}</h5>
+                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology.title}</h1>
+              </div>
+            </ScrollRevealTween>
           </div>
           <div className="columns">
             <div className="column is-9 is-8-desktop text-columns">
@@ -210,8 +217,10 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1" >
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{infographic.pretitle}</h5>
-                <img src="/img/infographic-placeholder.jpg" width='100%' />
+              <ScrollRevealTween>
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{infographic.pretitle}</h5>
+              </ScrollRevealTween>
+              <img src="/img/infographic-placeholder.jpg" width='100%' />
             </div>
           </div>
         </div>
@@ -224,13 +233,15 @@ export const IndexPageTemplate = ({
         TEAM 
       */}
       <section className="section team" id="team">
-        <div className="container text">
-          <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{team.pretitle}</h5>
-          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{team.title}</h1>
-        </div>
+        <ScrollRevealTween>
+          <div className="container text">
+            <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{team.pretitle}</h5>
+            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{team.title}</h1>
+          </div>
+        </ScrollRevealTween>
         <Team employees={team.employees} />
         <div className="vacancies-wrapper mt-4" id="jobs">
-          <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
+            <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
           <Vacancies vacancies={vacancies} />
         </div>
       </section>
@@ -240,24 +251,26 @@ export const IndexPageTemplate = ({
       <section className="section partners">
         <div className="container">
           <div className="columns">
-            <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{partners.pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners.title}</h1>
-              <div className="columns">
-                <div className="column is-three-quarters-tablet">
-                  <Partners logos={partners.logos} />
-                </div>
-                <div className="column side-image-column">
-                  <a className="side-image" href={partners.side_logo.link} target="_blank">
-                    <PreviewCompatibleImage imageInfo={{
-                      image: partners.side_logo.image, 
-                      alt: '',
-                      style: {maxHeight: '100%'},
-                      imgStyle: {objectFit: 'contain'}
-                    }} />
-                  </a>
-                </div>
+            <ScrollRevealTween>
+              <div className="column is-12">
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{partners.pretitle}</h5>
+                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners.title}</h1>
               </div>
+            </ScrollRevealTween>
+          </div>
+          <div className="columns">
+            <div className="column is-three-quarters-tablet">
+              <Partners logos={partners.logos} />
+            </div>
+            <div className="column side-image-column">
+              <a className="side-image" href={partners.side_logo.link} target="_blank">
+                <PreviewCompatibleImage imageInfo={{
+                  image: partners.side_logo.image, 
+                  alt: '',
+                  style: {maxHeight: '100%'},
+                  imgStyle: {objectFit: 'contain'}
+                }} />
+              </a>
             </div>
           </div>
         </div>
@@ -268,9 +281,15 @@ export const IndexPageTemplate = ({
       <section className="section footer has-background-light" id="contact">
         <div className="container">
           <div className="columns">
+            <ScrollRevealTween>
+              <div className="column is-12">
+                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{footer.pretitle}</h5>
+                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer.title}</h1>
+              </div>
+            </ScrollRevealTween>
+          </div>
+          <div className="columns">
             <div className="column is-12">
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-size-7-mobile">{footer.pretitle}</h5>
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer.title}</h1>
               <div className="footer-elements">
                 <div className="footer-element">
                   <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">EVERYTHING PHOTANOL</h5>
