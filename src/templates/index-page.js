@@ -182,8 +182,8 @@ export const IndexPageTemplate = ({
             </div>
           </div>
           <div className="columns">
-            <div className="column is-8 text-columns">
-              <p className="blue-text technology-text">{technology.text}</p>
+            <div className="column is-9 is-8-desktop text-columns">
+              <p className="blue-text technology-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(technology.text)}}></p>
               <button className="button-primary mt-4" onClick={onBrandVideoModalOpen}>
                 <span className="icon">
                   <IconPlay />
