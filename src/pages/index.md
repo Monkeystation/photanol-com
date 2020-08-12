@@ -1,18 +1,18 @@
 ---
 templateKey: index-page
 intro:
-  pretitle: powered by the sun
+  pretitle: A BIOTECH REVOLUTION
   title: |-
-    We transform CO₂
+    We turn CO₂
     into renewable
-    carbon compounds.
+    circular chemicals.
   video:
     file: /img/intro_video.mp4
     poster: /img/intro_video_poster.jpg
 mission:
   pretitle: what we stand for
-  title: Caring for a bright future on this planet, we believe in
-    restoring balance through human ingenuity and utilising the power of nature.
+  title: Caring for a bright future on this planet, we believe in restoring
+    balance through human ingenuity and utilising the power of nature.
   video_item:
     label: Watch brandmovie
     link: ijMRUWfbp88
@@ -36,34 +36,30 @@ roadmap:
       title: Strategic partnership with Nouryon
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-        scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-        bibendum
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2019"
       title: Validation in pilot plant
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-        scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-        bibendum
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2020"
       title: Demonstration plant construction
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-        scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-        bibendum
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2021"
       title: Demonstration plan operational
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Integer sed bibendum leo, ac congue lorem. Morbi sed elit vel nibh
-        scelerisque semper sit amet mattis mi.  adipiscing elit. Integer sed
-        bibendum
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
 technology:
   pretitle: this is how we do it
   title: Use natural all-in-one mini factories
@@ -103,17 +99,16 @@ team:
   employees:
     - name: Maria João Correia
       function: Junior Researcher
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-        dictum dui metus, non tincidunt libero convallis sit amet. Aenean
-        volutpat sit amet sapien at vestibulum. Ut rutrum neque quis imperdiet
-        molestie. "
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum dui
+        metus, non tincidunt libero convallis sit amet. Aenean volutpat sit amet
+        sapien at vestibulum. Ut rutrum neque quis imperdiet molestie. "
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/maria.jpg
     - name: Peter Brenninkmeijer
       function: CFO
-      text: Peter has a track record in fundraising, cash flow management and
-        taking companies to market. Peter is managing change in the organization
-        and always seeking creative solutions.
+      text: Peter has a track record in fundraising, cash flow management and taking
+        companies to market. Peter is managing change in the organization and
+        always seeking creative solutions.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/peter.jpg
     - name: " Klaas Hellingwerf"
@@ -129,8 +124,7 @@ vacancies:
       collaboration with a new partner Renolit. Multiple positions are
       available.
     description_full: >-
-      Photanol is opening a whole new research line in collaboration with a
-      [new
+      Photanol is opening a whole new research line in collaboration with a [new
       partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
       Multiple positions are available in the strain engineering team.
 
@@ -178,8 +172,7 @@ vacancies:
       collaboration with a new partner Renolit. Multiple positions are
       available.
     description_full: >-
-      Photanol is opening a whole new research line in collaboration with a
-      [new
+      Photanol is opening a whole new research line in collaboration with a [new
       partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
       Multiple positions are available in the strain engineering team.
 
