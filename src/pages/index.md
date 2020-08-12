@@ -32,35 +32,35 @@ roadmap:
   title: "Photanol: then, now and in the future "
   items:
     - year: "2016"
-      title: THE FIRST PATENT
+      title: The first patent
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2019"
-      title: PLATFORM SPIN-OUT
+      title: Platform spin-out
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2020"
-      title: STRATEGIC PARTNERSHIP WITH CORBION
+      title: Strategic partnership with Corbion
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2021"
-      title: STRATEGIC PARTNERSHIP WITH NOURYON
+      title: Strategic partnership with Nouryon
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2021"
-      title: PILOT PLANT VALIDATION
+      title: Pilot plant validation
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
@@ -70,21 +70,21 @@ roadmap:
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
       year: "2021"
-      title: FIRST DEMONSTRATION PLANT
+      title: First demonstration plant
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
     - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
       year: "2021"
-      title: DEMO PLANT STARTS PRODUCTION
+      title: Demo plant starts production
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
     - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
       year: "2021"
-      title: STRATEGIC PARTNERSHIP WITH RENOIT
+      title: Strategic partnership with Renoit
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
   active: 3
