@@ -158,6 +158,7 @@ class Team extends React.Component {
                       </span>
                       <span>{'VIEW PROFILE'}</span>
                     </button>
+                    <div className="gradient-box" />
                   </div>
                 </div>
               ))}
