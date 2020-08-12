@@ -241,7 +241,9 @@ export const IndexPageTemplate = ({
         </ScrollRevealTween>
         <Team employees={team.employees} />
         <div className="vacancies-wrapper mt-4" id="jobs">
+          <ScrollRevealTween>
             <h5 className="subtitle green-text has-text-weight-bold is-uppercase">{'VACANCIES'}</h5>
+          </ScrollRevealTween>
           <Vacancies vacancies={vacancies} />
         </div>
       </section>
