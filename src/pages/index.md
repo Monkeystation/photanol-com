@@ -265,8 +265,8 @@ vacancies:
 
       Closing date: 24 July 2020
 partners:
-  pretitle: we believe in working together
-  title: We are proud of our ecosystem
+  pretitle: OUR PARTNERS
+  title: The future needs allies
   logos:
     - image: /img/mibiton.svg
       link: https://www.mibiton.nl/
@@ -303,8 +303,8 @@ partners:
     link: https://www.renewable-carbon.eu
     alt: Renewable Carbon
 footer:
-  pretitle: let’s talk and stay up to date
-  title: Get in touch with us
+  pretitle: JOIN THE REVOLUTION
+  title: Change is created together
   links:
     email_general: contact@photanol.com
     email_press: press@photanol.com
