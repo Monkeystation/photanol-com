@@ -273,19 +273,19 @@ export const IndexPageTemplate = ({
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer.title}</h1>
               <div className="footer-elements">
                 <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">General inquiries</h5>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">EVERYTHING PHOTANOL</h5>
                   <div><a href={`mailto:${footer.links.email_general}`} className="black-text">{footer.links.email_general}</a></div>
                 </div>
                 <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">press & interviews</h5>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">PRESS & INTERVIEWS</h5>
                   <div><a href={`mailto:${footer.links.email_press}`} className="black-text">{footer.links.email_press}</a></div>
                 </div>
                 <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">vacancies</h5>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">JOB OPPORTUNITIES</h5>
                   <div><a href={`mailto:${footer.links.email_vacancies}`} className="black-text">{footer.links.email_vacancies}</a></div>
                 </div>
                 <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">Follow us on social media</h5>
+                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-7">JOIN THE REVOLUTION ON:</h5>
                   <div className="social-media">
                     <a href={footer.links.link_twitter} target="_blank" className="button-secondary">
                       <span className="icon"><IconTwitter /></span>
