@@ -10,15 +10,14 @@ intro:
     file: /img/intro_video.mp4
     poster: /img/intro_video_poster.jpg
 mission:
-  pretitle: what we stand for
-  title: Caring for a bright future on this planet, we believe in restoring
-    balance through human ingenuity and utilising the power of nature.
+  pretitle: TRANSFORMING THE INDUSTRY TO BIOFUEL
+  title: We exist to restore balance on our planet.
   video_item:
     label: Watch brandmovie
     link: ijMRUWfbp88
 solution:
-  pretitle: what we are working on
-  title: The future is circular production
+  pretitle: WITH THE PLATFORM TECHNOLOGY FOR ANY COMPOUND
+  title: We are leading the circular chemistry revolution.
   animation:
     title1: "Oil is used to create the chemicals to create products "
     title2: Products are made and delivered to shops
@@ -29,37 +28,65 @@ solution:
     title7: Just like before products are delivered
     title8: But we’ve closed the circle
 roadmap:
-  pretitle: it is looking bright
-  title: Past, present and future
+  pretitle: "A GROWING REVOLUTION "
+  title: "Photanol: then, now and in the future "
   items:
     - year: "2016"
-      title: Strategic partnership with Nouryon
+      title: THE FIRST PATENT
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2019"
-      title: Validation in pilot plant
+      title: PLATFORM SPIN-OUT
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2020"
-      title: Demonstration plant construction
+      title: STRATEGIC PARTNERSHIP WITH CORBION
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
     - year: "2021"
-      title: Demonstration plan operational
+      title: STRATEGIC PARTNERSHIP WITH NOURYON
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+    - year: "2021"
+      title: PILOT PLANT VALIDATION
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
+    - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      year: "2021"
+      title: FIRST DEMONSTRATION PLANT
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
+    - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      year: "2021"
+      title: DEMO PLANT STARTS PRODUCTION
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
+    - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
+        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
+        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      year: "2021"
+      title: STRATEGIC PARTNERSHIP WITH RENOIT
+      icon: /img/roadmap-item-icon.png
+      image: /img/roadmap-item-image.jpg
 technology:
   pretitle: this is how we do it
   title: Use natural all-in-one mini factories
