@@ -31,35 +31,35 @@ roadmap:
   pretitle: "A GROWING REVOLUTION "
   title: "Photanol: then, now and in the future "
   items:
-    - year: "2016"
+    - year: "2008"
       title: The first patent
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
-    - year: "2019"
+    - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
-    - year: "2020"
+    - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
-    - year: "2021"
+    - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
-    - year: "2021"
+    - year: "2019"
       title: Pilot plant validation
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
@@ -69,7 +69,7 @@ roadmap:
     - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
         bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
         semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
-      year: "2021"
+      year: "2020"
       title: First demonstration plant
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
@@ -87,7 +87,7 @@ roadmap:
       title: Strategic partnership with Renoit
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-  active: 3
+  active: 6
 technology:
   pretitle: WE WORK WITH CYANO-BACTERIA
   title: A natural, all-in-one circular factory
