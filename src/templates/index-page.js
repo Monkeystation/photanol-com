@@ -80,7 +80,7 @@ export const IndexPageTemplate = ({
         INTRO 
       */}
       <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-        <Scene pin duration={600} offset={-80} indicators={true}>
+        <Scene pin duration={600} offset={-80} indicators={false}>
           {(progress) => (
           <section className="intro">
             <div className="video-panel hero-video">
