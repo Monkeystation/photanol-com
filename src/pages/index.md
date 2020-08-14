@@ -34,7 +34,7 @@ roadmap:
     - year: "2008"
       title: The first patent
       icon: /img/roadmap-item-icon.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/1-the-first-patent.jpg
       text: "Our biotech revolution was officially born when we gained our first
         patent. Filed in 2008 by Prof. Klaas Hellingwerf (our CSO). Prof. Klaas’
         lab trials at UvA (University of Amsterdam) led to the successful
@@ -54,7 +54,7 @@ roadmap:
     - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap-item-icon.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/2-strategic-partnership-corbion.jpg
       text: >-
         A partner with a specific expertise and commercial need; Corbion is a
         fermentation expert. They make a whole load of lactic acid – the raw
@@ -68,7 +68,7 @@ roadmap:
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap-item-icon.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/3-strategic-partnership-nouryon.jpg
       text: Glycolic acid was our next target. Widely used in the cosmetics industry,
         with over 95% of the world’s cosmetic products containing it. To develop
         our circular strain, we partnered with Nouryon (the sustainable
@@ -85,7 +85,7 @@ roadmap:
         could prove cost, waste and energy efficiency throughout the entire
         process.
       icon: /img/roadmap-item-icon.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/4-pilot-plant-validation.jpg
     - text: "Our most recent triumph was securing the funding for the first commercial
         scale plant. The Photanol process takes place in tubes. So, in essence,
         when we scale up it’s as simple as laying more tubes and making sure we
@@ -96,7 +96,7 @@ roadmap:
       year: "2020"
       title: First demonstration plant
       icon: /img/roadmap-item-icon.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/5-first-demonstration-plant.jpg
     - text: "This grand milestone, and bricks and mortar proof of our game-changer
         power will produce up to 10 tons per year. It’s the intermediary step to
         producing the kilotons needed for the largest scale commercial needs.
@@ -107,7 +107,7 @@ roadmap:
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap-item-icon.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/6-demo-plant-starts-production.jpg
     - text: Our third strategic partnership joined the Photanol journey in 2020,
         paving the way to prove our capabilities in yet another sector;
         healthcare. Renolit produces polymers for the global medical world and
@@ -116,7 +116,7 @@ roadmap:
       year: "2021"
       title: Strategic partnership with Renoit
       icon: /img/roadmap-item-icon.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/7-strategic-partnership-renolit.jpg
   active: 6
 technology:
   pretitle: HOW IT WORKS
