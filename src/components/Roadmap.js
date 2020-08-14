@@ -56,7 +56,9 @@ class Roadmap extends React.Component {
     const {nrOfItems, activeItemId, oldActiveItemId} = this.state
     var tlw = this.tlRef.getBoundingClientRect().width
     var targetItemId = activeItemId
-    if (activeItemId === oldActiveItemId) targetItemId = dir + activeItemId
+    if (activeItemId === oldActiveItemId) {
+      targetItemId = Math.max(Math.min((dir + activeItemId), (nrOfItems - 1)), 0)
+    }
     var target = (targetItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)
     var position = -target + (tlw / 2)
     
@@ -98,7 +100,9 @@ class Roadmap extends React.Component {
         layout[i].fade = 0
       }
     }
-    
+    if (activeItemId === null) {
+      activeItemId = (position > 0) ? 0 : (nrOfItems - 1)
+    }
     this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
