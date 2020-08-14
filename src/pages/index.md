@@ -119,22 +119,16 @@ roadmap:
       image: /img/roadmap-item-image.jpg
   active: 6
 technology:
-  pretitle: WE WORK WITH CYANO-BACTERIA
-  title: A natural, all-in-one circular factory
-  text: >-
-    Today’s petrochemicals used for our daily plastics, materials and products
-    mean mining more fossil fuels, pumping more carbon into the atmosphere. Yet
-    scientists agree we have less than ten years before the point of the no
-    return, if we continue business as unusual. 
+  pretitle: HOW IT WORKS
+  title: Our natural, all-in-one factories
+  text: >
+    Photanol is business-as-natural. 
 
 
-    Photanol is business as unusual. 
+    We can make any compound, and therefore the monomers and polymers used for different plastics - clean, renewable and circular. Leaving fossil fuel in the ground. Extracting CO2  from the air. Using just sunlight and minimal water. We do it with innovation that follows nature’s lead. 
 
 
-    We can make any chemical compound - and therefore the monomers and polymers used for different plastics - clean, renewable and circular. Leaving fossil fuel in the ground. Extracting CO2  from the atmosphere. Using just sunlight and water. We do it with innovation that follows nature’s lead. 
-
-
-    Photanol’s platform technology uses the natural power of cyano-bacteria; the bacteria that uses sunlight to drive photosynthesis - to create any organic acid. Think of it as an all-in-one, renewable factory. The Photanol process absorbs CO2 - transforming it from harmful waste energy into circular feedstock, and adapts the cyano-bacteria’s metabolic pathways to produce any desired chemical. Super efficiently and with just oxygen as downstream by-product.
+    Photanol uses the superpower of cyano-bacteria to photosynthesize. Creating a natural, all-in-one factory. We enhance the bacteria to absorb CO2 (transforming it from waste energy into circular feedstock). Then adapt its metabolic pathways to produce any desired chemical. Supremely efficient. With just oxygen as by-product. Primed for scalability thanks to Photanol’s platform technology.
   video_item:
     label: Watch corporate movie
     link: ijMRUWfbp88
@@ -161,42 +155,42 @@ slideshow:
     alt: Bioplastics
 team:
   pretitle: MEET THE TEAM
-  title: Our passion is our purpose
+  title: Dedicated to restoring balance since 2008
   employees:
     - name: Veronique de Bruijn, MBA
       function: CEO
-      text: Véronique has been an Investment director at ICOS Capital, previously she
-        raised early-stage funding for 3 companies as an independent consultant
-        and corporate finance role at PwC in the Netherlands.
+      text: Renewables expert Veronique merges unexpected worlds to power sustainable
+        innovation. This drives her internal team leadership as well as
+        Photanol’s quest for the right allies to power our 100% circular
+        moonshot.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/maria.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
-      text: Klaas is one of our co-founders and a highly respected academic
-        microbiologist at the University of Amsterdam. He is very active in the
-        early stage development work and strategic decision-making at Photanol.
+      text: A world-renowned and leading Professor of microbiology and our CSO. For
+        our first patent Prof. Klaas named his process ‘Photanol’. The patent
+        name became a company name and our sustainable mission was born.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/klaas.jpg
     - name: Paul Koekoek
       function: Director of Operations
-      text: Paul has over 25 years of process & manufacturing experience and is highly
-        skilled in process engineering, hazard, analysis, critical control
-        points and GMP. Paul studied Chemical Engineering in Groningen.
+      text: Twenty years of engineering excellence back our COO’s plans to sky-rocket
+        circular chemistry. Paul led the demo plant build and is now designing
+        the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/klaas.jpg
     - name: Peter Brenninkmeijer
       function: CFO
-      text: Peter has a track record in fundraising, cash flow management and taking
-        companies to market. Peter is managing change in the organization and
-        always seeking creative solutions.
+      text: Peter co-raised the funding for our debut demo plant. Vastly experienced
+        in unconventional financial models, he is the ideal CFO to guide us
+        through the uncharted landscapes of biotech innovation.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/peter.jpg
     - name: Caroline van der Horst
       function: CTO (INTERIM)
-      text: Caroline is an experienced director of R&D with over 20 years of
-        experience in industry. Caroline is a research professional, skilled in
-        innovation management, bio-technology, product innovation and product
-        development.
+      text: "Our acting technology officer, Caroline, hails from the agrifood industry
+        and leads the Photanol R&D teams through the intense journey of
+        iteration needed for process perfection. "
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/maria.jpg
 vacancies:
