@@ -57,6 +57,17 @@ class Team extends React.Component {
   }
 
   handleClick = (offset) => {
+    const {position, itemWidth, nrOfItems} = this.state
+    var iol = this.itemsRef.offsetLeft
+    var pos = -iol - position + offset
+    var targetItemId = Math.floor(pos / itemWidth)
+    targetItemId = Math.max(Math.min(targetItemId, (nrOfItems - 1)), 0)
+    var target = -(targetItemId * itemWidth)
+    
+    var obj = {position: this.state.position}
+    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
+      this.updateItems(obj.position)
+    }});
   }
   
   handleStart = () => {

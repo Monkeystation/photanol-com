@@ -55,19 +55,19 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1000} offset={-50}>
+              <Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1500} offset={-50}>
                 product
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} smooth={true} duration={1000} offset={-50}>
+              <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} smooth={true} duration={1500} offset={-50}>
                 technology
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="team" spy={true} smooth={true} duration={1000} offset={-50}>
+              <Link className="navbar-item" activeClass="is-active" to="team" spy={true} smooth={true} duration={1500} offset={-50}>
                 team
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} smooth={true} duration={1000} offset={-100}>
+              <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} smooth={true} duration={1500} offset={-100}>
                 jobs
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} smooth={true} duration={1000} offset={-50}>
+              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} smooth={true} duration={1500} offset={-50}>
                 contact
               </Link>
             </div>

@@ -44,6 +44,7 @@ $size-8: 14px
 $fullhd: 1744px + (2 * $gap)
 $link-hover: $green-500
 $modal-content-width: 768px
+$section-padding: 4rem 1.5rem
 
 //Menu overrides
 $navbar-height: 5rem
@@ -244,37 +245,9 @@ $transition-duration: .3s
   padding-top: 0
   padding-bottom: 0
   +tablet
-    height: 560px
+    height: 600px
   +fullhd
     height: 768px
-  .text-panel
-    height: calc(100% - 40px) !important
-    background-color: #F2F2F2
-    clip-path: inset(0% 0% 0% 0%)
-    margin-right: 35px
-    +tablet
-      margin-left: 64px
-      margin-right: 64px
-    .text
-      position: absolute
-      left: 36px
-      top: 240px
-      +tablet
-        left: 328px
-        top: 96px
-      +desktop
-        left: 576px
-      +fullhd
-        left: 787px
-  .video-panel
-    margin-right: 35px
-    +mobile
-      display: block
-    +tablet
-      margin-left: 64px
-      margin-right: 64px
-  .video-panel video
-    object-fit: cover
   .text-panel-wrapper
     position: absolute
     left: 0
@@ -283,16 +256,48 @@ $transition-duration: .3s
     height: 100%
     padding-top: 0
     padding-bottom: 0
+    .text-panel
+      height: 100%
+      background-color: #F2F2F2
+      margin-right: 35px
+      +tablet
+        margin-left: 64px
+        margin-right: 64px
+      .text
+        position: absolute
+        left: 36px
+        top: 240px
+        +tablet
+          left: 328px
+          top: 96px
+        +desktop
+          left: 576px
+        +fullhd
+          left: 787px
+  .video-panel
+    margin-right: 35px
+    height: calc(100% + 40px)
+    +mobile
+      display: block
+    +tablet
+      margin-left: 64px
+      margin-right: 64px
+  .video-panel video
+    object-fit: cover
+  
     
 
 
 // MISSION
-.mission .title
-  background: linear-gradient(45deg, #4CB4E7 0%, #62B55A 12.5%, #FCEA0D 25%, #62B55A 37.5%, #4CB4E7 50%, #62B55A 62.5%, #FCEA0D 75%, #62B55A 87.5%, #4CB4E7 100%)
-  background-size: 400% 100%;
-  -webkit-background-clip: text
-  -webkit-text-fill-color: transparent
-  -webkit-animation: AnimationName 20s linear infinite
+.mission 
+  padding-top: 8rem
+  .title
+    background: linear-gradient(45deg, #4CB4E7 0%, #62B55A 12.5%, #FCEA0D 25%, #62B55A 37.5%, #4CB4E7 50%, #62B55A 62.5%, #FCEA0D 75%, #62B55A 87.5%, #4CB4E7 100%)
+    background-size: 400% 100%;
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    -webkit-animation: AnimationName 20s linear infinite
+    max-width: 800px
   
 @keyframes AnimationName 
   0%
@@ -312,7 +317,7 @@ $transition-duration: .3s
       column-count: 2
       column-gap: 32px
     p
-      margin-bottom: 1em
+      padding-bottom: 1rem
       line-height: 137%
     
 // SLIDESHOW
@@ -411,6 +416,8 @@ $transition-duration: .3s
 // FOOTER
 .footer 
   margin: 1rem
+  padding: 4rem 1.5rem
+  background-color: $grey-100
   +tablet
     margin: 3rem
   .footer-elements

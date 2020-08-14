@@ -47,7 +47,27 @@ class Roadmap extends React.Component {
   }
   
   handleClick = (offset) => {
-    const {position} = this.state
+    const {position, itemWidth, nrOfItems, activeItemId} = this.state
+    var iol = this.itemsRef.offsetLeft
+    var click = -iol - position + offset
+    var pos = 0
+    var targetItemId = nrOfItems - 1
+    for (var i = 0; i < nrOfItems; i++) {
+      if  (i == activeItemId) pos += ACTIVE_ITEM_WIDTH
+      else pos += ITEM_WIDTH
+      if (click < pos) {
+        targetItemId = i
+        break
+      }
+    }
+    
+    var tlw = this.tlRef.getBoundingClientRect().width
+    var target = -((targetItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)) + (tlw / 2)
+    
+    var obj = {position: this.state.position}
+    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
+      this.updateItems(obj.position)
+    }});
   }
   
   handleStart = () => {
@@ -135,7 +155,7 @@ class Roadmap extends React.Component {
           onStart={this.handleStart}
           onDrag={this.handleDrag}
           onStop={this.handleStop}>
-            <div className="items">
+            <div className="items" ref={el => this.itemsRef = el}>
               {items.map((item, index) => {
                 var imageSize = (100 * layout[index].scale)
                 return (

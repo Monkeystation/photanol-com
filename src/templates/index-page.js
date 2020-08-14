@@ -80,7 +80,7 @@ export const IndexPageTemplate = ({
         INTRO 
       */}
       <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-        <Scene pin duration={"100%"} offset={-80} indicators={false}>
+        <Scene pin duration={600} offset={-80} indicators={true}>
           {(progress) => (
           <section className="intro">
             <div className="video-panel hero-video">
@@ -187,7 +187,7 @@ export const IndexPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-9 is-8-desktop text-columns">
-              <p className="blue-text technology-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(technology.text)}}></p>
+              <article className="blue-text technology-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(technology.text)}}></article>
               <button className="button-primary mt-4" onClick={onBrandVideoModalOpen}>
                 <span className="icon">
                   <IconPlay />
@@ -280,7 +280,7 @@ export const IndexPageTemplate = ({
       {/* 
         FOOTER 
       */}
-      <section className="section footer has-background-light" id="contact">
+      <section className="section footer" id="contact">
         <div className="container">
           <div className="columns">
             <ScrollRevealTween>
