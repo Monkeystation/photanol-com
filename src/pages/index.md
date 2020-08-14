@@ -10,14 +10,14 @@ intro:
     file: /img/intro_video.mp4
     poster: /img/intro_video_poster.jpg
 mission:
-  pretitle: TRANSFORMING THE INDUSTRY TO BIOFUEL
-  title: We exist to restore balance on our planet.
+  pretitle: POWERED BY NATURE AND HUMAN INGENUITY
+  title: We exist to restore balance on the planet.
   video_item:
     label: Watch brandmovie
     link: ijMRUWfbp88
 solution:
-  pretitle: WITH THE PLATFORM TECHNOLOGY FOR ANY COMPOUND
-  title: We are leading the circular chemistry revolution.
+  pretitle: THE FUTURE LOOKS DIFFERENT
+  title: The future is circular.
   animation:
     title1: "Oil is used to create the chemicals to create products "
     title2: Products are made and delivered to shops
@@ -28,61 +28,91 @@ solution:
     title7: Just like before products are delivered
     title8: But we’ve closed the circle
 roadmap:
-  pretitle: "A GROWING REVOLUTION "
-  title: "Photanol: then, now and in the future "
+  pretitle: CREATING SYSTEMIC CHANGE
+  title: "Photanol: past, present and future."
   items:
     - year: "2008"
       title: The first patent
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      text: "Our biotech revolution was officially born when we gained our first
+        patent. Filed in 2008 by Prof. Klaas Hellingwerf (our CSO). Prof. Klaas’
+        lab trials at UvA (University of Amsterdam) led to the successful
+        initial findings around cyano-bacteria’s sustainable superpowers. "
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      text: >
+        In order to nurture our fledgling circular revolution, we needed to
+        demonstrate our commercial potential; evidencing that our technology
+        could produce an entire platform of compounds. Transforming any chemical
+        to sustainable. 
+
+
+        Thanks to early investment we were able to form a dedicated Photanol team. The team went on to prove that our first patent could lead to many more; enhancing cyano-bacteria for 17 individual strains. And, that what we had on our hands could rock the world. We were officially in the business of restoring balance on our planet.
     - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      text: >-
+        A partner with a specific expertise and commercial need; Corbion is a
+        fermentation expert. They make a whole load of lactic acid – the raw
+        material needed for PLA (poly lactic acid used for biodegradable
+        bioplastic packaging). Industrial PLA uses heaps of land and water,
+        produces CO2 and is generally not great for the environmental footprint
+        of global corporations. 
+
+
+        Thanks to our Corbion collab, we are able to synthesize lactic acid with huge mechanical strength, low toxicity, low flammability, using 40 times less land and 10.000 times less water. 
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      text: Glycolic acid was our next target. Widely used in the cosmetics industry,
+        with over 95% of the world’s cosmetic products containing it. To develop
+        our circular strain, we partnered with Nouryon (the sustainable
+        chemicals division of AkzoNobel). Our next feat would be to show the
+        scalability of both our circular acids - lactic and glycolic – in
+        Photanol’s debut pilot plants.
     - year: "2019"
       title: Pilot plant validation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+      text: For each proven chemical, our next step is to take lab scale success and
+        validate it at commercial scale. Over the course of [XX] years we
+        produced consistently good results over prolonged periods at -kg scale,
+        validating our two circular acids at three different pilot plants. Both
+        our strategic partners brought downstream expertise to the table, so we
+        could prove cost, waste and energy efficiency throughout the entire
+        process.
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-    - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+    - text: "Our most recent triumph was securing the funding for the first commercial
+        scale plant. The Photanol process takes place in tubes. So, in essence,
+        when we scale up it’s as simple as laying more tubes and making sure we
+        have enough sunlight to power our tech. Then it’s a case of just letting
+        the cyano-bacteria perform its natural magic. Bolstered by financing
+        from four new investors, our first demo unit in Delfzijl, the
+        Netherlands, will be ready to roll at the end of 2020. "
       year: "2020"
       title: First demonstration plant
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-    - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+    - text: "This grand milestone, and bricks and mortar proof of our game-changer
+        power will produce up to 10 tons per year. It’s the intermediary step to
+        producing the kilotons needed for the largest scale commercial needs.
+        Our premiere plant proves that when upscaled, the Photanol process can
+        produce as cost effectively as old school fossil fuel operations. And,
+        in the long term – more cost efficiently. After biochemicals, biofuels
+        are Photanol’s next chapter. "
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap-item-icon.png
       image: /img/roadmap-item-image.jpg
-    - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed
-        bibendum leo, ac congue lorem. Morbi sed elit vel nibh scelerisque
-        semper sit amet mattis mi.  adipiscing elit. Integer sed bibendum
+    - text: Our third strategic partnership joined the Photanol journey in 2020,
+        paving the way to prove our capabilities in yet another sector;
+        healthcare. Renolit produces polymers for the global medical world and
+        will iterate with Photanol tech for this essential sector, as well as
+        for the Renoit Group’s other applications.
       year: "2021"
       title: Strategic partnership with Renoit
       icon: /img/roadmap-item-icon.png
