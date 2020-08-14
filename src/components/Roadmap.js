@@ -43,6 +43,10 @@ class Roadmap extends React.Component {
   componentWillUnmount() {
   }
   
+  handleClick = (offset) => {
+    const {position} = this.state
+  }
+  
   handleStart = () => {
     const {activeItemId} = this.state
     this.setState({oldActiveItemId: activeItemId})
@@ -124,6 +128,7 @@ class Roadmap extends React.Component {
         <div className="line" />
         <Draggable
           position={position}
+          onClick={this.handleClick}
           onStart={this.handleStart}
           onDrag={this.handleDrag}
           onStop={this.handleStop}>

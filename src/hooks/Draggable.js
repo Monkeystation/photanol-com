@@ -15,8 +15,6 @@ class Draggable extends React.Component {
   componentDidMount() {
     this.draggable.addEventListener("touchstart", this.handleTouchStart, {passive: false})
     this.draggable.addEventListener("mousedown", this.handleTouchStart)
-    document.addEventListener("touchend", this.handleTouchEnd)
-    document.addEventListener("mouseup", this.handleTouchEnd)
   }
   
   componentWillUnmount() {
@@ -32,8 +30,10 @@ class Draggable extends React.Component {
     var evt = (e.type === 'touchstart') ? e.changedTouches[0] : e
     
     this.setState({rel: { x: evt.clientX, y: evt.clientY}, startPos: position})
-    this.draggable.addEventListener("touchmove", this.handleTouchMove, {passive: false})
-    this.draggable.addEventListener("mousemove", this.handleTouchMove, {passive: false})
+    document.addEventListener("touchmove", this.handleTouchMove, {passive: false})
+    document.addEventListener("mousemove", this.handleTouchMove, {passive: false})
+    document.addEventListener("touchend", this.handleTouchEnd)
+    document.addEventListener("mouseup", this.handleTouchEnd)
     this.props.onStart()
   }
 
@@ -41,26 +41,35 @@ class Draggable extends React.Component {
     const {rel, dragging, startPos} = this.state
     var evt = (e.type === 'touchmove') ? e.changedTouches[0] : e
     if (!dragging && Math.abs(evt.clientX - rel.x) < Math.abs(evt.clientY - rel.y)) {
-      this.draggable.removeEventListener("touchmove", this.handleTouchMove, {passive: false})
-      this.draggable.removeEventListener("mousemove", this.handleTouchMove, {passive: false})
+      document.removeEventListener("touchmove", this.handleTouchMove, {passive: false})
+      document.removeEventListener("mousemove", this.handleTouchMove, {passive: false})
       return
     }
     if (e.cancelable) e.preventDefault()
     var xPos = startPos + (evt.clientX - rel.x)
-    this.setState({dragging: true})
     this.props.onDrag(xPos)
+    this.setState({dragging: true})
   }
 
   handleTouchEnd = (e) => {
     const {dragging, rel} = this.state
-    var evt = (e.type === 'touchend') ? e.changedTouches[0] : e
+    const {position} = this.props
     if (dragging && e.cancelable) e.preventDefault()
+    document.removeEventListener("touchmove", this.handleTouchMove, {passive: false})
+    document.removeEventListener("mousemove", this.handleTouchMove, {passive: false})
+    document.removeEventListener("touchend", this.handleTouchEnd)
+    document.removeEventListener("mouseup", this.handleTouchEnd)
+    
+    var evt = (e.type === 'touchend') ? e.changedTouches[0] : e
     var dif = (evt.clientX - rel.x)
-    const dir = (dif > 0) ? -1 : (dif < 0) ? 1 : 0
-    this.draggable.removeEventListener("touchmove", this.handleTouchMove, {passive: false})
-    this.draggable.removeEventListener("mousemove", this.handleTouchMove, {passive: false})
+    if (Math.abs(dif) < 5) {
+      console.log(position, e.offsetX)
+      this.props.onClick(e.clientX)
+    } else {
+      const dir = (dif > 0) ? -1 : (dif < 0) ? 1 : 0
+      this.props.onStop(dir)
+    }
     this.setState({dragging: false})
-    this.props.onStop(dir)
   }
   
   render() {

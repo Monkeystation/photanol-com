@@ -19,7 +19,7 @@ class Team extends React.Component {
     var layout = []
     const nrOfItems = props.employees.length
     for (var i = 0; i < nrOfItems; i++) {
-      layout.push({itemOpacity: 1, imageOpacity: 0, active: false})
+      layout.push({itemOpacity: 1, imageOpacity: 1, active: false})
     }
     
     this.state = {
@@ -69,7 +69,9 @@ class Team extends React.Component {
     const {itemWidth, nrOfItems, activeItemId, oldActiveItemId} = this.state
     var emw = this.emRef.getBoundingClientRect().width
     var targetItemId = activeItemId
-    if (activeItemId === oldActiveItemId) targetItemId = dir + activeItemId
+    if (activeItemId === oldActiveItemId) {
+      targetItemId = Math.max(Math.min((dir + activeItemId), (nrOfItems - 1)), 0)
+    }
     var target = (targetItemId * itemWidth) + (itemWidth / 2)
     var position = -target + (emw / 2)
     
@@ -100,14 +102,18 @@ class Team extends React.Component {
         activeItemId = i
         var norm = (itemWidth / 2) - dist
         var scale = norm / (itemWidth / 2)
+        if (scroll - center > 0) scale =  1
         layout[i].active = true
         layout[i].imageOpacity = scale
       } else {
         layout[i].active = false
-        layout[i].imageOpacity = 0
+        console.log(activeItemId)
+        layout[i].imageOpacity = (activeItemId === null) ? 0 : 1
       }
     }
-    
+    if (activeItemId === null) {
+      activeItemId = (position > 0) ? 0 : (nrOfItems - 1)
+    }
     this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
@@ -131,7 +137,9 @@ class Team extends React.Component {
           {employees.map((employee, index) => (
             <div key={v4()} className="employee-image" style={{
               backgroundImage: `url(${PreviewCompatibleFile(employee.image)})`,
-              opacity: layout[index].imageOpacity}} 
+              opacity: layout[index].imageOpacity,
+              zIndex: -index
+              }} 
             />
           ))}
         </div>
