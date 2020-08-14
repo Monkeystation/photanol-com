@@ -21,7 +21,6 @@ import ScrollRevealTween from '../hooks/ScrollRevealTween'
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
 
-
 export const IndexPageTemplate = ({
   intro,
   mission,
@@ -73,9 +72,7 @@ export const IndexPageTemplate = ({
     var html = document.getElementsByTagName("html")[0];
     html.classList.remove("is-clipped")
   }
-  
-  console.log(intro, PreviewCompatibleFile(intro.video.poster))
-  
+    
   return (
     <div>
       <div className="logo-container"><LogoPhotanol /></div>

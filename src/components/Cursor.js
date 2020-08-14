@@ -13,15 +13,12 @@ export default function Cursor({parent}) {
   
   useEffect(() => {
     function handleMove(e) {
+      setOpacity(1)
+      setScale(1)
       setPosition({
         left: e.pageX - parent.offsetLeft,
         top: e.pageY - parent.offsetTop,
       });
-    }
-    
-    function handleEnter(e) {
-      setOpacity(100)
-      setScale(1)
     }
     
     function handleLeave(e) {
@@ -30,12 +27,13 @@ export default function Cursor({parent}) {
     }
     
     parent.addEventListener("mousemove", handleMove)
-    parent.addEventListener("mouseenter", handleEnter)
     parent.addEventListener("mouseleave", handleLeave)
+    window.addEventListener("wheel", handleLeave)
+    
     return () => {
       parent.removeEventListener("mousemove", handleMove)
-      parent.removeEventListener("mouseenter", handleEnter)
       parent.removeEventListener("mouseleave", handleLeave)
+      window.removeEventListener("wheel", handleLeave)
     }
   }, []);
 

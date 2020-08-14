@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import {IconLinkedIn} from './Icons'
-import Draggable from 'react-draggable'
+import Draggable from '../hooks/Draggable'
+import isTouchDevice from '../hooks/isTouchDevice'
 import { TweenLite } from 'gsap/all'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
@@ -26,7 +27,8 @@ class Team extends React.Component {
       position: 0,
       nrOfItems: nrOfItems, 
       layout: layout,
-      tweenTarget: 0
+      activeItemId: 0,
+      oldActiveItemId: 0
     };
   }
   
@@ -54,24 +56,25 @@ class Team extends React.Component {
     window.removeEventListener('resize', this.updateDimensions);
   }
   
-  handleStart = (e, data) => {
-    console.log('handleStart', e, data)
+  handleStart = () => {
+    const {activeItemId} = this.state
+    this.state.oldActiveItemId = activeItemId
   }
   
-  handleDrag = (e, data) => {
-    var scroll = data.x
-    this.updateItems(scroll)
+  handleDrag = (position) => {
+    this.updateItems(position)
   }
   
-  handleStop = (e, data) => {
-    console.log('handleStop', e, data)
-    const {itemWidth, nrOfItems, activeItemId} = this.state
+  handleStop = (dir) => {
+    const {itemWidth, nrOfItems, activeItemId, oldActiveItemId} = this.state
     var emw = this.emRef.getBoundingClientRect().width
-    var target = (activeItemId * itemWidth) + (itemWidth / 2)
+    var targetItemId = activeItemId
+    if (activeItemId === oldActiveItemId) targetItemId = dir + activeItemId
+    var target = (targetItemId * itemWidth) + (itemWidth / 2)
     var position = -target + (emw / 2)
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.3, {position:position, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:position, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
   }
@@ -120,10 +123,10 @@ class Team extends React.Component {
   
   render() {
     const {employees} = this.props
-    const {position, layout, tweenTarget} = this.state  
+    const {position, layout} = this.state  
     return (
       <div className="employees" ref={el => this.emRef = el}>
-        {this.emRef &&  (<Cursor parent={this.emRef} />)}
+        {!isTouchDevice() && this.emRef &&  (<Cursor parent={this.emRef} />)}
         <div className="images">
           {employees.map((employee, index) => (
             <div key={v4()} className="employee-image" style={{
@@ -134,8 +137,7 @@ class Team extends React.Component {
         </div>
         <div className="items-wrapper">
           <Draggable
-              axis="x"
-              position={{x: position, y: 0}}
+              position={position}
               onStart={this.handleStart}
               onDrag={this.handleDrag}
               onStop={this.handleStop}>
@@ -144,7 +146,7 @@ class Team extends React.Component {
                 <div key={v4()} className="item" ref={el => this['item' + index] = el} style={{
                   opacity: layout[index].itemOpacity,
                 }}>
-                  <div className="item-content" id={"item" + index} onClick={() => this.itemClick(index)}>
+                  <div className="item-content" id={"item" + index}>
                     <h3 className="title is-size-6 is-size-5-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold pb-2">
                       {employee.name}
                     </h3>
@@ -152,12 +154,12 @@ class Team extends React.Component {
                       {employee.function}
                     </h5>
                     <p className="white-text">{employee.text}</p>
-                    <button className="button-secondary is-white">
+                    <a href={employee.linkedin} target="_blank" className="button-secondary is-white">
                       <span className="icon">
                         <IconLinkedIn />
                       </span>
                       <span>{'VIEW PROFILE'}</span>
-                    </button>
+                    </a>
                     <div className="gradient-box" />
                   </div>
                 </div>

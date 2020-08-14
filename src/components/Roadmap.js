@@ -2,8 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import Draggable from 'react-draggable'
+//import Draggable from 'react-draggable'
 import { TweenLite } from 'gsap/all'
+import Draggable from '../hooks/Draggable'
+import isTouchDevice from '../hooks/isTouchDevice'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
 
@@ -25,7 +27,8 @@ class Roadmap extends React.Component {
       position: 0,
       nrOfItems: nrOfItems, 
       layout: layout,
-      tweenTarget: 0
+      activeItemId: 0,
+      oldActiveItemId: 0
     };
   }
   
@@ -40,22 +43,25 @@ class Roadmap extends React.Component {
   componentWillUnmount() {
   }
   
-  handleStart = (e, data) => {
+  handleStart = () => {
+    const {activeItemId} = this.state
+    this.setState({oldActiveItemId: activeItemId})
   }
   
-  handleDrag = (e, data) => {
-    var scroll = data.x
-    this.updateItems(scroll)
+  handleDrag = (position) => {
+    this.updateItems(position)
   }
   
-  handleStop = (e, data) => {
-    const {nrOfItems, activeItemId} = this.state
+  handleStop = (dir) => {
+    const {nrOfItems, activeItemId, oldActiveItemId} = this.state
     var tlw = this.tlRef.getBoundingClientRect().width
-    var target = (activeItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)
+    var targetItemId = activeItemId
+    if (activeItemId === oldActiveItemId) targetItemId = dir + activeItemId
+    var target = (targetItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)
     var position = -target + (tlw / 2)
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.3, {position:position, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:position, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
   }
@@ -107,18 +113,17 @@ class Roadmap extends React.Component {
   
   render() {
     const {items} = this.props
-    const {position, layout, tweenTarget} = this.state        
+    const {position, layout} = this.state        
     return (
       <div className="timeline" ref={el => this.tlRef = el}>
-        {this.tlRef &&  (<Cursor parent={this.tlRef} />)}
+        {!isTouchDevice() && this.tlRef && (<Cursor parent={this.tlRef} />)}
         <div className="line" />
         <Draggable
-          axis="x"
-          position={{x: position, y: 0}}
+          position={position}
           onStart={this.handleStart}
           onDrag={this.handleDrag}
           onStop={this.handleStop}>
-            <div className="items" ref={el => this.itemsRef = el}>
+            <div className="items">
               {items.map((item, index) => {
                 var imageSize = (100 * layout[index].scale)
                 return (
