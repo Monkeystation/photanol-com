@@ -13,8 +13,14 @@
     .items
       display: flex
       height: 470px
-      cursor: grab
       pointer-events: none
+      margin-left: calc((100% - 280px) / 2)
+      +tablet
+        margin-left: 300px
+      +desktop
+        margin-left: 450px
+      +fullhd
+        margin-left: 600px
       .item
         display: flex
         flex-basis: 280px

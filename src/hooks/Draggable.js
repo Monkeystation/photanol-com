@@ -63,8 +63,7 @@ class Draggable extends React.Component {
     var evt = (e.type === 'touchend') ? e.changedTouches[0] : e
     var dif = (evt.clientX - rel.x)
     if (Math.abs(dif) < 5) {
-      console.log(position, e.offsetX)
-      this.props.onClick(e.clientX)
+      this.props.onClick(e.offsetX)
     } else {
       const dir = (dif > 0) ? -1 : (dif < 0) ? 1 : 0
       this.props.onStop(dir)
@@ -75,7 +74,7 @@ class Draggable extends React.Component {
   render() {
     const {children, position} = this.props
     return (
-      <div ref={el => this.draggable = el} style={{width: '100%', height: '100%'}}>
+      <div ref={el => this.draggable = el} style={{width: '100%', height: '100%', cursor: 'grab'}}>
         {React.cloneElement(children, { 
           style: {transform: `translateX(${position}px)`}
         })}

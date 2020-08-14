@@ -48,12 +48,15 @@ class Team extends React.Component {
     
     const {itemWidth, nrOfItems} = this.state
     var sw = this.emRef.getBoundingClientRect().width
-    var startPos = (sw / 2) - (itemWidth / 2)
+    var startPos = 0
     this.updateItems(startPos)
   }
   
   componentWillUnmount() {
     window.removeEventListener('resize', this.updateDimensions);
+  }
+
+  handleClick = (offset) => {
   }
   
   handleStart = () => {
@@ -72,8 +75,8 @@ class Team extends React.Component {
     if (activeItemId === oldActiveItemId) {
       targetItemId = Math.max(Math.min((dir + activeItemId), (nrOfItems - 1)), 0)
     }
-    var target = (targetItemId * itemWidth) + (itemWidth / 2)
-    var position = -target + (emw / 2)
+    var target = (targetItemId * itemWidth)
+    var position = -target
     
     var obj = {position: this.state.position}
     TweenLite.to(obj, 0.5, {position:position, onUpdate:(el) => {
@@ -86,10 +89,10 @@ class Team extends React.Component {
     const {itemWidth, nrOfItems, layout} = this.state
     var emw = this.emRef.getBoundingClientRect().width
     var activeItemId = null
-    var scroll = position - (emw / 2)
+    var scroll = position
     
     for (var i = 0; i < nrOfItems; i++) {
-      var center = -((i * itemWidth) + (itemWidth / 2))
+      var center = -((i * itemWidth))
       var dist = Math.abs(scroll - center)
       var pos = (scroll - center) / itemWidth
       if (pos < 0) {
@@ -107,12 +110,22 @@ class Team extends React.Component {
         layout[i].imageOpacity = scale
       } else {
         layout[i].active = false
-        console.log(activeItemId)
         layout[i].imageOpacity = (activeItemId === null) ? 0 : 1
       }
     }
     if (activeItemId === null) {
-      activeItemId = (position > 0) ? 0 : (nrOfItems - 1)
+      if (position > 0) {
+        activeItemId = 0
+        layout[0].active = true
+        layout[0].itemOpacity = 1
+        layout[0].imageOpacity = 1
+      } else {
+        var index = (nrOfItems - 1)
+        activeItemId = index
+        layout[index].active = true
+        layout[index].itemOpacity = 1
+        layout[index].imageOpacity = 1
+      }
     }
     this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
@@ -146,6 +159,7 @@ class Team extends React.Component {
         <div className="items-wrapper">
           <Draggable
               position={position}
+              onClick={this.handleClick}
               onStart={this.handleStart}
               onDrag={this.handleDrag}
               onStop={this.handleStop}>

@@ -2,12 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-//import Draggable from 'react-draggable'
+import showdown from 'showdown'
 import { TweenLite } from 'gsap/all'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
+
+const converter = new showdown.Converter()
+converter.setOption('simpleLineBreaks', true)
 
 const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600
@@ -165,11 +168,15 @@ class Roadmap extends React.Component {
                         </h2>
                       </div>
                     </div>
-                    <div className="item-text" style={{
-                      display: (layout[index].text) ? 'block' : 'none',
-                      opacity: layout[index].fade,
-                      }}  ref={el => this['itemText' + index] = el}>
-                      <p className="white-text">{item.text}</p>
+                    <div 
+                      className="item-text" 
+                      style={{
+                        display: (layout[index].text) ? 'block' : 'none',
+                        opacity: layout[index].fade,
+                      }}  
+                      ref={el => this['itemText' + index] = el}
+                    >
+                      <p className="white-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></p>
                     </div>
                   </div>
                 )}
