@@ -15,15 +15,15 @@ class Draggable extends React.Component {
   componentDidMount() {
     this.draggable.addEventListener("touchstart", this.handleTouchStart, {passive: false})
     this.draggable.addEventListener("mousedown", this.handleTouchStart)
-    this.draggable.addEventListener("touchend", this.handleTouchEnd)
-    this.draggable.addEventListener("mouseup", this.handleTouchEnd)
+    document.addEventListener("touchend", this.handleTouchEnd)
+    document.addEventListener("mouseup", this.handleTouchEnd)
   }
   
   componentWillUnmount() {
     this.draggable.removeEventListener("touchstart", this.handleTouchStart, {passive: false})
     this.draggable.removeEventListener("mousedown", this.handleTouchStart)
-    this.draggable.removeEventListener("touchend", this.handleTouchEnd)
-    this.draggable.removeEventListener("mouseup", this.handleTouchEnd)
+    document.removeEventListener("touchend", this.handleTouchEnd)
+    document.removeEventListener("mouseup", this.handleTouchEnd)
   }
   
   handleTouchStart = (e) => {
