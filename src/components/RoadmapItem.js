@@ -17,9 +17,11 @@ const RoadmapItem = (props) => {
               {title}
             </h4>
           </div>             
-          <div className="item-text" style={{display: 'block'}}>
-            <p className="white-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}></p>
-          </div>
+          <div 
+            className="item-text white-tex" 
+            style={{display: 'block'}}
+            dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}
+          />
           <div className="item-element-bottom">
             <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
               {year}
@@ -55,11 +57,10 @@ const RoadmapItem = (props) => {
           </div>
         </div>
         <div 
-          className="item-text" 
-          style={{ display: showText ? 'block' : 'none', opacity: opacity }}  
-        >
-          <p className="white-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}></p>
-        </div>
+          className="item-text white-text" 
+          style={{ display: showText ? 'block' : 'none', opacity: opacity }} 
+          dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}
+        />
       </div>
     )
   }
