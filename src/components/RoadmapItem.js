@@ -18,7 +18,7 @@ const RoadmapItem = (props) => {
             </h4>
           </div>             
           <div 
-            className="item-text white-tex" 
+            className="item-text white-text" 
             style={{display: 'block'}}
             dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}
           />
