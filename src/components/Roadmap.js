@@ -8,13 +8,15 @@ import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
+import RoadmapItem from './RoadmapItem'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
 
 const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600
-const ACTIVE_ITEM_SCALE = 2
+const ITEM_WIDTH_MOBILE = 300
+const ACTIVE_ITEM_WIDTH_MOBILE = 320
 
 class Roadmap extends React.Component {
   
@@ -27,6 +29,9 @@ class Roadmap extends React.Component {
     }
     
     this.state = {
+      isMobile: false,
+      itemWidth: ITEM_WIDTH,
+      activeItemWidth: ACTIVE_ITEM_WIDTH,
       position: 0,
       nrOfItems: nrOfItems, 
       layout: layout,
@@ -35,11 +40,27 @@ class Roadmap extends React.Component {
     };
   }
   
+  onWindowResize = () => {
+    if (window.innerWidth <= 768) {
+      this.state.isMobile = true
+      this.state.itemWidth = ITEM_WIDTH_MOBILE
+      this.state.activeItemWidth = ACTIVE_ITEM_WIDTH_MOBILE
+    } else {
+      this.state.isMobile = false
+      this.state.itemWidth = ITEM_WIDTH
+      this.state.activeItemWidth = ACTIVE_ITEM_WIDTH
+    } 
+    this.updateItems(this.state.position)
+  }
+  
   componentDidMount() {
+    window.addEventListener('resize', this.onWindowResize);
+    this.onWindowResize()
+    
     const {active} = this.props
-    const {nrOfItems} = this.state
+    const {itemWidth, activeItemWidth, nrOfItems} = this.state
     var sw = this.tlRef.getBoundingClientRect().width
-    var startPos = (sw / 2) - ((active - 1) * ITEM_WIDTH) - (ACTIVE_ITEM_WIDTH / 2)
+    var startPos = (sw / 2) - ((active - 1) * itemWidth) - (activeItemWidth / 2)
     this.updateItems(startPos)
   }
 
@@ -47,14 +68,14 @@ class Roadmap extends React.Component {
   }
   
   handleClick = (offset) => {
-    const {position, itemWidth, nrOfItems, activeItemId} = this.state
+    const {itemWidth, activeItemWidth, position, nrOfItems, activeItemId} = this.state
     var iol = this.itemsRef.offsetLeft
     var click = -iol - position + offset
     var pos = 0
     var targetItemId = nrOfItems - 1
     for (var i = 0; i < nrOfItems; i++) {
-      if  (i == activeItemId) pos += ACTIVE_ITEM_WIDTH
-      else pos += ITEM_WIDTH
+      if  (i == activeItemId) pos += activeItemWidth
+      else pos += itemWidth
       if (click < pos) {
         targetItemId = i
         break
@@ -62,7 +83,7 @@ class Roadmap extends React.Component {
     }
     
     var tlw = this.tlRef.getBoundingClientRect().width
-    var target = -((targetItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)) + (tlw / 2)
+    var target = -((targetItemId * itemWidth) + (activeItemWidth / 2)) + (tlw / 2)
     
     var obj = {position: this.state.position}
     TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
@@ -80,13 +101,13 @@ class Roadmap extends React.Component {
   }
   
   handleStop = (dir) => {
-    const {nrOfItems, activeItemId, oldActiveItemId} = this.state
+    const {itemWidth, activeItemWidth, nrOfItems, activeItemId, oldActiveItemId} = this.state
     var tlw = this.tlRef.getBoundingClientRect().width
     var targetItemId = activeItemId
     if (activeItemId === oldActiveItemId) {
       targetItemId = Math.max(Math.min((dir + activeItemId), (nrOfItems - 1)), 0)
     }
-    var target = (targetItemId * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)
+    var target = (targetItemId * itemWidth) + (activeItemWidth / 2)
     var position = -target + (tlw / 2)
     
     var obj = {position: this.state.position}
@@ -97,34 +118,29 @@ class Roadmap extends React.Component {
   
   updateItems = (position) => {
     if (!this.tlRef) return
-    const {nrOfItems, layout} = this.state
+    const {isMobile, itemWidth, activeItemWidth, nrOfItems, layout} = this.state
     var tlw = this.tlRef.getBoundingClientRect().width
     var activeItemId = null
     var scroll = position - (tlw / 2)
     
     for (var i = 0; i < nrOfItems; i++) {
-      var center = -((i * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2))
+      var center = -((i * itemWidth) + (activeItemWidth / 2))
       var dist = Math.abs(scroll - center)
-      if (dist < (ITEM_WIDTH / 2)) {
+      if (dist < (itemWidth / 2)) {
         activeItemId = i
-        var norm = (ITEM_WIDTH / 2) - dist
-        var scale = norm / (ITEM_WIDTH / 2)
-        layout[i].width = ITEM_WIDTH + (scale * (ACTIVE_ITEM_WIDTH - ITEM_WIDTH)) + 'px'
+        var norm = (itemWidth / 2) - dist
+        var scale = norm / (itemWidth / 2)
+        layout[i].width = itemWidth + (scale * (activeItemWidth - itemWidth)) + 'px'
         layout[i].scale = 1 + scale
         layout[i].active = true
-        if (scale > .7) {
-          layout[i].text = true
-          layout[i].fade = (scale - .7) / .3
-        } else {
-          layout[i].text = false
-          layout[i].fade = 0
-        }
+        layout[i].fade = (isMobile) ? ((scale * .8)  + .2) : ((scale - .7) / .3)
+        layout[i].text = (scale > .7)
       } else {
-        layout[i].width = ITEM_WIDTH + 'px'
+        layout[i].width = itemWidth + 'px'
         layout[i].scale = 1
         layout[i].active = false
         layout[i].text = false
-        layout[i].fade = 0
+        layout[i].fade = (isMobile) ? 0.2 : 0
       }
     }
     if (activeItemId === null) {
@@ -134,9 +150,10 @@ class Roadmap extends React.Component {
   }
   
   itemClick = (index) => {
+    const {itemWidth, activeItemWidth} = this.state
     var tlw = this.tlRef.getBoundingClientRect().width
     var obj = {position: this.state.position}
-    var target = -((index * ITEM_WIDTH) + (ACTIVE_ITEM_WIDTH / 2)) + (tlw / 2)
+    var target = -((index * itemWidth) + (activeItemWidth / 2)) + (tlw / 2)
     TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
@@ -144,7 +161,8 @@ class Roadmap extends React.Component {
   
   render() {
     const {items} = this.props
-    const {position, layout} = this.state        
+    const {isMobile, position, layout} = this.state   
+    
     return (
       <div className="timeline" ref={el => this.tlRef = el}>
         {!isTouchDevice() && this.tlRef && (<Cursor parent={this.tlRef} />)}
@@ -156,51 +174,23 @@ class Roadmap extends React.Component {
           onDrag={this.handleDrag}
           onStop={this.handleStop}>
             <div className="items" ref={el => this.itemsRef = el}>
-              {items.map((item, index) => {
-                var imageSize = (100 * layout[index].scale)
-                return (
-                  <div key={v4()} className="item" style={{width: layout[index].width}} id={"item" + index} ref={el => this['item' + index] = el} onClick={() => this.itemClick(index)}>
-                    <div className="item-elements">
-                      <div className="item-element-top">
-                        <h4 className="white-text has-text-centered has-text-weight-bold item-title">
-                          {item.title}
-                        </h4>
-                      </div>             
-                      <div className="item-element-center item-images">
-                        <img 
-                          className="item-icon" 
-                          style={{ width: imageSize, height: imageSize }} 
-                          ref={el => this['itemImage' + index] = el} 
-                          src={PreviewCompatibleFile(item.icon)} 
-                        />
-                        <img className="item-image" 
-                          style={{
-                            width: imageSize, height: imageSize,
-                            opacity: layout[index].fade,              
-                            }} 
-                            ref={el => this['itemImage' + index] = el} 
-                            src={PreviewCompatibleFile(item.image)}
-                          />
-                      </div>
-                      <div className="item-element-bottom">
-                        <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
-                          {item.year}
-                        </h2>
-                      </div>
-                    </div>
-                    <div 
-                      className="item-text" 
-                      style={{
-                        display: (layout[index].text) ? 'block' : 'none',
-                        opacity: layout[index].fade,
-                      }}  
-                      ref={el => this['itemText' + index] = el}
-                    >
-                      <p className="white-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></p>
-                    </div>
-                  </div>
-                )}
-              )}
+              {items.map((item, index) => 
+                <RoadmapItem 
+                  isMobile={isMobile}
+                  key={index}
+                  index={index}
+                  width={layout[index].width}
+                  onClick={() => this.itemClick(index)}
+                  imageSize={100 * layout[index].scale}
+                  showText={layout[index].text}
+                  opacity={layout[index].fade}
+                  title={item.title}
+                  icon={item.icon} 
+                  image={item.image} 
+                  year={item.year} 
+                  text={item.text}
+                />
+              )} 
             </div>
           </Draggable>
       </div>
