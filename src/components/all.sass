@@ -71,6 +71,17 @@ $transition-duration: .3s
 @import "~bulma"
 @import "./roadmap"
 @import "./team"
+@import "../sections/introSection"
+@import "../sections/missionSection"
+@import "../sections/solutionSection"
+@import "../sections/roadmapSection"
+@import "../sections/technologySection"
+@import "../sections/infographicSection"
+@import "../sections/slideshowSection"
+@import "../sections/teamSection"
+@import "../sections/vacanciesSection"
+@import "../sections/partnersSection"
+@import "../sections/footerSection"
 
 .green-text
   color: $green-500
@@ -238,200 +249,17 @@ $transition-duration: .3s
     +desktop
       width: 40%
 
-// INTRO
-.intro 
-  height: 470px
-  position: relative
-  padding-top: 0
-  padding-bottom: 0
-  +tablet
-    height: 600px
-  +fullhd
-    height: 768px
-  .text-panel-wrapper
-    position: absolute
-    left: 0
-    top: 0
-    width: 100%
-    height: 100%
-    padding-top: 0
-    padding-bottom: 0
-    .text-panel
-      height: 100%
-      background-color: #F2F2F2
-      margin-right: 35px
-      +tablet
-        margin-left: 64px
-        margin-right: 64px
-      .text
-        position: absolute
-        left: 36px
-        top: 240px
-        +tablet
-          left: 328px
-          top: 96px
-        +desktop
-          left: 576px
-        +fullhd
-          left: 787px
-  .video-panel
-    margin-right: 35px
-    height: calc(100% + 40px)
-    +mobile
-      display: block
-    +tablet
-      margin-left: 64px
-      margin-right: 64px
-  .video-panel video
-    object-fit: cover
+
   
+
+    
+
     
 
 
-// MISSION
-.mission 
-  padding-top: 8rem
-  .title
-    background: linear-gradient(45deg, #4CB4E7 0%, #62B55A 12.5%, #FCEA0D 25%, #62B55A 37.5%, #4CB4E7 50%, #62B55A 62.5%, #FCEA0D 75%, #62B55A 87.5%, #4CB4E7 100%)
-    background-size: 400% 100%;
-    -webkit-background-clip: text
-    -webkit-text-fill-color: transparent
-    -webkit-animation: AnimationName 20s linear infinite
-    max-width: 800px
+
   
-@keyframes AnimationName 
-  0%
-    background-position: 0% 0%
-  100%
-    background-position: 200% 0%
 
-// ROADMAP
-.roadmap
-  overflow: hidden
-  
-// TECHNOLOGY
-.technology 
-  .technology-text
-    column-count: 1
-    +tablet
-      column-count: 2
-      column-gap: 32px
-    p
-      padding-bottom: 1rem
-      line-height: 137%
-    
-// SLIDESHOW
-.slideshow
-  width: 100%
-  .image
-    position: absolute !important
-    width: 33.4%
 
-// TEAM
-.team
-  padding-left: 0
-  padding-right: 0
-  padding-bottom: 0
-  margin-top: 100px
-  .text
-    margin-left: 1.5rem
-    margin-right: 1.5rem
-    +tablet
-      margin-left: 430px
-    +desktop
-      margin-left: 660px
-    +fullhd
-      margin-left: 860px
 
-//  JOBS
-.jobs
-  margin-left: 1.5rem
-  margin-right: 1.5rem
-  +tablet
-    margin-left: 430px
-    max-width: 500px
-  +desktop
-    margin-left: 660px
-  +fullhd
-    margin-left: 860px
-  .modal
-    .box
-      border-radius: 0
-      +tablet
-        padding: 5rem
-
-.vacancies .tile.is-parent
-  padding: 0
-  
-.vacancy-body
-  h4
-    margin-top: 3em
-    margin-bottom: 1em
-    font-weight: bold;
-  p
-    margin-top: 1em
-    margin-bottom: 1em
-    line-height: 137%
-  ul
-    list-style: none
-    margin-top: 1em
-    margin-bottom: 1em
-    padding-left: 30px
-    li
-      padding: 10px 0
-    li:before
-      content: url('../img/list.svg')
-      width: 16px
-      height: 16px
-      padding-right: 10px
-      margin-left: -26px
-  
-// PARTNERS
-.partners 
-  .logos
-    align-items: center
-    flex-wrap: wrap
-    border-bottom: 1px solid $grey-400
-    +tablet 
-      border-bottom: none
-      border-right: 1px solid $grey-400
-  .partner-logo
-    flex-basis: 50%
-    padding: 0 20px
-    text-align: center
-    +tablet
-      flex-basis: 20%
-    img 
-
-  .side-image-column 
-    display: flex
-    align-items: center
-    padding-top: 50px
-    +tablet 
-      padding: 30px
-  .side-image 
-    flex: 1
-    height:  180px
-
-// FOOTER
-.footer 
-  margin: 1rem
-  padding: 4rem 1.5rem
-  background-color: $grey-100
-  +tablet
-    margin: 3rem
-  .footer-elements
-    display: flex
-    align-items: space-between
-    flex-wrap: wrap
-  .footer-element
-    flex: 1
-    padding: 16px 32px 16px 0
-  .social-media 
-    display: flex
-    flex-wrap: wrap
-    +tablet
-      flex-wrap: nowrap
-  .social-media > a
-    padding-right: 32px
 

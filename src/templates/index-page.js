@@ -1,25 +1,20 @@
 import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import showdown from 'showdown'
-import Img from 'gatsby-image'
-import {LogoPhotanol, IconPlay, IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
-import { Controller, Scene } from 'react-scrollmagic'
-import { Reveal, Tween } from 'react-gsap'
-import YouTube from 'react-youtube'
 
+import {LogoPhotanol} from '../components/Icons'
 import Layout from '../components/Layout'
-import Roadmap from '../components/Roadmap'
-import Slideshow from '../components/Slideshow'
-import Team from '../components/Team'
-import Vacancies from '../components/Vacancies'
-import Partners from '../components/Partners'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
-import ScrollRevealTween from '../hooks/ScrollRevealTween'
-
-const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true)
+import IntroSection from '../sections/IntroSection'
+import MissionSection from '../sections/MissionSection'
+import SolutionSection from '../sections/SolutionSection'
+import RoadmapSection from '../sections/RoadmapSection'
+import TechnologySection from '../sections/TechnologySection'
+import InfographicSection from '../sections/InfographicSection'
+import SlideshowSection from '../sections/SlideshowSection'
+import TeamSection from '../sections/TeamSection'
+import VacanciesSection from '../sections/VacanciesSection'
+import PartnersSection from '../sections/PartnersSection'
+import FooterSection from '../sections/FooterSection'
 
 export const IndexPageTemplate = ({
   intro,
@@ -34,299 +29,21 @@ export const IndexPageTemplate = ({
   partners,
   footer,
 }) => {
-  const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
-  const [missionVideoPlayer, setMissionVideoPlayer] = useState(null)
-  const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
-  const [brandVideoPlayer, setBrandVideoPlayer] = useState(null)
-  
-  const onMissionYoutubeReady = (event) => {
-    setMissionVideoPlayer(event.target)
-  }
-  
-  const onMissionVideoModalOpen = () => {
-    setShowMissionVideoModal(true)
-    var html = document.getElementsByTagName("html")[0];
-    html.classList.add("is-clipped")
-  }
-  
-  const onMissionVideoModalClose = () => {
-    if (missionVideoPlayer) missionVideoPlayer.stopVideo()
-    setShowMissionVideoModal(false)
-    var html = document.getElementsByTagName("html")[0];
-    html.classList.remove("is-clipped")
-  }
-  
-  const onBrandYoutubeReady = (event) => {
-    setBrandVideoPlayer(event.target)
-  }
-  
-  const onBrandVideoModalOpen = () => {
-    setShowBrandVideoModal(true)
-    var html = document.getElementsByTagName("html")[0];
-    html.classList.add("is-clipped")
-  }
-  
-  const onBrandVideoModalClose = () => {
-    if (brandVideoPlayer) brandVideoPlayer.stopVideo()
-    setShowBrandVideoModal(false)
-    var html = document.getElementsByTagName("html")[0];
-    html.classList.remove("is-clipped")
-  }
     
   return (
     <div>
       <div className="logo-container"><LogoPhotanol /></div>
-      {/* 
-        INTRO 
-      */}
-      <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
-        <Scene pin duration={600} offset={-80} indicators={false}>
-          {(progress) => (
-          <section className="intro">
-            <div className="video-panel hero-video">
-              <video poster={PreviewCompatibleFile(intro.video.poster)} playsInline autoPlay muted loop>
-                <source src={PreviewCompatibleFile(intro.video.file)} type="video/mp4" />
-              </video>
-            </div>
-            <Tween
-              paused
-              from={{ clipPath: 'inset(0 0 0% 0)' }}
-              to={{ clipPath: 'inset(0 0 100% 0)' }}
-              totalProgress={progress}
-              ease={"power1.inOut"}
-            >
-            <section className="text-panel-wrapper">
-              <div className="text-panel">
-                <div className="container text">
-                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{intro.pretitle}</h5>
-                  <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro.title)}}></h1>
-                </div>
-              </div>
-            </section>
-            </Tween>
-          </section>
-          )} 
-        </Scene>
-      </Controller>
-      {/* 
-        MISSION 
-      */}
-      <section className="section mission">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-12">      
-              <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
-              <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
-              {/* <button className="button-primary" onClick={onMissionVideoModalOpen}>
-                <span className="icon">
-                  <IconPlay />
-                </span>
-                <span>{mission.video_item.label}</span>
-              </button>*/}
-            </div>
-          </div>
-        </div>
-        <div className={`modal ${showMissionVideoModal ? 'is-active' : ''}`}>
-          <div className="modal-background" onClick={onMissionVideoModalClose}></div>
-          <div className="modal-content is-full">
-            <figure className="image is-16by9">
-              <YouTube className="has-ratio" videoId={mission.video_item.link} onReady={onMissionYoutubeReady} />
-            </figure>
-          </div>
-          <button className="modal-close is-large" aria-label="close" onClick={onMissionVideoModalClose}></button>
-        </div>
-      </section>
-      {/* 
-        SOLUTION 
-      */}
-      <section className="section solution" id="product">
-        <div className="container">
-          <div className="columns">
-            <ScrollRevealTween>
-              <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{solution.pretitle}</h5>
-                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution.title}</h1>
-              </div>
-            </ScrollRevealTween>
-          </div>
-          <div className="columns">
-            <div className="column is-8 is-offset-2">
-              <img src="/img/animation-placeholder.jpg" />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* 
-        ROADMAP 
-      */}
-      <section className="section roadmap has-background-primary">
-        <div className="container">
-          <div className="columns">
-            <ScrollRevealTween>
-              <div className="column is-12">
-                <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-7">{roadmap.pretitle}</h5>
-                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
-              </div>
-            </ScrollRevealTween>
-          </div>
-        </div>
-        <Roadmap active={roadmap.active} items={roadmap.items} />
-      </section>
-      {/* 
-        TECHNOLOGY 
-      */}
-      <section className="section technology" id="technology">
-        <div className="container">
-          <div className="columns">
-            <ScrollRevealTween>
-              <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{technology.pretitle}</h5>
-                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology.title}</h1>
-              </div>
-            </ScrollRevealTween>
-          </div>
-          <div className="columns">
-            <div className="column is-9 is-8-desktop text-columns">
-              <article className="blue-text technology-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(technology.text)}}></article>
-              <button className="button-primary mt-4" onClick={onBrandVideoModalOpen}>
-                <span className="icon">
-                  <IconPlay />
-                </span>
-                <span>{technology.video_item.label}</span>
-              </button>
-            </div>
-            <div className={`modal ${showBrandVideoModal ? 'is-active' : ''}`}>
-              <div className="modal-background" onClick={onBrandVideoModalClose}></div>
-              <div className="modal-content is-full">
-                <figure className="image is-16by9">
-                  <YouTube className="has-ratio" videoId={technology.video_item.link} onReady={onBrandYoutubeReady} />
-                </figure>
-              </div>
-              <button className="modal-close is-large" aria-label="close" onClick={onBrandVideoModalClose}></button>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* 
-        INFOGRAPHIC 
-      */}
-      <section className="section infographic">
-        <div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1" >
-              <ScrollRevealTween>
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
-              </ScrollRevealTween>
-              <img src="/img/infographic-placeholder.jpg" width='100%' />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* 
-        SLIDESHOW 
-      */}
-      <Slideshow slideshow={slideshow} />
-      {/* 
-        TEAM 
-      */}
-      <section className="section team" id="team">
-        <ScrollRevealTween>
-          <div className="container text">
-            <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{team.pretitle}</h5>
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{team.title}</h1>
-          </div>
-        </ScrollRevealTween>
-        <Team employees={team.employees} />
-      </section>
-      {/* 
-        JOBS 
-      */}
-      <section className="jobs vacancies-wrapper mt-4" id="jobs">
-        <ScrollRevealTween>
-          <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
-        </ScrollRevealTween>
-        <Vacancies vacancies={vacancies} />
-      </section>
-      {/* 
-        PARTNERS 
-      */}
-      <section className="section partners">
-        <div className="container">
-          <div className="columns">
-            <ScrollRevealTween>
-              <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{partners.pretitle}</h5>
-                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners.title}</h1>
-              </div>
-            </ScrollRevealTween>
-          </div>
-          <div className="columns">
-            <div className="column is-three-quarters-tablet">
-              <Partners logos={partners.logos} />
-            </div>
-            <div className="column side-image-column">
-              <a className="side-image" href={partners.side_logo.link} target="_blank">
-                <PreviewCompatibleImage imageInfo={{
-                  image: partners.side_logo.image, 
-                  alt: '',
-                  style: {maxHeight: '100%'},
-                  imgStyle: {objectFit: 'contain'}
-                }} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* 
-        FOOTER 
-      */}
-      <section className="section footer" id="contact">
-        <div className="container">
-          <div className="columns">
-            <ScrollRevealTween>
-              <div className="column is-12">
-                <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{footer.pretitle}</h5>
-                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer.title}</h1>
-              </div>
-            </ScrollRevealTween>
-          </div>
-          <div className="columns">
-            <div className="column is-12">
-              <div className="footer-elements">
-                <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-8">EVERYTHING PHOTANOL</h5>
-                  <div><a href={`mailto:${footer.links.email_general}`} className="black-text">{footer.links.email_general}</a></div>
-                </div>
-                <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-8">PRESS & INTERVIEWS</h5>
-                  <div><a href={`mailto:${footer.links.email_press}`} className="black-text">{footer.links.email_press}</a></div>
-                </div>
-                <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-8">JOB OPPORTUNITIES</h5>
-                  <div><a href={`mailto:${footer.links.email_vacancies}`} className="black-text">{footer.links.email_vacancies}</a></div>
-                </div>
-                <div className="footer-element">
-                  <h5 className="grey-text has-text-weight-bold is-uppercase is-size-8">JOIN THE REVOLUTION ON:</h5>
-                  <div className="social-media">
-                    <a href={footer.links.link_twitter} target="_blank" className="button-secondary">
-                      <span className="icon"><IconTwitter /></span>
-                      <span>{'TWITTER'}</span>
-                    </a>
-                    <a href={footer.links.link_linkedin} target="_blank" className="button-secondary">
-                      <span className="icon"><IconLinkedIn /></span>
-                      <span>{'LINKEDIN'}</span>
-                    </a>
-                    <a href={footer.links.link_youtube} target="_blank" className="button-secondary">
-                      <span className="icon"><IconYoutube /></span>
-                      <span>{'YOUTUBE'}</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <IntroSection intro={intro} />
+      <MissionSection mission={mission} />
+      <SolutionSection solution={solution} />
+      <RoadmapSection roadmap={roadmap} />
+      <TechnologySection technology={technology} />
+      <InfographicSection infographic={infographic} />
+      <SlideshowSection slideshow={slideshow} />
+      <TeamSection team={team} />
+      <VacanciesSection vacancies={vacancies} />
+      <PartnersSection partners={partners} />
+      <FooterSection footer={footer} />
     </div>
   )
 }
@@ -389,7 +106,12 @@ IndexPageTemplate.propTypes = {
   partners: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
-    logos: PropTypes.array,
+    logos: PropTypes.arrayOf(
+      PropTypes.shape({
+        image: PropTypes.object,
+        link: PropTypes.string,
+      })
+    ),
     side_logo_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     pside_logo_link: PropTypes.string,
   }),

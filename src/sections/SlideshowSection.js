@@ -3,22 +3,29 @@ import PropTypes from 'prop-types'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween, Timeline } from 'react-gsap'
 
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import useWindowSize from '../hooks/useWindowSize'
 
-const Slideshow = ({ slideshow }) => {
+const SlideshowSection = ({ slideshow }) => {
   const size = useWindowSize()
-  const height = (size.width / 3) / 16 * 9
+  var offset = (size.height / 2)
+  var duration = (size.height / 2)
+  var width = '50%'
+  if (size.width > 768) {
+    offset = (size.width / 3) / 16 * 9
+    duration = (size.height / 2)
+    width = '33.33%'
+  } 
+  
   return (
     <Controller>
-      <Scene triggerHook="onCenter" duration={height * 2} pin indicators={false}>
+      <Scene triggerHook="onEnter" offset={offset} duration={duration} indicators={false}>
         {(progress) => (
-          <section className="section slideshow" style={{height: height}}>
+          <section className="section slideshow">
             <Tween
-              from={{ top: '0%', right: '14%', paddingTop: '6%' }}
-              to={{ bottom: '0%', left: '0%', paddingTop: '0%'  }}
+              from={{ top: '60px', right: '90px', width: width }}
               totalProgress={progress}
-              ease={"power1.inOut"}
+              ease={"power1.out"}
               paused
             >
               <div className="image" id="image1">
@@ -31,10 +38,9 @@ const Slideshow = ({ slideshow }) => {
               </div>
             </Tween>
             <Tween
-              from={{ top: '0%', right: '12%', transform: 'translate(0%, 0%)', paddingTop: '3%' }}
-              to={{ bottom: '0%', left: '50%', transform: 'translate(-50%, 0%)', paddingTop: '0%'  }}
+              from={{ top: '30px', right: '60px', width: width }}
               totalProgress={progress}
-              ease={"power1.inOut"}
+              ease={"power1.out"}
               paused
             >
               <div className="image" id="image2">
@@ -47,10 +53,9 @@ const Slideshow = ({ slideshow }) => {
               </div>
             </Tween>
             <Tween
-              from={{ top: '0%', right: '10%' }}
-              to={{ bottom: '0%', right: '0%' }}
+              from={{ top: '0px', right: '30px', width: width }}
               totalProgress={progress}
-              ease={"power1.inOut"}
+              ease={"power1.out"}
               paused
             >
               <div className="image" id="image3">
@@ -69,7 +74,7 @@ const Slideshow = ({ slideshow }) => {
   )
 }
 
-Slideshow.propTypes = {
+SlideshowSection.propTypes = {
   slideshow: PropTypes.shape({
     image1: PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -86,4 +91,4 @@ Slideshow.propTypes = {
   }),
 }
 
-export default Slideshow
+export default SlideshowSection

@@ -10,52 +10,52 @@
   .items-wrapper
     position: relative
     overflow: hidden
-    .items
+  .items
+    display: flex
+    height: 470px
+    pointer-events: none
+    margin-left: calc((100% - 280px) / 2)
+    +tablet
+      margin-left: 300px
+    +desktop
+      margin-left: 450px
+    +fullhd
+      margin-left: 600px
+  .item
+    display: flex
+    flex-basis: 280px
+    max-width: 280px
+    flex-grow: 0
+    flex-shrink: 0
+    +tablet
+      flex-basis: 382px
+      max-width: 382px
+    .item-content
+      position: relative
       display: flex
-      height: 470px
-      pointer-events: none
-      margin-left: calc((100% - 280px) / 2)
+      flex-direction: column
+      background-color: #0A064A
+      padding: 32px
+      margin: 8px
+      overflow: hidden
       +tablet
-        margin-left: 300px
-      +desktop
-        margin-left: 450px
-      +fullhd
-        margin-left: 600px
-      .item
-        display: flex
-        flex-basis: 280px
-        max-width: 280px
-        flex-grow: 0
-        flex-shrink: 0
-        +tablet
-          flex-basis: 382px
-          max-width: 382px
-        .item-content
-          position: relative
-          display: flex
-          flex-direction: column
-          background-color: #0A064A
-          padding: 32px
-          margin: 8px
-          overflow: hidden
-          +tablet
-            margin: 16px
-          h3, h5
-            word-wrap: break-word
-            pointer-events: none
-          p
-            flex-grow: 1
-            pointer-events: none
-          a
-            right: 32px
-            align-self: flex-end
-          .gradient-box
-            position: absolute
-            right: 0
-            left: 9%
-            bottom: 0
-            height: 13px
-            background: linear-gradient(81.64deg, #009EE2 6.4%, #05A0DE 14.7%, #15A4D1 24.97%, #2EACBB 36.29%, #51B69E 48.38%, #7EC477 61.06%, #B6D549 74.24%, #F6E812 87.6%, #FCEA0D 88.84%)
+        margin: 16px
+      h3, h5
+        word-wrap: break-word
+        pointer-events: none
+      p
+        flex-grow: 1
+        pointer-events: none
+      a
+        right: 32px
+        align-self: flex-end
+      .gradient-box
+        position: absolute
+        right: 0
+        left: 9%
+        bottom: 0
+        height: 13px
+        background: linear-gradient(81.64deg, #009EE2 6.4%, #05A0DE 14.7%, #15A4D1 24.97%, #2EACBB 36.29%, #51B69E 48.38%, #7EC477 61.06%, #B6D549 74.24%, #F6E812 87.6%, #FCEA0D 88.84%)
   .images
     position: absolute
     width: 300px

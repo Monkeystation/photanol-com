@@ -1,0 +1,29 @@
+// SLIDESHOW
+.slideshow
+  width: 100%
+  height: calc(100vw / 16 * 3)
+  position: relative
+  margin: 4rem 0rem
+  padding: 0
+  +mobile
+    height: calc(100vw / 16 * 27)
+  .image
+    position: absolute !important
+    width: 33.4%
+    +mobile
+      width: 100%
+  #image1
+    top: 0%
+    right: calc(100% - 33.4%)
+    +mobile
+      top: calc(100vw / 16 * 18)
+      right: 0%
+  #image2
+    top: 0%
+    right: 33.4%
+    +mobile
+      top: calc(100vw / 16 * 9)
+      right: 0%
+  #image3
+    top: 0%
+    right: 0%
