@@ -3,7 +3,7 @@ templateKey: index-page
 intro:
   pretitle: A BIOTECH REVOLUTION
   title: |-
-    We turn CO₂
+    We turn CO<sub>2</sub>
     into renewable
     circular chemicals.
   video:
