@@ -13,7 +13,6 @@ const SlideshowSection = ({ slideshow }) => {
   var width = '50%'
   if (size.width > 768) {
     offset = (size.width / 3) / 16 * 9
-    duration = (size.height / 2)
     width = '33.33%'
   } 
   

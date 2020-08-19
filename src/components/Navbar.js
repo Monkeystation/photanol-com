@@ -54,20 +54,20 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1500} offset={-50}>
+            <div className="navbar-end">
+              <Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()}>
                 product
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} smooth={true} duration={1500} offset={-50}>
+              <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()}>
                 technology
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="team" spy={true} smooth={true} duration={1500} offset={-50}>
+              <Link className="navbar-item" activeClass="is-active" to="team" spy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()}>
                 team
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} smooth={true} duration={1500} offset={-100}>
+              <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} smooth={true} duration={1500} offset={-100} onClick={() => this.toggleHamburger()}>
                 jobs
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} smooth={true} duration={1500} offset={-50}>
+              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()}>
                 contact
               </Link>
             </div>

@@ -1,16 +1,20 @@
 .timeline
-  width: 100%
+  width: 100vw
   display: block
   height: 450px
   position: relative
+  margin-left: -2rem
   +mobile
-    height: 500px
+    height: 600px
+    margin-top: 2rem
   .line
     width: 100%
     position: absolute
     height: 3px
     background-color: white
     top: 265px
+    +mobile
+      top: 150px
   .items
     display: flex
     justify-content: center
@@ -29,11 +33,11 @@
     flex-direction: column
     align-items: center
     justify-content: center
+    +mobile
+      display: block
     .item-element-top
       height: 100px
       display: flex
-      +mobile
-          height: auto
       .item-title
         font-size: 20px
         line-height: 127%
@@ -41,9 +45,7 @@
         margin-bottom: 30px
         align-self: flex-end
         +mobile
-          max-width: inherit
-          align-self: flex-start
-          margin-bottom: 0
+          margin: 0 auto
     .item-element-center
       position: relative
       align-items: center
@@ -59,14 +61,18 @@
         left: 0
         top: 0
         opacity: 0
-    .item-element-bottom
-      .item-year  
-        font-size: 20px
+      +mobile
+        display: flex
+        justify-content: center
+    .item-year  
+      font-size: 30px
+      margin-top: 30px
+      align-self: flex-start
+      +mobile
         margin-top: 30px
-        align-self: flex-start
-        +mobile
-          margin-top: 0
-          font-size: 30px
+        margin-bottom: 20px
+        background-color: #0A064A
+        padding: 10px
   .item-text
     width: 300px
     background-color: #0A064A
@@ -80,5 +86,3 @@
     p
       margin-top: 1rem
       margin-bottom: 1rem
-      +mobile
-        text-align: center

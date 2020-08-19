@@ -17,15 +17,17 @@ const RoadmapItem = (props) => {
               {title}
             </h4>
           </div>             
-          <div 
-            className="item-text white-text" 
-            style={{display: 'block'}}
-            dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}
-          />
-          <div className="item-element-bottom">
+          <div className="item-element-center">
             <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
               {year}
             </h2>
+          </div>
+          <div className="item-element-bottom">
+            <div 
+              className="item-text white-text" 
+              style={{display: 'block'}}
+              dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}
+            />
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@
 //font-style: normal;
 
 // Config vars
+$max-width: 2560px !default
 $white: #FFFFFF
 $blue-900: #0A064A
 $blue-500: #4CB4E7
@@ -44,7 +45,7 @@ $size-8: 14px
 $fullhd: 1744px + (2 * $gap)
 $link-hover: $green-500
 $modal-content-width: 768px
-$section-padding: 4rem 1.5rem
+$section-padding: 4rem 2rem
 
 //Menu overrides
 $navbar-height: 5rem
@@ -55,12 +56,11 @@ $navbar-item-active-color: $green-500
 $navbar-item-active-background-color: $white
 $navbar-label-color: $black
 $navbar-breakpoint: $tablet
+$navbar-background-color: transparent
 
 $transition-duration: .3s
 
-.navbar
-  position: sticky !important
-  top: 0
+
   
 .subtitle
   letter-spacing: 0.08rem
@@ -84,23 +84,67 @@ $transition-duration: .3s
 @import "../sections/footerSection"
 
 .green-text
-  color: $green-500
+  color: $green-500 !important
   
 .blue-text
-  color: $blue-900
+  color: $blue-900 !important
   
 .blue-300-text
-  color: $blue-300
+  color: $blue-300 !important
 
 .grey-text
-  color: $grey-600
+  color: $grey-600 !important
   
 .white-text
-  color: #fff
+  color: #fff !important
 
 .black-text
-  color: #000
+  color: #000 !important
 
+.navbar
+  position: sticky !important
+  top: 0
+  .container
+    max-width: 100%
+  .navbar-end
+    background-color: $white
+    padding-left: 1rem
+    padding-right: 4rem
+  .navbar-burger
+    background-color: $white
+  .navbar-item
+    transition: color 0.2s ease
+  +until($navbar-breakpoint)
+    .navbar-burger
+      width: 3rem
+      height: 3rem
+      &.is-active
+        z-index: 1
+        background-color: $blue-900
+        color: $white
+    .navbar-menu
+      background-color: $blue-900
+      position: fixed
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      .navbar-end
+        background-color: $blue-900
+        padding: 5rem 2rem
+        .navbar-item
+          color: $white
+          font-size: $size-5
+          font-weight: bold
+          &:hover
+            background-color: transparent
+          &.is-active
+            background-color: transparent
+            
+.section
+  margin: 0 auto
+  max-width: 2560px
+  
 .modal
   display: flex
   visibility: hidden
@@ -231,7 +275,7 @@ $transition-duration: .3s
   position: absolute
   left: 0
   top: 0
-  z-index: 30
+  z-index: 29
   +tablet
     width: 264px
     height: 432px

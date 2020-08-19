@@ -86,7 +86,7 @@ class Roadmap extends React.Component {
     var target = -((targetItemId * itemWidth) + (activeItemWidth / 2)) + (tlw / 2)
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
+    TweenLite.to(obj, 1, {position:target, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
   }

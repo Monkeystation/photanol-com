@@ -9,7 +9,7 @@ const RoadmapSection = ({ roadmap }) => (
     <div className="container">
       <div className="columns">
         <ScrollRevealTween>
-          <div className="column is-12">
+          <div className="column">
             <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-7">{roadmap.pretitle}</h5>
             <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
           </div>

@@ -32,41 +32,43 @@ const VacanciesSection = ({ vacancies }) => {
   }, [vacancyData])
   
   return (
-    <section className="jobs vacancies-wrapper mt-4" id="jobs">
-      <ScrollRevealTween>
-        <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
-      </ScrollRevealTween>
-      <div className="vacancies">
-        <div className="tile is-parent is-vertical">
-        {vacancies.map((vacancy) => {
-          return (
-            <div key={v4()} className="vacancy-card tile is-child pb-3">
-              <p className="blue-text has-text-weight-bold">
-                {vacancy.title}
-              </p>
-              <p className="blue-text py-3">
-                {vacancy.description_short}
-              </p>
-              <button className="button-secondary is-grey" onClick={() => onVacancyButtonClick(vacancy)}>
-                <span>{'VIEW VACANCY'}</span>
-                <span className="icon">
-                  <IconArrow />
-                </span>
-              </button>
-            </div>
-          )
-        }
-        )}
-        </div>
-        <div className={`modal ${showVacancyModal ? 'is-active' : ''}`}>
-          <div className="modal-background" onClick={onVacancyModalClose}></div>
-          <div className="modal-content" ref={modalContent}>
-            <div className="box">
-              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4">{vacancyData.title}</h1>
-              <div className="vacancy-body blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancyData.description_full)}}></div>
-            </div>
+    <section className="section vacancies-wrapper" id="jobs">
+      <div className="content">
+        <ScrollRevealTween>
+          <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
+        </ScrollRevealTween>
+        <div className="vacancies">
+          <div className="tile is-parent is-vertical">
+          {vacancies.map((vacancy) => {
+            return (
+              <div key={v4()} className="vacancy-card tile is-child pb-3">
+                <p className="blue-text has-text-weight-bold">
+                  {vacancy.title}
+                </p>
+                <p className="blue-text py-3">
+                  {vacancy.description_short}
+                </p>
+                <button className="button-secondary is-grey" onClick={() => onVacancyButtonClick(vacancy)}>
+                  <span>{'VIEW VACANCY'}</span>
+                  <span className="icon">
+                    <IconArrow />
+                  </span>
+                </button>
+              </div>
+            )
+          }
+          )}
           </div>
-          <button className="modal-close is-large" aria-label="close" onClick={onVacancyModalClose}></button>
+          <div className={`modal ${showVacancyModal ? 'is-active' : ''}`}>
+            <div className="modal-background" onClick={onVacancyModalClose}></div>
+            <div className="modal-content" ref={modalContent}>
+              <div className="box">
+                <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4">{vacancyData.title}</h1>
+                <div className="vacancy-body blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancyData.description_full)}}></div>
+              </div>
+            </div>
+            <button className="modal-close is-large" aria-label="close" onClick={onVacancyModalClose}></button>
+          </div>
         </div>
       </div>
     </section>
