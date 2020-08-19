@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState, lazy, Suspense} from 'react'
 import PropTypes from 'prop-types'
-import YouTube from 'react-youtube'
+
+const YouTube = lazy(() => import('react-youtube'))
 
 const MissionSection = ({ mission }) => {
   const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
@@ -43,7 +44,9 @@ const MissionSection = ({ mission }) => {
         <div className="modal-background" onClick={onMissionVideoModalClose}></div>
         <div className="modal-content is-full">
           <figure className="image is-16by9">
-            <YouTube className="has-ratio" videoId={mission.video_item.link} onReady={onMissionYoutubeReady} />
+            <Suspense fallback={(<p>Loading</p>)}>
+              <YouTube className="has-ratio" videoId={mission.video_item.link} onReady={onMissionYoutubeReady} />
+            </Suspense>
           </figure>
         </div>
         <button className="modal-close is-large" aria-label="close" onClick={onMissionVideoModalClose}></button>
