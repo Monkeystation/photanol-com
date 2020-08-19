@@ -64,12 +64,12 @@ class Draggable extends React.Component {
   
   addEventListeners(start = true, move = true, end = true) {
     if (start) {
-      this.draggable.addEventListener("touchstart", this.handleTouchStart, {passive: false})
+      this.draggable.addEventListener("touchstart", this.handleTouchStart, {passive: true})
       this.draggable.addEventListener("mousedown", this.handleTouchStart)
     }
     if (move) {
-      document.addEventListener("touchmove", this.handleTouchMove, {passive: false})
-      document.addEventListener("mousemove", this.handleTouchMove, {passive: false})
+      document.addEventListener("touchmove", this.handleTouchMove, {passive: true})
+      document.addEventListener("mousemove", this.handleTouchMove, {passive: true})
     }
     if (end) {
       document.addEventListener("touchend", this.handleTouchEnd)
@@ -83,8 +83,8 @@ class Draggable extends React.Component {
       this.draggable.removeEventListener("mousedown", this.handleTouchStart)
     }
     if (move) {
-      document.removeEventListener("touchmove", this.handleTouchMove, {passive: false})
-      document.removeEventListener("mousemove", this.handleTouchMove, {passive: false})
+      document.removeEventListener("touchmove", this.handleTouchMove, {passive: true})
+      document.removeEventListener("mousemove", this.handleTouchMove, {passive: true})
     }
     if (end) {
       document.removeEventListener("touchend", this.handleTouchEnd)

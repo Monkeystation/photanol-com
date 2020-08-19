@@ -65,6 +65,7 @@ class Roadmap extends React.Component {
   }
 
   componentWillUnmount() {
+    window.removeEventListener('resize', this.onWindowResize);
   }
   
   handleClick = (offset) => {
