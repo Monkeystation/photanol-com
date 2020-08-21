@@ -34,7 +34,7 @@ $body-line-height: 137%
 $title-line-height: 117%
 
 $size-1: 100px
-$size-2: 66px
+$size-2: 88px
 $size-3: 42px
 $size-4: 36px
 $size-5: 28px
@@ -54,7 +54,7 @@ $link-hover: $green-500
 $modal-content-width: 768px
 $modal-content-spacing-mobile: 0
 $modal-content-spacing-tablet: 0
-$section-padding: 4rem 4rem
+$section-padding: 6rem 10%
 
 //Menu overrides
 $navbar-height: 5rem
@@ -67,10 +67,10 @@ $navbar-label-color: $black
 $navbar-breakpoint: $tablet
 $navbar-background-color: transparent
 
-$transition-duration: .3s
+$transition-duration: .5s
   
 .subtitle
-  letter-spacing: 0.08rem
+  letter-spacing: 0.1rem
 
 .is-size-8
   font-size: $size-8 !important
@@ -120,11 +120,12 @@ $transition-duration: .3s
   .navbar-burger
     background-color: $white
   .navbar-item
-    transition: color 0.2s ease
+    transition: color $transition-duration ease
   +until($navbar-breakpoint)
     .navbar-burger
       width: 3rem
       height: 3rem
+      padding: .5rem
       &.is-active
         z-index: 1
         background-color: $blue-900
@@ -136,6 +137,14 @@ $transition-duration: .3s
       left: 0
       right: 0
       bottom: 0
+      display: block
+      visibility: hidden
+      transform: translateX(90%)
+      &.is-active
+        visibility: visible
+        animation: slide-in 0.5s forwards
+      &.is-inactive
+        animation: slide-out 0.5s forwards
       .navbar-end
         background-color: $blue-900
         padding: 5rem 2rem
@@ -147,7 +156,22 @@ $transition-duration: .3s
             background-color: transparent
           &.is-active
             background-color: transparent
-            
+      
+
+@keyframes slide-in 
+  0% 
+    transform: translateX(100%)
+  100% 
+    transform: translateX(0%)
+
+@keyframes slide-out 
+  0%
+    visibility: visible
+    transform: translateX(0%)
+  100% 
+    visibility: hidden
+    transform: translateX(100%)
+  
 .section
   margin: 0 auto
   max-width: $max-width

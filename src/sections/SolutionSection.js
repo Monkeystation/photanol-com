@@ -4,7 +4,7 @@ import ScrollRevealTween from '../hooks/ScrollRevealTween'
 
 const SolutionSection = ({ solution }) => (
   <section className="section solution" id="product">
-    <div className="container">
+    <div className="containert">
       <div className="columns">
         <ScrollRevealTween>
           <div className="column is-12 is-8-fullhd is-offset-2-fullhd">

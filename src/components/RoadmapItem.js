@@ -1,6 +1,7 @@
 import React from 'react'
 import showdown from 'showdown'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import {RoadmapCircle} from '../components/Icons'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
@@ -50,6 +51,7 @@ const RoadmapItem = (props) => {
             </h4>
           </div>             
           <div className="item-element-center">
+            <RoadmapCircle />
             <img 
               className="item-icon" 
               style={{ width: imageSize, height: imageSize }} 

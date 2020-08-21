@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import {Link} from 'react-scroll'
+import {IconClose} from '../components/Icons'
+import {IconHamburger} from '../components/Icons'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -12,25 +14,19 @@ const Navbar = class extends React.Component {
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
+    
+    this.setState({active: !this.state.active}, () => {
+      if (this.state.active) {
+        this.setState({ navBarActiveClass: 'is-active' })
+      } else {
+        this.setState({ navBarActiveClass: 'is-inactive' })
       }
-    )
+    })
   }
 
   render() {
+    const {active} = this.state
+    const icon = (active) ? <IconClose /> : <IconHamburger />
     return (
       <nav
         className="navbar"
@@ -45,9 +41,7 @@ const Navbar = class extends React.Component {
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
-              <span />
-              <span />
-              <span />
+              {icon}
             </div>
           </div>
           <div

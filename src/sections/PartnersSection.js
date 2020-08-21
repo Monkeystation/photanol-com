@@ -8,7 +8,7 @@ import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 
 const PartnersSection = ({ partners }) => (
   <section className="section partners">
-    <div className="container">
+    <div className="containert">
       <div className="columns">
         <ScrollRevealTween>
           <div className="column is-12 is-8-fullhd is-offset-2-fullhd">

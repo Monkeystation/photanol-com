@@ -5,7 +5,7 @@ import {IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
 
 const FooterSection = ({ footer }) => (
 <section className="section footer" id="contact">
-  <div className="container">
+  <div className="containert">
     <div className="columns">
       <ScrollRevealTween>
         <div className="column is-12 is-8-fullhd is-offset-2-fullhd">

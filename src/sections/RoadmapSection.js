@@ -6,7 +6,7 @@ import Roadmap from '../components/Roadmap'
 
 const RoadmapSection = ({ roadmap }) => (
   <section className="section roadmap has-background-primary">
-    <div className="container">
+    <div className="containert">
       <div className="columns">
         <ScrollRevealTween>
           <div className="column is-8-fullhd is-offset-2-fullhd">

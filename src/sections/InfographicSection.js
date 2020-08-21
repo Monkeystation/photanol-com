@@ -4,7 +4,7 @@ import ScrollRevealTween from '../hooks/ScrollRevealTween'
 
 const InfographicSection = ({ infographic }) => (
   <section className="section infographic">
-    <div className="container">
+    <div className="containert">
       <div className="columns">
         <div className="column is-12 is-10-widescreen is-offset-1-widescreen is-8-fullhd is-offset-2-fullhd" >
           <ScrollRevealTween>
