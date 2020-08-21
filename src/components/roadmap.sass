@@ -3,10 +3,11 @@
   display: block
   height: 450px
   position: relative
-  margin-left: -2rem
+  margin-left: -4rem
   +mobile
     height: 600px
-    margin-top: 2rem
+    margin-top: 3rem
+    margin-left: -2rem
   .line
     width: 100%
     position: absolute
@@ -14,7 +15,7 @@
     background-color: $white
     top: 265px
     +mobile
-      top: 180px
+      top: 150px
   .items
     display: flex
     justify-content: center
@@ -36,18 +37,20 @@
     align-items: center
     justify-content: center
     +mobile
-      display: block
+      justify-content: flex-start
     .item-element-top
       height: 100px
       display: flex
+      +mobile
+        min-height: 100px
       .item-title
         font-size: $size-6
         line-height: 127%
         max-width: 180px
-        margin-bottom: 30px
+        margin-bottom: 2rem
         align-self: flex-end
         +mobile
-          margin: 0 auto
+          margin-bottom: 1rem
     .item-element-center
       position: relative
       align-items: center
@@ -63,26 +66,12 @@
         left: 0
         top: 0
         opacity: 0
-      +mobile
-        display: flex
-        justify-content: center
     .item-year  
       font-size: $size-6
-      margin-top: 30px
+      margin-top: 2rem
       align-self: flex-start
       +mobile
-        font-size: $size-5
-        margin-top: 30px
-        margin-bottom: 20px
-        background-color: $blue-900
-        padding: 10px
-        border-radius: 50%
-        border: 3px solid #fff
-        width: 100px
-        height: 100px
-        display: flex
-        align-items: center
-        justify-content: center
+        margin-top: 1rem
   .item-text
     width: 300px
     background-color: $blue-900
@@ -91,8 +80,8 @@
     display: none
     pointer-events: none
     +mobile
-      padding-left: 10px
-      padding-right: 10px
+      padding-left: 0
+      padding-right: 0
     p
       margin-top: 1rem
       margin-bottom: 1rem
