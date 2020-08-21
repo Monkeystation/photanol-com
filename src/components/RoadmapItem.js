@@ -19,6 +19,7 @@ const RoadmapItem = (props) => {
             </h4>
           </div>             
           <div className="item-element-center">
+            <RoadmapCircle />
             <img 
               className="item-icon" 
               src={PreviewCompatibleFile(icon)} 
