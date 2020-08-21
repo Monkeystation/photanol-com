@@ -6,7 +6,7 @@ const InfographicSection = ({ infographic }) => (
   <section className="section infographic">
     <div className="container">
       <div className="columns">
-        <div className="column is-10 is-offset-1" >
+        <div className="column is-12 is-10-widescreen is-offset-1-widescreen" >
           <ScrollRevealTween>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
           </ScrollRevealTween>

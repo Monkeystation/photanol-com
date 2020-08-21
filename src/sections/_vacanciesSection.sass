@@ -2,11 +2,15 @@
 .vacancies-wrapper
   padding-top: 1rem
   .content
-    margin-left: 1.5rem
-    margin-right: 1.5rem
+    +mobile
+      margin-left: 0rem
+      margin-right: 0rem
+      p:not(:last-child)
+        margin-bottom: 0
     +tablet
-      margin-left: 400px
-      max-width: 500px
+      margin-left: 378px
+      p:not(:last-child)
+        margin-bottom: 0
     +desktop
       margin-left: 632px
     +fullhd
@@ -16,29 +20,30 @@
       border-radius: 0
       +tablet
         padding: 5rem
-
+      .vacancy-body
+        h4
+          margin-top: 3em
+          margin-bottom: 1em
+          font-weight: bold;
+        p
+          margin-top: 1em
+          margin-bottom: 1em
+          line-height: 137%
+        ul
+          list-style: none
+          margin-top: 1em
+          margin-bottom: 1em
+          padding-left: 30px
+          li
+            padding: 10px 0
+          li:before
+            content: url('../img/list.svg')
+            width: 16px
+            height: 16px
+            padding-right: 10px
+            margin-left: -26px
+          
 .vacancies .tile.is-parent
   padding: 0
+
   
-.vacancy-body
-  h4
-    margin-top: 3em
-    margin-bottom: 1em
-    font-weight: bold;
-  p
-    margin-top: 1em
-    margin-bottom: 1em
-    line-height: 137%
-  ul
-    list-style: none
-    margin-top: 1em
-    margin-bottom: 1em
-    padding-left: 30px
-    li
-      padding: 10px 0
-    li:before
-      content: url('../img/list.svg')
-      width: 16px
-      height: 16px
-      padding-right: 10px
-      margin-left: -26px

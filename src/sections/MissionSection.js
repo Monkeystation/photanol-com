@@ -1,7 +1,6 @@
-import React, {useState, lazy, Suspense} from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
-
-const YouTube = lazy(() => import('react-youtube'))
+import YouTube from 'react-youtube'
 
 const MissionSection = ({ mission }) => {
   const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
@@ -28,9 +27,9 @@ const MissionSection = ({ mission }) => {
     <section className="section mission">
       <div className="container">
         <div className="columns">
-          <div className="column is-12">      
+          <div className="column is-12-mobile is-10-tablet">      
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
-            <h1 className="title is-family-secondary has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
+            <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
             {/* <button className="button-primary" onClick={onMissionVideoModalOpen}>
               <span className="icon">
                 <IconPlay />
@@ -44,9 +43,7 @@ const MissionSection = ({ mission }) => {
         <div className="modal-background" onClick={onMissionVideoModalClose}></div>
         <div className="modal-content is-full">
           <figure className="image is-16by9">
-            <Suspense fallback={(<p>Loading</p>)}>
-              <YouTube className="has-ratio" videoId={mission.video_item.link} onReady={onMissionYoutubeReady} />
-            </Suspense>
+            <YouTube className="has-ratio" videoId={mission.video_item.link} onReady={onMissionYoutubeReady} />
           </figure>
         </div>
         <button className="modal-close is-large" aria-label="close" onClick={onMissionVideoModalClose}></button>

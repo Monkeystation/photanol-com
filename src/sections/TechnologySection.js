@@ -1,10 +1,10 @@
-import React, {useState, lazy, Suspense } from 'react'
+import React, {useState} from 'react'
+import YouTube from 'react-youtube'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
 import ScrollRevealTween from '../hooks/ScrollRevealTween'
 import {IconPlay} from '../components/Icons'
 
-const YouTube = lazy(() => import('react-youtube'))
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
@@ -42,7 +42,7 @@ const TechnologySection = ({ technology }) => {
           </ScrollRevealTween>
         </div>
         <div className="columns">
-          <div className="column is-9 is-8-desktop text-columns">
+          <div className="column is-12 is-8-desktop text-columns">
             <article className="blue-text technology-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(technology.text)}}></article>
             <button className="button-primary mt-4" onClick={onBrandVideoModalOpen}>
               <span className="icon">
@@ -55,9 +55,7 @@ const TechnologySection = ({ technology }) => {
             <div className="modal-background" onClick={onBrandVideoModalClose}></div>
             <div className="modal-content is-full">
               <figure className="image is-16by9">
-                <Suspense fallback={(<p>Loading</p>)}>
-                  <YouTube className="has-ratio" videoId={technology.video_item.link} onReady={onBrandYoutubeReady} />
-                </Suspense>
+                <YouTube className="has-ratio" videoId={technology.video_item.link} onReady={onBrandYoutubeReady} />
               </figure>
             </div>
             <button className="modal-close is-large" aria-label="close" onClick={onBrandVideoModalClose}></button>

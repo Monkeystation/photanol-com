@@ -1,13 +1,18 @@
 // INTRO
 .intro 
-  height: 470px
+  height: 420px
   position: relative
   padding-top: 0
   padding-bottom: 0
+  margin-bottom: 3rem
   +tablet
+    height: 500px
+  +desktop
+    height: 500px
+  +widescreen
     height: 600px
   +fullhd
-    height: 768px
+    height: 848px
   .text-panel-wrapper
     position: absolute
     left: 0
@@ -19,30 +24,42 @@
   .text-panel
     height: 100%
     background-color: #F2F2F2
-    margin-right: 35px
+    margin-right: 1rem
     +tablet
-      margin-left: 64px
-      margin-right: 64px
+      margin-left: 2rem
+      margin-right: 2rem
+    +desktop
+      margin-left: 4rem
+      margin-right: 4rem
     .text
       position: absolute
+      h1
+        line-height: 100%
       sub
         font-size: 1rem !important
-      left: 36px
-      top: 240px
+      left: 2rem
+      top: 220px
       +tablet
         left: 328px
         top: 96px
       +desktop
-        left: 576px
+        left: 520px
+      +widescreen
+        top: 100px
+        left: 600px
       +fullhd
-        left: 787px
+        top: 160px
+        left: 860px
   .video-panel
-    margin-right: 35px
-    height: calc(100% + 40px)
+    margin-right: 1rem
+    height: calc(100% + 3rem)
     +mobile
       display: block
     +tablet
-      margin-left: 64px
-      margin-right: 64px
+      margin-left: 2rem
+      margin-right: 2rem
+    +desktop
+      margin-left: 4rem
+      margin-right: 4rem
   .video-panel video
     object-fit: cover

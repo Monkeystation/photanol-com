@@ -180,10 +180,10 @@ class Team extends React.Component {
                   opacity: layout[index].itemOpacity,
                 }}>
                   <div className="item-content" id={"item" + index}>
-                    <h3 className="title is-size-6 is-size-5-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold pb-2">
+                    <h3 className="title is-size-6 is-size-4-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold pb-2">
                       {employee.name}
                     </h3>
-                    <h5 className="subtitle is-size-6 blue-300-text has-text-weight-bold">
+                    <h5 className="subtitle is-size-7 is-size-6-tablet blue-300-text has-text-weight-bold">
                       {employee.function}
                     </h5>
                     <p className="white-text">{employee.text}</p>

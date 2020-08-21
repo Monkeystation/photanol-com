@@ -15,7 +15,7 @@ const FooterSection = ({ footer }) => (
       </ScrollRevealTween>
     </div>
     <div className="columns">
-      <div className="column is-12">
+      <div className="column is-12 is-10-desktop is-12-widescreen">
         <div className="footer-elements">
           <div className="footer-element">
             <h5 className="grey-text has-text-weight-bold is-uppercase is-size-8">EVERYTHING PHOTANOL</h5>

@@ -1,10 +1,15 @@
 // FOOTER
 .footer 
-  margin: 1rem
-  padding: 4rem 1.5rem
+  
   background-color: $grey-100
+  +mobile
+    padding: 4rem 1.5rem
+    margin: 1rem !important
   +tablet
-    margin: 3rem
+    padding: 3rem 4rem
+    margin: 0 0 3rem 3rem !important
+  +desktop
+    margin: 4rem !important
   .footer-elements
     display: flex
     align-items: space-between
@@ -18,4 +23,7 @@
     +tablet
       flex-wrap: nowrap
   .social-media > a
-    padding-right: 32px
+    padding-top: 0.5rem
+    padding-right: 2rem
+    +widescreen
+      padding-top: 0

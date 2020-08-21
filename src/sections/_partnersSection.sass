@@ -3,9 +3,10 @@
   .logos
     align-items: center
     flex-wrap: wrap
-    border-bottom: 1px solid $grey-400
+    +mobile
+      padding-bottom: 2rem
+      border-bottom: 1px solid $grey-400
     +tablet 
-      border-bottom: none
       border-right: 1px solid $grey-400
   .partner-logo
     flex-basis: 50%
@@ -13,14 +14,14 @@
     text-align: center
     +tablet
       flex-basis: 20%
-    img 
 
   .side-image-column 
     display: flex
     align-items: center
-    padding-top: 50px
+    +mobile
+      padding-top: 50px
     +tablet 
-      padding: 30px
+      margin: 20px
   .side-image 
     flex: 1
     height:  180px

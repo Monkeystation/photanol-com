@@ -8,7 +8,6 @@
 //font-style: normal;
 
 // Config vars
-$max-width: 2560px !default
 $white: #FFFFFF
 $blue-900: #0A064A
 $blue-500: #4CB4E7
@@ -32,6 +31,7 @@ $family-serif: p22-mackinac-pro, serif
 $family-primary: $family-sans-serif
 $family-secondary: $family-serif
 $body-line-height: 137%
+$title-line-height: 117%
 
 $size-1: 100px
 $size-2: 66px
@@ -42,10 +42,19 @@ $size-6: 20px
 $size-7: 16px
 $size-8: 14px
 
-$fullhd: 1744px + (2 * $gap)
+$widescreen-enabled: true
+$max-width: 2230px !default
+$tablet: 735px 
+$desktop: 1069px
+$widescreen: 1441px
+$fullhd: 1921px
+
+//$fullhd: 1744px + (2 * $gap)
 $link-hover: $green-500
 $modal-content-width: 768px
-$section-padding: 4rem 2rem
+$modal-content-spacing-mobile: 0
+$modal-content-spacing-tablet: 0
+$section-padding: 4rem 4rem
 
 //Menu overrides
 $navbar-height: 5rem
@@ -59,8 +68,6 @@ $navbar-breakpoint: $tablet
 $navbar-background-color: transparent
 
 $transition-duration: .3s
-
-
   
 .subtitle
   letter-spacing: 0.08rem
@@ -143,11 +150,15 @@ $transition-duration: .3s
             
 .section
   margin: 0 auto
-  max-width: 2560px
+  max-width: $max-width
+  +mobile
+    padding: 4rem 2rem
   
 .modal
   display: flex
   visibility: hidden
+  .modal-close 
+    background-color: $blue-900
   .modal-background
     transition: all $transition-duration
     opacity: 0
@@ -280,6 +291,9 @@ $transition-duration: .3s
     width: 264px
     height: 432px
   +desktop
+    width: 400px
+    height: 530px
+  +widescreen
     width: 512px
     height: 584px
   +fullhd
@@ -290,8 +304,12 @@ $transition-duration: .3s
     margin-top: -10%
     +tablet 
       width: 50%
+      margin-top: 10%
     +desktop
       width: 40%
+      margin-top: -10%
+    +widescreen
+      width: 35%
 
 
   
