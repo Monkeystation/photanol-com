@@ -7,15 +7,15 @@ const SolutionSection = ({ solution }) => (
     <div className="container">
       <div className="columns">
         <ScrollRevealTween>
-          <div className="column is-12">
+          <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{solution.pretitle}</h5>
             <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{solution.title}</h1>
           </div>
         </ScrollRevealTween>
       </div>
       <div className="columns">
-        <div className="column is-8 is-offset-2">
-          <img src="/img/animation-placeholder.jpg" />
+        <div className="column is-12 is-10-desktop is-offset-1-desktop is-8-widescreen is-offset-2-widescreen">
+          <img src="/img/animation-placeholder.jpg" width='100%' />
         </div>
       </div>
     </div>

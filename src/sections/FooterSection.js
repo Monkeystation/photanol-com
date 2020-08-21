@@ -8,14 +8,14 @@ const FooterSection = ({ footer }) => (
   <div className="container">
     <div className="columns">
       <ScrollRevealTween>
-        <div className="column is-12">
+        <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
           <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{footer.pretitle}</h5>
           <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer.title}</h1>
         </div>
       </ScrollRevealTween>
     </div>
     <div className="columns">
-      <div className="column is-12 is-10-desktop is-12-widescreen">
+      <div className="column is-12 is-10-desktop is-12-widescreen is-8-fullhd is-offset-2-fullhd">
         <div className="footer-elements">
           <div className="footer-element">
             <h5 className="grey-text has-text-weight-bold is-uppercase is-size-8">EVERYTHING PHOTANOL</h5>

@@ -35,14 +35,14 @@ const TechnologySection = ({ technology }) => {
       <div className="container">
         <div className="columns">
           <ScrollRevealTween>
-            <div className="column is-12">
+            <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{technology.pretitle}</h5>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology.title}</h1>
             </div>
           </ScrollRevealTween>
         </div>
         <div className="columns">
-          <div className="column is-12 is-8-desktop text-columns">
+          <div className="column is-12 is-8-widescreen is-offset-2-fullhd text-columns">
             <article className="blue-text technology-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(technology.text)}}></article>
             <button className="button-primary mt-4" onClick={onBrandVideoModalOpen}>
               <span className="icon">

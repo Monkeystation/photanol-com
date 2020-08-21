@@ -27,7 +27,7 @@ const MissionSection = ({ mission }) => {
     <section className="section mission">
       <div className="container">
         <div className="columns">
-          <div className="column is-12-mobile is-10-tablet">      
+          <div className="column is-12-mobile is-10-tablet is-8-fullhd is-offset-2-fullhd">      
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
             <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
             {/* <button className="button-primary" onClick={onMissionVideoModalOpen}>

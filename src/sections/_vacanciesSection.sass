@@ -1,6 +1,8 @@
 //  JOBS
-.vacancies-wrapper
-  padding-top: 1rem
+.section.vacancies-wrapper
+  padding-top: 0rem
+  +desktop
+    padding-top: 2rem
   .content
     +mobile
       margin-left: 0rem
@@ -8,13 +10,14 @@
       p:not(:last-child)
         margin-bottom: 0
     +tablet
-      margin-left: 378px
+      margin-left: 346px
       p:not(:last-child)
         margin-bottom: 0
     +desktop
       margin-left: 632px
     +fullhd
       margin-left: 832px
+      max-width: 700px
   .modal
     .box
       border-radius: 0

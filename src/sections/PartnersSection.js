@@ -11,31 +11,35 @@ const PartnersSection = ({ partners }) => (
     <div className="container">
       <div className="columns">
         <ScrollRevealTween>
-          <div className="column is-12">
+          <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{partners.pretitle}</h5>
             <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners.title}</h1>
           </div>
         </ScrollRevealTween>
       </div>
       <div className="columns">
-        <div className="column is-three-quarters-tablet">
-          <div className="logos is-flex">
-            {partners.logos.map((logo) => (
-              <a href={logo.link} key={v4()} className="partner-logo" target="_blank">
-                <img src={PreviewCompatibleFile(logo.image)} alt='' />
+        <div className="column is-8-fullhd is-offset-2-fullhd">
+          <div className="columns">
+            <div className="column is-three-quarters-tablet">
+              <div className="logos is-flex">
+                {partners.logos.map((logo) => (
+                  <a href={logo.link} key={v4()} className="partner-logo" target="_blank">
+                    <img src={PreviewCompatibleFile(logo.image)} alt='' />
+                  </a>
+                ))}
+              </div>
+            </div>
+            <div className="column side-image-column">
+              <a className="side-image" href={partners.side_logo.link} target="_blank">
+                <PreviewCompatibleImage imageInfo={{
+                  image: partners.side_logo.image, 
+                  alt: '',
+                  style: {maxHeight: '100%'},
+                  imgStyle: {objectFit: 'contain'}
+                }} />
               </a>
-            ))}
+            </div>
           </div>
-        </div>
-        <div className="column side-image-column">
-          <a className="side-image" href={partners.side_logo.link} target="_blank">
-            <PreviewCompatibleImage imageInfo={{
-              image: partners.side_logo.image, 
-              alt: '',
-              style: {maxHeight: '100%'},
-              imgStyle: {objectFit: 'contain'}
-            }} />
-          </a>
         </div>
       </div>
     </div>
