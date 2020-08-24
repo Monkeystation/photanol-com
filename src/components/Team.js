@@ -5,7 +5,7 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 import {IconLinkedIn} from './Icons'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
-import { TweenLite } from 'gsap/all'
+import { TweenLite, Power1 } from 'gsap/all'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
 
@@ -57,7 +57,7 @@ class Team extends React.Component {
   }
 
   handleClick = (offset) => {
-    const {position, itemWidth, nrOfItems} = this.state
+    const {position, itemWidth, nrOfItems, activeItemId} = this.state
     var iol = this.itemsRef.offsetLeft
     var pos = -iol - position + offset
     var targetItemId = Math.floor(pos / itemWidth)
@@ -65,7 +65,8 @@ class Team extends React.Component {
     var target = -(targetItemId * itemWidth)
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
+    var dist = Math.abs(activeItemId - targetItemId)
+    TweenLite.to(obj, (dist * 0.5), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
   }
@@ -90,7 +91,7 @@ class Team extends React.Component {
     var position = -target
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.5, {position:position, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:position, ease: Power1.easeInOut, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
   }

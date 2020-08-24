@@ -28,6 +28,7 @@
     max-width: 280px
     flex-grow: 0
     flex-shrink: 0
+    user-select: none
     +tablet
       flex-basis: 382px
       max-width: 382px
@@ -43,11 +44,10 @@
         margin: 16px
       h3, h5
         word-wrap: break-word
-        pointer-events: none
       p
         flex-grow: 1
-        pointer-events: none
       a
+        pointer-events: auto
         right: 32px
         align-self: flex-end
       .gradient-box

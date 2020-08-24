@@ -67,6 +67,7 @@ $navbar-label-color: $black
 $navbar-breakpoint: $tablet
 $navbar-background-color: transparent
 
+$easing: ease
 $transition-duration: .5s
   
 .subtitle
@@ -107,6 +108,9 @@ $transition-duration: .5s
 
 .black-text
   color: #000
+  
+a
+  transition: color $transition-duration $easing
 
 .navbar
   position: sticky !important
@@ -120,7 +124,7 @@ $transition-duration: .5s
   .navbar-burger
     background-color: $white
   .navbar-item
-    transition: color $transition-duration ease
+    transition: color $transition-duration $easing
   +until($navbar-breakpoint)
     .navbar-burger
       width: 3rem
@@ -142,9 +146,9 @@ $transition-duration: .5s
       transform: translateX(90%)
       &.is-active
         visibility: visible
-        animation: slide-in 0.5s forwards
+        animation: slide-in $transition-duration forwards
       &.is-inactive
-        animation: slide-out 0.5s forwards
+        animation: slide-out $transition-duration forwards
       .navbar-end
         background-color: $blue-900
         padding: 5rem 2rem
@@ -244,7 +248,9 @@ $transition-duration: .5s
   border: none
   padding: 0px
   outline-color: none
-  transition: all 0.3s $easing;
+  transition: all $transition-duration $easing
+  svg
+    transition: all $transition-duration $easing
   &.is-white
     color: $white
     svg

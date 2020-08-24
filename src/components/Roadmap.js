@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import showdown from 'showdown'
-import { TweenLite } from 'gsap/all'
+import { TweenLite, Power1 } from 'gsap/all'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
@@ -87,7 +87,8 @@ class Roadmap extends React.Component {
     var target = -((targetItemId * itemWidth) + (activeItemWidth / 2)) + (tlw / 2)
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 1, {position:target, onUpdate:(el) => {
+    var dist = Math.abs(activeItemId - targetItemId)
+    TweenLite.to(obj, (dist * 1), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
   }
@@ -150,16 +151,6 @@ class Roadmap extends React.Component {
     this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
-  itemClick = (index) => {
-    const {itemWidth, activeItemWidth} = this.state
-    var tlw = this.tlRef.getBoundingClientRect().width
-    var obj = {position: this.state.position}
-    var target = -((index * itemWidth) + (activeItemWidth / 2)) + (tlw / 2)
-    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
-      this.updateItems(obj.position)
-    }});
-  }
-  
   render() {
     const {items} = this.props
     const {isMobile, position, layout} = this.state   
@@ -181,7 +172,6 @@ class Roadmap extends React.Component {
                   key={index}
                   index={index}
                   width={layout[index].width}
-                  onClick={() => this.itemClick(index)}
                   imageSize={100 * layout[index].scale}
                   showText={layout[index].text}
                   opacity={layout[index].fade}
