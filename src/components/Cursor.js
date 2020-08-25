@@ -7,7 +7,6 @@ export default function Cursor({parent, hide}) {
     left: undefined,
     top: undefined,
   })
-  const [display, setDisplay] = useState('none')
   const [opacity, setOpacity] = useState(0)
   const [scale, setScale] = useState(0)
   
@@ -40,7 +39,7 @@ export default function Cursor({parent, hide}) {
       parent.removeEventListener("mouseleave", handleLeave)
       window.removeEventListener("wheel", handleLeave)
     }
-  }, [hide]);
+  }, [parent, hide]);
   
   
   return (

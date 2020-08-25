@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 import {IconLinkedIn} from './Icons'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
@@ -47,8 +46,6 @@ class Team extends React.Component {
     window.addEventListener('resize', this.onWindowResize);
     this.onWindowResize()
     
-    const {itemWidth, nrOfItems} = this.state
-    var sw = this.emRef.getBoundingClientRect().width
     var startPos = 0
     this.updateItems(startPos)
   }
@@ -83,7 +80,6 @@ class Team extends React.Component {
   
   handleStop = (dir) => {
     const {itemWidth, nrOfItems, activeItemId, oldActiveItemId} = this.state
-    var emw = this.emRef.getBoundingClientRect().width
     var targetItemId = activeItemId
     if (activeItemId === oldActiveItemId) {
       targetItemId = Math.max(Math.min((dir + activeItemId), (nrOfItems - 1)), 0)
@@ -100,7 +96,6 @@ class Team extends React.Component {
   updateItems = (position) => {
     if (!this.emRef) return
     const {itemWidth, nrOfItems, layout} = this.state
-    var emw = this.emRef.getBoundingClientRect().width
     var activeItemId = null
     var scroll = position
     

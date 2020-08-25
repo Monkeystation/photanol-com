@@ -15,7 +15,7 @@ const SolutionSection = ({ solution }) => (
       </div>
       <div className="columns">
         <div className="column is-12 is-10-desktop is-offset-1-desktop is-8-widescreen is-offset-2-widescreen">
-          <img src="/img/animation-placeholder.jpg" width='100%' />
+          <img src="/img/animation-placeholder.jpg" width='100%' alt="Animation" />
         </div>
       </div>
     </div>

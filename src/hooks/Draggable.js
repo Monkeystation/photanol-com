@@ -38,8 +38,7 @@ class Draggable extends React.Component {
 
   handleTouchEnd = (e) => {
     //console.log('handleTouchEnd', e)
-    const {dragging, rel} = this.state
-    const {position} = this.props
+    const {rel} = this.state
     //if (dragging && e.cancelable) e.preventDefault()
     this.removeEventListeners()
     

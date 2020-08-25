@@ -11,7 +11,7 @@ const RoadmapItem = (props) => {
   
   if (isMobile) {
     return (
-      <div key={index} className="item" style={{width: width}} id={"item" + index} onClick={onClick}>
+      <div key={index} className="item" style={{width: width}} id={"item" + index} onClick={onClick} role="button">
         <div className="item-elements">
           <div className="item-element-top">
             <h4 className="white-text has-text-centered has-text-weight-bold item-title">
@@ -22,11 +22,13 @@ const RoadmapItem = (props) => {
             <RoadmapCircle />
             <img 
               className="item-icon" 
-              src={PreviewCompatibleFile(icon)} 
+              src={PreviewCompatibleFile(icon)}
+              alt="Icoon"
             />
             <img className="item-image" 
               style={{ opacity: opacity }} 
               src={PreviewCompatibleFile(image)}
+              alt="Afbeelding"
             />
           </div>
           <div className="item-element-bottom">
@@ -44,7 +46,7 @@ const RoadmapItem = (props) => {
     )
   } else {
     return (
-      <div key={index} className="item" style={{width: width}} id={"item" + index} onClick={onClick}>
+      <div key={index} className="item" style={{width: width}} id={"item" + index} onClick={onClick} role="button">
         <div className="item-elements">
           <div className="item-element-top">
             <h4 className="white-text has-text-centered has-text-weight-bold item-title">
@@ -57,10 +59,12 @@ const RoadmapItem = (props) => {
               className="item-icon" 
               style={{ width: imageSize, height: imageSize }} 
               src={PreviewCompatibleFile(icon)} 
+              alt="Icoon"
             />
             <img className="item-image" 
               style={{ width: imageSize, height: imageSize, opacity: opacity }} 
               src={PreviewCompatibleFile(image)}
+              alt="Afbeelding"
             />
           </div>
           <div className="item-element-bottom">

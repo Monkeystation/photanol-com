@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Controller, Scene } from 'react-scrollmagic'
-import { Tween, Timeline } from 'react-gsap'
+import { Tween } from 'react-gsap'
 
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import useWindowSize from '../hooks/useWindowSize'

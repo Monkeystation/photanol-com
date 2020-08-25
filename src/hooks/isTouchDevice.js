@@ -1,4 +1,3 @@
-import React from 'react'
 
 // Hook
 export default function isTouchDevice() {

@@ -1,12 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { v4 } from 'uuid'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 import showdown from 'showdown'
 import { TweenLite, Power1 } from 'gsap/all'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
 import RoadmapItem from './RoadmapItem'
 

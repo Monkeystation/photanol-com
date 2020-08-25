@@ -14,7 +14,7 @@ const InfographicSection = ({ infographic }) => (
       </div>
       <div className="columns">
         <div className="column is-12 is-10-desktop is-offset-1-desktop is-8-widescreen is-offset-2-widescreen">
-          <img src="/img/infographic-placeholder.jpg" width='100%' />
+          <img src="/img/infographic-placeholder.jpg" width='100%' alt="Infographic" />
         </div>
       </div>
     </div>

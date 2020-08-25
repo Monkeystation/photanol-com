@@ -32,15 +32,15 @@ const FooterSection = ({ footer }) => (
           <div className="footer-element">
             <h5 className="grey-text has-text-weight-bold is-uppercase is-size-8">JOIN THE REVOLUTION ON:</h5>
             <div className="social-media">
-              <a href={footer.links.link_twitter} target="_blank" className="button-secondary">
+              <a href={footer.links.link_twitter} target="_blank" rel="noreferrer" className="button-secondary">
                 <span className="icon"><IconTwitter /></span>
                 <span>{'TWITTER'}</span>
               </a>
-              <a href={footer.links.link_linkedin} target="_blank" className="button-secondary">
+              <a href={footer.links.link_linkedin} target="_blank" rel="noreferrer" className="button-secondary">
                 <span className="icon"><IconLinkedIn /></span>
                 <span>{'LINKEDIN'}</span>
               </a>
-              <a href={footer.links.link_youtube} target="_blank" className="button-secondary">
+              <a href={footer.links.link_youtube} target="_blank" rel="noreferrer" className="button-secondary">
                 <span className="icon"><IconYoutube /></span>
                 <span>{'YOUTUBE'}</span>
               </a>
