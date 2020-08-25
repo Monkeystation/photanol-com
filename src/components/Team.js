@@ -28,7 +28,8 @@ class Team extends React.Component {
       nrOfItems: nrOfItems, 
       layout: layout,
       activeItemId: 0,
-      oldActiveItemId: 0
+      oldActiveItemId: 0,
+      hideCursor: false
     };
   }
   
@@ -154,10 +155,10 @@ class Team extends React.Component {
   
   render() {
     const {employees} = this.props
-    const {position, layout} = this.state  
+    const {position, layout, hideCursor} = this.state  
     return (
       <div className="employees" ref={el => this.emRef = el}>
-        {!isTouchDevice() && this.emRef &&  (<Cursor parent={this.emRef} />)}
+        {!isTouchDevice() && this.emRef && (<Cursor parent={this.emRef} hide={hideCursor} />)}
         <div className="images">
           {employees.map((employee, index) => (
             <div key={v4()} className="employee-image" style={{
@@ -188,7 +189,15 @@ class Team extends React.Component {
                       {employee.function}
                     </h5>
                     <p className="white-text">{employee.text}</p>
-                    <a href={employee.linkedin} target="_blank" className="button-secondary is-white">
+                    <a 
+                      href={employee.linkedin} 
+                      onMouseDown={e => e.stopPropagation()} 
+                      onTouchStart={e => e.stopPropagation()} 
+                      onMouseEnter={() => this.setState({hideCursor: true})}
+                      onMouseOut={() => this.setState({hideCursor: false})}
+                      target="_blank" 
+                      className="button-secondary is-white"
+                    >
                       <span className="icon">
                         <IconLinkedIn />
                       </span>

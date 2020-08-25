@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {IconArrow} from '../components/Icons'
 
 // Hook
-export default function Cursor({parent}) {
+export default function Cursor({parent, hide}) {
   const [position, setPosition] = useState({
     left: undefined,
     top: undefined,
@@ -13,6 +13,11 @@ export default function Cursor({parent}) {
   
   useEffect(() => {
     function handleMove(e) {
+      if (hide) {
+        setOpacity(0)
+        setScale(0)
+        return
+      }
       setOpacity(1)
       setScale(1)
       setPosition({
@@ -35,8 +40,9 @@ export default function Cursor({parent}) {
       parent.removeEventListener("mouseleave", handleLeave)
       window.removeEventListener("wheel", handleLeave)
     }
-  }, []);
-
+  }, [hide]);
+  
+  
   return (
     <div className="cursor" style={{
       left: position.left, 
