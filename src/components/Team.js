@@ -7,6 +7,8 @@ import isTouchDevice from '../hooks/isTouchDevice'
 import { TweenLite, Power1 } from 'gsap/all'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
+import TeamImage from '../components/TeamImage'
+import TeamItem from '../components/TeamItem'
 
 const ITEM_WIDTH = 382
 const ITEM_WIDTH_TABLET = 280
@@ -52,6 +54,10 @@ class Team extends React.Component {
   
   componentWillUnmount() {
     window.removeEventListener('resize', this.updateDimensions);
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return true
   }
 
   handleClick = (offset) => {
@@ -104,7 +110,7 @@ class Team extends React.Component {
       var dist = Math.abs(scroll - center)
       var pos = (scroll - center) / itemWidth
       if (pos < 0) {
-        layout[i].itemOpacity = pos + 1
+        layout[i].itemOpacity = Math.max(0, pos + 1)
       } else {
         layout[i].itemOpacity = 1
       }
@@ -156,11 +162,11 @@ class Team extends React.Component {
         {!isTouchDevice() && this.emRef && (<Cursor parent={this.emRef} hide={hideCursor} />)}
         <div className="images">
           {employees.map((employee, index) => (
-            <div key={v4()} className="employee-image" style={{
-              backgroundImage: `url(${PreviewCompatibleFile(employee.image)})`,
-              opacity: layout[index].imageOpacity,
-              zIndex: -index
-              }} 
+            <TeamImage 
+              key={index} 
+              backgroundImage={`url(${PreviewCompatibleFile(employee.image)})`} 
+              opacity={layout[index].imageOpacity}
+              zIndex={-index}
             />
           ))}
         </div>
@@ -173,34 +179,14 @@ class Team extends React.Component {
               onStop={this.handleStop}>
             <div className="items" ref={el => this.itemsRef = el}>
               {employees.map((employee, index) => (
-                <div key={v4()} className="item" ref={el => this['item' + index] = el} style={{
-                  opacity: layout[index].itemOpacity,
-                }}>
-                  <div className="item-content" id={"item" + index}>
-                    <h3 className="title is-size-6 is-size-4-tablet is-size-4-desktop is-family-secondary white-text has-text-weight-bold pb-2">
-                      {employee.name}
-                    </h3>
-                    <h5 className="subtitle is-size-7 is-size-6-tablet blue-300-text has-text-weight-bold">
-                      {employee.function}
-                    </h5>
-                    <p className="white-text">{employee.text}</p>
-                    <a 
-                      href={employee.linkedin} 
-                      onMouseDown={e => e.stopPropagation()} 
-                      onTouchStart={e => e.stopPropagation()} 
-                      onMouseEnter={() => this.setState({hideCursor: true})}
-                      onMouseOut={() => this.setState({hideCursor: false})}
-                      target="_blank" 
-                      className="button-secondary is-white"
-                    >
-                      <span className="icon">
-                        <IconLinkedIn />
-                      </span>
-                      <span>{'VIEW PROFILE'}</span>
-                    </a>
-                    <div className="gradient-box" />
-                  </div>
-                </div>
+                <TeamItem 
+                  key={index} 
+                  opacity={layout[index].itemOpacity} 
+                  index={index} 
+                  employee={employee} 
+                  hideCursor={() => this.setState({hideCursor: true})} 
+                  showCursor={() => this.setState({hideCursor: false})}
+                />
               ))}
             </div>
           </Draggable>

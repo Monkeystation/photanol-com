@@ -20,8 +20,8 @@ const IntroSection = ({ intro }) => (
           </div>
           <Tween
             paused
-            from={{ clipPath: 'inset(0 0 0% 0)' }}
-            to={{ clipPath: 'inset(0 0 100% 0)' }}
+            from={{ height: '100%' }}
+            to={{ height: '0%' }}
             totalProgress={progress * 1.5}
             ease={"linear"}
           >
