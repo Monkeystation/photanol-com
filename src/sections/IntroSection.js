@@ -11,31 +11,34 @@ converter.setOption('simpleLineBreaks', true)
 const IntroSection = ({ intro }) => (
   <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
     <Scene pin duration={380} offset={-80} indicators={false}>
-      {(progress) => (
-        <section className="intro">
-          <div className="video-panel hero-video">
-            <video poster={PreviewCompatibleFile(intro.video.poster)} playsInline autoPlay muted loop>
-              <source src={PreviewCompatibleFile(intro.video.file)} type="video/mp4" />
-            </video>
-          </div>
-          <Tween
-            paused
-            from={{ height: '100%' }}
-            to={{ height: '0%' }}
-            totalProgress={progress * 1.5}
-            ease={"linear"}
-          >
-          <section className="text-panel-wrapper">
-            <div className="text-panel">
-              <div className="container text">
-                <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{intro.pretitle}</h5>
-                <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro.title)}}></h1>
-              </div>
+      {(progress) => {
+        const targetHeight = (1 - (progress * 1.5)) * 100
+        return (
+          <section className="intro">
+            <div className="video-panel hero-video">
+              <video poster={PreviewCompatibleFile(intro.video.poster)} playsInline autoPlay muted loop>
+                <source src={PreviewCompatibleFile(intro.video.file)} type="video/mp4" />
+              </video>
             </div>
+            <Tween
+              from={{ height: '100%' }}
+              to={{ height: targetHeight + '%' }}
+              duration={.5}
+              //totalProgress={progress * 1.5}
+              ease={"power1.out"}
+            >
+            <section className="text-panel-wrapper">
+              <div className="text-panel">
+                <div className="container text">
+                  <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{intro.pretitle}</h5>
+                  <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro.title)}}></h1>
+                </div>
+              </div>
+            </section>
+            </Tween>
           </section>
-          </Tween>
-        </section>
-      )} 
+        )
+      }}
     </Scene>
   </Controller>
 )
