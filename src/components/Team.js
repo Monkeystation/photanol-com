@@ -35,7 +35,7 @@ class Team extends React.Component {
   }
   
   onWindowResize = () => {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth < 768) {
       this.setState({itemWidth: ITEM_WIDTH_TABLET})
     } else {
       this.setState({itemWidth: ITEM_WIDTH})
@@ -164,7 +164,8 @@ class Team extends React.Component {
           {employees.map((employee, index) => (
             <TeamImage 
               key={index} 
-              backgroundImage={`url(${PreviewCompatibleFile(employee.image)})`} 
+              image={employee.image} 
+              alt={employee.name}
               opacity={layout[index].imageOpacity}
               zIndex={-index}
             />
@@ -203,7 +204,7 @@ Team.propTypes = {
       function: PropTypes.string,
       text: PropTypes.string,
       linkedin: PropTypes.string,
-      image: PropTypes.object,
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     })
   ),
 }

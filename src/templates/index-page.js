@@ -108,7 +108,15 @@ IndexPageTemplate.propTypes = {
   team: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
-    employees: PropTypes.array,
+    employees: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string,
+        function: PropTypes.string,
+        text: PropTypes.string,
+        linkedin: PropTypes.string,
+        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      })
+    ),
   }),
   vacancies: PropTypes.array,
   partners: PropTypes.shape({
@@ -287,7 +295,11 @@ export const pageQuery = graphql`
             text
             linkedin
             image {
-              publicURL
+              childImageSharp {
+                fluid(maxWidth: 1280, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }
