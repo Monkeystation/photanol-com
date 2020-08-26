@@ -24,7 +24,7 @@ const SlideshowSection = ({ slideshow }) => {
             <Tween
               from={{ top: '60px', right: '90px', width: width }}
               totalProgress={progress}
-              ease={"power1.out"}
+              ease={"power1.inOut"}
               paused
             >
               <div className="image" id="image1">
@@ -39,7 +39,7 @@ const SlideshowSection = ({ slideshow }) => {
             <Tween
               from={{ top: '30px', right: '60px', width: width }}
               totalProgress={progress}
-              ease={"power1.out"}
+              ease={"power1.inOut"}
               paused
             >
               <div className="image" id="image2">
@@ -54,7 +54,7 @@ const SlideshowSection = ({ slideshow }) => {
             <Tween
               from={{ top: '0px', right: '30px', width: width }}
               totalProgress={progress}
-              ease={"power1.out"}
+              ease={"power1.inOut"}
               paused
             >
               <div className="image" id="image3">
