@@ -9,9 +9,7 @@ converter.setOption('simpleLineBreaks', true)
 
 const RoadmapItem = (props) => {
   const {isMobile, index, width, onClick, imageSize, showText, opacity, title, icon, image, year, text} = props
-  
-  console.log(image)
-  
+    
   if (isMobile) {
     return (
       <div key={index} className="item" style={{width: width}} id={"item" + index} onClick={onClick} role="button">
