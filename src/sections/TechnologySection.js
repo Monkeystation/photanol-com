@@ -52,7 +52,7 @@ const TechnologySection = ({ technology }) => {
             <div className="modal-content is-full">
               <figure className="image is-16by9">
                 <iframe title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" 
-                  src={brandVideoUrl} frameborder="0"></iframe>
+                  src={brandVideoUrl} frameBorder="0"></iframe>
               </figure>
             </div>
             <button className="modal-close is-large" aria-label="close" onClick={onBrandVideoModalClose}></button>

@@ -40,7 +40,7 @@ const MissionSection = ({ mission }) => {
         <div className="modal-content is-full">
           <figure className="image is-16by9">
             <iframe className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" 
-              src={missionVideoUrl} frameborder="0"></iframe>
+              src={missionVideoUrl} frameBorder="0"></iframe>
             {/*<YouTube className="has-ratio" videoId={mission.video_item.link} onReady={onMissionYoutubeReady} />*/}
           </figure>
         </div>

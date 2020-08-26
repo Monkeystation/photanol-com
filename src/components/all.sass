@@ -116,11 +116,16 @@ a
   position: sticky !important
   top: 0
   .container
+    margin: 0 !important
     max-width: 100%
+  .navbar-menu
+    margin: 0 !important
   .navbar-end
     background-color: $white
     padding-left: 1rem
-    padding-right: 4rem
+    padding-right: 1.5rem
+    +desktop
+      padding-right: 3.5rem
   .navbar-burger
     background-color: $white
   .navbar-item

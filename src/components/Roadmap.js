@@ -7,6 +7,7 @@ import isTouchDevice from '../hooks/isTouchDevice'
 import Cursor from '../components/Cursor'
 import RoadmapItem from './RoadmapItem'
 
+
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
 
@@ -55,7 +56,7 @@ class Roadmap extends React.Component {
     this.onWindowResize()
     
     const {active} = this.props
-    const {itemWidth, activeItemWidth, nrOfItems} = this.state
+    const {itemWidth, activeItemWidth} = this.state
     var sw = this.tlRef.getBoundingClientRect().width
     var startPos = (sw / 2) - ((active - 1) * itemWidth) - (activeItemWidth / 2)
     this.updateItems(startPos)
@@ -63,6 +64,23 @@ class Roadmap extends React.Component {
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.onWindowResize);
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.active !== this.props.active) {
+      this.animateIn()
+    }
+  }
+
+  animateIn() {
+    const {active} = this.props
+    const {itemWidth, activeItemWidth} = this.state
+    var sw = this.tlRef.getBoundingClientRect().width
+    var target = (sw / 2) - ((active - 1) * itemWidth) - (activeItemWidth / 2)
+    var obj = {position: this.state.position}
+    TweenLite.to(obj, 1, {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
+      this.updateItems(obj.position)
+    }});
   }
   
   handleClick = (offset) => {
@@ -87,7 +105,7 @@ class Roadmap extends React.Component {
     var dist = Math.abs(activeItemId - targetItemId)
     TweenLite.to(obj, (dist * 1), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
       this.updateItems(obj.position)
-    }});
+    }})
   }
   
   handleStart = () => {
@@ -162,25 +180,25 @@ class Roadmap extends React.Component {
           onStart={this.handleStart}
           onDrag={this.handleDrag}
           onStop={this.handleStop}>
-            <div className="items" ref={el => this.itemsRef = el}>
-              {items.map((item, index) => 
-                <RoadmapItem 
-                  isMobile={isMobile}
-                  key={index}
-                  index={index}
-                  width={layout[index].width}
-                  imageSize={100 * layout[index].scale}
-                  showText={layout[index].text}
-                  opacity={layout[index].fade}
-                  title={item.title}
-                  icon={item.icon} 
-                  image={item.image} 
-                  year={item.year} 
-                  text={item.text}
-                />
-              )} 
-            </div>
-          </Draggable>
+          <div className="items" ref={el => this.itemsRef = el}>
+            {items.map((item, index) => 
+              <RoadmapItem 
+                isMobile={isMobile}
+                key={index}
+                index={index}
+                width={layout[index].width}
+                imageSize={100 * layout[index].scale}
+                showText={layout[index].text}
+                opacity={layout[index].fade}
+                title={item.title}
+                icon={item.icon} 
+                image={item.image} 
+                year={item.year} 
+                text={item.text}
+              />
+            )} 
+          </div>
+        </Draggable>
       </div>
     )
   }
