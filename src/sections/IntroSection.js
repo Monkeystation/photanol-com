@@ -14,7 +14,7 @@ const IntroSection = ({ intro }) => {
   
   const introRef = useCallback(node => {
     if (node !== null) {
-      setHeight(node.getBoundingClientRect().height + offset)
+      setHeight(node.getBoundingClientRect().height)
     }
   }, []);
   
@@ -22,7 +22,7 @@ const IntroSection = ({ intro }) => {
     <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
       <Scene pin duration={height} offset={-offset} indicators={false}>
         {(progress) => {
-          const targetHeight = (1 - (progress * 1.5)) * 100
+          const targetHeight = (1 - (progress * 2)) * 100
           return (
             <section className="intro" ref={introRef}>
               <div className="video-panel hero-video">
