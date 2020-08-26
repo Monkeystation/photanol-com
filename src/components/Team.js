@@ -111,21 +111,13 @@ class Team extends React.Component {
       var pos = (scroll - center) / itemWidth
       if (pos < 0) {
         layout[i].itemOpacity = Math.max(0, pos + 1)
+        layout[i].imageOpacity = Math.max(0, pos + 1)
       } else {
         layout[i].itemOpacity = 1
+        layout[i].imageOpacity = 1
       }
       
-      if (dist < (itemWidth / 2)) {
-        activeItemId = i
-        var norm = (itemWidth / 2) - dist
-        var scale = norm / (itemWidth / 2)
-        if (scroll - center > 0) scale =  1
-        layout[i].active = true
-        layout[i].imageOpacity = scale
-      } else {
-        layout[i].active = false
-        layout[i].imageOpacity = (activeItemId === null) ? 0 : 1
-      }
+      if (dist < (itemWidth / 2)) activeItemId = i
     }
     if (activeItemId === null) {
       if (position > 0) {
