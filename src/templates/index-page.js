@@ -71,7 +71,15 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     active: PropTypes.number,
-    items: PropTypes.array,
+    items: PropTypes.arrayOf(
+      PropTypes.shape({
+        year: PropTypes.string,
+        title: PropTypes.string,
+        text: PropTypes.string,
+        icon: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      })
+    )
   }),
   technology: PropTypes.shape({
     pretitle: PropTypes.string,
@@ -201,10 +209,18 @@ export const pageQuery = graphql`
             title
             text
             icon {
-              publicURL
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
             image {
-              publicURL
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 60) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
             }
           }
         }

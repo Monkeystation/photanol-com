@@ -39,7 +39,7 @@ class Roadmap extends React.Component {
   }
   
   onWindowResize = () => {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth < 768) {
       this.state.isMobile = true
       this.state.itemWidth = ITEM_WIDTH_MOBILE
       this.state.activeItemWidth = ACTIVE_ITEM_WIDTH_MOBILE
@@ -211,8 +211,8 @@ Roadmap.propTypes = {
       year: PropTypes.string,
       title: PropTypes.string,
       text: PropTypes.string,
-      icon: PropTypes.object,
-      image: PropTypes.object,
+      icon: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     })
   ),
 }

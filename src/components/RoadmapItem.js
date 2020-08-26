@@ -1,6 +1,7 @@
 import React from 'react'
 import showdown from 'showdown'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import {RoadmapCircle} from '../components/Icons'
 
 const converter = new showdown.Converter()
@@ -8,6 +9,8 @@ converter.setOption('simpleLineBreaks', true)
 
 const RoadmapItem = (props) => {
   const {isMobile, index, width, onClick, imageSize, showText, opacity, title, icon, image, year, text} = props
+  
+  console.log(image)
   
   if (isMobile) {
     return (
@@ -20,16 +23,15 @@ const RoadmapItem = (props) => {
           </div>             
           <div className="item-element-center">
             <RoadmapCircle />
-            <img 
-              className="item-icon" 
-              src={PreviewCompatibleFile(icon)}
-              alt="Icoon"
-            />
-            <img className="item-image" 
-              style={{ opacity: opacity }} 
-              src={PreviewCompatibleFile(image)}
-              alt="Afbeelding"
-            />
+            <PreviewCompatibleImage className="item-icon" imageInfo={{
+              image: icon, 
+              alt: "Icoon"
+            }}/>
+            <PreviewCompatibleImage className="item-image" imageInfo={{
+              image: image, 
+              alt: "Afbeelding",
+              style: {opacity: opacity},
+            }}/>
           </div>
           <div className="item-element-bottom">
             <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
@@ -55,17 +57,16 @@ const RoadmapItem = (props) => {
           </div>             
           <div className="item-element-center">
             <RoadmapCircle />
-            <img 
-              className="item-icon" 
-              style={{ width: imageSize, height: imageSize }} 
-              src={PreviewCompatibleFile(icon)} 
-              alt="Icoon"
-            />
-            <img className="item-image" 
-              style={{ width: imageSize, height: imageSize, opacity: opacity }} 
-              src={PreviewCompatibleFile(image)}
-              alt="Afbeelding"
-            />
+            <PreviewCompatibleImage className="item-icon" imageInfo={{
+              image: icon, 
+              alt: "Icoon",
+              style: {width: imageSize, height: imageSize},
+            }}/>
+            <PreviewCompatibleImage className="item-image" imageInfo={{
+              image: image, 
+              alt: "Afbeelding",
+              style: {width: imageSize, height: imageSize, opacity: opacity},
+            }}/>
           </div>
           <div className="item-element-bottom">
             <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
