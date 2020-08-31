@@ -194,14 +194,16 @@ team:
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/maria.jpg
 vacancies:
-  novacancies: At the moment there are no vacancies but we are always on the lookout for talent. Send an    open application to jobs@photanol.com
+  novacancies: At the moment there are no vacancies but we are always on the
+    lookout for talent. Send an open application to jobs@photanol.com
   list:
     - title: Researchers Strain Development Team
       description_short: Photanol is opening a whole new research line in
         collaboration with a new partner Renolit. Multiple positions are
         available.
       description_full: >-
-        Photanol is opening a whole new research line in collaboration with a [new
+        Photanol is opening a whole new research line in collaboration with a
+        [new
         partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
         Multiple positions are available in the strain engineering team.
 
@@ -249,7 +251,8 @@ vacancies:
         collaboration with a new partner Renolit. Multiple positions are
         available.
       description_full: >-
-        Photanol is opening a whole new research line in collaboration with a [new
+        Photanol is opening a whole new research line in collaboration with a
+        [new
         partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
         Multiple positions are available in the strain engineering team.
 
