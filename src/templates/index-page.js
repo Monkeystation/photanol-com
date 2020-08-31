@@ -33,7 +33,6 @@ export const IndexPageTemplate = ({
   partners,
   footer,
 }) => {
-    
   return (
     <div>
       <div className="logo-container"><LogoPhotanol /></div>
