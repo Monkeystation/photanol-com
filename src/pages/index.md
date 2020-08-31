@@ -195,7 +195,8 @@ team:
       image: /img/maria.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
-    lookout for talent. Send an open application to jobs@photanol.com
+    lookout for talent. Send an open application to
+    [jobs@photanol.com](mailto:jobs@photanol.com)
   list:
     - title: Researchers Strain Development Team
       description_short: Photanol is opening a whole new research line in
