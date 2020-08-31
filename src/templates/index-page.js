@@ -122,7 +122,10 @@ IndexPageTemplate.propTypes = {
       })
     ),
   }),
-  vacancies: PropTypes.array,
+  vacancies: PropTypes.shape({
+    novacancies: PropTypes.string,
+    list: PropTypes.array,
+  }),
   partners: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,

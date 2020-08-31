@@ -10,7 +10,7 @@ import ScrollRevealTween from '../hooks/ScrollRevealTween'
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
 
-const VacanciesSection = ({ vacancies }) => {
+const VacanciesSection = ({ novacancies, list }) => {
   const [showVacancyModal, setShowVacancyModal] = useState(false)
   const [vacancyData, setVacancyData] = useState({})
   const modalContent = useRef(null)
@@ -41,7 +41,7 @@ const VacanciesSection = ({ vacancies }) => {
         </ScrollRevealTween>
         <div className="vacancies">
           <div className="tile is-parent is-vertical">
-          {vacancies.map((vacancy) => {
+          {list.map((vacancy) => {
             return (
               <div key={v4()} className="vacancy-card tile is-child pb-3">
                 <p className="blue-text has-text-weight-bold">
@@ -78,13 +78,16 @@ const VacanciesSection = ({ vacancies }) => {
 }
 
 VacanciesSection.propTypes = {
-  vacancies: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      description_short: PropTypes.string,
-      description_full: PropTypes.string,
-    })
-  ),
+  vacancies: PropTypes.shape({
+    novacancies: PropTypes.string,
+    list: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string,
+        description_short: PropTypes.string,
+        description_full: PropTypes.string,
+      })
+    ),
+  })
 }
 
 export default VacanciesSection
