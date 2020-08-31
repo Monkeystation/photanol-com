@@ -12,7 +12,7 @@ const Navbar = class extends React.Component {
       contactOffset: 0
     }
   }
-  
+  /*
   componentDidMount() {
     window.addEventListener('resize', this.onWindowResize)
     this.onWindowResize()
@@ -27,7 +27,7 @@ const Navbar = class extends React.Component {
     var contactOffset = (document.body.scrollHeight - contact.offsetTop) - window.innerHeight - 10
     this.setState({contactOffset: contactOffset})
   }
-
+  */
   toggleHamburger = () => {
     // toggle the active boolean in the state
     
@@ -81,7 +81,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()}>
                 jobs
               </Link>
-              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} smooth={true} duration={1500} offset={contactOffset} onClick={() => this.toggleHamburger()}>
+              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()}>
                 contact
               </Link>
             </div>

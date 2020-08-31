@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-scroll/modules/mixins/scroll-link.js b/node_modules/react-scroll/modules/mixins/scroll-link.js
+index f4b2616..1c9f0ed 100644
+--- a/node_modules/react-scroll/modules/mixins/scroll-link.js
++++ b/node_modules/react-scroll/modules/mixins/scroll-link.js
+@@ -238,6 +238,8 @@ exports.default = function (Component, customScroller) {
+           var _cords = element.getBoundingClientRect();
+           elemTopBound = _cords.top - containerTop + y;
+           elemBottomBound = elemTopBound + _cords.height;
++          elemTopBound -= window.innerHeight * .75;
++          elemBottomBound -= window.innerHeight / 2;
+         }
+ 
+         var offsetY = y - _this2.props.offset;

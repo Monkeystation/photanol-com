@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
 import ScrollRevealTween from '../hooks/ScrollRevealTween'
@@ -15,7 +15,7 @@ const TechnologySection = ({ technology }) => {
   const onBrandVideoModalOpen = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
-    setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link)
+    setBrandMissionVideoUrl('https://www.youtube.com/embed/' + technology.video_item.link)
     setShowBrandVideoModal(true)
   }
   
@@ -25,6 +25,10 @@ const TechnologySection = ({ technology }) => {
     setTimeout(() => {setBrandMissionVideoUrl(null)}, 500)
     setShowBrandVideoModal(false)
   }
+  
+  useEffect(() => {
+    setTimeout(() => setBrandMissionVideoUrl('https://www.youtube.com/embed/' + technology.video_item.link), 5000)
+  }, [])
   
   return (
     <section className="section technology" id="technology">

@@ -8,7 +8,7 @@ const MissionSection = ({ mission }) => {
   const onMissionVideoModalOpen = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
-    setMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + mission.video_item.link)
+    setMissionVideoUrl('https://www.youtube.com/embed/' + mission.video_item.link)
     setShowMissionVideoModal(true)
   }
   
@@ -21,18 +21,16 @@ const MissionSection = ({ mission }) => {
   
   return (
     <section className="section mission">
-      <div className="containert">
-        <div className="columns">
-          <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">      
-            <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
-            <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
-            {/*<button className="button-primary" onClick={onMissionVideoModalOpen}>
-              <span className="icon">
-                <IconPlay />
-              </span>
-              <span>{mission.video_item.label}</span>
-            </button>*/}
-          </div>
+      <div className="columns">
+        <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">      
+          <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
+          <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
+          {/*<button className="button-primary" onClick={onMissionVideoModalOpen}>
+            <span className="icon">
+              <IconPlay />
+            </span>
+            <span>{mission.video_item.label}</span>
+          </button>*/}
         </div>
       </div>
       <div className={`modal ${showMissionVideoModal ? 'is-active' : ''}`}>

@@ -1,7 +1,7 @@
 import React, {useState, useCallback} from 'react'
 import PropTypes from 'prop-types'
 import { Controller, Scene } from 'react-scrollmagic'
-import { Tween } from 'react-gsap'
+import { Tween, Timeline } from 'react-gsap'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import showdown from 'showdown'
 
