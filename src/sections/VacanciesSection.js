@@ -2,6 +2,7 @@ import React, {useState, useEffect, useRef} from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import showdown from 'showdown'
+import ReactGA from 'react-ga'
 
 import {IconArrow} from '../components/Icons'
 import ScrollRevealTween from '../hooks/ScrollRevealTween'
@@ -19,6 +20,7 @@ const VacanciesSection = ({ vacancies }) => {
     setShowVacancyModal(true)
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
+    ReactGA.modalview('/jobs/' + vacancy.title)
   }
   
   const onVacancyModalClose = () => {

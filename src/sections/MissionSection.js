@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import PropTypes from 'prop-types'
+import ReactGA from 'react-ga'
 
 const MissionSection = ({ mission }) => {
   const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
@@ -8,8 +9,9 @@ const MissionSection = ({ mission }) => {
   const onMissionVideoModalOpen = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
-    setMissionVideoUrl('https://www.youtube.com/embed/' + mission.video_item.link)
+    setMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + mission.video_item.link)
     setShowMissionVideoModal(true)
+    ReactGA.modalview('/mission/mission-video')
   }
   
   const onMissionVideoModalClose = () => {

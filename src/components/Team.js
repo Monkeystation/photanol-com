@@ -9,6 +9,7 @@ import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
 import TeamImage from '../components/TeamImage'
 import TeamItem from '../components/TeamItem'
+import ReactGA from 'react-ga'
 
 const ITEM_WIDTH = 382
 const ITEM_WIDTH_TABLET = 280
@@ -73,6 +74,9 @@ class Team extends React.Component {
     TweenLite.to(obj, (dist * 0.5), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
+    
+    const {employees} = this.props
+    ReactGA.event({ category: 'team', action: 'view', label: employees[targetItemId].name})
   }
   
   handleStart = () => {
@@ -97,6 +101,9 @@ class Team extends React.Component {
     TweenLite.to(obj, 0.5, {position:position, ease: Power1.easeInOut, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
+    
+    const {employees} = this.props
+    ReactGA.event({ category: 'team', action: 'view', label: employees[targetItemId].name})
   }
   
   updateItems = (position) => {

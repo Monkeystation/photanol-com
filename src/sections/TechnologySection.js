@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import showdown from 'showdown'
 import ScrollRevealTween from '../hooks/ScrollRevealTween'
 import {IconPlay} from '../components/Icons'
-
+import ReactGA from 'react-ga'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
@@ -15,8 +15,9 @@ const TechnologySection = ({ technology }) => {
   const onBrandVideoModalOpen = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
-    setBrandMissionVideoUrl('https://www.youtube.com/embed/' + technology.video_item.link)
+    setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link)
     setShowBrandVideoModal(true)
+    ReactGA.modalview('/technology/brand-video')
   }
   
   const onBrandVideoModalClose = () => {
@@ -27,7 +28,7 @@ const TechnologySection = ({ technology }) => {
   }
   
   useEffect(() => {
-    setTimeout(() => setBrandMissionVideoUrl('https://www.youtube.com/embed/' + technology.video_item.link), 5000)
+    setTimeout(() => setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link), 5000)
   }, [])
   
   return (

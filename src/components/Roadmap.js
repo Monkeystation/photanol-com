@@ -6,7 +6,7 @@ import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
 import Cursor from '../components/Cursor'
 import RoadmapItem from './RoadmapItem'
-
+import ReactGA from 'react-ga'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
@@ -106,6 +106,9 @@ class Roadmap extends React.Component {
     TweenLite.to(obj, (dist * 1), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
       this.updateItems(obj.position)
     }})
+    
+    const {items} = this.props
+    ReactGA.event({ category: 'roadmap', action: 'view', label: items[targetItemId].title})
   }
   
   handleStart = () => {
@@ -131,6 +134,9 @@ class Roadmap extends React.Component {
     TweenLite.to(obj, 0.5, {position:position, onUpdate:(el) => {
       this.updateItems(obj.position)
     }});
+    
+    const {items} = this.props
+    ReactGA.event({ category: 'roadmap', action: 'view', label: items[targetItemId].title})
   }
   
   updateItems = (position) => {

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import ReactGA from 'react-ga'
 
 import {LogoPhotanol} from '../components/Icons'
 import Layout from '../components/Layout'
@@ -15,6 +16,8 @@ import TeamSection from '../sections/TeamSection'
 import VacanciesSection from '../sections/VacanciesSection'
 import PartnersSection from '../sections/PartnersSection'
 import FooterSection from '../sections/FooterSection'
+
+ReactGA.initialize('UA-126624514-4')
 
 export const IndexPageTemplate = ({
   intro,
