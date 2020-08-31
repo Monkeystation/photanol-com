@@ -308,9 +308,12 @@ export const pageQuery = graphql`
           }
         }
         vacancies {
-          title
-          description_short
-          description_full
+          novacancies
+          list {
+            title
+            description_short
+            description_full
+          }
         }
         partners {
           pretitle
