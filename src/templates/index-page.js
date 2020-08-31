@@ -18,6 +18,7 @@ import PartnersSection from '../sections/PartnersSection'
 import FooterSection from '../sections/FooterSection'
 
 ReactGA.initialize('UA-126624514-4')
+ReactGA.set({ anonymizeIp: true })
 
 export const IndexPageTemplate = ({
   intro,
