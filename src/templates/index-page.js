@@ -17,6 +17,8 @@ import VacanciesSection from '../sections/VacanciesSection'
 import PartnersSection from '../sections/PartnersSection'
 import FooterSection from '../sections/FooterSection'
 
+import ComingSoonSection from '../sections/ComingSoonSection'
+
 ReactGA.initialize('UA-126624514-4')
 ReactGA.set({ anonymizeIp: true })
 
@@ -34,11 +36,12 @@ export const IndexPageTemplate = ({
   footer,
 }) => {
   return (
-    <div>
+    <>
+      {/* <ComingSoonSection /> */}
       <div className="logo-container"><LogoPhotanol /></div>
       <IntroSection intro={intro} />
       <MissionSection mission={mission} />
-      <SolutionSection solution={solution} />
+      {/*<SolutionSection solution={solution} />*/}
       <RoadmapSection roadmap={roadmap} />
       <TechnologySection technology={technology} />
       <InfographicSection infographic={infographic} />
@@ -47,7 +50,7 @@ export const IndexPageTemplate = ({
       <VacanciesSection vacancies={vacancies} />
       <PartnersSection partners={partners} />
       <FooterSection footer={footer} />
-    </div>
+    </>
   )
 }
 

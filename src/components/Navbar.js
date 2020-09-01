@@ -74,9 +74,9 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end">
-              <Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+              {/*<Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
                 product
-              </Link>
+              </Link>*/}
               <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
                 technology
               </Link>
