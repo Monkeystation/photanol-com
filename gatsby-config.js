@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Photanol',
     description:
-      '',
+      'We turn CO2 into renewable circular chemicals.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
