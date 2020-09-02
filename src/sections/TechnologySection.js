@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useCallback} from 'react'
+import React, {useState, useEffect, useCallback, useRef} from 'react'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
 import ScrollRevealTween from '../hooks/ScrollRevealTween'
@@ -10,13 +10,12 @@ converter.setOption('simpleLineBreaks', true)
 
 const TechnologySection = ({ technology }) => {
   const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
-  //const [brandVideoUrl, setBrandMissionVideoUrl] = useState('https://www.youtube-nocookie.com/embed/' + technology.video_item.link)
   const [hasVideo, setHasVideo] = useState(null)
+  const videoRef = useRef(null)
   
   const onBrandVideoModalOpen = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
-    //setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link)
     setShowBrandVideoModal(true)
     ReactGA.modalview('/technology/brand-video')
   }
@@ -24,23 +23,18 @@ const TechnologySection = ({ technology }) => {
   const onBrandVideoModalClose = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.remove("is-clipped")
-    setTimeout(() => {setHasVideo(false)}, 500)
     setShowBrandVideoModal(false)
+    videoRef.current.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
   }
   
   useEffect(() => {
     setTimeout(() => setHasVideo(true), 5000)
-    //setTimeout(() => setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link), 5000)
   }, [])
-  
-  useEffect(() => {
-    if (hasVideo === false) setHasVideo(true)
-  }, [hasVideo])
   
   const VideoElement = useCallback(() => {
     if (!hasVideo) return (null)
     return (
-      <iframe title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" src={'https://www.youtube-nocookie.com/embed/' + technology.video_item.link} frameBorder="0"></iframe> 
+      <iframe ref={videoRef} title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" src={'https://www.youtube-nocookie.com/embed/' + technology.video_item.link + '?enablejsapi=1&version=3&playerapiid=ytplayer'} frameBorder="0"></iframe> 
     )
   }, [hasVideo])
   
