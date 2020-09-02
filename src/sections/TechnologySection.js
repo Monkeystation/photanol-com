@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useCallback} from 'react'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
 import ScrollRevealTween from '../hooks/ScrollRevealTween'
@@ -10,12 +10,13 @@ converter.setOption('simpleLineBreaks', true)
 
 const TechnologySection = ({ technology }) => {
   const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
-  const [brandVideoUrl, setBrandMissionVideoUrl] = useState(null)
+  //const [brandVideoUrl, setBrandMissionVideoUrl] = useState('https://www.youtube-nocookie.com/embed/' + technology.video_item.link)
+  const [hasVideo, setHasVideo] = useState(null)
   
   const onBrandVideoModalOpen = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
-    setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link)
+    //setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link)
     setShowBrandVideoModal(true)
     ReactGA.modalview('/technology/brand-video')
   }
@@ -23,13 +24,25 @@ const TechnologySection = ({ technology }) => {
   const onBrandVideoModalClose = () => {
     var html = document.getElementsByTagName("html")[0];
     html.classList.remove("is-clipped")
-    setTimeout(() => {setBrandMissionVideoUrl(null)}, 500)
+    setTimeout(() => {setHasVideo(false)}, 500)
     setShowBrandVideoModal(false)
   }
   
   useEffect(() => {
-    setTimeout(() => setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link), 5000)
+    setTimeout(() => setHasVideo(true), 5000)
+    //setTimeout(() => setBrandMissionVideoUrl('https://www.youtube-nocookie.com/embed/' + technology.video_item.link), 5000)
   }, [])
+  
+  useEffect(() => {
+    if (hasVideo === false) setHasVideo(true)
+  }, [hasVideo])
+  
+  const VideoElement = useCallback(() => {
+    if (!hasVideo) return (null)
+    return (
+      <iframe title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" src={'https://www.youtube-nocookie.com/embed/' + technology.video_item.link} frameBorder="0"></iframe> 
+    )
+  }, [hasVideo])
   
   return (
     <section className="section technology" id="technology">
@@ -56,8 +69,7 @@ const TechnologySection = ({ technology }) => {
             <div className="modal-background" onClick={onBrandVideoModalClose}></div>
             <div className="modal-content is-full">
               <figure className="image is-16by9">
-                <iframe title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" 
-                  src={brandVideoUrl} frameBorder="0"></iframe>
+                <VideoElement />
               </figure>
             </div>
             <button className="modal-close is-large" aria-label="close" onClick={onBrandVideoModalClose}></button>
