@@ -33,7 +33,7 @@ roadmap:
   items:
     - year: "2008"
       title: The first patent
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_patent.png
       image: /img/1-the-first-patent.jpg
       text: "Our biotech revolution was officially born when we gained our first
         patent. Filed in 2008 by Prof. Klaas Hellingwerf (our CSO). Prof. Klaas’
@@ -41,7 +41,7 @@ roadmap:
         initial findings around cyano-bacteria’s sustainable superpowers. "
     - year: "2012"
       title: Platform spin-out
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_spinout.png
       image: /img/roadmap-item-image.jpg
       text: >
         In order to nurture our fledgling circular revolution, we needed to
@@ -53,7 +53,7 @@ roadmap:
         Thanks to early investment we were able to form a dedicated Photanol team. The team went on to prove that our first patent could lead to many more; enhancing cyano-bacteria for 17 individual strains. And, that what we had on our hands could rock the world. We were officially in the business of restoring balance on our planet.
     - year: "2014"
       title: Strategic partnership with Corbion
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_partnerships.png
       image: /img/2-strategic-partnership-corbion.jpg
       text: >-
         A partner with a specific expertise and commercial need; Corbion is a
@@ -67,7 +67,7 @@ roadmap:
         Thanks to our Corbion collab, we are able to synthesize lactic acid with huge mechanical strength, low toxicity, low flammability, using 40 times less land and 10.000 times less water. 
     - year: "2016"
       title: Strategic partnership with Nouryon
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_partnerships.png
       image: /img/3-strategic-partnership-nouryon.jpg
       text: Glycolic acid was our next target. Widely used in the cosmetics industry,
         with over 95% of the world’s cosmetic products containing it. To develop
@@ -84,7 +84,7 @@ roadmap:
         our strategic partners brought downstream expertise to the table, so we
         could prove cost, waste and energy efficiency throughout the entire
         process.
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_pilt_validation.png
       image: /img/4-pilot-plant-validation.jpg
     - text: "Our most recent triumph was securing the funding for the first commercial
         scale plant. The Photanol process takes place in tubes. So, in essence,
@@ -95,7 +95,7 @@ roadmap:
         Netherlands, will be ready to roll at the end of 2020. "
       year: "2020"
       title: First demonstration plant
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_construction.png
       image: /img/5-first-demonstration-plant.jpg
     - text: "This grand milestone, and bricks and mortar proof of our game-changer
         power will produce up to 10 tons per year. It’s the intermediary step to
@@ -106,7 +106,7 @@ roadmap:
         are Photanol’s next chapter. "
       year: "2021"
       title: Demo plant starts production
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_demo_production.png
       image: /img/6-demo-plant-starts-production.jpg
     - text: Our third strategic partnership joined the Photanol journey in 2020,
         paving the way to prove our capabilities in yet another sector;
@@ -115,8 +115,31 @@ roadmap:
         for the Renoit Group’s other applications.
       year: "2021"
       title: Strategic partnership with Renoit
-      icon: /img/roadmap-item-icon.png
+      icon: /img/roadmap_partnerships.png
       image: /img/7-strategic-partnership-renolit.jpg
+    - title: SCALE UP TO COMMERCIAL PLANT
+      year: "2023"
+      text: The next milestone-in-the-works is proving commercial viability for global
+        manufacturing needs. Meaning a lego-block-style upscale a 100 times that
+        of the demo plant. Manufacturing around 30,000 tonnes. Applying the
+        learnings from the smaller scale demo set-up while embracing engineering
+        insights from lateral industry like agriculture. Methodology that will
+        enable Photanol to compete extremely favourably with non-renewable
+        chemicals. Proving that sustainability is also a far better business
+        case.
+      icon: /img/roadmap_scale_commercial_plant.png
+      image: /img/placeholder-commercial.jpg
+    - year: "2024"
+      title: COMMERCIAL PRODUCTION
+      text: Our first commercial plant is pencilled to kick-off production in 2024.
+        First finance rounds are scheduled for 2021. Meanwhile, the upscaling
+        teams are working hard to optimize and maximize production by minimizing
+        fluctuating factors like sun hours. Constantly iterating to evidence
+        that Photanol is not only the most future-proof solution, but also the
+        solution with the lowest footprint of any sustainable option. New tech
+        breakthroughs speeding up our ambition to restore balance along the way.
+      icon: /img/roadmap_commercial_production.png
+      image: /img/placeholder-commercial-production.png
   active: 6
 technology:
   pretitle: HOW IT WORKS
