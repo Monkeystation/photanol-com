@@ -113,7 +113,7 @@ roadmap:
         healthcare. Renolit produces polymers for the global medical world and
         will iterate with Photanol tech for this essential sector, as well as
         for the Renoit Group’s other applications.
-      year: "2021"
+      year: "2020"
       title: Strategic partnership with Renoit
       icon: /img/roadmap_partnerships.png
       image: /img/7-strategic-partnership-renolit.jpg
@@ -139,7 +139,7 @@ roadmap:
         solution with the lowest footprint of any sustainable option. New tech
         breakthroughs speeding up our ambition to restore balance along the way.
       icon: /img/roadmap_commercial_production.png
-      image: /img/placeholder-commercial-production.png
+      image: /img/istockphoto-146770925-1024x1024.jpg
   active: 6
 technology:
   pretitle: HOW IT WORKS
