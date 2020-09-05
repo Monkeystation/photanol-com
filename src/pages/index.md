@@ -7,8 +7,8 @@ intro:
     into renewable<sub></sub>
     circular chemicals.
   video:
-    file: /img/intro_video.mp4
-    poster: /img/intro_video_poster.jpg
+    file: /img/intro_video2.mp4
+    poster: /img/intro_video_poster2.jpg
 mission:
   pretitle: POWERED BY NATURE AND HUMAN INGENUITY
   title: We exist to restore balance on the planet.
