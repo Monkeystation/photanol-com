@@ -54,7 +54,7 @@ roadmap:
     - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap_partnerships.png
-      image: /img/2-strategic-partnership-corbion.jpg
+      image: /img/corbion.jpg
       text: >-
         A partner with a specific expertise and commercial need; Corbion is a
         fermentation expert. They make a whole load of lactic acid – the raw
@@ -68,7 +68,7 @@ roadmap:
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap_partnerships.png
-      image: /img/3-strategic-partnership-nouryon.jpg
+      image: /img/nouryonplade.png
       text: Glycolic acid was our next target. Widely used in the cosmetics industry,
         with over 95% of the world’s cosmetic products containing it. To develop
         our circular strain, we partnered with Nouryon (the sustainable
