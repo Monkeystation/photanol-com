@@ -34,7 +34,7 @@ roadmap:
     - year: "2008"
       title: The first patent
       icon: /img/roadmap_patent.png
-      image: /img/1-the-first-patent.jpg
+      image: /img/timeline-1.png
       text: "Our biotech revolution was officially born when we gained our first
         patent. Filed in 2008 by Prof. Klaas Hellingwerf (our CSO). Prof. Klaas’
         lab trials at UvA (University of Amsterdam) led to the successful
@@ -42,7 +42,7 @@ roadmap:
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
-      image: /img/roadmap-item-image.jpg
+      image: /img/screenshot-2020-09-05-at-08.46.11.png
       text: >
         In order to nurture our fledgling circular revolution, we needed to
         demonstrate our commercial potential; evidencing that our technology
@@ -107,7 +107,7 @@ roadmap:
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap_demo_production.png
-      image: /img/6-demo-plant-starts-production.jpg
+      image: /img/screenshot-2020-09-05-at-08.44.57.png
     - text: Our third strategic partnership joined the Photanol journey in 2020,
         paving the way to prove our capabilities in yet another sector;
         healthcare. Renolit produces polymers for the global medical world and
