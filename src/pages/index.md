@@ -171,7 +171,7 @@ slideshow:
     image: /img/slide1.jpg
     alt: Emissions
   image2:
-    image: /img/slide2.jpg
+    image: /img/cyano-bacteria-01_colored.jpg
     alt: Cyanobacteria
   image3:
     image: /img/slide3.jpg
