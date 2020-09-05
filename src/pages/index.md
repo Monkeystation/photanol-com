@@ -117,7 +117,7 @@ roadmap:
       title: Strategic partnership with Renoit
       icon: /img/roadmap_partnerships.png
       image: /img/7-strategic-partnership-renolit.jpg
-    - title: SCALE UP TO COMMERCIAL PLANT
+    - title: Scale up to commercial plant
       year: "2023"
       text: The next milestone-in-the-works is proving commercial viability for global
         manufacturing needs. Meaning a lego-block-style upscale a 100 times that
@@ -130,7 +130,7 @@ roadmap:
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/placeholder-commercial.jpg
     - year: "2024"
-      title: COMMERCIAL PRODUCTION
+      title: Commercial production
       text: Our first commercial plant is pencilled to kick-off production in 2024.
         First finance rounds are scheduled for 2021. Meanwhile, the upscaling
         teams are working hard to optimize and maximize production by minimizing
