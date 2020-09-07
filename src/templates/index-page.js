@@ -96,7 +96,13 @@ IndexPageTemplate.propTypes = {
   }),
   infographic: PropTypes.shape({
     pretitle: PropTypes.string,
-    items: PropTypes.object,
+    items: PropTypes.arrayOf(
+      PropTypes.shape({
+        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+        alt: PropTypes.string,
+        text: PropTypes.string,
+      })
+    ),
   }),
   slideshow: PropTypes.shape({
     image1: PropTypes.shape({
@@ -254,14 +260,11 @@ export const pageQuery = graphql`
         infographic {
           pretitle
           items {
-            stage1
-            stage2
-            stage3
-            stage4
-            stage5
-            stage6
-            stage7
-            stage8
+            image {
+              publicURL
+            },
+            alt,
+            text
           }
         }
         slideshow {

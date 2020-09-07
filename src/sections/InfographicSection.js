@@ -33,7 +33,13 @@ const InfographicSection = ({ infographic }) => (
 InfographicSection.propTypes = {
   infographic: PropTypes.shape({
     pretitle: PropTypes.string,
-    items: PropTypes.object,
+    items: PropTypes.arrayOf(
+      PropTypes.shape({
+        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+        alt: PropTypes.string,
+        text: PropTypes.string,
+      })
+    ),
   })
 }
 

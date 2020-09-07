@@ -169,14 +169,9 @@ technology:
 infographic:
   pretitle: How it works
   items:
-    stage1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    stage2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    stage3: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    stage4: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    stage5: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    stage6: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    stage7: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    stage8: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - image: /img/co2.jpg
+      alt: Emissions
+      text: tijger
 slideshow:
   image1:
     image: /img/co2.jpg
