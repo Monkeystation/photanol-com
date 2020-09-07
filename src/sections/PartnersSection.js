@@ -18,9 +18,9 @@ const PartnersSection = ({ partners }) => (
         </ScrollRevealTween>
       </div>
       <div className="columns">
-        <div className="column is-8-fullhd is-offset-2-fullhd">
+        <div className="column is-10-fullhd is-offset-2-fullhd">
           <div className="columns">
-            <div className="column is-three-quarters-tablet">
+            <div className="column">
               <div className="logos is-flex">
                 {partners.logos.map((logo) => (
                   <a href={logo.link} key={v4()} className="partner-logo" target="_blank">
@@ -28,16 +28,6 @@ const PartnersSection = ({ partners }) => (
                   </a>
                 ))}
               </div>
-            </div>
-            <div className="column side-image-column">
-              <a className="side-image" href={partners.side_logo.link} target="_blank">
-                <PreviewCompatibleImage imageInfo={{
-                  image: partners.side_logo.image, 
-                  alt: '',
-                  style: {maxHeight: '100%'},
-                  imgStyle: {objectFit: 'contain'}
-                }} />
-              </a>
             </div>
           </div>
         </div>

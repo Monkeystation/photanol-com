@@ -228,14 +228,14 @@ export const pageQuery = graphql`
             text
             icon {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 60) {
+                fluid(maxWidth: 500, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 60) {
+                fluid(maxWidth: 500, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -268,7 +268,7 @@ export const pageQuery = graphql`
           image1 {
             image {
               childImageSharp {
-                fluid(maxWidth: 1280, quality: 60) {
+                fluid(maxWidth: 1280, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -278,7 +278,7 @@ export const pageQuery = graphql`
           image2 {
             image {
               childImageSharp {
-                fluid(maxWidth: 1280, quality: 60) {
+                fluid(maxWidth: 1280, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -288,7 +288,7 @@ export const pageQuery = graphql`
           image3 {
             image {
               childImageSharp {
-                fluid(maxWidth: 1280, quality: 60) {
+                fluid(maxWidth: 1280, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -334,7 +334,7 @@ export const pageQuery = graphql`
           side_logo {
             image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 60) {
+                fluid(maxWidth: 500, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
