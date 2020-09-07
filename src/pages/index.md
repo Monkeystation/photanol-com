@@ -100,15 +100,14 @@ roadmap:
       title: First demonstration plant
       icon: /img/roadmap_construction.png
       image: /img/5-first-demonstration-plant.jpg
-    - text: This bricks and mortar milestone, our demo plant has the capacity to
-        produce up to 10 tons per year. It’s the intermediary step to producing
-        the kilotons needed for large scale commercial needs. It’s also the
-        testing ground for fine-tuning processes and discovering the optimum
-        equilibrium between investment and returns. Proving that when upscaled,
-        the Photanol process can produce as cost efficiently as old school
-        fossil fuel operations. And, in the long term with even better
-        economics. After biochemicals, biofuels are Photanol’s next disruptive
-        ambition.
+    - text: Our demo plant has the capacity to produce up to 10 tons per year. It’s
+        the intermediary step to producing the kilotons needed for large scale
+        commercial needs. It’s also the testing ground for fine-tuning processes
+        and discovering the optimum equilibrium between investment and returns.
+        Proving that when upscaled, the Photanol process can produce as cost
+        efficiently as old school fossil fuel operations. And, in the long term
+        with even better economics. After biochemicals, biofuels are Photanol’s
+        next disruptive ambition.
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap_demo_production.png
