@@ -77,75 +77,83 @@ roadmap:
       title: Strategic partnership with Nouryon
       icon: /img/roadmap_partnerships.png
       image: /img/nouryonplade.png
-      text: Glycolic acid was our next target. Widely used in the cosmetics industry,
-        with over 95% of the world’s cosmetic products containing it. To develop
-        our circular strain, we partnered with Nouryon (the sustainable
-        chemicals division of AkzoNobel). Our next feat would be to show the
-        scalability of both our circular acids - lactic and glycolic – in
-        Photanol’s debut pilot plants.
+      text: A key ingredient in the global cosmetics industry, glycolic acid was our
+        next target. To develop a circular solution in this field, we partnered
+        with Nouryon. With two significant partners on board, proven scalability
+        of both our circular organic acids - lactic and glycolic – became the
+        key milestones at our debut pilot plants.
     - year: "2019"
       title: Pilot plant validation
-      text: For each proven chemical, our next step is to take lab scale success and
-        validate it at commercial scale. Over the course of [XX] years we
-        produced consistently good results over prolonged periods at -kg scale,
-        validating our two circular acids at three different pilot plants. Both
-        our strategic partners brought downstream expertise to the table, so we
-        could prove cost, waste and energy efficiency throughout the entire
-        process.
+      text: For each proven chemical, early wins in the lab must transform into
+        processes that can scale. Over the course of eight years we validated
+        our organic acids, producing consistently good results over prolonged
+        periods at kg scale, at three different plants. Both Corbion and Nouryon
+        proved their strategic value by contributing decades of downstream
+        expertise. Photanol was now able to demonstrate cost, waste and energy
+        efficiency throughout the entire process.
       icon: /img/roadmap_pilt_validation.png
       image: /img/4-pilot-plant-validation.jpg
-    - text: "Our most recent triumph was securing the funding for the first commercial
-        scale plant. The Photanol process takes place in tubes. So, in essence,
-        when we scale up it’s as simple as laying more tubes and making sure we
-        have enough sunlight to power our tech. Then it’s a case of just letting
-        the cyano-bacteria perform its natural magic. Bolstered by financing
-        from four new investors, our first demo unit in Delfzijl, the
-        Netherlands, will be ready to roll at the end of 2020. "
+    - text: "Fresh off the press in September 2020: We are live at our first
+        demonstration scale plant in Delfzijl. Cyanobacteria have been set free
+        across thousands of meters of tubing laid out in a controlled
+        greenhouse. Sunlight powering the bacteria’s productive magic. Creating
+        a massive and very impressive bio-plant. All with big thanks to funding
+        from four new investors. "
       year: "2020"
       title: First demonstration plant
       icon: /img/roadmap_construction.png
       image: /img/5-first-demonstration-plant.jpg
-    - text: "This grand milestone, and bricks and mortar proof of our game-changer
-        power will produce up to 10 tons per year. It’s the intermediary step to
-        producing the kilotons needed for the largest scale commercial needs.
-        Our premiere plant proves that when upscaled, the Photanol process can
-        produce as cost effectively as old school fossil fuel operations. And,
-        in the long term – more cost efficiently. After biochemicals, biofuels
-        are Photanol’s next chapter. "
+    - text: This bricks and mortar milestone, and very real proof of our game-changing
+        power, our demo plant has the capacity to produce up to 10 tons per
+        year. It’s the intermediary step to producing the kilotons needed for
+        large scale commercial needs. It’s also the testing ground for
+        fine-tuning processes and discovering the optimum equilibrium between
+        investment and returns. Proving that when upscaled, the Photanol process
+        can produce as cost efficiently as old school fossil fuel operations.
+        And, in the long term with even better economics. After biochemicals,
+        biofuels are Photanol’s next disruptive ambition.
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap_demo_production.png
       image: /img/screenshot-2020-09-05-at-08.44.57.png
-    - text: Our third strategic partnership joined the Photanol journey in 2020,
-        paving the way to prove our capabilities in yet another sector;
-        healthcare. Renolit produces polymers for the global medical world and
-        will iterate with Photanol tech for this essential sector, as well as
-        for the Renoit Group’s other applications.
+    - text: We admit we’re a tad ambitious, and the goals we set often keep us up at
+        night. But it’s also led us to two great partners. Now, a third
+        powerhouse is backing the Photanol mission - signing a partnership
+        agreement. With Renolit joining the Photanol journey, we can bring
+        circular innovation to yet another industry - healthcare. Renolit
+        applies polymers in the global medical world and will iterate with
+        Photanol tech to provide truly circular production of plastics (PP/PE)
+        for this essential sector, as well as for the Renolit Group’s other
+        applications.
       year: "2020"
       title: Strategic partnership with Renoit
       icon: /img/roadmap_partnerships.png
       image: /img/7-strategic-partnership-renolit.jpg
     - title: Scale up to commercial plant
       year: "2023"
-      text: The next milestone-in-the-works is proving commercial viability for global
-        manufacturing needs. Meaning a lego-block-style upscale a 100 times that
-        of the demo plant. Manufacturing around 30,000 tonnes. Applying the
-        learnings from the smaller scale demo set-up while embracing engineering
-        insights from lateral industry like agriculture. Methodology that will
-        enable Photanol to compete extremely favourably with non-renewable
-        chemicals. Proving that sustainability is also a far better business
-        case.
+      text: "So where do we go from here? Proving commercial viability for global
+        manufacturing needs is next. Our greenhouse-and-tubes architecture will
+        help to de-risk scaling. Photonal is like a lego-block-style blueprint:
+        once fine-tuned and optimized, reaching commercial scale ‘simply’ means
+        joining together a 100 copies of our demo plant. Manufacturing capacity
+        will increase to around 30,000 tonnes. Applying the learnings from the
+        smaller scale demo set-up while embracing engineering insights from
+        lateral industries like agriculture, water treatment plants and others.
+        Methodology that will enable Photanol to compete extremely favorably
+        with non-renewable chemicals. Proving that in the new world,
+        sustainability isn’t  second place to economic profit, it’s  the only
+        way to make the economics work."
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/placeholder-commercial.jpg
     - year: "2024"
       title: Commercial production
-      text: Our first commercial plant is pencilled to kick-off production in 2024.
-        First finance rounds are scheduled for 2021. Meanwhile, the upscaling
-        teams are working hard to optimize and maximize production by minimizing
-        fluctuating factors like sun hours. Constantly iterating to evidence
-        that Photanol is not only the most future-proof solution, but also the
-        solution with the lowest footprint of any sustainable option. New tech
-        breakthroughs speeding up our ambition to restore balance along the way.
+      text: Our first commercial plant is planned to kick-off production in 2024. Rest
+        assured, our upscaling teams are working hard to optimize and maximize
+        production. Constantly iterating to evidence that Photanol is not only
+        the most future-proof solution but also the solution with the lowest
+        footprint of any sustainable option. Our economically sound business
+        cases and new tech breakthroughs acting as instruments in our mission to
+        restore balance to the planet, while powering the world.
       icon: /img/roadmap_commercial_production.png
       image: /img/istockphoto-146770925-1024x1024.jpg
   active: 6
