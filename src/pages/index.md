@@ -326,20 +326,23 @@ vacancies:
     [jobs@photanol.com](mailto:jobs@photanol.com)
   list:
     - title: Researcher Strain Development Team
-      description_short: "Passion for biotechnology and ready to change the world?
-        Interested in driving translation of science and technology to a
-        commercial industrial process? Join the Photanol team to develop
-        optimized cyanobacteria to produce monomers based on light and CO2. We
-        are looking for candidates to strengthen the development and execution
-        of cyanobacterial strain engineering strategies for the (improved)
-        production of selected products in industrial environment. You will get
-        a key role in our strain development team where we value creativity and
-        out-of-the box thinking, but also a structured and analytical way of
-        working towards our targets. "
+      description_short: Photanol is looking for a researcher to join our Strain
+        Development Team. The role is a full-time position based in our labs in
+        Amsterdam.
       description_full: >-
-        The role is a full-time position based in our labs in Amsterdam. At
-        Photanol, we offer an exciting work environment in which you have the
-        possibility to grow. 
+        Passion for biotechnology and ready to change the world? Interested in
+        driving translation of science and technology to a commercial industrial
+        process? Join the Photanol team to develop optimized cyanobacteria to
+        produce monomers based on light and CO2. We are looking for candidates
+        to strengthen the development and execution of cyanobacterial strain
+        engineering strategies for the (improved) production of selected
+        products in industrial environment. You will get a key role in our
+        strain development team where we value creativity and out-of-the box
+        thinking, but also a structured and analytical way of working towards
+        our targets. 
+
+
+        At Photanol, we offer an exciting work environment in which you have the possibility to grow. 
 
 
 
@@ -391,7 +394,7 @@ vacancies:
 
 
         The deadline is **September 19, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
-    - title: Junior Researchers Strain Development Team
+    - title: Junior Researcher Strain Development Team
       description_short: Photanol is opening a whole new research line in
         collaboration with a new partner Renolit. Multiple positions are
         available.
