@@ -141,27 +141,29 @@ roadmap:
       image: /img/placeholder-commercial.jpg
     - year: "2024"
       title: Commercial production
-      text: Our first commercial plant is planned to kick-off production in 2024. Rest
-        assured, our upscaling teams are working hard to optimize and maximize
-        production. Constantly iterating to evidence that Photanol is not only
-        the most future-proof solution but also the solution with the lowest
-        footprint of any sustainable option. Our economically sound business
-        cases and new tech breakthroughs acting as instruments in our mission to
-        restore balance to the planet, while powering the world.
+      text: "Our first commercial plant is planned to kick-off production in 2024.
+        Rest assured, our upscaling teams are working hard to optimize and
+        maximize production. Constantly iterating to evidence that Photanol is
+        not only the most future-proof solution but also the solution with the
+        lowest footprint of any sustainable option. Our economically sound
+        business cases and new tech breakthroughs acting as instruments in our
+        mission to restore balance to the planet, while powering the world. "
       icon: /img/roadmap_commercial_production.png
       image: /img/istockphoto-146770925-1024x1024.jpg
   active: 6
 technology:
-  pretitle: HOW IT WORKS
-  title: Our natural, all-in-one factories
-  text: >
-    Photanol is business-as-natural. 
+  pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
+  title: "Cyanobacteria: natural, all-in-one factories."
+  text: >-
+    Petro-chemicals mean mining more fossil fuel; emitting more carbon. They’re
+    also resource, land and time thirsty; the kind of industry that has led to a
+    planet out of balance. The Photanol solution helps reset that balance. 
 
 
-    We can make any compound, and therefore the monomers and polymers used for different plastics - clean, renewable and circular. Leaving fossil fuel in the ground. Extracting CO2  from the air. Using just sunlight and minimal water. We do it with innovation that follows nature’s lead. 
+    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients commonly used in personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
 
 
-    Photanol uses the superpower of cyano-bacteria to photosynthesize. Creating a natural, all-in-one factory. We enhance the bacteria to absorb CO2 (transforming it from waste energy into circular feedstock). Then adapt its metabolic pathways to produce any desired chemical. Supremely efficient. With just oxygen as by-product. Primed for scalability thanks to Photanol’s platform technology.
+    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO2, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
   video_item:
     label: Watch corporate movie
     link: ijMRUWfbp88
