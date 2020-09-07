@@ -5,7 +5,7 @@ intro:
   title: |-
     We turn CO<sub>2</sub>
     into renewable<sub></sub>
-    circular chemicals.
+    chemicals.
   video:
     file: /img/intro_video2.mp4
     poster: /img/intro_video_poster2.jpg
@@ -35,36 +35,44 @@ roadmap:
       title: The first patent
       icon: /img/roadmap_patent.png
       image: /img/timeline-1.png
-      text: "Our biotech revolution was officially born when we gained our first
-        patent. Filed in 2008 by Prof. Klaas Hellingwerf (our CSO). Prof. Klaas’
-        lab trials at UvA (University of Amsterdam) led to the successful
-        initial findings around cyano-bacteria’s sustainable superpowers. "
+      text: "In 2008, two scientists at the University of Amsterdam pooled their
+        respective expertise to address climate change. Prof. Klaas
+        Hellingwerf’s speciality is microbial physiology; how organisms react
+        and multiply. Prof. Joost Teixeira de Mattos' focus is fermentation.
+        Together they theorized it was possible to adapt bacteria to synthesize
+        ethanol. Bioenergy that would be radically more efficient than fossil
+        fuel. With the potential to create any carbon chemical. The real
+        game-changer? Absorbing CO2. Based on cyanobacteria’s power to
+        photosynthesize, the process the professors dreamt up extracts CO2 from
+        the atmosphere while producing essential industrial compounds. Months of
+        iteration in the lab led to success, our first patent and the birth of
+        Photanol’s renewable revolution. "
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
       image: /img/screenshot-2020-09-05-at-08.46.11.png
-      text: >
-        In order to nurture our fledgling circular revolution, we needed to
-        demonstrate our commercial potential; evidencing that our technology
-        could produce an entire platform of compounds. Transforming any chemical
-        to sustainable. 
+      text: >-
+        In order to nurture our fledgling circular ambitions, we needed to
+        demonstrate commercial potential. Our technology must be capable of
+        producing an entire platform of compounds. Transforming any chemical to
+        a sustainable one. Early investment rounds allowed us to form a
+        dedicated Photanol team to power the effort.
 
 
-        Thanks to early investment we were able to form a dedicated Photanol team. The team went on to prove that our first patent could lead to many more; enhancing cyano-bacteria for 17 individual strains. And, that what we had on our hands could rock the world. We were officially in the business of restoring balance on our planet.
+        They validated that our first patent could lead to many more; enhancing cyanobacteria for 17 individual strains. Proving that what we had on our hands could rock the world. We were officially in the business of restoring balance on our planet.
     - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap_partnerships.png
       image: /img/corbion.jpg
       text: >-
-        A partner with a specific expertise and commercial need; Corbion is a
-        fermentation expert. They make a whole load of lactic acid – the raw
-        material needed for PLA (poly lactic acid used for biodegradable
-        bioplastic packaging). Industrial PLA uses heaps of land and water,
-        produces CO2 and is generally not great for the environmental footprint
-        of global corporations. 
+        Early success delivered the perfect moment for a partner with a shared
+        vision for circular chemistry. One with specific expertise and a
+        commercial need. Corbion is a fermentation expert. They produce lactic
+        acid – the raw material needed for PLA (poly lactic acid used for
+        biodegradable bioplastic packaging).
 
 
-        Thanks to our Corbion collab, we are able to synthesize lactic acid with huge mechanical strength, low toxicity, low flammability, using 40 times less land and 10.000 times less water. 
+        The partnership with Corbion enabled us to develop renewable lactic acid with highest purity; made from CO<sub>2</sub>. Using 24 times less land and 25 times less water than traditional equivalents.
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap_partnerships.png
