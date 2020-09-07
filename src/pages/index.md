@@ -168,7 +168,7 @@ technology:
     label: Watch corporate movie
     link: ijMRUWfbp88
 infographic:
-  pretitle: Let us show you in detail
+  pretitle: How it works
   items:
     stage1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     stage2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -190,28 +190,29 @@ slideshow:
     alt: Bioplastics
 team:
   pretitle: MEET THE TEAM
-  title: Dedicated to restoring balance since 2008
+  title: Dedicated to restoring balance since 2008.
   employees:
     - name: Veronique de Bruijn, MBA
       function: CEO
-      text: Renewables expert Veronique merges unexpected worlds to power sustainable
-        innovation. This drives her internal team leadership as well as
-        Photanol’s quest for the right allies to power our 100% circular
-        moonshot.
-      linkedin: https://www.linkedin.com/in/monkeystation/
+      text: Founder and CSO, Prof. Hellingwerf is one of the top five knowledge
+        leaders in the cyano-fermentation field, as such a well-respected
+        authority on microbial photosynthesis, researching and networking across
+        continents to progress sustainable science and the Photanol vision.
+      linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
       image: /img/maria.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
-      text: A world-renowned and leading Professor of microbiology and our CSO. For
-        our first patent Prof. Klaas named his process ‘Photanol’. The patent
-        name became a company name and our sustainable mission was born.
+      text: "Founder and CSO, Prof. Hellingwerf is one of the top five knowledge
+        leaders in the cyano-fermentation field and an authority on microbial
+        photosynthesis, researching and networking across continents to progress
+        the Photanol vision. "
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/klaas.jpg
     - name: Paul Koekoek
       function: Director of Operations
-      text: Twenty years of engineering excellence back our COO’s plans to sky-rocket
-        circular chemistry. Paul led the demo plant build and is now designing
-        the engineering feats needed for commercial scale up.
+      text: Over twenty years of engineering excellence back our COO’s plans to
+        sky-rocket circular chemistry. Paul led the demo plant build and is now
+        designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/monkeystation/
       image: /img/klaas.jpg
     - name: Peter Brenninkmeijer
