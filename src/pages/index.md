@@ -128,17 +128,16 @@ roadmap:
       image: /img/7-strategic-partnership-renolit.jpg
     - title: Scale up to commercial plant
       year: "2023"
-      text: "So where do we go from here? Proving commercial viability for global
-        manufacturing needs is next. Photonal is like a lego-block-style
-        blueprint: once fine-tuned and optimized, reaching commercial scale
-        ‘simply’ means joining together a 100 copies of our demo plant.
-        Manufacturing capacity will increase to around 30,000 tonnes. Applying
-        the learnings from the smaller scale demo set-up while embracing
-        engineering insights from lateral industries like agriculture, water
-        treatment plants and others. Methodology that will enable Photanol to
-        compete extremely favorably with non-renewable chemicals. Proving that
-        in the new world, sustainability isn’t  second place to economic profit,
-        it’s the only way to make the economics work."
+      text: "Proving commercial viability for global manufacturing needs is next.
+        Photonal is like a lego-block-style blueprint: once fine-tuned and
+        optimized, reaching commercial scale ‘simply’ means joining together a
+        100 copies of our demo plant. Manufacturing capacity will increase to
+        around 30,000 tonnes. Applying the learnings from the smaller scale demo
+        set-up while embracing engineering insights from lateral industries like
+        agriculture, water treatment plants and others. Methodology that will
+        enable Photanol to compete extremely favorably with non-renewable
+        chemicals. Proving that sustainability isn’t second place to economic
+        profit, it’s the only way to make the economics work."
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/placeholder-commercial.jpg
     - year: "2024"
