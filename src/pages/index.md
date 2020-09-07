@@ -35,16 +35,15 @@ roadmap:
       title: The first patent
       icon: /img/roadmap_patent.png
       image: /img/timeline-1.png
-      text: "In 2008, two scientists at the University of Amsterdam pooled their
-        respective expertise to address climate change. Prof. Klaas Hellingwerf
-        and Prof. Joost Teixeira de Mattos' theorized it was possible to adapt
-        bacteria to synthesize ethanol. Bioenergy that would be radically more
-        efficient than fossil fuel. With the potential to create any carbon
-        chemical. The real game-changer? Absorbing CO2. Based on cyanobacteria’s
-        power to photosynthesize, the process the professors dreamt up extracts
-        CO2 from the atmosphere while producing essential industrial compounds.
-        Months of iteration in the lab led to success, our first patent and the
-        birth of Photanol’s renewable revolution. "
+      text: "In 2008, Prof. Klaas Hellingwerf and Prof. Joost Teixeira de Mattos
+        pooled their respective expertise to address climate change. They
+        theorized it was possible to adapt bacteria to synthesize ethanol. With
+        the potential to create any carbon chemical. The real game-changer?
+        Absorbing CO2. Based on cyanobacteria’s power to photosynthesize, the
+        process the professors dreamt up extracts CO2 from the atmosphere while
+        producing essential industrial compounds. Months of iteration in the lab
+        led to success, our first patent and the birth of Photanol’s renewable
+        revolution. "
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
