@@ -179,10 +179,10 @@ infographic:
     stage8: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 slideshow:
   image1:
-    image: /img/slide1.jpg
+    image: /img/co2.jpg
     alt: Emissions
   image2:
-    image: /img/cyano-bacteria-01_colored.jpg
+    image: /img/cyano.jpg
     alt: Cyanobacteria
   image3:
     image: /img/slide3.jpg
