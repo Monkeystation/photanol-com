@@ -472,6 +472,9 @@ partners:
     - image: /img/corbion.svg
       alt: Corbion
       link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
     - image: /img/horizon2020.svg
       alt: Horizon 2020
       link: https://ec.europa.eu/programmes/horizon2020/
@@ -487,9 +490,6 @@ partners:
     - image: /img/icos.svg
       alt: ICOS
       link: http://www.icoscapital.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
     - image: /img/carbon.svg
       alt: Renewable Carbon
       link: http://www.renewable-carbon.eu/
