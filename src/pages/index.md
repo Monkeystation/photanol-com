@@ -306,6 +306,20 @@ team:
         in the lab strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/gabriel-brouchon
       image: /img/joost-0k3a8000.jpg
+    - name: Eugenie Troia
+      function: Lead Analytical Chemist
+      text: Heading up the strain analysis and method optimization involved in
+        upscale, it’s Eugenie’s inability to give up that means our lab strain
+        successes achieve commercial viability.
+      linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
+      image: /img/eugenie-0k3a7893-2.jpg
+    - name: Hayco Bloemen
+      function: Senior Process Development Engineer
+      text: Hayco describes his job as ‘making cyano’s happy’. Which means he develops
+        the processes needed to achieve our theorised outputs. Which means he
+        magics ‘what ifs’ into reality.
+      linkedin: https://www.linkedin.com/in/hayco-bloemen/
+      image: /img/hayco-0k3a7638.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
