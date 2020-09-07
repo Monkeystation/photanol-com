@@ -10,11 +10,9 @@ const TemplateWrapper = ({ children }) => {
   return (
     <>
       <Helmet>
-        <html lang="en" />
+        <html lang="nl" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta name="robots" content="noindex" />
-
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -42,7 +40,7 @@ const TemplateWrapper = ({ children }) => {
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content="https://photanol.com" />
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}

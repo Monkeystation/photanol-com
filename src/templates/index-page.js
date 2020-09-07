@@ -306,7 +306,7 @@ export const pageQuery = graphql`
             linkedin
             image {
               childImageSharp {
-                fluid(maxWidth: 1280, quality: 60) {
+                fluid(maxWidth: 1280, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
