@@ -363,8 +363,6 @@ vacancies:
         * Development, supervision, training and support of junior lab personnel and interns
 
 
-
-
         #### CHARACTERISTICS
 
 
@@ -385,8 +383,6 @@ vacancies:
         * Good report and writing skills, in English
 
 
-
-
         #### APPLY AND DEADLINE
 
 
@@ -395,37 +391,29 @@ vacancies:
 
         The deadline is **September 19, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
     - title: Junior Researcher Strain Development Team
-      description_short: Photanol is opening a whole new research line in
-        collaboration with a new partner Renolit. Multiple positions are
-        available.
+      description_short: Photanol is looking for a junior researcher to join our
+        Strain Development Team. The role is a full-time position based in our
+        labs in Amsterdam.
       description_full: >-
-        Photanol is opening a whole new research line in collaboration with a
-        [new
-        partner](https://www.photanol.com/single-post/2020/07/03/Photanol-in-strategic-partnership-with-Renolit-SE).
-        Multiple positions are available in the strain engineering team.
+        Passion for biotechnology and ready to change the world? Interested in
+        driving translation of science and technology to a commercial industrial
+        process? Join the Photanol team to develop optimized cyanobacteria to
+        produce monomers based on light and CO<sub>2</sub>. We are looking for
+        candidates to strengthen the development and execution of cyanobacterial
+        strain engineering strategies for the (improved) production of selected
+        products in industrial environment. You will get a key role in our
+        strain development team where we value creativity and out-of-the box
+        thinking, but also a structured and analytical way of working towards
+        our targets. 
 
 
-        Interested in driving translation of science and technology to a commercial industrial process?  Passion for biotechnology and ready to change the world? Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. We are looking for full-time candidates to strengthen the development and execution of cyanobacterial strain engineering strategies for the (improved) production of selected products in industrial environment.
+        The role is a full-time position based in our labs in Amsterdam. At Photanol, we offer an exciting work environment in which you have the possibility to grow. 
 
 
-        #### CHARACTERISTICS
+        #### RESPONSIBILITIES
 
 
-        * Trained in molecular biology or biotechnology/systems biology (MSc/HLO level)
-
-        * Experience in industrial R&D and/or experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated
-
-        * Team player, versatile, performs under pressure
-
-        * Creative, but target-oriented
-
-        * Good report and writing skills, in English
-
-
-        #### RESPONSIBILITIES INCLUDE:
-
-
-        * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment
+        * Finding creative and sustainable approaches to increase strain productivity and robustness in industrial environment
 
         * Application/development of molecular techniques for strain construction and evaluation
 
@@ -434,11 +422,37 @@ vacancies:
         * Development of new strain engineering tools and research protocols
 
 
+        #### CHARACTERISTICS
+
+
+        * MSc or BSc level in Biotechnology, Microbiology, Molecular Biology or Systems biology
+
+        * Trained in molecular cloning techniques and microbiological safety 
+
+        * Experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated
+
+        * Ability to work independently, but also function as part of a team
+
+        * Versatile and able to perform under pressure
+
+        * Driven and a quick learner
+
+        * Creative, but target-oriented
+
+        * Good report and writing skills, in English
+
+        * Preferably with 1-2 years industrial R&D experience 
+
+        * Applicant outside of EU is required to have a valid work/residence permit or visa
+
+
         #### APPLY AND DEADLINE
 
-        Please send your cover letter and resume to [hiring@photanol.com](mailto:hiring@photanol.com)​
 
-        Closing date: 24 July 2020
+        Please send your cover letter and resume to [jobs@photanol.com](jobs@photanol.com).
+
+
+        The deadline is **September 12, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
 partners:
   pretitle: OUR PARTNERS
   title: The future needs allies
