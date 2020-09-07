@@ -122,7 +122,7 @@ roadmap:
         for this essential sector, as well as for the Renolit Group’s other
         applications.
       year: "2020"
-      title: Strategic partnership with Renoit
+      title: Strategic partnership with Renolit
       icon: /img/roadmap_partnerships.png
       image: /img/7-strategic-partnership-renolit.jpg
     - title: Scale up to commercial plant
@@ -136,7 +136,7 @@ roadmap:
         agriculture, water treatment plants and others. Methodology that will
         enable Photanol to compete extremely favorably with non-renewable
         chemicals. Proving that sustainability isn’t second place to economic
-        profit, it’s the only way to make the economics work."
+        profit."
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/placeholder-commercial.jpg
     - year: "2024"
