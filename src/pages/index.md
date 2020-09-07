@@ -472,21 +472,27 @@ partners:
     - image: /img/wef.svg
       link: https://www.weforum.org/
       alt: World Economic Forum
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/nouryon.svg
-      link: https://www.nouryon.com/
-      alt: Nouryon
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: RENOLIT
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
   side_logo:
     image: /img/renewable-carbon-logo.png
     link: https://www.renewable-carbon.eu
