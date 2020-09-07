@@ -169,9 +169,25 @@ technology:
 infographic:
   pretitle: How it works
   items:
-    - image: /img/co2.jpg
-      alt: Emissions
-      text: tijger
+    - image: /img/infographic-01.svg
+      text: The Photanol process takes place in tubes powered by sunlight, absorbing
+        CO2, producing just oxygen as a by-product.
+      alt: Process
+    - image: /img/infographic-02.svg
+      text: Our solution uses the photosynthesis superpower of cyanobacteria.
+      alt: Solution
+    - image: /img/infographic-03.svg
+      text: The cyanobacteria is adapted to absorb more CO2, its metabolic pathways
+        enhanced to produce a desired strain.
+      alt: Cyanobacteria
+    - image: /img/infographic-04.svg
+      text: Photanol’s platform technology makes it possible to make any carbon
+        compound and has the power to transform every industry to circular.
+      alt: Carbon compound
+    - image: /img/infographic-05.svg
+      text: Our renewable chemistry is used to create biodegradable plastic,
+        sustainable beauty and healthcare products and detergents. Even biofuel.
+      alt: Products
 slideshow:
   image1:
     image: /img/co2.jpg
