@@ -148,7 +148,7 @@ roadmap:
         business cases and new tech breakthroughs acting as instruments in our
         mission to restore balance to the planet, while powering the world. "
       icon: /img/roadmap_commercial_production.png
-      image: /img/istockphoto-146770925-1024x1024.jpg
+      image: /img/istockphoto-823610186-170667a.jpg
   active: 6
 technology:
   pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
