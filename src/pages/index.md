@@ -39,11 +39,11 @@ roadmap:
         pooled their respective expertise to address climate change. They
         theorized it was possible to adapt bacteria to synthesize ethanol. With
         the potential to create any carbon chemical. The real game-changer?
-        Absorbing CO2. Based on cyanobacteria’s power to photosynthesize, the
-        process the professors dreamt up extracts CO2 from the atmosphere while
-        producing essential industrial compounds. Months of iteration in the lab
-        led to success, our first patent and the birth of Photanol’s renewable
-        revolution. "
+        Absorbing CO<sub>2</sub>. Based on cyanobacteria’s power to
+        photosynthesize, the process the professors dreamt up extracts
+        CO<sub>2</sub> from the atmosphere while producing essential industrial
+        compounds. Months of iteration in the lab led to success, our first
+        patent and the birth of Photanol’s renewable revolution. "
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
@@ -229,21 +229,6 @@ team:
         of iteration needed for process perfection. 
       linkedin: https://www.linkedin.com/in/carolinevanderhorst/
       image: /img/caroline-0k3a7412.jpg
-    - name: Théo Veaudor
-      function: R&D Team Lead
-      text: A self-described ‘lab guy’ with a PhD in cyanobacteria genetics, DNA
-        researcher Theo dons his white coat to conjure the next big lab fail on
-        the way to Photanol’s subsequent big strain and success.
-      linkedin: https://www.linkedin.com/in/th%C3%A9o-veaudor-915024a7/
-      image: /img/theo-0k3a7283.jpg
-    - text: "Maria shares the Photanol change-maker gene. Her expertise (and the focus
-        of her PhD) is algae biotech; specifically micro algae ID and
-        cultivation and it’s her lab work that ensures our next big strains are
-        robust and future-proof. "
-      name: Maria João Correia
-      function: Junior Researcher Upscaling
-      linkedin: https://www.linkedin.com/in/mjacorreia/
-      image: /img/maria-0k3a7069.jpg
     - name: Aniek van der Woude
       function: R&D Manager Strain Engineering
       text: With Photanol since 2012 and joining us fresh from her PhD in molecular
@@ -252,29 +237,20 @@ team:
         strains.
       linkedin: https://www.linkedin.com/in/aniek-van-der-woude-35ba7a37/
       image: /img/aniek-0k3a7120.jpg
-    - name: Anja Herdtfelder
-      function: Junior Researcher
-      text: Anja studied cloning for her degree in Life Science and Technology. At
-        Photanol she optimizes cyanobacteria to deliver new compounds. Studying
-        and iterating on results to create the most stable strains for our next
-        organic acids.
-      linkedin: https://www.linkedin.com/in/anja-herdtfelder/
-      image: /img/anja-0k3a7484.jpg
-    - name: Koen Mulder
-      function: Research Team Lead
-      text: Joining us as junior researcher, Koen has been with Photanol since 2017.
-        He’s now the unflappable, results-driven lead our engineers need to
-        guide them through the cultivation of our latest and greatest strains.
-      linkedin: https://www.linkedin.com/in/koen-mulder-530564127/
-      image: /img/koen-0k3a7593.jpg
-    - name: Danuta Kaczmarzyk
-      function: Senior Researcher
-      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
-        was a researcher for the Microbial Metabolic Engineering Group. Now she
-        uses her analytical expertise to progress strain characterization and
-        optimization.
-      image: /img/danuta-0k3a7026.jpg
-      linkedin: https://www.linkedin.com/company/photanol/
+    - name: Hayco Bloemen
+      function: Senior Process Development Engineer
+      text: Hayco describes his job as ‘making cyano’s happy’. Which means he develops
+        the processes needed to achieve our theorised outputs. Which means he
+        magics ‘what ifs’ into reality.
+      linkedin: https://www.linkedin.com/in/hayco-bloemen/
+      image: /img/hayco-0k3a7638.jpg
+    - name: Théo Veaudor
+      function: R&D Team Lead
+      text: A self-described ‘lab guy’ with a PhD in cyanobacteria genetics, DNA
+        researcher Theo dons his white coat to conjure the next big lab fail on
+        the way to Photanol’s subsequent big strain and success.
+      linkedin: https://www.linkedin.com/in/th%C3%A9o-veaudor-915024a7/
+      image: /img/theo-0k3a7283.jpg
     - text: Sabrina’s personal ambition is to use bacteria as a platform for
         sustainable innovation. Several years researching her chosen subject at
         institutes like TNO led to the hyper-dedication now fortifying
@@ -283,6 +259,44 @@ team:
       function: Upscaling Team Lead
       linkedin: https://www.linkedin.com/in/sabrina-botton-532757a1/
       image: /img/sabrina-0k3a8101-2.jpg
+    - name: Koen Mulder
+      function: Research Team Lead
+      text: Joining us as junior researcher, Koen has been with Photanol since 2017.
+        He’s now the unflappable, results-driven lead our engineers need to
+        guide them through the cultivation of our latest and greatest strains.
+      linkedin: https://www.linkedin.com/in/koen-mulder-530564127/
+      image: /img/koen-0k3a7593.jpg
+    - name: Eugenie Troia
+      function: Lead Analytical Chemist
+      text: Heading up the strain analysis and method optimization involved in
+        upscale, it’s Eugenie’s inability to give up that means our lab strain
+        successes achieve commercial viability.
+      linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
+      image: /img/eugenie-0k3a7893-2.jpg
+    - text: "Maria shares the Photanol change-maker gene. Her expertise (and the focus
+        of her PhD) is algae biotech; specifically micro algae ID and
+        cultivation and it’s her lab work that ensures our next big strains are
+        robust and future-proof. "
+      name: Maria João Correia
+      function: Junior Researcher Upscaling
+      linkedin: https://www.linkedin.com/in/mjacorreia/
+      image: /img/maria-0k3a7069.jpg
+    - name: Anja Herdtfelder
+      function: Junior Researcher
+      text: Anja studied cloning for her degree in Life Science and Technology. At
+        Photanol she optimizes cyanobacteria to deliver new compounds. Studying
+        and iterating on results to create the most stable strains for our next
+        organic acids.
+      linkedin: https://www.linkedin.com/in/anja-herdtfelder/
+      image: /img/anja-0k3a7484.jpg
+    - name: Danuta Kaczmarzyk
+      function: Senior Researcher
+      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
+        was a researcher for the Microbial Metabolic Engineering Group. Now she
+        uses her analytical expertise to progress strain characterization and
+        optimization.
+      image: /img/danuta-0k3a7026.jpg
+      linkedin: https://www.linkedin.com/company/photanol/
     - text: Having worked in labs across several countries, Gabriel is in the ideal
         agile mind needed to drive our upscaling science. His work involves
         optimizing strain productivity; employing various growth systems and
@@ -306,20 +320,6 @@ team:
         in the lab strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/gabriel-brouchon
       image: /img/joost-0k3a8000.jpg
-    - name: Eugenie Troia
-      function: Lead Analytical Chemist
-      text: Heading up the strain analysis and method optimization involved in
-        upscale, it’s Eugenie’s inability to give up that means our lab strain
-        successes achieve commercial viability.
-      linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
-      image: /img/eugenie-0k3a7893-2.jpg
-    - name: Hayco Bloemen
-      function: Senior Process Development Engineer
-      text: Hayco describes his job as ‘making cyano’s happy’. Which means he develops
-        the processes needed to achieve our theorised outputs. Which means he
-        magics ‘what ifs’ into reality.
-      linkedin: https://www.linkedin.com/in/hayco-bloemen/
-      image: /img/hayco-0k3a7638.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
@@ -501,7 +501,7 @@ footer:
   pretitle: JOIN THE REVOLUTION
   title: Change is created together
   links:
-    email_general: contact@photanol.com
+    email_general: everything@photanol.com
     email_press: press@photanol.com
     email_vacancies: jobs@photanol.com
     link_twitter: https://twitter.com/photanol
