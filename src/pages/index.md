@@ -111,7 +111,7 @@ roadmap:
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap_demo_production.png
-      image: /img/7-demo-plant-starts-production.jpeg
+      image: /img/7-demo-plant-starts-production.jpg
     - text: We admit we’re a tad ambitious, and the goals we set often keep us up at
         night. But it’s also led us to two great partners. Now, a third
         powerhouse is backing the Photanol mission - signing a partnership
