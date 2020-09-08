@@ -42,7 +42,7 @@ const VacanciesSection = ({ vacancies }) => {
       {vacancies.list.map((vacancy) => {
         return (
           <div key={v4()} className="vacancy-card tile is-child pb-3">
-            <ScrollAnimation animateIn='fadeInUp' delay={200}>
+            <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
               <p className="blue-text has-text-weight-bold">
                 {vacancy.title}
               </p>
@@ -68,7 +68,7 @@ const VacanciesSection = ({ vacancies }) => {
   return (
     <section className="section vacancies-wrapper" id="jobs">
       <div className="content">
-        <ScrollAnimation animateIn='fadeInUp'>
+        <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
           <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
         </ScrollAnimation>
         <div className="vacancies">

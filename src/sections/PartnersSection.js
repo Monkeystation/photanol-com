@@ -11,10 +11,10 @@ const PartnersSection = ({ partners }) => (
     <div className="containert">
       <div className="columns">
         <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-          <ScrollAnimation animateIn='fadeInUp'>
+          <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{partners.pretitle}</h5>
           </ScrollAnimation>
-          <ScrollAnimation animateIn='fadeInUp' delay={200}>
+          <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
             <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners.title}</h1>
           </ScrollAnimation>
         </div>

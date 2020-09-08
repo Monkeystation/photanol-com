@@ -11,7 +11,7 @@ export default function ScrollRevealTween({children, fade = true, reverse = fals
   }
   
   return (
-    <ScrollAnimation animateIn={(reverse) ? 'fadeInDown' : 'fadeInUp'}>
+    <ScrollAnimation animateIn={(reverse) ? 'fadeInDown' : 'fadeInUp'} animateOnce={true}>
       {children}
     </ScrollAnimation>
   )

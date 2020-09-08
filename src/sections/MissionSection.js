@@ -38,10 +38,10 @@ const MissionSection = ({ mission }) => {
     <section className="section mission">
       <div className="columns">
         <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">
-          <ScrollAnimation animateIn='fadeInUp'>
+          <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
           </ScrollAnimation>
-          <ScrollAnimation animateIn='fadeInUp' delay={200}>
+          <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
             <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
           </ScrollAnimation>
         </div>
