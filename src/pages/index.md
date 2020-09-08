@@ -175,12 +175,12 @@ infographic:
         photosynthesis, the superpower of cyanobacteria.
       alt: Process
     - image: /img/infographic-02.svg
-      text: Our solution uses the photosynthesis superpower of cyanobacteria.
+      text: The cyanobacteria are adapted to absorb more CO<sub>2</sub> - its
+        metabolic pathways are enhanced to produce the desired compound.
       alt: Solution
     - image: /img/infographic-03.svg
-      text: The cyanobacteria are adapted to absorb more CO₂, its metabolic pathways
-        enhanced to produce a desired compound.
-      alt: Cyanobacteria
+      text: een woord
+      alt: een woord
     - image: /img/infographic-04.svg
       text: Photanol’s platform technology makes it possible to make any carbon
         compound and has the power to transform industries to circular.
