@@ -12,7 +12,7 @@ const RoadmapSection = ({ roadmap }) => {
       <div className="containert">
         <div className="columns">
           <div className="column is-8-fullhd is-offset-2-fullhd">
-            <ScrollAnimation animateIn='fadeInUp' style={{["--distance"]: "200%"}}>
+            <ScrollAnimation animateIn='fadeInUp'>
               <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-7">{roadmap.pretitle}</h5>
             </ScrollAnimation>
             <ScrollAnimation animateIn='fadeInUp' style={{["--delay"]: ".2s"}}>

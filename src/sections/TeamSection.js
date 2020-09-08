@@ -7,7 +7,7 @@ import Team from '../components/Team'
 const TeamSection = ({ team }) => (
   <section className="section team" id="team">
     <div className="containert text">
-      <ScrollAnimation animateIn='fadeInUp' style={{["--distance"]: "200%"}}>
+      <ScrollAnimation animateIn='fadeInUp'>
         <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{team.pretitle}</h5>
       </ScrollAnimation>
       <ScrollAnimation animateIn='fadeInUp' style={{["--delay"]: ".2s"}}>

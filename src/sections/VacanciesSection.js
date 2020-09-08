@@ -68,7 +68,7 @@ const VacanciesSection = ({ vacancies }) => {
   return (
     <section className="section vacancies-wrapper" id="jobs">
       <div className="content">
-        <ScrollAnimation animateIn='fadeInUp' style={{["--distance"]: "200%"}}>
+        <ScrollAnimation animateIn='fadeInUp'>
           <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
         </ScrollAnimation>
         <div className="vacancies">
