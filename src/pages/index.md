@@ -193,7 +193,7 @@ slideshow:
     image: /img/co2.jpg
     alt: Emissions
   image2:
-    image: /img/cyano.jpg
+    image: /img/slide2.jpg
     alt: Cyanobacteria
   image3:
     image: /img/slide3.jpg
