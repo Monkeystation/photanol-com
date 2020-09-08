@@ -233,7 +233,7 @@ team:
       linkedin: https://www.linkedin.com/in/peterbrenninkmeijer/
       image: /img/peter-0k3a7496.jpg
     - name: Caroline van der Horst
-      function: CTO (INTERIM)
+      function: CTO (interim)
       text: >
         Our acting technology officer, Caroline, hails from the agrifood
         industry and leads the Photanol R&D teams through the intense journeys
