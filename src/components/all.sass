@@ -353,9 +353,6 @@ a
 // ANIMATIONS
 /* purgecss start ignore */
 
-\:root
-  --delay: 0s
-
 .animated
   animation-duration: 1s
   animation-fill-mode: both
@@ -367,14 +364,12 @@ a
     opacity: 1
 
 .fadeIn 
-  opacity: 0
   animation-name: fadeIn
-  animation-delay: var(--delay)
 
 @keyframes fadeInUp
   from 
     opacity: 0
-    transform: translate3d(0, 50px, 0)
+    transform: translate3d(0, 40px, 0)
   to 
     opacity: 1
     transform: translate3d(0, 0, 0)
@@ -382,12 +377,11 @@ a
 .fadeInUp 
   opacity: 0
   animation-name: fadeInUp
-  animation-delay: var(--delay)
 
 @keyframes fadeInDown
   from 
     opacity: 0
-    transform: translate3d(0, -50px, 0)
+    transform: translate3d(0, -40px, 0)
   to 
     opacity: 1
     transform: translate3d(0, 0, 0)
@@ -395,7 +389,6 @@ a
 .fadeInDown 
   opacity: 0
   animation-name: fadeInDown
-  animation-delay: var(--delay)
 /* purgecss end ignore */
   
 

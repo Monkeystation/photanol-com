@@ -42,7 +42,7 @@ const VacanciesSection = ({ vacancies }) => {
       {vacancies.list.map((vacancy) => {
         return (
           <div key={v4()} className="vacancy-card tile is-child pb-3">
-            <ScrollAnimation animateIn='fadeInUp' style={{["--delay"]: ".2s"}}>
+            <ScrollAnimation animateIn='fadeInUp' delay={200}>
               <p className="blue-text has-text-weight-bold">
                 {vacancy.title}
               </p>
