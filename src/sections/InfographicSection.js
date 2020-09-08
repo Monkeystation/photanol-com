@@ -18,10 +18,8 @@ const InfographicSection = ({ infographic }) => (
         <div className="column is-12 is-10-desktop is-offset-1-desktop is-8-widescreen is-offset-2-widescreen">
         {infographic.items.map((item, index) => (
             <div key={index}>
-              <ScrollRevealTween>
-                <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' alt="Infographic" />
-              </ScrollRevealTween>
-              <ScrollRevealTween>
+              <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' alt="Infographic" />
+              <ScrollRevealTween reverse={true}>
                 <p className="blue-text is-size-6-tablet">{item.text}</p>
               </ScrollRevealTween>
             </div>
