@@ -10,12 +10,14 @@ const PartnersSection = ({ partners }) => (
   <section className="section partners">
     <div className="containert">
       <div className="columns">
-        <ScrollAnimation animateIn={'fadeInUp'}>
-          <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
+        <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
+          <ScrollAnimation animateIn='fadeInUp' style={{["--distance"]: "200%"}}>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{partners.pretitle}</h5>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn='fadeInUp' style={{["--delay"]: ".2s"}}>
             <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{partners.title}</h1>
-          </div>
-        </ScrollAnimation>
+          </ScrollAnimation>
+        </div>
       </div>
       <div className="columns">
         <div className="column is-10-fullhd is-offset-2-fullhd">

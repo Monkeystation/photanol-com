@@ -42,18 +42,20 @@ const VacanciesSection = ({ vacancies }) => {
       {vacancies.list.map((vacancy) => {
         return (
           <div key={v4()} className="vacancy-card tile is-child pb-3">
-            <p className="blue-text has-text-weight-bold">
-              {vacancy.title}
-            </p>
-            <p className="blue-text py-3">
-              {vacancy.description_short}
-            </p>
-            <button className="button-secondary is-grey" onClick={() => onVacancyButtonClick(vacancy)}>
-              <span>{'VIEW VACANCY'}</span>
-              <span className="icon">
-                <IconArrow />
-              </span>
-            </button>
+            <ScrollAnimation animateIn='fadeInUp' style={{["--delay"]: ".2s"}}>
+              <p className="blue-text has-text-weight-bold">
+                {vacancy.title}
+              </p>
+              <p className="blue-text py-3">
+                {vacancy.description_short}
+              </p>
+              <button className="button-secondary is-grey" onClick={() => onVacancyButtonClick(vacancy)}>
+                <span>{'VIEW VACANCY'}</span>
+                <span className="icon">
+                  <IconArrow />
+                </span>
+              </button>
+              </ScrollAnimation>
           </div>
         )
       }
@@ -66,7 +68,7 @@ const VacanciesSection = ({ vacancies }) => {
   return (
     <section className="section vacancies-wrapper" id="jobs">
       <div className="content">
-        <ScrollAnimation animateIn='fadeInUp'>
+        <ScrollAnimation animateIn='fadeInUp' style={{["--distance"]: "200%"}}>
           <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
         </ScrollAnimation>
         <div className="vacancies">

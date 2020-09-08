@@ -37,12 +37,14 @@ const MissionSection = ({ mission }) => {
   return (
     <section className="section mission">
       <div className="columns">
-        <ScrollAnimation animateIn='fadeInUp'>
-          <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">      
+        <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">
+          <ScrollAnimation animateIn='fadeInUp' style={{["--distance"]: "200%"}}>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn='fadeInUp' style={{["--delay"]: ".2s"}}>
             <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
-          </div>
-        </ScrollAnimation>
+          </ScrollAnimation>
+        </div>
       </div>
       <div>
         <div className="columns">
