@@ -329,7 +329,7 @@ team:
       text: Joost came to us from an internship at a bio-waste company. Starting as
         Photanol intern and Junior researcher since 2018, Joost spends his days
         in the lab strengthening our upscaling team.
-      linkedin: https://www.linkedin.com/in/gabriel-brouchon
+      linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
       image: /img/joost-0k3a8000.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
