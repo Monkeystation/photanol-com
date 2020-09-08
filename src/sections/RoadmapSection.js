@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ScrollRevealTween from '../hooks/ScrollRevealTween'
+import ScrollAnimation from 'react-animate-on-scroll'
 import Roadmap from '../components/Roadmap'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween } from 'react-gsap'
@@ -11,12 +11,12 @@ const RoadmapSection = ({ roadmap }) => {
     <section className="section roadmap has-background-primary">
       <div className="containert">
         <div className="columns">
-          <ScrollRevealTween>
+          <ScrollAnimation animateIn='fadeInUp'>
             <div className="column is-8-fullhd is-offset-2-fullhd">
               <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-7">{roadmap.pretitle}</h5>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
             </div>
-          </ScrollRevealTween>
+          </ScrollAnimation>
         </div>
       </div>
       <Controller>

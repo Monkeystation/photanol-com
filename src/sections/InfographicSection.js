@@ -1,17 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ScrollRevealTween from '../hooks/ScrollRevealTween'
 import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
-
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const InfographicSection = ({ infographic }) => (
   <section className="section infographic">
     <div className="containert">
       <div className="columns">
         <div className="column is-12 is-10-widescreen is-offset-1-widescreen is-8-fullhd is-offset-2-fullhd" >
-          <ScrollRevealTween>
+          <ScrollAnimation animateIn='fadeInUp'>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
-          </ScrollRevealTween>
+          </ScrollAnimation>
         </div>
       </div>
       <div className="columns">
@@ -19,9 +18,9 @@ const InfographicSection = ({ infographic }) => (
         {infographic.items.map((item, index) => (
             <div key={index}>
               <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' alt="Infographic" />
-              <ScrollRevealTween reverse={true}>
+              <ScrollAnimation animateIn='fadeInDown'>
                 <p className="blue-text is-size-6-tablet">{item.text}</p>
-              </ScrollRevealTween>
+              </ScrollAnimation>
             </div>
           ))}
         </div>

@@ -1,18 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ScrollRevealTween from '../hooks/ScrollRevealTween'
+import ScrollAnimation from 'react-animate-on-scroll'
 import {IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
 
 const FooterSection = ({ footer }) => (
 <section className="section footer" id="contact">
   <div className="containert">
     <div className="columns">
-      <ScrollRevealTween>
+      <ScrollAnimation animateIn='fadeInUp'>
         <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
           <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{footer.pretitle}</h5>
           <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{footer.title}</h1>
         </div>
-      </ScrollRevealTween>
+      </ScrollAnimation>
     </div>
     <div className="columns">
       <div className="column is-12 is-10-desktop is-12-widescreen is-8-fullhd is-offset-2-fullhd">

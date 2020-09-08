@@ -18,8 +18,6 @@ import VacanciesSection from '../sections/VacanciesSection'
 import PartnersSection from '../sections/PartnersSection'
 import FooterSection from '../sections/FooterSection'
 
-import ComingSoonSection from '../sections/ComingSoonSection'
-
 ReactGA.initialize('UA-126624514-4')
 ReactGA.set({ anonymizeIp: true })
 
@@ -38,7 +36,6 @@ export const IndexPageTemplate = ({
 }) => {
   return (
     <>
-      {/* <ComingSoonSection /> */}
       <div className="logo-container"><LogoPhotanol /></div>
       <IntroSection intro={intro} />
       <MissionSection mission={mission} />
@@ -98,7 +95,7 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     items: PropTypes.arrayOf(
       PropTypes.shape({
-        image: PropTypes.object,
+        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
         alt: PropTypes.string,
         text: PropTypes.string,
       })

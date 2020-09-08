@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Reveal, Tween } from 'react-gsap'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 // Hook
 export default function ScrollRevealTween({children, fade = true, reverse = false}) {
@@ -10,10 +11,8 @@ export default function ScrollRevealTween({children, fade = true, reverse = fals
   }
   
   return (
-    <Reveal repeat>
-      <Tween from={from} duration={1} ease={"power1.out"}>
-        {children}
-      </Tween>
-    </Reveal>
+    <ScrollAnimation animateIn={(reverse) ? 'fadeInDown' : 'fadeInUp'}>
+      {children}
+    </ScrollAnimation>
   )
 }

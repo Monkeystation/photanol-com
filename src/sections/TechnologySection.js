@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useCallback, useRef} from 'react'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
-import ScrollRevealTween from '../hooks/ScrollRevealTween'
+import ScrollAnimation from 'react-animate-on-scroll'
 import {IconPlay} from '../components/Icons'
 import ReactGA from 'react-ga'
 
@@ -42,12 +42,12 @@ const TechnologySection = ({ technology }) => {
     <section className="section technology" id="technology">
       <div className="containert">
         <div className="columns">
-          <ScrollRevealTween>
+          <ScrollAnimation animateIn='fadeInUp'>
             <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{technology.pretitle}</h5>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology.title}</h1>
             </div>
-          </ScrollRevealTween>
+          </ScrollAnimation>
         </div>
         <div className="columns">
           <div className="column is-12 is-8-widescreen is-offset-2-fullhd text-columns">

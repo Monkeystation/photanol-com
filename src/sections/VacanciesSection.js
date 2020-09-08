@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import showdown from 'showdown'
 import ReactGA from 'react-ga'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 import {IconArrow} from '../components/Icons'
-import ScrollRevealTween from '../hooks/ScrollRevealTween'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
@@ -66,9 +66,9 @@ const VacanciesSection = ({ vacancies }) => {
   return (
     <section className="section vacancies-wrapper" id="jobs">
       <div className="content">
-        <ScrollRevealTween>
+        <ScrollAnimation animateIn='fadeInUp'>
           <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
-        </ScrollRevealTween>
+        </ScrollAnimation>
         <div className="vacancies">
           <Vacancies />
           <div className={`modal ${showVacancyModal ? 'is-active' : ''}`}>

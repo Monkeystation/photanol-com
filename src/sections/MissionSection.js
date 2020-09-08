@@ -1,7 +1,8 @@
 import React, {useState, useEffect, useCallback, useRef} from 'react'
 import PropTypes from 'prop-types'
-import ScrollRevealTween from '../hooks/ScrollRevealTween'
 import ReactGA from 'react-ga'
+import ScrollAnimation from 'react-animate-on-scroll'
+
 
 const MissionSection = ({ mission }) => {
   const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
@@ -36,12 +37,12 @@ const MissionSection = ({ mission }) => {
   return (
     <section className="section mission">
       <div className="columns">
-        <ScrollRevealTween>
+        <ScrollAnimation animateIn='fadeInUp'>
           <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">      
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
             <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
           </div>
-        </ScrollRevealTween>
+        </ScrollAnimation>
       </div>
       <div>
         <div className="columns">
