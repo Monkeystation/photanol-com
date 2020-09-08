@@ -9,7 +9,7 @@ const InfographicSection = ({ infographic }) => (
       <div className="columns">
         <div className="column is-12 is-10-widescreen is-offset-1-widescreen is-8-fullhd is-offset-2-fullhd" >
           <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
-            <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
+            <h5 className="subtitle blue-text has-text-centered has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
           </ScrollAnimation>
         </div>
       </div>
