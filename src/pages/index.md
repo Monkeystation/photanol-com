@@ -171,8 +171,8 @@ infographic:
   items:
     - image: /img/infographic-01.svg
       text: The Photanol process takes place in tubes powered by sunlight, absorbing
-        CO<sub>2</sub> and producing just oxygen as a by-product through
-        photosynthesis, the superpower of cyanobacteria.
+        CO₂ and producing just oxygen as a by-product through photosynthesis,
+        the superpower of cyanobacteria.
       alt: Process
     - image: /img/infographic-02.svg
       text: The cyanobacteria are adapted to absorb more CO<sub>2</sub> - its
