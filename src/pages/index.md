@@ -466,7 +466,7 @@ vacancies:
         The deadline is **September 12, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
 partners:
   pretitle: OUR PARTNERS
-  title: The future needs allies
+  title: The future needs like-minds.
   logos:
     - image: /img/mibiton.svg
       link: https://www.mibiton.nl/
