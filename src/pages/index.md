@@ -221,8 +221,8 @@ team:
     - name: Paul Koekoek
       function: Director of Operations
       text: Over twenty years of engineering excellence back our COO’s plans to
-        sky-rocket circular chemistry. Paul led the demo plant build and is now
-        designing the engineering feats needed for commercial scale up.
+        sky-rocket circular chemistry. Paul led the demo plant construction and
+        is now designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/paul-koekoek-a2740043/
       image: /img/paul-0k3a7798.jpg
     - name: Peter Brenninkmeijer
