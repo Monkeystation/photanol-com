@@ -164,7 +164,7 @@ technology:
 
     Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<sub>2</sub>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
   video_item:
-    label: Watch corporate movie
+    label: Watch corporate film
     link: WN6sSfN-Apg
 infographic:
   pretitle: How it works
