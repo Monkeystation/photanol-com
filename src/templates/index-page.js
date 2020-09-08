@@ -98,7 +98,7 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     items: PropTypes.arrayOf(
       PropTypes.shape({
-        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+        image: PropTypes.object,
         alt: PropTypes.string,
         text: PropTypes.string,
       })
