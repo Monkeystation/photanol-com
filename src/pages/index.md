@@ -34,7 +34,7 @@ roadmap:
     - year: "2008"
       title: The first patent
       icon: /img/roadmap_patent.png
-      image: /img/timeline-1.png
+      image: /img/1-first-patent.jpg
       text: "In 2008, Prof. Klaas Hellingwerf and Prof. Joost Teixeira de Mattos
         pooled their respective expertise to address climate change. They
         theorized it was possible to adapt bacteria to synthesize ethanol. With
@@ -47,7 +47,7 @@ roadmap:
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
-      image: /img/screenshot-2020-09-05-at-08.46.11.png
+      image: /img/2-platform-spinout.jpg
       text: >-
         In order to nurture our fledgling circular ambitions, we needed to
         demonstrate commercial potential. Our technology must be capable of
@@ -60,7 +60,7 @@ roadmap:
     - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap_partnerships.png
-      image: /img/corbion.jpg
+      image: /img/3-strategic-partnership-corbion.jpg
       text: >-
         Early success delivered the perfect moment for a partner with a shared
         vision for circular chemistry. One with specific expertise and a
@@ -73,7 +73,7 @@ roadmap:
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap_partnerships.png
-      image: /img/nouryonplade.png
+      image: /img/4-strategic-partnership-nouryon.jpg
       text: A key ingredient in the global cosmetics industry, glycolic acid was our
         next target. To develop a circular solution in this field, we partnered
         with Nouryon. With two significant partners on board, proven scalability
@@ -89,7 +89,7 @@ roadmap:
         expertise. Photanol was now able to demonstrate cost, waste and energy
         efficiency throughout the entire process.
       icon: /img/roadmap_pilt_validation.png
-      image: /img/4-pilot-plant-validation.jpg
+      image: /img/5-pilot-plant-validation.jpg
     - text: "Fresh off the press in September 2020: We are live at our first
         demonstration scale plant in Delfzijl. Cyanobacteria have been set free
         across thousands of meters of tubing laid out in a controlled
@@ -99,7 +99,7 @@ roadmap:
       year: "2020"
       title: First demonstration plant
       icon: /img/roadmap_construction.png
-      image: /img/5-first-demonstration-plant.jpg
+      image: /img/6-first-demonstration-plant.png
     - text: Our demo plant has the capacity to produce up to 10 tons per year. It’s
         the intermediary step to producing the kilotons needed for large scale
         commercial needs. It’s also the testing ground for fine-tuning processes
@@ -111,7 +111,7 @@ roadmap:
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap_demo_production.png
-      image: /img/screenshot-2020-09-05-at-08.44.57.png
+      image: /img/7-demo-plant-starts-production.jpeg
     - text: We admit we’re a tad ambitious, and the goals we set often keep us up at
         night. But it’s also led us to two great partners. Now, a third
         powerhouse is backing the Photanol mission - signing a partnership
@@ -124,7 +124,7 @@ roadmap:
       year: "2020"
       title: Strategic partnership with Renolit
       icon: /img/roadmap_partnerships.png
-      image: /img/7-strategic-partnership-renolit.jpg
+      image: /img/8-strategic-partnership-renolit.jpg
     - title: Scale up to commercial plant
       year: "2023"
       text: "Proving commercial viability is next. Photonal is like a lego-block-style
@@ -137,7 +137,7 @@ roadmap:
         extremely favorably with non-renewable chemicals. Proving that
         sustainability isn’t second place to economic profit."
       icon: /img/roadmap_scale_commercial_plant.png
-      image: /img/placeholder-commercial.jpg
+      image: /img/9-scale-up-to-commercial-plant.jpg
     - year: "2024"
       title: Commercial production
       text: "Our first commercial plant is planned to kick-off production in 2024.
@@ -148,7 +148,7 @@ roadmap:
         business cases and new tech breakthroughs acting as instruments in our
         mission to restore balance to the planet, while powering the world. "
       icon: /img/roadmap_commercial_production.png
-      image: /img/istockphoto-823610186-170667a.jpg
+      image: /img/10-commercial-production.jpg
   active: 6
 technology:
   pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
