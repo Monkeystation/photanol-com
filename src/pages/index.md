@@ -334,7 +334,7 @@ team:
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
-    [jobs@photanol.com](mailto:jobs@photanol.com)
+    [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
     - title: Researcher Strain Development Team
       description_short: Photanol is looking for a researcher to join our Strain
@@ -510,7 +510,7 @@ partners:
     alt: Renewable Carbon
 footer:
   pretitle: JOIN THE REVOLUTION
-  title: Change is created together
+  title: Change is created together.
   links:
     email_general: everything@photanol.com
     email_press: press@photanol.com
