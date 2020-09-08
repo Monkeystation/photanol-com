@@ -39,11 +39,11 @@ roadmap:
         pooled their respective expertise to address climate change. They
         theorized it was possible to adapt bacteria to synthesize ethanol. With
         the potential to create any carbon chemical. The real game-changer?
-        Absorbing CO<sub>2</sub>. Based on cyanobacteria’s power to
-        photosynthesize, the process the professors dreamt up extracts
-        CO<sub>2</sub> from the atmosphere while producing essential industrial
-        compounds. Months of iteration in the lab led to success, our first
-        patent and the birth of Photanol’s renewable revolution. "
+        Absorbing CO₂. Based on cyanobacteria’s power to photosynthesize, the
+        process the professors dreamt up extracts CO<sub>2</sub> from the
+        atmosphere while producing essential industrial compounds. Months of
+        iteration in the lab led to success, our first patent and the birth of
+        Photanol’s renewable revolution. "
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
