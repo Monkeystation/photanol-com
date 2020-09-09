@@ -333,17 +333,17 @@ team:
       image: /img/joost-0k3a8000.jpg
     - name: Pierre Hakkesteegt
       function: Site Supervisor Photanol Delfzijl
-      text: Coming soon
+      text: " "
       linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
       image: /img/pierre-portret_web_8sept_22.jpg
     - name: Vera Boor
       function: Junior Bioprocess Engineer
-      text: Coming soon
+      text: " "
       image: /img/vera-portret_web_8sept_24.jpg
       linkedin: https://www.linkedin.com/in/vera-boor/
     - name: Jadranka van Tilburg
       function: Financial Controller
-      text: Coming soon
+      text: " "
       linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
       image: /img/jadranka-portret_web_8sept_10.jpg
     - name: Patrick Eikenboom
