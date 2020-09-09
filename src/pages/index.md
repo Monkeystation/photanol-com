@@ -69,7 +69,7 @@ roadmap:
         biodegradable bioplastic packaging).
 
 
-        The partnership with Corbion enabled us to develop renewable lactic acid with highest purity; made from CO<sub>2</sub>. Using 24 times less land and 25 times less water than traditional equivalents.
+        The partnership with Corbion enabled us to develop renewable lactic acid with highest purity; made from CO<small>2</small>. Using 24 times less land and 25 times less water than traditional equivalents.
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap_partnerships.png
@@ -162,7 +162,7 @@ technology:
     We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients commonly used in personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
 
 
-    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<sub>2</sub>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
+    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
   video_item:
     label: Watch corporate film
     link: WN6sSfN-Apg
@@ -171,8 +171,8 @@ infographic:
   items:
     - image: /img/infographic-01.svg
       text: " The Photanol process takes place in tubes and is powered by sunlight.
-        Through photosynthesis cyanobacteria capture CO₂, keep the carbon (C)
-        and return oxygen (O₂) as a by-product."
+        Through photosynthesis cyanobacteria capture CO<small>2</small>, keep
+        the carbon (C) and return oxygen (O<small>2</small>) as a by-product."
       alt: Process
     - image: /img/infographic-02.svg
       text: The cyanobacteria’s metabolic pathways are enhanced to produce the desired
