@@ -14,7 +14,7 @@ const InfographicSection = ({ infographic }) => (
         </div>
       </div>
       <div className="columns">
-        <div className="column is-12 is-10-desktop is-offset-1-desktop is-8-widescreen is-offset-2-widescreen">
+        <div className="column is-12 is-8-desktop is-offset-2-desktop is-6-widescreen is-offset-3-widescreen">
         {infographic.items.map((item, index) => (
             <div key={index}>
               <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
