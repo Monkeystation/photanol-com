@@ -209,7 +209,7 @@ team:
         her quest for the right partners to realize Photanol’s circular moonshot
         and transition to a sustainable future.      "
       linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
-      image: /img/veronique-portret_web_8sept_25.jpg
+      image: /img/veronique-portret_web_8sept_25-2.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
       text: "Founder and CSO, Prof. Hellingwerf is one of the top five knowledge
@@ -224,7 +224,7 @@ team:
         sky-rocket circular chemistry. Paul led the demo plant construction and
         is now designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/paul-koekoek-a2740043/
-      image: /img/paul-portret_web_8sept_15.jpg
+      image: /img/paul-portret_web_8sept_15-2.jpg
     - name: Peter Brenninkmeijer
       function: CFO
       text: Peter co-raised the funding for our debut demo plant. Experienced in
@@ -311,7 +311,7 @@ team:
         was a researcher for the Microbial Metabolic Engineering Group. Now she
         uses her analytical expertise to progress strain characterization and
         optimization.
-      image: /img/danuta-portret_web_8sept_1.jpg
+      image: /img/danuta-portret_web_8sept_1-2.jpg
       linkedin: https://www.linkedin.com/company/photanol/
     - text: Having worked in labs across several countries, Gabriel is in the ideal
         agile mind needed to drive our upscaling science. His work involves
@@ -344,13 +344,13 @@ team:
     - name: Vera Boor
       function: Junior Bioprocess Engineer
       text: " "
-      image: /img/vera-portret_web_8sept_24.jpg
+      image: /img/vera-portret_web_8sept_24-2.jpg
       linkedin: https://www.linkedin.com/in/vera-boor/
     - name: Jadranka van Tilburg
       function: Financial Controller
       text: " "
       linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
-      image: /img/jadranka-portret_web_8sept_10.jpg
+      image: /img/jadranka-portret_web_8sept_10-2.jpg
     - name: Patrick Eikenboom
       function: Operator pilot and demo
       text: " "
@@ -365,7 +365,7 @@ team:
       function: Researcher Strain Engineering
       text: " "
       linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
-      image: /img/mara-portret_web_8sept_17.jpg
+      image: /img/mara-portret_web_8sept_17-2.jpg
     - name: Joost Teixeira de Mattos
       function: Founder
       text: " "
