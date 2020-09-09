@@ -361,6 +361,11 @@ team:
       text: " "
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/juliette-portret_web_8sept_23.jpg
+    - name: Mara Vincelli
+      function: Researcher Strain Engineering
+      text: " "
+      linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
+      image: /img/mara-portret_web_8sept_17.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
@@ -545,8 +550,8 @@ footer:
     email_general: everything@photanol.com
     email_press: press@photanol.com
     email_vacancies: jobs@photanol.com
-    link_twitter: https://twitter.com/photanol
+    link_twitter: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
     link_linkedin: https://www.linkedin.com/company/photanol
-    link_youtube: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
+    link_youtube: https://www.youtube.com/user/Amsterdamsciencepark
     email_vacanties: jobs@photanol.com
 ---
