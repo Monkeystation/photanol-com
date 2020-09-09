@@ -8,9 +8,9 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-site_url: https://photanol.netlify.app
+site_url: https://photanol.com
 display_url: https://photanol.com
-logo_url: https://photanol.netlify.app/img/logo-cms.svg
+logo_url: https://photanol.com/img/logo-cms.svg
 media_folder: static/img
 public_folder: /img
 
