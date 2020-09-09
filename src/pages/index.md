@@ -251,7 +251,7 @@ team:
         engineering team. Analyzing, debating and developing our most productive
         strains.
       linkedin: https://www.linkedin.com/in/aniek-van-der-woude-35ba7a37/
-      image: /img/aniek-portret_web_8sept_3.jpg
+      image: /img/aniek-portret_web_8sept_3-2.jpg
     - name: Hayco Bloemen
       function: Senior Process Development Engineer
       text: Hayco describes his job as ‘making cyano’s happy’. Which means he develops
