@@ -209,7 +209,7 @@ team:
         her quest for the right partners to realize Photanol’s circular moonshot
         and transition to a sustainable future.      "
       linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
-      image: /img/veronique-0k3a8330.jpg
+      image: /img/veronique-portret_web_8sept_25.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
       text: "Founder and CSO, Prof. Hellingwerf is one of the top five knowledge
@@ -217,21 +217,21 @@ team:
         authority on microbial photosynthesis, researching and networking across
         continents to progress sustainable science and the Photanol vision. "
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
-      image: /img/klaas-0k3a7311.jpg
+      image: /img/klaas-portret_web_8sept_6.jpg
     - name: Paul Koekoek
       function: Director of Operations
       text: Over twenty years of engineering excellence back our COO’s plans to
         sky-rocket circular chemistry. Paul led the demo plant construction and
         is now designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/paul-koekoek-a2740043/
-      image: /img/paul-0k3a7798.jpg
+      image: /img/paul-portret_web_8sept_15.jpg
     - name: Peter Brenninkmeijer
       function: CFO
       text: Peter co-raised the funding for our debut demo plant. Experienced in
         unconventional financial models, he is the ideal CFO to guide us through
         the uncharted landscapes of biotech innovation.
       linkedin: https://www.linkedin.com/in/peterbrenninkmeijer/
-      image: /img/peter-0k3a7496.jpg
+      image: /img/peter-portret_web_8sept_9.jpg
     - name: Caroline van der Horst
       function: CTO (interim)
       text: >
@@ -239,7 +239,7 @@ team:
         industry and leads the Photanol R&D teams through the intense journeys
         of iteration needed for process perfection. 
       linkedin: https://www.linkedin.com/in/carolinevanderhorst/
-      image: /img/caroline-0k3a7412.jpg
+      image: /img/caroline-portret_web_8sept_7.jpg
     - name: Aniek van der Woude
       function: R&D Manager Strain Engineering
       text: With Photanol since 2012 and joining us fresh from her PhD in molecular
@@ -247,21 +247,21 @@ team:
         engineering team. Analyzing, debating and developing our most productive
         strains.
       linkedin: https://www.linkedin.com/in/aniek-van-der-woude-35ba7a37/
-      image: /img/aniek-0k3a7120.jpg
+      image: /img/aniek-portret_web_8sept_3.jpg
     - name: Hayco Bloemen
       function: Senior Process Development Engineer
       text: Hayco describes his job as ‘making cyano’s happy’. Which means he develops
         the processes needed to achieve our theorised outputs. Which means he
         magics ‘what ifs’ into reality.
       linkedin: https://www.linkedin.com/in/hayco-bloemen/
-      image: /img/hayco-0k3a7638.jpg
+      image: /img/hayco-portret_web_8sept_12.jpg
     - name: Théo Veaudor
       function: R&D Team Lead
       text: A self-described ‘lab guy’ with a PhD in cyanobacteria genetics, DNA
         researcher Theo dons his white coat to conjure the next big lab fail on
         the way to Photanol’s subsequent big strain and success.
       linkedin: https://www.linkedin.com/in/th%C3%A9o-veaudor-915024a7/
-      image: /img/theo-0k3a7283.jpg
+      image: /img/theo-portret_web_8sept_5.jpg
     - text: Sabrina’s personal ambition is to use bacteria as a platform for
         sustainable innovation. Several years researching her chosen subject at
         institutes like TNO led to the hyper-dedication now fortifying
@@ -269,21 +269,21 @@ team:
       name: Sabrina Botton
       function: Upscaling Team Lead
       linkedin: https://www.linkedin.com/in/sabrina-botton-532757a1/
-      image: /img/sabrina-0k3a8101-2.jpg
+      image: /img/sabrina-portret_web_8sept_21.jpg
     - name: Koen Mulder
       function: Research Team Lead
       text: Joining us as junior researcher, Koen has been with Photanol since 2017.
         He’s now the unflappable, results-driven lead our engineers need to
         guide them through the cultivation of our latest and greatest strains.
       linkedin: https://www.linkedin.com/in/koen-mulder-530564127/
-      image: /img/koen-0k3a7593.jpg
+      image: /img/koen-portret_web_8sept_11.jpg
     - name: Eugenie Troia
       function: Lead Analytical Chemist
       text: Heading up the strain analysis and method optimization involved in
         upscale, it’s Eugenie’s inability to give up that means our lab strain
         successes achieve commercial viability.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
-      image: /img/eugenie-0k3a7893-2.jpg
+      image: /img/eugenie-portret_web_8sept_16.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise (and the focus
         of her PhD) is algae biotech; specifically micro algae ID and
         cultivation and it’s her lab work that ensures our next big strains are
@@ -291,7 +291,7 @@ team:
       name: Maria João Correia
       function: Junior Researcher Upscaling
       linkedin: https://www.linkedin.com/in/mjacorreia/
-      image: /img/maria-0k3a7069.jpg
+      image: /img/maria-portret_web_8sept_2.jpg
     - name: Anja Herdtfelder
       function: Junior Researcher
       text: Anja studied cloning for her degree in Life Science and Technology. At
@@ -299,14 +299,14 @@ team:
         and iterating on results to create the most stable strains for our next
         organic acids.
       linkedin: https://www.linkedin.com/in/anja-herdtfelder/
-      image: /img/anja-0k3a7484.jpg
+      image: /img/anja-portret_web_8sept_8.jpg
     - name: Danuta Kaczmarzyk
       function: Senior Researcher
       text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
         was a researcher for the Microbial Metabolic Engineering Group. Now she
         uses her analytical expertise to progress strain characterization and
         optimization.
-      image: /img/danuta-0k3a7026.jpg
+      image: /img/danuta-portret_web_8sept_1.jpg
       linkedin: https://www.linkedin.com/company/photanol/
     - text: Having worked in labs across several countries, Gabriel is in the ideal
         agile mind needed to drive our upscaling science. His work involves
@@ -315,14 +315,14 @@ team:
       name: Gabriel Brouchon
       function: Scientist
       linkedin: https://www.linkedin.com/in/gabriel-brouchon/
-      image: /img/gabriel-0k3a7143.jpg
+      image: /img/gabriel-portret_web_8sept_4.jpg
     - name: Marc García López
       function: Junior Scientist
       text: A passion for microbiology and its potential for mitigating climate
         breakdown led Marc to Photanol for an internship. They’re also what make
         him a passionate proactive data scientist and now permanent member of
         our upscaling team.
-      image: /img/marc-0k3a8088-2.jpg
+      image: /img/marc-portret_web_8sept_20.jpg
       linkedin: https://www.linkedin.com/in/marcgarcialopez93?originalSubdomain=es
     - name: Joost van Baarsen
       function: Junior Strain Researcher
@@ -330,7 +330,7 @@ team:
         Photanol intern and Junior researcher since 2018, Joost spends his days
         in the lab strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
-      image: /img/joost-0k3a8000.jpg
+      image: /img/joost-portret_web_8sept_18.jpg
     - name: Pierre Hakkesteegt
       function: Site Supervisor Photanol Delfzijl
       text: " "
