@@ -34,7 +34,7 @@ roadmap:
     - year: "2008"
       title: The first patent
       icon: /img/roadmap_patent.png
-      image: /img/timeline-1.png
+      image: /img/1-first-patent.jpg
       text: "In 2008, Prof. Klaas Hellingwerf and Prof. Joost Teixeira de Mattos
         pooled their respective expertise to address climate change. They
         theorized it was possible to adapt bacteria to synthesize ethanol. With
@@ -47,7 +47,7 @@ roadmap:
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
-      image: /img/screenshot-2020-09-05-at-08.46.11.png
+      image: /img/2-platform-spinout.jpg
       text: >-
         In order to nurture our fledgling circular ambitions, we needed to
         demonstrate commercial potential. Our technology must be capable of
@@ -60,7 +60,7 @@ roadmap:
     - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap_partnerships.png
-      image: /img/corbion.jpg
+      image: /img/3-strategic-partnership-corbion.jpg
       text: >-
         Early success delivered the perfect moment for a partner with a shared
         vision for circular chemistry. One with specific expertise and a
@@ -73,7 +73,7 @@ roadmap:
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap_partnerships.png
-      image: /img/nouryonplade.png
+      image: /img/4-strategic-partnership-nouryon.jpg
       text: A key ingredient in the global cosmetics industry, glycolic acid was our
         next target. To develop a circular solution in this field, we partnered
         with Nouryon. With two significant partners on board, proven scalability
@@ -89,7 +89,7 @@ roadmap:
         expertise. Photanol was now able to demonstrate cost, waste and energy
         efficiency throughout the entire process.
       icon: /img/roadmap_pilt_validation.png
-      image: /img/4-pilot-plant-validation.jpg
+      image: /img/5-pilot-plant-validation.jpg
     - text: "Fresh off the press in September 2020: We are live at our first
         demonstration scale plant in Delfzijl. Cyanobacteria have been set free
         across thousands of meters of tubing laid out in a controlled
@@ -99,7 +99,7 @@ roadmap:
       year: "2020"
       title: First demonstration plant
       icon: /img/roadmap_construction.png
-      image: /img/5-first-demonstration-plant.jpg
+      image: /img/6-first-demonstration-plant.png
     - text: Our demo plant has the capacity to produce up to 10 tons per year. It’s
         the intermediary step to producing the kilotons needed for large scale
         commercial needs. It’s also the testing ground for fine-tuning processes
@@ -111,7 +111,7 @@ roadmap:
       year: "2021"
       title: Demo plant starts production
       icon: /img/roadmap_demo_production.png
-      image: /img/screenshot-2020-09-05-at-08.44.57.png
+      image: /img/7-demo-plant-starts-production.jpg
     - text: We admit we’re a tad ambitious, and the goals we set often keep us up at
         night. But it’s also led us to two great partners. Now, a third
         powerhouse is backing the Photanol mission - signing a partnership
@@ -124,7 +124,7 @@ roadmap:
       year: "2020"
       title: Strategic partnership with Renolit
       icon: /img/roadmap_partnerships.png
-      image: /img/7-strategic-partnership-renolit.jpg
+      image: /img/8-strategic-partnership-renolit.jpg
     - title: Scale up to commercial plant
       year: "2023"
       text: "Proving commercial viability is next. Photonal is like a lego-block-style
@@ -137,7 +137,7 @@ roadmap:
         extremely favorably with non-renewable chemicals. Proving that
         sustainability isn’t second place to economic profit."
       icon: /img/roadmap_scale_commercial_plant.png
-      image: /img/placeholder-commercial.jpg
+      image: /img/9-scale-up-to-commercial-plant.jpg
     - year: "2024"
       title: Commercial production
       text: "Our first commercial plant is planned to kick-off production in 2024.
@@ -148,7 +148,7 @@ roadmap:
         business cases and new tech breakthroughs acting as instruments in our
         mission to restore balance to the planet, while powering the world. "
       icon: /img/roadmap_commercial_production.png
-      image: /img/istockphoto-823610186-170667a.jpg
+      image: /img/10-commercial-production.jpg
   active: 6
 technology:
   pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
@@ -164,36 +164,40 @@ technology:
 
     Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<sub>2</sub>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
   video_item:
-    label: Watch corporate movie
-    link: ijMRUWfbp88
+    label: Watch corporate film
+    link: WN6sSfN-Apg
 infographic:
   pretitle: How it works
   items:
     - image: /img/infographic-01.svg
-      text: The Photanol process takes place in tubes powered by sunlight, absorbing
-        CO2, producing just oxygen as a by-product.
+      text: " The Photanol process takes place in tubes and is powered by sunlight.
+        Through photosynthesis cyanobacteria capture CO₂, keep the carbon (C)
+        and return oxygen (O₂) as a by-product."
       alt: Process
     - image: /img/infographic-02.svg
-      text: Our solution uses the photosynthesis superpower of cyanobacteria.
+      text: The cyanobacteria’s metabolic pathways are enhanced to produce the desired
+        compound.
       alt: Solution
     - image: /img/infographic-03.svg
-      text: The cyanobacteria is adapted to absorb more CO2, its metabolic pathways
-        enhanced to produce a desired strain.
-      alt: Cyanobacteria
+      text: The compounds get collected straight out of the installation. Upscaling
+        production to serious feedstock volumes is as straightforward as laying
+        more tubes.
+      alt: Molecule
     - image: /img/infographic-04.svg
-      text: Photanol’s platform technology makes it possible to make any carbon
-        compound and has the power to transform every industry to circular.
+      text: Photanol’s platform technology makes it possible to make virtually any
+        carbon compound and as such has the power to transform industries to
+        circular.
       alt: Carbon compound
     - image: /img/infographic-05.svg
-      text: Our renewable chemistry is used to create biodegradable plastic,
-        sustainable beauty and healthcare products and detergents. Even biofuel.
+      text: Our renewable chemistry is used to create circular plastics, sustainable
+        detergents and beauty and healthcare products. Even biofuel is possible.
       alt: Products
 slideshow:
   image1:
     image: /img/co2.jpg
     alt: Emissions
   image2:
-    image: /img/cyano.jpg
+    image: /img/slide2.jpg
     alt: Cyanobacteria
   image3:
     image: /img/slide3.jpg
@@ -209,7 +213,7 @@ team:
         her quest for the right partners to realize Photanol’s circular moonshot
         and transition to a sustainable future.      "
       linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
-      image: /img/veronique-0k3a8330.jpg
+      image: /img/veronique-portret_web_8sept_25-2.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
       text: "Founder and CSO, Prof. Hellingwerf is one of the top five knowledge
@@ -217,29 +221,29 @@ team:
         authority on microbial photosynthesis, researching and networking across
         continents to progress sustainable science and the Photanol vision. "
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
-      image: /img/klaas-0k3a7311.jpg
+      image: /img/klaas-portret_web_8sept_6-2.jpg
     - name: Paul Koekoek
       function: Director of Operations
       text: Over twenty years of engineering excellence back our COO’s plans to
-        sky-rocket circular chemistry. Paul led the demo plant build and is now
-        designing the engineering feats needed for commercial scale up.
+        sky-rocket circular chemistry. Paul led the demo plant construction and
+        is now designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/paul-koekoek-a2740043/
-      image: /img/paul-0k3a7798.jpg
+      image: /img/paul-portret_web_8sept_15-2.jpg
     - name: Peter Brenninkmeijer
       function: CFO
       text: Peter co-raised the funding for our debut demo plant. Experienced in
         unconventional financial models, he is the ideal CFO to guide us through
         the uncharted landscapes of biotech innovation.
       linkedin: https://www.linkedin.com/in/peterbrenninkmeijer/
-      image: /img/peter-0k3a7496.jpg
+      image: /img/peter-portret_web_8sept_9.jpg
     - name: Caroline van der Horst
-      function: CTO (INTERIM)
+      function: CTO (interim)
       text: >
         Our acting technology officer, Caroline, hails from the agrifood
         industry and leads the Photanol R&D teams through the intense journeys
         of iteration needed for process perfection. 
       linkedin: https://www.linkedin.com/in/carolinevanderhorst/
-      image: /img/caroline-0k3a7412.jpg
+      image: /img/caroline-portret_web_8sept_7.jpg
     - name: Aniek van der Woude
       function: R&D Manager Strain Engineering
       text: With Photanol since 2012 and joining us fresh from her PhD in molecular
@@ -247,21 +251,21 @@ team:
         engineering team. Analyzing, debating and developing our most productive
         strains.
       linkedin: https://www.linkedin.com/in/aniek-van-der-woude-35ba7a37/
-      image: /img/aniek-0k3a7120.jpg
+      image: /img/aniek-portret_web_8sept_3-2.jpg
     - name: Hayco Bloemen
       function: Senior Process Development Engineer
       text: Hayco describes his job as ‘making cyano’s happy’. Which means he develops
         the processes needed to achieve our theorised outputs. Which means he
         magics ‘what ifs’ into reality.
       linkedin: https://www.linkedin.com/in/hayco-bloemen/
-      image: /img/hayco-0k3a7638.jpg
+      image: /img/hayco-portret_web_8sept_12.jpg
     - name: Théo Veaudor
       function: R&D Team Lead
       text: A self-described ‘lab guy’ with a PhD in cyanobacteria genetics, DNA
         researcher Theo dons his white coat to conjure the next big lab fail on
         the way to Photanol’s subsequent big strain and success.
       linkedin: https://www.linkedin.com/in/th%C3%A9o-veaudor-915024a7/
-      image: /img/theo-0k3a7283.jpg
+      image: /img/theo-portret_web_8sept_5.jpg
     - text: Sabrina’s personal ambition is to use bacteria as a platform for
         sustainable innovation. Several years researching her chosen subject at
         institutes like TNO led to the hyper-dedication now fortifying
@@ -269,21 +273,21 @@ team:
       name: Sabrina Botton
       function: Upscaling Team Lead
       linkedin: https://www.linkedin.com/in/sabrina-botton-532757a1/
-      image: /img/sabrina-0k3a8101-2.jpg
+      image: /img/sabrina-portret_web_8sept_21.jpg
     - name: Koen Mulder
       function: Research Team Lead
       text: Joining us as junior researcher, Koen has been with Photanol since 2017.
         He’s now the unflappable, results-driven lead our engineers need to
         guide them through the cultivation of our latest and greatest strains.
       linkedin: https://www.linkedin.com/in/koen-mulder-530564127/
-      image: /img/koen-0k3a7593.jpg
+      image: /img/koen-portret_web_8sept_11.jpg
     - name: Eugenie Troia
       function: Lead Analytical Chemist
       text: Heading up the strain analysis and method optimization involved in
         upscale, it’s Eugenie’s inability to give up that means our lab strain
         successes achieve commercial viability.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
-      image: /img/eugenie-0k3a7893-2.jpg
+      image: /img/eugenie-portret_web_8sept_16-2.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise (and the focus
         of her PhD) is algae biotech; specifically micro algae ID and
         cultivation and it’s her lab work that ensures our next big strains are
@@ -291,7 +295,7 @@ team:
       name: Maria João Correia
       function: Junior Researcher Upscaling
       linkedin: https://www.linkedin.com/in/mjacorreia/
-      image: /img/maria-0k3a7069.jpg
+      image: /img/maria-portret_web_8sept_2.jpg
     - name: Anja Herdtfelder
       function: Junior Researcher
       text: Anja studied cloning for her degree in Life Science and Technology. At
@@ -299,15 +303,7 @@ team:
         and iterating on results to create the most stable strains for our next
         organic acids.
       linkedin: https://www.linkedin.com/in/anja-herdtfelder/
-      image: /img/anja-0k3a7484.jpg
-    - name: Danuta Kaczmarzyk
-      function: Senior Researcher
-      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
-        was a researcher for the Microbial Metabolic Engineering Group. Now she
-        uses her analytical expertise to progress strain characterization and
-        optimization.
-      image: /img/danuta-0k3a7026.jpg
-      linkedin: https://www.linkedin.com/company/photanol/
+      image: /img/anja-portret_web_8sept_8.jpg
     - text: Having worked in labs across several countries, Gabriel is in the ideal
         agile mind needed to drive our upscaling science. His work involves
         optimizing strain productivity; employing various growth systems and
@@ -315,26 +311,74 @@ team:
       name: Gabriel Brouchon
       function: Scientist
       linkedin: https://www.linkedin.com/in/gabriel-brouchon/
-      image: /img/gabriel-0k3a7143.jpg
+      image: /img/gabriel-portret_web_8sept_4.jpg
+    - name: Danuta Kaczmarzyk
+      function: Senior Researcher
+      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
+        was a researcher for the Microbial Metabolic Engineering Group. Now she
+        uses her analytical expertise to progress strain characterization and
+        optimization.
+      image: /img/danuta-portret_web_8sept_1-2.jpg
+      linkedin: https://www.linkedin.com/company/photanol/
+    - name: Joost van Baarsen
+      function: Junior Strain Researcher
+      text: Joost came to us from an internship at a bio-waste company. Starting as
+        Photanol intern and Junior researcher since 2018, Joost spends his days
+        in the lab strengthening our upscaling team.
+      linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
+      image: /img/joost-portret_web_8sept_18.jpg
+    - name: Patrick Eikenboom
+      function: Operator pilot and demo
+      text: " "
+      linkedin: https://www.linkedin.com/company/photanol/
+      image: /img/patrick-portret_web_8sept_13.jpg
+    - name: Mara Vincelli
+      function: Researcher Strain Engineering
+      text: " "
+      linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
+      image: /img/mara-portret_web_8sept_17-2.jpg
     - name: Marc García López
       function: Junior Scientist
       text: A passion for microbiology and its potential for mitigating climate
         breakdown led Marc to Photanol for an internship. They’re also what make
         him a passionate proactive data scientist and now permanent member of
         our upscaling team.
-      image: /img/marc-0k3a8088-2.jpg
+      image: /img/marc-portret_web_8sept_20.jpg
       linkedin: https://www.linkedin.com/in/marcgarcialopez93?originalSubdomain=es
-    - name: Joost van Baarsen
-      function: Junior Strain Researcher
-      text: Joost came to us from an internship at a bio-waste company. Starting as
-        Photanol intern and Junior researcher since 2018, Joost spends his days
-        in the lab strengthening our upscaling team.
-      linkedin: https://www.linkedin.com/in/gabriel-brouchon
-      image: /img/joost-0k3a8000.jpg
+    - name: Pierre Hakkesteegt
+      function: Site Supervisor Photanol Delfzijl
+      text: " "
+      linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
+      image: /img/pierre-portret_web_8sept_22.jpg
+    - name: Vera Boor
+      function: Junior Bioprocess Engineer
+      text: " "
+      image: /img/vera-portret_web_8sept_24-2.jpg
+      linkedin: https://www.linkedin.com/in/vera-boor/
+    - name: Mandy Gericke
+      function: Junior Researcher
+      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
+      text: " "
+      image: /img/mandy-portret_web_8sept_19.jpg
+    - name: Jadranka van Tilburg
+      function: Financial Controller
+      text: " "
+      linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
+      image: /img/jadranka-portret_web_8sept_10-2.jpg
+    - name: Juliette Martin
+      function: Technology Scale Up Scientist
+      text: " "
+      linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
+      image: /img/juliette-portret_web_8sept_23.jpg
+    - name: Joost Teixeira de Mattos
+      function: Founder
+      text: " "
+      linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
+      image: /img/joost-t-portret_web_8sept_14.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
-    [jobs@photanol.com](mailto:jobs@photanol.com)
+    [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
     - title: Researcher Strain Development Team
       description_short: Photanol is looking for a researcher to join our Strain
@@ -466,7 +510,7 @@ vacancies:
         The deadline is **September 12, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
 partners:
   pretitle: OUR PARTNERS
-  title: The future needs allies
+  title: The future needs like-minds.
   logos:
     - image: /img/mibiton.svg
       link: https://www.mibiton.nl/
@@ -510,12 +554,12 @@ partners:
     alt: Renewable Carbon
 footer:
   pretitle: JOIN THE REVOLUTION
-  title: Change is created together
+  title: Change is created together.
   links:
     email_general: everything@photanol.com
     email_press: press@photanol.com
     email_vacancies: jobs@photanol.com
-    link_twitter: https://twitter.com/photanol
+    link_twitter: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
     link_linkedin: https://www.linkedin.com/company/photanol
     link_youtube: https://www.youtube.com/user/Amsterdamsciencepark
     email_vacanties: jobs@photanol.com
