@@ -354,7 +354,7 @@ team:
     - name: Mandy Gericke
       function: Junior Researcher
       linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
-      text: Coming soon
+      text: " "
       image: /img/mandy-portret_web_8sept_19.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
