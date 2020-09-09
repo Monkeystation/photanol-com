@@ -5,6 +5,7 @@ import {IconHamburger} from '../components/Icons'
 import ReactGA from 'react-ga'
 
 const Navbar = class extends React.Component {
+  
   constructor(props) {
     super(props)
     this.state = {
@@ -12,26 +13,11 @@ const Navbar = class extends React.Component {
       navBarActiveClass: '',
       contactOffset: 0
     }
+    this.pageViewList = {}
   }
-  /*
-  componentDidMount() {
-    window.addEventListener('resize', this.onWindowResize)
-    this.onWindowResize()
-  }
-  
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.onWindowResize)
-  }
-  
-  onWindowResize = () => {
-    var contact = document.getElementById('contact')
-    var contactOffset = (document.body.scrollHeight - contact.offsetTop) - window.innerHeight - 10
-    this.setState({contactOffset: contactOffset})
-  }
-  */
+
   toggleHamburger = () => {
     // toggle the active boolean in the state
-    
     this.setState({active: !this.state.active}, () => {
       if (this.state.active) {
         this.setState({ navBarActiveClass: 'is-active' })
@@ -42,6 +28,8 @@ const Navbar = class extends React.Component {
   }
   
   handleSetActive = (to) => {
+    if (this.pageViewList[to]) return
+    this.pageViewList[to] = true
     ReactGA.pageview(to)
   }
 
