@@ -213,7 +213,7 @@ team:
         her quest for the right partners to realize Photanol’s circular moonshot
         and transition to a sustainable future.      "
       linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
-      image: /img/veronique-portret_web_8sept_25-2.jpg
+      image: /img/veronique_portret_hr25.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
       text: "Founder and CSO, Prof. Hellingwerf is one of the top five knowledge
@@ -329,7 +329,9 @@ team:
       image: /img/joost-portret_web_8sept_18.jpg
     - name: Patrick Eikenboom
       function: Operator pilot and demo
-      text: " "
+      text: " Patrick finished off his B.A. thesis while interning at our pilot plant.
+        Now, he uses the same flexibility and drive to operate and test
+        experimental reactors and strains across multiple locations."
       linkedin: https://www.linkedin.com/company/photanol/
       image: /img/patrick-portret_web_8sept_13.jpg
     - name: Mara Vincelli
@@ -347,12 +349,16 @@ team:
       linkedin: https://www.linkedin.com/in/marcgarcialopez93?originalSubdomain=es
     - name: Pierre Hakkesteegt
       function: Site Supervisor Photanol Delfzijl
-      text: " "
+      text: " Pierre is the one optimizing operations at our demo plant. Creating the
+        ideal conditions to maximize cyanobacteria growth, so we can maximize
+        the amount of CO2  we convert into valuable product."
       linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
       image: /img/pierre-portret_web_8sept_22.jpg
     - name: Vera Boor
       function: Junior Bioprocess Engineer
-      text: " "
+      text: " Dedicated to large scale, long-term cultivation of our cyanobacteria,
+        Vera runs five reactors across indoor and outdoor locations, and is our
+        trouble-shooter extraordinaire."
       image: /img/vera-portret_web_8sept_24-2.jpg
       linkedin: https://www.linkedin.com/in/vera-boor/
     - name: Mandy Gericke
@@ -362,12 +368,17 @@ team:
       image: /img/mandy-portret_web_8sept_19.jpg
     - name: Jadranka van Tilburg
       function: Financial Controller
-      text: " "
+      text: " You’ll find Jadranka at the heart of Photanol. Her keen eye and roster
+        of experience helping us maintain organizational and financial harmony
+        across all Photanol operations."
       linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
       image: /img/jadranka-portret_web_8sept_10-2.jpg
     - name: Juliette Martin
       function: Technology Scale Up Scientist
-      text: " "
+      text: "Starting as our lab intern, Juliet grew with Photanol. And, thanks to the
+        giga-loads of optimism, perseverance (and French cursing) she donates to
+        process validation daily, she’s now a most-valued member of the pilot
+        plant team. "
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/juliette-portret_web_8sept_23.jpg
     - name: Joost Teixeira de Mattos
