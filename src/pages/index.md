@@ -331,6 +331,31 @@ team:
         in the lab strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
       image: /img/joost-0k3a8000.jpg
+    - name: Pierre Hakkesteegt
+      function: Site Supervisor Photanol Delfzijl
+      text: Coming soon
+      linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
+      image: /img/pierre-portret_web_8sept_22.jpg
+    - name: Vera Boor
+      function: Junior Bioprocess Engineer
+      text: Coming soon
+      image: /img/vera-portret_web_8sept_24.jpg
+      linkedin: https://www.linkedin.com/in/vera-boor/
+    - name: Jadranka van Tilburg
+      function: Financial Controller
+      text: Coming soon
+      linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
+      image: /img/jadranka-portret_web_8sept_10.jpg
+    - name: Patrick Eikenboom
+      function: Operator pilot and demo
+      text: Coming soon
+      linkedin: https://www.linkedin.com/company/photanol/
+      image: /img/patrick-portret_web_8sept_13.jpg
+    - name: Mandy Gericke
+      function: Junior Researcher
+      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
+      text: Coming soon
+      image: /img/mandy-portret_web_8sept_19.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
@@ -515,8 +540,8 @@ footer:
     email_general: everything@photanol.com
     email_press: press@photanol.com
     email_vacancies: jobs@photanol.com
-    link_twitter: https://twitter.com/photanol
+    link_twitter: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
     link_linkedin: https://www.linkedin.com/company/photanol
-    link_youtube: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
+    link_youtube: https://www.youtube.com/user/Amsterdamsciencepark
     email_vacanties: jobs@photanol.com
 ---
