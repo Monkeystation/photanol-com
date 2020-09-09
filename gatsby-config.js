@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Photanol',
-    description: 'We turn CO2 into renewable circular chemicals.',
+    description: 'We are a Circular Carbon Chemicals production platform company that utilises proprietary engineered cyanobacteria to process carbon dioxide (CO2) and sunlight into valuable chemicals.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
