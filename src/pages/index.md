@@ -351,7 +351,7 @@ team:
       function: Site Supervisor Photanol Delfzijl
       text: " Pierre is the one optimizing operations at our demo plant. Creating the
         ideal conditions to maximize cyanobacteria growth, so we can maximize
-        the amount of CO2  we convert into valuable product."
+        the amount of CO₂ we convert into valuable product."
       linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
       image: /img/pierre-portret_web_8sept_22.jpg
     - name: Vera Boor
