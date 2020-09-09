@@ -12,7 +12,7 @@ import TeamItem from '../components/TeamItem'
 import ReactGA from 'react-ga'
 
 const ITEM_WIDTH = 382
-const ITEM_WIDTH_TABLET = 280
+const ITEM_WIDTH_TABLET = 290
 
 class Team extends React.Component {
   

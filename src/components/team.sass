@@ -14,7 +14,7 @@
     display: flex
     height: 440px
     pointer-events: none
-    margin-left: calc((100% - 280px) / 2)
+    margin-left: calc((100% - 290px) / 2)
     +tablet
       margin-left: 300px
       height: 470px
@@ -24,8 +24,8 @@
       margin-left: 600px
   .item
     display: flex
-    flex-basis: 280px
-    max-width: 280px
+    flex-basis: 290px
+    max-width: 290px
     flex-grow: 0
     flex-shrink: 0
     user-select: none
@@ -42,8 +42,13 @@
       overflow: hidden
       +tablet
         margin: 16px
+      +mobile
+        padding: 24px
       h3, h5
         word-wrap: break-word
+      h5
+        +mobile
+          margin-bottom: 1rem
       p
         flex-grow: 1
       a
