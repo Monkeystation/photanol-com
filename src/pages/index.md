@@ -170,22 +170,26 @@ infographic:
   pretitle: How it works
   items:
     - image: /img/infographic-01.svg
-      text: The Photanol process takes place in tubes powered by sunlight, absorbing
-        CO₂ and producing just oxygen as a by-product.
+      text: " The Photanol process takes place in tubes and is powered by sunlight.
+        Through photosynthesis cyanobacteria capture CO₂, keep the carbon (C)
+        and return oxygen (O₂) as a by-product."
       alt: Process
     - image: /img/infographic-02.svg
-      text: The cyanobacteria are adapted to absorb more CO₂ - its metabolic pathways
-        are enhanced to produce the desired compound.
+      text: The cyanobacteria’s metabolic pathways are enhanced to produce the desired
+        compound.
       alt: Solution
     - image: /img/infographic-03.svg
-      text: een woord
-      alt: een woord
+      text: The compounds get collected straight out of the installation. Upscaling
+        production to serious feedstock volumes is as straightforward as laying
+        more tubes.
+      alt: Molecule
     - image: /img/infographic-04.svg
-      text: Photanol’s platform technology makes it possible to make any carbon
-        compound and has the power to transform industries to circular.
+      text: Photanol’s platform technology makes it possible to make virtually any
+        carbon compound and as such has the power to transform industries to
+        circular.
       alt: Carbon compound
     - image: /img/infographic-05.svg
-      text: Our Renewabe chemistry is used to create circular plastics, sustainable
+      text: Our renewable chemistry is used to create circular plastics, sustainable
         detergents and beauty and healthcare products. Even biofuel is possible.
       alt: Products
 slideshow:
