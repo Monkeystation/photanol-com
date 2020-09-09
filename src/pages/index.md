@@ -217,7 +217,7 @@ team:
         authority on microbial photosynthesis, researching and networking across
         continents to progress sustainable science and the Photanol vision. "
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
-      image: /img/klaas-portret_web_8sept_6.jpg
+      image: /img/klaas-portret_web_8sept_6-2.jpg
     - name: Paul Koekoek
       function: Director of Operations
       text: Over twenty years of engineering excellence back our COO’s plans to
@@ -284,6 +284,11 @@ team:
         successes achieve commercial viability.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/eugenie-portret_web_8sept_16.jpg
+    - name: Juliette Martin
+      function: Technology Scale Up Scientist
+      text: " "
+      linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
+      image: /img/juliette-portret_web_8sept_23.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise (and the focus
         of her PhD) is algae biotech; specifically micro algae ID and
         cultivation and it’s her lab work that ensures our next big strains are
@@ -356,11 +361,6 @@ team:
       linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
       text: " "
       image: /img/mandy-portret_web_8sept_19.jpg
-    - name: Juliette Martin
-      function: Technology Scale Up Scientist
-      text: " "
-      linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
-      image: /img/juliette-portret_web_8sept_23.jpg
     - name: Mara Vincelli
       function: Researcher Strain Engineering
       text: " "
@@ -555,8 +555,8 @@ footer:
     email_general: everything@photanol.com
     email_press: press@photanol.com
     email_vacancies: jobs@photanol.com
-    link_twitter: https://twitter.com/photanol
+    link_twitter: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
     link_linkedin: https://www.linkedin.com/company/photanol
-    link_youtube: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
+    link_youtube: https://www.youtube.com/user/Amsterdamsciencepark
     email_vacanties: jobs@photanol.com
 ---
