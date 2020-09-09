@@ -288,11 +288,6 @@ team:
         successes achieve commercial viability.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/eugenie-portret_web_8sept_16-2.jpg
-    - name: Juliette Martin
-      function: Technology Scale Up Scientist
-      text: " "
-      linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
-      image: /img/juliette-portret_web_8sept_23.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise (and the focus
         of her PhD) is algae biotech; specifically micro algae ID and
         cultivation and it’s her lab work that ensures our next big strains are
@@ -325,6 +320,13 @@ team:
         optimization.
       image: /img/danuta-portret_web_8sept_1-2.jpg
       linkedin: https://www.linkedin.com/company/photanol/
+    - name: Joost van Baarsen
+      function: Junior Strain Researcher
+      text: Joost came to us from an internship at a bio-waste company. Starting as
+        Photanol intern and Junior researcher since 2018, Joost spends his days
+        in the lab strengthening our upscaling team.
+      linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
+      image: /img/joost-portret_web_8sept_18.jpg
     - name: Patrick Eikenboom
       function: Operator pilot and demo
       text: " "
@@ -335,18 +337,6 @@ team:
       text: " "
       linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
       image: /img/mara-portret_web_8sept_17-2.jpg
-    - name: Joost van Baarsen
-      function: Junior Strain Researcher
-      text: Joost came to us from an internship at a bio-waste company. Starting as
-        Photanol intern and Junior researcher since 2018, Joost spends his days
-        in the lab strengthening our upscaling team.
-      linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
-      image: /img/joost-portret_web_8sept_18.jpg
-    - name: Mandy Gericke
-      function: Junior Researcher
-      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
-      text: " "
-      image: /img/mandy-portret_web_8sept_19.jpg
     - name: Marc García López
       function: Junior Scientist
       text: A passion for microbiology and its potential for mitigating climate
@@ -365,11 +355,21 @@ team:
       text: " "
       image: /img/vera-portret_web_8sept_24-2.jpg
       linkedin: https://www.linkedin.com/in/vera-boor/
+    - name: Mandy Gericke
+      function: Junior Researcher
+      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
+      text: " "
+      image: /img/mandy-portret_web_8sept_19.jpg
     - name: Jadranka van Tilburg
       function: Financial Controller
       text: " "
       linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
       image: /img/jadranka-portret_web_8sept_10-2.jpg
+    - name: Juliette Martin
+      function: Technology Scale Up Scientist
+      text: " "
+      linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
+      image: /img/juliette-portret_web_8sept_23.jpg
     - name: Joost Teixeira de Mattos
       function: Founder
       text: " "
