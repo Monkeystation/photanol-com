@@ -287,7 +287,7 @@ team:
         upscale, it’s Eugenie’s inability to give up that means our lab strain
         successes achieve commercial viability.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
-      image: /img/eugenie-portret_web_8sept_16.jpg
+      image: /img/eugenie-portret_web_8sept_16-2.jpg
     - name: Juliette Martin
       function: Technology Scale Up Scientist
       text: " "
@@ -309,14 +309,6 @@ team:
         organic acids.
       linkedin: https://www.linkedin.com/in/anja-herdtfelder/
       image: /img/anja-portret_web_8sept_8.jpg
-    - name: Danuta Kaczmarzyk
-      function: Senior Researcher
-      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
-        was a researcher for the Microbial Metabolic Engineering Group. Now she
-        uses her analytical expertise to progress strain characterization and
-        optimization.
-      image: /img/danuta-portret_web_8sept_1-2.jpg
-      linkedin: https://www.linkedin.com/company/photanol/
     - text: Having worked in labs across several countries, Gabriel is in the ideal
         agile mind needed to drive our upscaling science. His work involves
         optimizing strain productivity; employing various growth systems and
@@ -325,6 +317,36 @@ team:
       function: Scientist
       linkedin: https://www.linkedin.com/in/gabriel-brouchon/
       image: /img/gabriel-portret_web_8sept_4.jpg
+    - name: Danuta Kaczmarzyk
+      function: Senior Researcher
+      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
+        was a researcher for the Microbial Metabolic Engineering Group. Now she
+        uses her analytical expertise to progress strain characterization and
+        optimization.
+      image: /img/danuta-portret_web_8sept_1-2.jpg
+      linkedin: https://www.linkedin.com/company/photanol/
+    - name: Patrick Eikenboom
+      function: Operator pilot and demo
+      text: " "
+      linkedin: https://www.linkedin.com/company/photanol/
+      image: /img/patrick-portret_web_8sept_13.jpg
+    - name: Mara Vincelli
+      function: Researcher Strain Engineering
+      text: " "
+      linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
+      image: /img/mara-portret_web_8sept_17-2.jpg
+    - name: Joost van Baarsen
+      function: Junior Strain Researcher
+      text: Joost came to us from an internship at a bio-waste company. Starting as
+        Photanol intern and Junior researcher since 2018, Joost spends his days
+        in the lab strengthening our upscaling team.
+      linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
+      image: /img/joost-portret_web_8sept_18.jpg
+    - name: Mandy Gericke
+      function: Junior Researcher
+      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
+      text: " "
+      image: /img/mandy-portret_web_8sept_19.jpg
     - name: Marc García López
       function: Junior Scientist
       text: A passion for microbiology and its potential for mitigating climate
@@ -333,13 +355,6 @@ team:
         our upscaling team.
       image: /img/marc-portret_web_8sept_20.jpg
       linkedin: https://www.linkedin.com/in/marcgarcialopez93?originalSubdomain=es
-    - name: Joost van Baarsen
-      function: Junior Strain Researcher
-      text: Joost came to us from an internship at a bio-waste company. Starting as
-        Photanol intern and Junior researcher since 2018, Joost spends his days
-        in the lab strengthening our upscaling team.
-      linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
-      image: /img/joost-portret_web_8sept_18.jpg
     - name: Pierre Hakkesteegt
       function: Site Supervisor Photanol Delfzijl
       text: " "
@@ -355,21 +370,6 @@ team:
       text: " "
       linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
       image: /img/jadranka-portret_web_8sept_10-2.jpg
-    - name: Patrick Eikenboom
-      function: Operator pilot and demo
-      text: " "
-      linkedin: https://www.linkedin.com/company/photanol/
-      image: /img/jadranka-0k3a7540.jpg
-    - name: Mandy Gericke
-      function: Junior Researcher
-      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
-      text: " "
-      image: /img/mandy-portret_web_8sept_19.jpg
-    - name: Mara Vincelli
-      function: Researcher Strain Engineering
-      text: " "
-      linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
-      image: /img/mara-portret_web_8sept_17-2.jpg
     - name: Joost Teixeira de Mattos
       function: Founder
       text: " "
