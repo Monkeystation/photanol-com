@@ -555,8 +555,8 @@ footer:
     email_general: everything@photanol.com
     email_press: press@photanol.com
     email_vacancies: jobs@photanol.com
-    link_twitter: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
+    link_twitter: https://twitter.com/photanol
     link_linkedin: https://www.linkedin.com/company/photanol
-    link_youtube: https://www.youtube.com/user/Amsterdamsciencepark
+    link_youtube: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
     email_vacanties: jobs@photanol.com
 ---
