@@ -3,8 +3,8 @@ templateKey: index-page
 intro:
   pretitle: A BIOTECH REVOLUTION
   title: |-
-    We turn CO<sub>2</sub>
-    into renewable<sub></sub>
+    We turn CO<small>2</small>
+    into renewable
     chemicals.
   video:
     file: /img/intro_video2.mp4
