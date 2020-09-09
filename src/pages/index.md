@@ -356,6 +356,11 @@ team:
       linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
       text: " "
       image: /img/mandy-portret_web_8sept_19.jpg
+    - name: Juliette Martin
+      function: Technology Scale Up Scientist
+      text: " "
+      linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
+      image: /img/juliette-portret_web_8sept_23.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
