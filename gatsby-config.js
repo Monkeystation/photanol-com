@@ -70,7 +70,7 @@ module.exports = {
         develop: true, // Activates purging in npm run develop
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
         printRejected: false,
-        whitelist: ['sub'],
+        whitelist: ['small'],
         whitelistPatternsChildren: [/modal$/]
       },
     }, // must be after other CSS plugins

@@ -24,7 +24,7 @@ const InfographicSection = ({ infographic }) => (
                 <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' alt="Infographic" />
               </ScrollAnimation>
               <ScrollAnimation animateIn='fadeInDown' animateOnce={true}>
-                <p className="blue-text is-size-6-tablet" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></p>
+                <div className="blue-text is-size-6-tablet" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></div>
               </ScrollAnimation>
             </div>
           ))}
