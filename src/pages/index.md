@@ -366,6 +366,11 @@ team:
       text: " "
       linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
       image: /img/mara-portret_web_8sept_17.jpg
+    - name: Joost Teixeira de Mattos
+      function: Founder
+      text: " "
+      linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
+      image: /img/joost-t-portret_web_8sept_14.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we are always on the
     lookout for talent. Send an open application to
