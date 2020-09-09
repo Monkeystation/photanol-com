@@ -348,7 +348,7 @@ team:
       image: /img/jadranka-portret_web_8sept_10.jpg
     - name: Patrick Eikenboom
       function: Operator pilot and demo
-      text: Coming soon
+      text: " "
       linkedin: https://www.linkedin.com/company/photanol/
       image: /img/patrick-portret_web_8sept_13.jpg
     - name: Mandy Gericke
