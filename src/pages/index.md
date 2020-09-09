@@ -213,7 +213,7 @@ team:
         her quest for the right partners to realize Photanol’s circular moonshot
         and transition to a sustainable future.      "
       linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
-      image: /img/veronique_portret_hr25.jpg
+      image: /img/veronique_portret_hr25-900.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
       text: "Founder and CSO, Prof. Hellingwerf is one of the top five knowledge
