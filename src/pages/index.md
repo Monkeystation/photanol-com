@@ -174,8 +174,8 @@ infographic:
         CO₂ and producing just oxygen as a by-product.
       alt: Process
     - image: /img/infographic-02.svg
-      text: The cyanobacteria are adapted to absorb more CO<sub>2</sub> - its
-        metabolic pathways are enhanced to produce the desired compound.
+      text: The cyanobacteria are adapted to absorb more CO₂ - its metabolic pathways
+        are enhanced to produce the desired compound.
       alt: Solution
     - image: /img/infographic-03.svg
       text: een woord
