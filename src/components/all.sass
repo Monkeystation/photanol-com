@@ -93,8 +93,6 @@ $transition-duration: .5s
 @import "../sections/footerSection"
 @import "../sections/comingsoonSection"
 
-/* purgecss start ignore */
-
 .green-text
   color: $green-500 !important
   
@@ -116,10 +114,11 @@ $transition-duration: .5s
 a
   transition: color $transition-duration $easing
 
+/* purgecss ignore */
 small 
   position: relative
   top: 0.2em
-  font-size: 0.6em
+  font-size: 0.em
   
 .navbar
   position: sticky !important
@@ -358,6 +357,7 @@ small
       opacity: 0
 
 // ANIMATIONS
+/* purgecss start ignore */
 
 .animated
   animation-duration: 1s
