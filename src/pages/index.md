@@ -359,7 +359,7 @@ team:
       function: Operator pilot and demo
       text: " "
       linkedin: https://www.linkedin.com/company/photanol/
-      image: /img/patrick-portret_web_8sept_13.jpg
+      image: /img/jadranka-0k3a7540.jpg
     - name: Mandy Gericke
       function: Junior Researcher
       linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
