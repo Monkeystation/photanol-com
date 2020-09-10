@@ -288,10 +288,9 @@ team:
         successes achieve commercial viability.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/eugenie-portret_web_8sept_16-2.jpg
-    - text: "Maria shares the Photanol change-maker gene. Her expertise (and the focus
-        of her PhD) is algae biotech; specifically micro algae ID and
-        cultivation and it’s her lab work that ensures our next big strains are
-        robust and future-proof. "
+    - text: "Maria shares the Photanol change-maker gene. Her expertise is algae
+        biotech; specifically micro algae ID and cultivation and it’s her lab
+        work that ensures our next big strains are robust and future-proof. "
       name: Maria João Correia
       function: Junior Researcher Upscaling
       linkedin: https://www.linkedin.com/in/mjacorreia/
