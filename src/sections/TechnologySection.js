@@ -34,7 +34,7 @@ const TechnologySection = ({ technology }) => {
   const VideoElement = useCallback(() => {
     if (!hasVideo) return (null)
     return (
-      <iframe ref={videoRef} title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" src={'https://www.youtube-nocookie.com/embed/' + technology.video_item.link + '?enablejsapi=1&version=3&playerapiid=ytplayer'} frameBorder="0"></iframe> 
+      <iframe ref={videoRef} title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" src={'https://www.youtube-nocookie.com/embed/' + technology.video_item.link + '?enablejsapi=1&version=3&playerapiid=ytplayer'} frameBorder="0" allowFullScreen></iframe> 
     )
   }, [hasVideo])
   
