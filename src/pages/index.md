@@ -374,10 +374,10 @@ team:
       image: /img/jadranka-portret_web_8sept_10-2.jpg
     - name: Juliette Martin
       function: Technology Scale Up Scientist
-      text: "Starting as our lab intern, Juliet grew with Photanol. And, thanks to the
-        giga-loads of optimism, perseverance (and French cursing) she donates to
-        process validation daily, she’s now a most-valued member of the pilot
-        plant team. "
+      text: "Starting as our lab intern, Juliette grew with Photanol. And, thanks to
+        the giga-loads of optimism, perseverance (and French cursing) she
+        donates to process validation daily, she’s now a most-valued member of
+        the pilot plant team. "
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/juliette-portret_web_8sept_23.jpg
     - name: Joost Teixeira de Mattos
