@@ -254,28 +254,29 @@ team:
       image: /img/aniek-portret_web_8sept_3-2.jpg
     - name: Hayco Bloemen
       function: Senior Process Development Engineer
-      text: Hayco describes his job as ‘making cyano’s happy’. Which means he develops
-        the processes needed to achieve our theorised outputs. Which means he
-        magics ‘what ifs’ into reality.
+      text: Hayco describes his job as ‘making cyano’s happy’. He leads the team that
+        develops and validates the processes to achieve this. Putting process
+        innovation into practise he magics 'what ifs' into reality.
       linkedin: https://www.linkedin.com/in/hayco-bloemen/
       image: /img/hayco-portret_web_8sept_12.jpg
-    - name: Théo Veaudor
-      function: R&D Team Lead
-      text: A self-described ‘lab guy’ with a PhD in cyanobacteria genetics, DNA
-        researcher Theo dons his white coat to conjure the next big lab fail on
-        the way to Photanol’s subsequent big strain and success.
-      linkedin: https://www.linkedin.com/in/th%C3%A9o-veaudor-915024a7/
-      image: /img/theo-portret_web_8sept_5.jpg
     - text: Sabrina’s personal ambition is to use bacteria as a platform for
-        sustainable innovation. Several years researching her chosen subject at
-        institutes like TNO led to the hyper-dedication now fortifying
-        Photanol’s upscaling success.
+        sustainable innovation. After several years of experience at different
+        research institutes she is now fully dedicated to fortifying Photanol’s
+        success by leading the Upscaling Team.
       name: Sabrina Botton
-      function: Upscaling Team Lead
+      function: Researcher - Upscaling Team Lead
       linkedin: https://www.linkedin.com/in/sabrina-botton-532757a1/
       image: /img/sabrina-portret_web_8sept_21.jpg
+    - name: Théo Veaudor
+      function: Researcher - Strain Engineering Team Lead
+      text: A self-described 'lab-guy' with a PhD in cyanobacteria genetics and
+        metabolism, Théo puts on the white coat to play with our bug's DNA and
+        dodge pitfalls on the way to Photanol's subsequent big strain and
+        success.
+      linkedin: https://www.linkedin.com/in/th%C3%A9o-veaudor-915024a7/
+      image: /img/theo-portret_web_8sept_5.jpg
     - name: Koen Mulder
-      function: Research Team Lead
+      function: Researcher - Strain Engineering Team Lead
       text: Joining us as junior researcher, Koen has been with Photanol since 2017.
         He’s now the unflappable, results-driven lead our engineers need to
         guide them through the cultivation of our latest and greatest strains.
@@ -296,7 +297,7 @@ team:
       linkedin: https://www.linkedin.com/in/mjacorreia/
       image: /img/maria-portret_web_8sept_2.jpg
     - name: Anja Herdtfelder
-      function: Junior Researcher
+      function: Junior Researcher Strain Engineering
       text: Anja studied cloning for her degree in Life Science and Technology. At
         Photanol she optimizes cyanobacteria to deliver new compounds. Studying
         and iterating on results to create the most stable strains for our next
@@ -308,19 +309,19 @@ team:
         optimizing strain productivity; employing various growth systems and
         conditions.
       name: Gabriel Brouchon
-      function: Scientist
+      function: Researcher Upscaling
       linkedin: https://www.linkedin.com/in/gabriel-brouchon/
       image: /img/gabriel-portret_web_8sept_4.jpg
     - name: Danuta Kaczmarzyk
-      function: Senior Researcher
+      function: Senior Researcher Strain Engineering
       text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
-        was a researcher for the Microbial Metabolic Engineering Group. Now she
-        uses her analytical expertise to progress strain characterization and
-        optimization.
+        worked as a researcher for the Microbial Metabolic Engineering Group.
+        Now she uses her expertise to engineer cyanobacteria strains at
+        Photanol.
       image: /img/danuta-portret_web_8sept_1-2.jpg
       linkedin: https://www.linkedin.com/company/photanol/
     - name: Joost van Baarsen
-      function: Junior Strain Researcher
+      function: Research Technician Strain Engineering
       text: Joost came to us from an internship at a bio-waste company. Starting as
         Photanol intern and Junior researcher since 2018, Joost spends his days
         in the lab strengthening our upscaling team.
@@ -339,7 +340,7 @@ team:
       linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
       image: /img/mara-portret_web_8sept_17-2.jpg
     - name: Marc García López
-      function: Junior Scientist
+      function: Junior Researcher Upscaling
       text: A passion for microbiology and its potential for mitigating climate
         breakdown led Marc to Photanol for an internship. They’re also what make
         him a passionate proactive data scientist and now permanent member of
@@ -361,7 +362,7 @@ team:
       image: /img/vera-portret_web_8sept_24-2.jpg
       linkedin: https://www.linkedin.com/in/vera-boor/
     - name: Mandy Gericke
-      function: Junior Researcher
+      function: Junior Researcher Strain Engineering
       linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
       text: " "
       image: /img/mandy-portret_web_8sept_19.jpg
@@ -373,7 +374,7 @@ team:
       linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
       image: /img/jadranka-portret_web_8sept_10-2.jpg
     - name: Juliette Martin
-      function: Technology Scale Up Scientist
+      function: Researcher Piloting
       text: "Starting as our lab intern, Juliette grew with Photanol. And, thanks to
         the giga-loads of optimism, perseverance (and French cursing) she
         donates to process validation daily, she’s now a most-valued member of
