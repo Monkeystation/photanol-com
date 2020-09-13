@@ -284,9 +284,11 @@ team:
       image: /img/koen-portret_web_8sept_11.jpg
     - name: Eugenie Troia
       function: Lead Analytical Chemist
-      text: Heading up the strain analysis and method optimization involved in
-        upscale, it’s Eugenie’s inability to give up that means our lab strain
-        successes achieve commercial viability.
+      text: >+
+        With a background in environmental chemistry Eugenie shares Photanol's
+        circular chemistry dream, leading the analysis of strain production for
+        upscaling and strain engineering. 
+
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/eugenie-portret_web_8sept_16-2.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise is algae
