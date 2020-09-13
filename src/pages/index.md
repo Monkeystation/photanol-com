@@ -262,7 +262,7 @@ team:
       image: /img/hayco-portret_web_8sept_12.jpg
     - text: Sabrina’s personal ambition is to use bacteria as a platform for
         sustainable innovation. After several years at different research
-        institutes, she now uses her expertise to fortify Photanol’s upscaling
+        institutes, she now uses her expertise to support Photanol’s upscaling
         success.
       name: Sabrina Botton
       function: Researcher - Upscaling Team Lead
