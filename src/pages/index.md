@@ -285,9 +285,9 @@ team:
     - name: Eugenie Troia
       function: Lead Analytical Chemist
       text: >+
-        With a background in environmental chemistry Eugenie shares Photanol's
-        circular chemistry dream, leading the analysis of strain production for
-        upscaling and strain engineering. 
+        A background in environmental chemistry lead Eugenie to Photanol. Her
+        daily work involves analyzing strain production for upscaling and the
+        pursuit of a shared circular chemistry dream. 
 
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/eugenie-portret_web_8sept_16-2.jpg
@@ -318,8 +318,8 @@ team:
       function: Senior Researcher Strain Engineering
       text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
         worked as a researcher for the Microbial Metabolic Engineering Group.
-        Now she uses her expertise to engineer cyanobacteria strains at
-        Photanol.
+        Now she uses her expertise to engineer Photanol's newest cyanobacteria
+        strains.
       image: /img/danuta-portret_web_8sept_1-2.jpg
       linkedin: https://www.linkedin.com/company/photanol/
     - name: Joost van Baarsen
