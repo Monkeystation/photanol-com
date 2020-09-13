@@ -154,12 +154,12 @@ technology:
   pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
   title: "Cyanobacteria: natural, all-in-one factories."
   text: >-
-    Petro-chemicals mean mining more fossil fuel; emitting more carbon. They’re
-    also resource, land and time thirsty; the kind of industry that has led to a
-    planet out of balance. The Photanol solution helps reset that balance. 
+    Petro-chemicals mean mining more fossil fuel, emitting more carbon. They’re
+    also resource, land and time thirsty - the kind of industry that has led to
+    a planet out of balance. The Photanol solution helps reset that balance. 
 
 
-    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients commonly used in personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
+    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients for personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
 
 
     Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
