@@ -218,8 +218,9 @@ team:
       function: CSO
       text: "Our Founder and CSO, Prof. Hellingwerf, is a top five knowledge leader in
         the cyano-fermentation field and a well-respected authority on microbial
-        photosynthesis. Researching and networking across continents to progress
-        sustainable science and the Photanol vision. "
+        photosynthesis. Prof. Hellingwerf continues to researching and network
+        across continents to progress sustainable science and the Photanol
+        vision. "
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
       image: /img/klaas-portret_web_8sept_6-2.jpg
     - name: Paul Koekoek
