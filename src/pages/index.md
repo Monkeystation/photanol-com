@@ -179,7 +179,7 @@ infographic:
         compound.
       alt: Solution
     - image: /img/infographic-03.svg
-      text: The compounds are collected straight out of the installation of tubes.
+      text: The compounds are collected straight out of our tubes installation.
         Upscaling production to serious feedstock volumes is as straightforward
         as laying more tubes.
       alt: Molecule
@@ -190,7 +190,7 @@ infographic:
       alt: Carbon compound
     - image: /img/infographic-05.svg
       text: Our renewable chemistry is used to create circular plastics, sustainable
-        detergents and beauty and healthcare products. Even biofuel is possible.
+        detergents, beauty and healthcare products. Even biofuel.
       alt: Products
 slideshow:
   image1:
@@ -388,7 +388,7 @@ team:
       linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
       image: /img/joost-t-portret_web_8sept_14.jpg
 vacancies:
-  novacancies: At the moment there are no vacancies but we' re always on the
+  novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
