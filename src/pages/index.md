@@ -216,9 +216,9 @@ team:
       image: /img/veronique_portret_hr25-900.jpg
     - name: Prof. dr. Klaas Hellingwerf
       function: CSO
-      text: "Founder and CSO, Prof. Hellingwerf, is a top five knowledge leader in the
-        cyano-fermentation field and a well-respected authority on microbial
-        photosynthesis; researching and networking across continents to progress
+      text: "Our Founder and CSO, Prof. Hellingwerf, is a top five knowledge leader in
+        the cyano-fermentation field and a well-respected authority on microbial
+        photosynthesis. Researching and networking across continents to progress
         sustainable science and the Photanol vision. "
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
       image: /img/klaas-portret_web_8sept_6-2.jpg
