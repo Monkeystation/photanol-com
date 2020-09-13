@@ -255,8 +255,9 @@ team:
     - name: Hayco Bloemen
       function: Senior Process Development Engineer
       text: Hayco describes his job as ‘making cyanos happy’. Which means he leads his
-        team in process development and validation to help our bacteria grow.
-        Putting innovation into practice; turning 'what ifs' into reality.
+        team in the process development and validation needed to help our
+        bacteria grow. Putting innovation into practice; turning 'what ifs' into
+        reality.
       linkedin: https://www.linkedin.com/in/hayco-bloemen/
       image: /img/hayco-portret_web_8sept_12.jpg
     - text: Sabrina’s personal ambition is to use bacteria as a platform for
