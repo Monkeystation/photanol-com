@@ -387,7 +387,7 @@ team:
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/juliette-portret_web_8sept_23.jpg
     - name: Joost Teixeira de Mattos
-      function: CO-INVENTOR & CO-FOUNDER
+      function: Co-inventor & Co-founder
       text: Prof. Teixeira de Mattos is a leading expert on microbial physiology and
         fermentation and Photanol’s co-inventor. Together with Prof.
         Hellingwerf, he defined the optimum conditions for cultivating our
