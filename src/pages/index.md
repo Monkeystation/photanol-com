@@ -387,8 +387,13 @@ team:
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/juliette-portret_web_8sept_23.jpg
     - name: Joost Teixeira de Mattos
-      function: Founder
-      text: " "
+      function: CO-INVENTOR & FOUNDER
+      text: Prof. Teixeira de Mattos is co-inventor of the Photanol concept. A leading
+        expert on microbial physiology and fermentation, he defined the optimum
+        conditions for cultivating our cyanos - together with Prof. Hellingwerf.
+        Joost was also integral in gauging the interest of our first partner,
+        Nouryon. In 2016, Joost moved on from Photanol, transferring his
+        knowledge to a start-up innovating circular energy solutions.
       linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
       image: /img/joost-t-portret_web_8sept_14.jpg
 vacancies:
