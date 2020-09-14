@@ -184,7 +184,7 @@ infographic:
         as laying more tubes.
       alt: Molecule
     - image: /img/infographic-04.svg
-      text: Photanol’s platform technology makes it possible to make virtually any
+      text: Photanol’s platform technology makes it possible to create virtually any
         carbon compound, with the power to transform many industries to
         circular.
       alt: Carbon compound
