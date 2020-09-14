@@ -287,8 +287,8 @@ team:
       function: Lead Analytical Chemist
       text: A background in environmental chemistry and the same vision for circular
         solutions led Eugenie to Photanol. She powers the mission daily by
-        deducing what needs to stay, go or be tweaked on our way to upscale
-        success.
+        deducing what needs to stay, go, or be tweaked - on the way to strain
+        production upscale success.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/eugenie-portret_web_8sept_16-2.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise is algae
