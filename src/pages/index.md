@@ -316,10 +316,11 @@ team:
       image: /img/gabriel-portret_web_8sept_4.jpg
     - name: Danuta Kaczmarzyk
       function: Senior Researcher Strain Engineering
-      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
-        worked as a researcher for the Microbial Metabolic Engineering Group.
-        Now she uses her expertise to engineer Photanol's newest cyanobacteria
-        strains.
+      text: >
+        Danuta comes to us from Sweden’s Royal Institute of Technology, where
+        she worked as a researcher for the Microbial Metabolic Engineering
+        Group. Now she uses her expertise to engineer Photanol's strongest
+        cyanobacteria strains.
       image: /img/danuta-portret_web_8sept_1-2.jpg
       linkedin: https://www.linkedin.com/company/photanol/
     - name: Joost van Baarsen
@@ -338,7 +339,10 @@ team:
       image: /img/patrick-portret_web_8sept_13.jpg
     - name: Mara Vincelli
       function: Researcher Strain Engineering
-      text: " "
+      text: "A personal passion for environmental science drives Mara’s unlimited
+        perseverance in the lab. Here she develops sustainable molecular
+        techniques for cyano cultivation. Inventing the tools and protocol
+        needed to research, evaluate and progress the most robust strains. "
       linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
       image: /img/mara-portret_web_8sept_17-2.jpg
     - name: Marc García López
