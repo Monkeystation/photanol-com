@@ -34,7 +34,7 @@ const TechnologySection = ({ technology }) => {
   const VideoElement = useCallback(() => {
     if (!hasVideo) return (null)
     return (
-      <iframe ref={videoRef} title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="640" height="360" src={'https://www.youtube-nocookie.com/embed/' + technology.video_item.link + '?enablejsapi=1&version=3&playerapiid=ytplayer'} frameBorder="0" allowFullScreen></iframe> 
+      <iframe ref={videoRef} title="Youtube Player" className="has-ratio" id="ytplayer" type="text/html" width="500" height="208" src={'https://www.youtube-nocookie.com/embed/' + technology.video_item.link + '?enablejsapi=1&version=3&&rel=0&playerapiid=ytplayer'} frameBorder="0" allowFullScreen></iframe> 
     )
   }, [hasVideo])
   
@@ -64,7 +64,7 @@ const TechnologySection = ({ technology }) => {
           <div className={`modal ${showBrandVideoModal ? 'is-active' : ''}`}>
             <div className="modal-background" onClick={onBrandVideoModalClose}></div>
             <div className="modal-content is-full">
-              <figure className="image is-16by9">
+              <figure className="image is-cinemascope">
                 <VideoElement />
               </figure>
             </div>

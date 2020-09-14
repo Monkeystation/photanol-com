@@ -77,7 +77,15 @@ $transition-duration: .5s
 
 .is-size-8
   font-size: $size-8 !important
-  
+
+.image
+  &.is-cinemascope
+    padding-top: 41.67%
+    .has-ratio
+      @extend %overlay
+      height: 100%
+      width: 100%
+      
 @import "~bulma"
 @import "./roadmap"
 @import "./team"
