@@ -286,7 +286,7 @@ team:
     - name: Eugenie Troia
       function: Lead Analytical Chemist
       text: A background in environmental chemistry and the same vision for circular
-        solutions lead Eugenie to Photanol. She powers the mission daily by
+        solutions led Eugenie to Photanol. She powers the mission daily by
         deducing what needs to stay, go or be tweaked on our way to upscale
         success.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
