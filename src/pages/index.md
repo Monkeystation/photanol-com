@@ -37,8 +37,8 @@ roadmap:
       image: /img/1-first-patent.jpg
       text: "In 2008, Prof. Klaas Hellingwerf and Prof. Joost Teixeira de Mattos
         pooled their respective expertise to address climate change. They
-        theorized it was possible to adapt bacteria to synthesize ethanol. With
-        the potential to create any carbon chemical. The real game-changer?
+        theorized it was possible to adapt cyanobacteria to synthesize ethanol.
+        With the potential to create any carbon chemical. The real game-changer?
         Absorbing CO<small>2</small>. Based on cyanobacteria’s power to
         photosynthesize, the process the professors dreamt up extracts
         CO<small>2</small> from the atmosphere while producing essential
