@@ -182,13 +182,13 @@ infographic:
         Upscaling production is as straightforward as laying more tubes.
       alt: Molecule
     - image: /img/infographic-04.svg
+      text: Our renewable chemistry is used to create circular plastics, sustainable
+        detergents, beauty and healthcare products. Even biofuel.
+      alt: Carbon compound
+    - image: /img/infographic-05.svg
       text: Photanol’s platform technology makes it possible to create virtually any
         carbon compound, with the power to transform many industries to
         circular.
-      alt: Carbon compound
-    - image: /img/infographic-05.svg
-      text: Our renewable chemistry is used to create circular plastics, sustainable
-        detergents, beauty and healthcare products. Even biofuel.
       alt: Products
 slideshow:
   image1:
