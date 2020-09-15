@@ -184,7 +184,7 @@ infographic:
         as laying more tubes.
       alt: Molecule
     - image: /img/infographic-04.svg
-      text: Photanol’s platform technology makes it possible to make virtually any
+      text: Photanol’s platform technology makes it possible to create virtually any
         carbon compound, with the power to transform many industries to
         circular.
       alt: Carbon compound
@@ -218,7 +218,7 @@ team:
       function: CSO
       text: "Our Founder and CSO, Prof. Hellingwerf, is a top five knowledge leader in
         the cyano-fermentation field and a well-respected authority on microbial
-        photosynthesis. Prof. Hellingwerf continues to researching and network
+        photosynthesis. Prof. Hellingwerf continues researching and networking
         across continents to progress sustainable science and the Photanol
         vision. "
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
@@ -286,9 +286,9 @@ team:
     - name: Eugenie Troia
       function: Lead Analytical Chemist
       text: A background in environmental chemistry and the same vision for circular
-        solutions lead Eugenie to Photanol. She powers the mission daily by
-        deducing what needs to stay, go or be tweaked on our way to upscale
-        success.
+        solutions led Eugenie to Photanol. She powers the mission daily by
+        deducing what needs to stay, go, or be tweaked - on the way to strain
+        production upscale success.
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/eugenie-portret_web_8sept_16-2.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise is algae
@@ -316,10 +316,11 @@ team:
       image: /img/gabriel-portret_web_8sept_4.jpg
     - name: Danuta Kaczmarzyk
       function: Senior Researcher Strain Engineering
-      text: Danuta comes to us from Sweden’s Royal Institute of Technology, where she
-        worked as a researcher for the Microbial Metabolic Engineering Group.
-        Now she uses her expertise to engineer Photanol's newest cyanobacteria
-        strains.
+      text: >
+        Danuta comes to us from Sweden’s Royal Institute of Technology, where
+        she worked as a researcher for the Microbial Metabolic Engineering
+        Group. Now she uses her expertise to engineer Photanol's strongest
+        cyanobacteria strains.
       image: /img/danuta-portret_web_8sept_1-2.jpg
       linkedin: https://www.linkedin.com/company/photanol/
     - name: Joost van Baarsen
@@ -338,7 +339,10 @@ team:
       image: /img/patrick-portret_web_8sept_13.jpg
     - name: Mara Vincelli
       function: Researcher Strain Engineering
-      text: " "
+      text: "A personal passion for environmental science drives Mara’s unlimited
+        perseverance in the lab. Here she develops sustainable molecular
+        techniques for cyano cultivation. Inventing the tools and protocol
+        needed to research, evaluate and progress the most robust strains. "
       linkedin: https://www.linkedin.com/in/mara-vincelli-b0b52296/?originalSubdomain=nl
       image: /img/mara-portret_web_8sept_17-2.jpg
     - name: Marc García López
@@ -383,8 +387,12 @@ team:
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/juliette-portret_web_8sept_23.jpg
     - name: Joost Teixeira de Mattos
-      function: Founder
-      text: " "
+      function: Co-inventor & Co-founder
+      text: Prof. Teixeira de Mattos is a leading expert on microbial physiology and
+        fermentation and Photanol’s co-inventor. Together with Prof.
+        Hellingwerf, he defined the optimum conditions for cultivating our
+        cyanos and was later integral in securing key partner, Nouryon. In 2016,
+        Joost moved on to a start-up innovating circular energy solutions.
       linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
       image: /img/joost-t-portret_web_8sept_14.jpg
 vacancies:
