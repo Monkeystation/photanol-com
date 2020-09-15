@@ -170,18 +170,16 @@ infographic:
   pretitle: How it works
   items:
     - image: /img/infographic-01.svg
-      text: " The Photanol process takes place in tubes and is powered by sunlight.
-        Through photosynthesis, cyanobacteria capture CO<small>2</small>, keep
-        the carbon (C) and return oxygen (O<small>2</small>) as a by-product."
+      text: Through photosynthesis, cyanobacteria capture CO<small>2</small>, keep the
+        carbon (C) and return oxygen (O<small>2</small>) as a by-product.
       alt: Process
     - image: /img/infographic-02.svg
       text: The cyanobacteria’s metabolic pathways are enhanced to produce the desired
-        compound.
+        carbon compound.
       alt: Solution
     - image: /img/infographic-03.svg
       text: The compounds are collected straight out of our tubes installation.
-        Upscaling production to serious feedstock volumes is as straightforward
-        as laying more tubes.
+        Upscaling production is as straightforward as laying more tubes.
       alt: Molecule
     - image: /img/infographic-04.svg
       text: Photanol’s platform technology makes it possible to create virtually any
