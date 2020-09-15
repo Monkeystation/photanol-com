@@ -353,7 +353,7 @@ team:
       image: /img/marc-portret_web_8sept_20.jpg
       linkedin: https://www.linkedin.com/in/marcgarcialopez93?originalSubdomain=es
     - name: Pierre Hakkesteegt
-      function: Site Supervisor Photanol Delfzijl
+      function: Site Supervisor Delfzijl
       text: Pierre is the one optimizing operations at our demo plant. Creating the
         ideal conditions to maximize cyanobacteria growth, so we can maximize
         the amount of CO₂ we convert into valuable product.
