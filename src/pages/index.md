@@ -65,8 +65,8 @@ roadmap:
         Early success delivered the perfect moment for a partner with a shared
         vision for circular chemistry. One with specific expertise and a
         commercial need. Corbion is a fermentation expert. They produce lactic
-        acid – the raw material needed for PLA (poly lactic acid used for
-        biodegradable bioplastic packaging).
+        acid from beet or cane sugar – the raw material needed for PLA (poly
+        lactic acid used for biodegradable bioplastic packaging).
 
 
         The partnership with Corbion enabled us to develop renewable lactic acid with highest purity; made from CO<small>2</small>. Using 24 times less land and 25 times less water than traditional equivalents.
