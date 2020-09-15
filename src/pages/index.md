@@ -100,18 +100,6 @@ roadmap:
       title: First demonstration plant
       icon: /img/roadmap_construction.png
       image: /img/6-first-demonstration-plant.png
-    - text: Our demo plant has the capacity to produce up to 10 tons per year. It’s
-        the intermediary step to producing the kilotons needed for large scale
-        commercial needs. It’s also the testing ground for fine-tuning processes
-        and discovering the optimum equilibrium between investment and returns.
-        Proving that when upscaled, the Photanol process can produce as cost
-        efficiently as old school fossil fuel operations. And, in the long term
-        with even better economics. After biochemicals, biofuels are Photanol’s
-        next disruptive ambition.
-      year: "2021"
-      title: Demo plant starts production
-      icon: /img/roadmap_demo_production.png
-      image: /img/7-demo-plant-starts-production.jpg
     - text: We admit we’re a tad ambitious, and the goals we set often keep us up at
         night. But it’s also led us to two great partners. Now, a third
         powerhouse is backing the Photanol mission - signing a partnership
@@ -125,6 +113,18 @@ roadmap:
       title: Strategic partnership with Renolit
       icon: /img/roadmap_partnerships.png
       image: /img/8-strategic-partnership-renolit.jpg
+    - text: Our demo plant has the capacity to produce up to 10 tons per year. It’s
+        the intermediary step to producing the kilotons needed for large scale
+        commercial needs. It’s also the testing ground for fine-tuning processes
+        and discovering the optimum equilibrium between investment and returns.
+        Proving that when upscaled, the Photanol process can produce as cost
+        efficiently as old school fossil fuel operations. And, in the long term
+        with even better economics. After biochemicals, biofuels are Photanol’s
+        next disruptive ambition.
+      year: "2021"
+      title: Demo plant starts production
+      icon: /img/roadmap_demo_production.png
+      image: /img/7-demo-plant-starts-production.jpg
     - title: Scale up to commercial plant
       year: "2023"
       text: "Proving commercial viability is next. Photonal is like a lego-block-style
