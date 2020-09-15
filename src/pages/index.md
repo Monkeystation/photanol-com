@@ -266,7 +266,7 @@ team:
         institutes, she now uses her expertise to support Photanol’s upscaling
         success.
       name: Sabrina Botton
-      function: Researcher - Upscaling Team Lead
+      function: Senior Researcher - Upscaling Team Lead
       linkedin: https://www.linkedin.com/in/sabrina-botton-532757a1/
       image: /img/sabrina-portret_web_8sept_21.jpg
     - name: Théo Veaudor
