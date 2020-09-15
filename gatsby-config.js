@@ -74,6 +74,15 @@ module.exports = {
         whitelistPatternsChildren: [/modal$/]
       },
     }, // must be after other CSS plugins
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          "/img/logo-ani-web.svg": [
+            "X-Frame-Options: SAMEORIGIN",
+          ],
+        },
+      }
+    }
   ],
 }
