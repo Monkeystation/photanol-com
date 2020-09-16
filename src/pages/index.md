@@ -206,10 +206,10 @@ team:
   employees:
     - name: Veronique de Bruijn, MBA
       function: CEO
-      text: "Venture capital and renewables expert Veronique merges unexpected worlds
+      text: Venture capital and renewables expert Veronique merges unexpected worlds
         to power sustainable innovation. This drives her leadership, as well as
         her quest for the right partners to realize Photanol’s 100% renewable
-        moonshot and transition to a circular future.      "
+        moonshot and transition to a circular future.
       linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
       image: /img/veronique_portret_hr25-900.jpg
     - name: Prof. dr. Klaas Hellingwerf
