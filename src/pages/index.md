@@ -264,18 +264,18 @@ team:
         institutes, she now uses her expertise to support Photanol’s upscaling
         success.
       name: Sabrina Botton
-      function: Senior Researcher - Upscaling Team Lead
+      function: Senior Researcher / Upscaling Team Lead
       linkedin: https://www.linkedin.com/in/sabrina-botton-532757a1/
       image: /img/team_sabrina.jpg
     - name: Théo Veaudor
-      function: Researcher - Strain Engineering Team Lead
+      function: Researcher / Strain Engineering Team Lead
       text: A self-described 'lab-guy' with a PhD in cyanobacteria genetics and
         metabolism, Théo spends his days tweaking and experimenting with cyanos
         on the way to our next big strain success stories.
       linkedin: https://www.linkedin.com/in/th%C3%A9o-veaudor-915024a7/
       image: /img/team_theo.jpg
     - name: Koen Mulder
-      function: Researcher - Strain Engineering Team Lead
+      function: Researcher / Strain Engineering Team Lead
       text: Joining us as junior researcher, Koen has been with Photanol since 2017.
         He’s now the unflappable, results-driven lead our engineers need to
         guide them through the cultivation of our latest and greatest strains.
