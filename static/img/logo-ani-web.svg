@@ -241,6 +241,7 @@
       animation-timing-function: cubic-bezier(.1,.1,0,1);
       animation-duration: 6s;
       animation-name: lines;
+      animation-delay: 1s;
       transform: rotate(180deg)
     }
     
@@ -269,12 +270,12 @@
       line.style.transform = "rotate("+degrees+"deg) translate(0px, 38px)";
       var path = document.getElementById("path"+(i+1));
       var length = path.getAttribute('d').length
-      path.style.animationDelay = (455-length) * 2 + 'ms';
+      path.style.animationDelay = 1000 + ((455-length) * 2) + 'ms';
     }
     
     for (var i = 0; i < 8; i++) {
       var char = document.getElementById("letter"+(i+1));
-      char.style.animationDelay = 2 + (i * .15) + 's';
+      char.style.animationDelay = 3 + (i * .15) + 's';
     } 
   
   ]]></script>
