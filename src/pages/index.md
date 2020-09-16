@@ -387,10 +387,10 @@ team:
     - name: Joost Teixeira de Mattos
       function: Co-inventor & Co-founder
       text: Prof. Teixeira de Mattos is a leading expert on microbial physiology and
-        fermentation and Photanol’s co-inventor. Together with Prof.
-        Hellingwerf, he defined the optimum conditions for cultivating our
-        cyanos and was later integral in securing key partner, Nouryon. In 2016,
-        Joost moved on to a start-up innovating circular energy solutions.
+        fermentation. Together with Prof. Hellingwerf, he defined the optimum
+        conditions for cultivating our cyanos and was later integral in securing
+        key partner, Nouryon. In 2016, Joost moved on to a start-up innovating
+        circular energy solutions.
       linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
       image: /img/team_joost-t.jpg
 vacancies:
