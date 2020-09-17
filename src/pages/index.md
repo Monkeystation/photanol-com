@@ -385,7 +385,7 @@ team:
       linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
       image: /img/team_jadranka.jpg
     - name: Joost Teixeira de Mattos
-      function: Co-founder
+      function: Founder
       text: Prof. Teixeira de Mattos is a leading expert on microbial physiology and
         fermentation. Together with Prof. Hellingwerf, he defined the optimum
         conditions for cultivating our cyanos and was integral in securing key
