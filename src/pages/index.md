@@ -447,13 +447,18 @@ vacancies:
         #### APPLY AND DEADLINE
 
 
-        Interested? Please direct your cover letter and resume to:\
+        Please send your cover letter and resume to jobs@photanol.com. The deadline is October 15 2020, but we review the applications on a rolling basis. We look forward to hearing from you.\
 
-        Hayco Bloemen\
+        \
 
-        Senior Process Development Engineer\
+        Hayco Bloemen
 
-        hayco.bloemen@photanol.com\
+
+        Senior Process Development Engineer
+
+
+        hayco.bloemen@photanol.com
+
 
         +31 610304928
       description_short: Photanol is looking for a Process Engineer to join our DSP
