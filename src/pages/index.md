@@ -447,7 +447,10 @@ vacancies:
         #### APPLY AND DEADLINE
 
 
-        Please send your cover letter and resume to jobs@photanol.com. The deadline is October 15 2020, but we review the applications on a rolling basis. We look forward to hearing from you.\
+        Please send your cover letter and resume to jobs@photanol.com. The deadline is October 15 2020, but we review the applications on a rolling basis. We look forward to hearing from you!
+
+
+
 
         \
 
