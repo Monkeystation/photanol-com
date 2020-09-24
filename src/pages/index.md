@@ -405,18 +405,22 @@ vacancies:
         #### RESPONSIBILITIES
 
 
+        Responsibilities include:
+
+
         * Engineering support for pilot, demo and commercial installation.
 
-        * In particular focus on down stream processing for product recovery from photobioreactors,
-          with overall view on integration with our photo-bio reactors (recycling,
-          optimization)
-        * Maintain and develop models for Techno Economic Evaluation, and use these for
-          scenario analysis to support the business strategy for DSP, as well as Up Stream
-          Process.
+        * In particular focus on down stream processing for product recovery from photobioreactors, with overall view on integration with our photo-bio reactors (recycling, optimization)
+
+        * Maintain and develop models for Techno Economic Evaluation, and use these for scenario analysis to support the business strategy for DSP, as well as Up Stream Process.
+
         * Develop and maintain process models to support process engineering.
 
 
         #### CHARACTERISTICS
+
+
+        In brief, we are looking for a candidate with the following characteristics:
 
 
         * Background in chemical engineering, (bio)process-technology or -engineering
@@ -437,18 +441,16 @@ vacancies:
 
         Interested? Please direct your cover letter and resume to:\
 
-        \
-
-        jobs@photanol.com.\
+        jobs@photanol.com\
 
         Hayco Bloemen\
 
-        Senior Process Development Engineer
+        Senior Process Development Engineer\
 
-        Tel: + 31 6 10304928
+        +31 6 10304928
       description_short: Photanol is looking for a Process Engineer to join our DSP
-        and USP Team. The role is a full-time position based in our labs in
-        Amsterdam.
+        and USP Team. The role is a full-time position based at Prodock
+        (Amsterdam).
     - title: Researcher Strain Development Team
       description_short: Photanol is looking for a researcher to join our Strain
         Development Team. The role is a full-time position based in our labs in
