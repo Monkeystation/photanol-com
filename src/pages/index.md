@@ -400,7 +400,15 @@ vacancies:
   list:
     - title: Process Engineer DSP and USP
       description_full: >-
-        
+        Do you have a passion for chemical engineering, biotechnology and
+        process engineering? Join a multi-disciplinary team that focuses on the
+        translation of science and technology to a valuable commercial process.
+        For the “Upscaling, Pilot and Engineering Team” of Photanol we are
+        looking for a full-time candidate to strengthen the development and
+        execution of process engineering strategies for the down stream
+        processing (DSP) linked to our photo bio-reactor production process
+        (USP).
+
 
         #### RESPONSIBILITIES
 
@@ -449,7 +457,8 @@ vacancies:
 
         +31 610304928
       description_short: Photanol is looking for a Process Engineer to join our DSP
-        and USP Team. The role is a full-time position based in Amsterdam.
+        and USP Team. The role is a full-time position based in Amsterdam
+        (Science Park).
     - title: Researcher Strain Development Team
       description_short: Photanol is looking for a researcher to join our Strain
         Development Team. The role is a full-time position based in our labs in
