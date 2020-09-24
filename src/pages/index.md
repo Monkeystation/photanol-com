@@ -439,7 +439,15 @@ vacancies:
         #### APPLY AND DEADLINE
 
 
-        Interested? Please direct your cover letter and resume to [jobs@photanol.com](jobs@photanol.com), attn. Hayco Bloemen - Senior Process Development Engineer (+31 6 10304928).
+        Interested? Please direct your cover letter and resume to:\
+
+        Hayco Bloemen\
+
+        Senior Process Development Engineer\
+
+        hayco.bloemen@photanol.com\
+
+        +31 610304928
       description_short: Photanol is looking for a Process Engineer to join our DSP
         and USP Team. The role is a full-time position based in Amsterdam.
     - title: Researcher Strain Development Team
