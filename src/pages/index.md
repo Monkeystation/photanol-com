@@ -398,6 +398,57 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - title: Process Engineer DSP and USP
+      description_full: >-
+        
+
+        #### RESPONSIBILITIES
+
+
+        * Engineering support for pilot, demo and commercial installation.
+
+        * In particular focus on down stream processing for product recovery from photobioreactors,
+          with overall view on integration with our photo-bio reactors (recycling,
+          optimization)
+        * Maintain and develop models for Techno Economic Evaluation, and use these for
+          scenario analysis to support the business strategy for DSP, as well as Up Stream
+          Process.
+        * Develop and maintain process models to support process engineering.
+
+
+        #### CHARACTERISTICS
+
+
+        * Background in chemical engineering, (bio)process-technology or -engineering
+          (MSc/PDEng level), with affinity for DSP.
+        * Experience with modelling in Matlab, Excel.
+
+        * Result oriented, organized, and a team player.
+
+        * Drive and creativity for further sustainable process development.
+
+        * Comfortable with dynamics and flexibility of an ambitious scale-up company.
+
+        * Good reporting and writing skills in English.
+
+
+        #### APPLY AND DEADLINE
+
+
+        Interested? Please direct your cover letter and resume to:\
+
+        \
+
+        jobs@photanol.com.\
+
+        Hayco Bloemen\
+
+        Senior Process Development Engineer
+
+        Tel: + 31 6 10304928
+      description_short: Photanol is looking for a Process Engineer to join our DSP
+        and USP Team. The role is a full-time position based in our labs in
+        Amsterdam.
     - title: Researcher Strain Development Team
       description_short: Photanol is looking for a researcher to join our Strain
         Development Team. The role is a full-time position based in our labs in
@@ -406,46 +457,40 @@ vacancies:
         Passion for biotechnology and ready to change the world? Interested in
         driving translation of science and technology to a commercial industrial
         process? Join the Photanol team to develop optimized cyanobacteria to
-        produce monomers based on light and CO2. We are looking for candidates
-        to strengthen the development and execution of cyanobacterial strain
-        engineering strategies for the (improved) production of selected
+        produce monomers based on light and CO<sub>2</sub>. We are looking for
+        candidates to strengthen the development and execution of cyanobacterial
+        strain engineering strategies for the (improved) production of selected
         products in industrial environment. You will get a key role in our
         strain development team where we value creativity and out-of-the box
         thinking, but also a structured and analytical way of working towards
         our targets. 
 
 
-        At Photanol, we offer an exciting work environment in which you have the possibility to grow. 
-
-
+        The role is a full-time position based in our labs in Amsterdam. At Photanol, we offer an exciting work environment in which you have the possibility to grow. 
 
 
         #### RESPONSIBILITIES
 
 
-        * Formulation of research strategy for green chemicals 
+        * Finding creative and sustainable approaches to increase strain productivity and robustness in industrial environment
 
-        * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment
-
-        * Development of new strain engineering tools and research protocols
-
-        * Application and development of molecular techniques for strain construction and evaluation
+        * Application/development of molecular techniques for strain construction and evaluation
 
         * Cultivating cyanobacteria to evaluate performance of developed strains
 
-        * Development, supervision, training and support of junior lab personnel and interns
+        * Development of new strain engineering tools and research protocols
 
 
         #### CHARACTERISTICS
 
 
-        * Proven track record in molecular biology or biotechnology 
+        * MSc or BSc level in Biotechnology, Microbiology, Molecular Biology or Systems biology
 
-        * PhD level in synthetic biology or >3-year experience in industrial R&D
+        * Trained in molecular cloning techniques and microbiological safety 
 
-        * Background in cyanobacterial research (photosynthesis & strain development) highly preferred
+        * Experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated
 
-        * Team player, but also working independently
+        * Ability to work independently, but also function as part of a team
 
         * Versatile and able to perform under pressure
 
@@ -455,6 +500,10 @@ vacancies:
 
         * Good report and writing skills, in English
 
+        * Preferably with 1-2 years industrial R&D experience 
+
+        * Applicant outside of EU is required to have a valid work/residence permit or visa
+
 
         #### APPLY AND DEADLINE
 
@@ -462,7 +511,7 @@ vacancies:
         Please send your cover letter and resume to [jobs@photanol.com](jobs@photanol.com).
 
 
-        The deadline is **September 19, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
+        The deadline is **September 12, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
     - title: Junior Researcher Strain Development Team
       description_short: Photanol is looking for a junior researcher to join our
         Strain Development Team. The role is a full-time position based in our
