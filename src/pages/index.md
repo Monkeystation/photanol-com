@@ -452,8 +452,6 @@ vacancies:
 
 
 
-        \
-
         Hayco Bloemen
 
 
