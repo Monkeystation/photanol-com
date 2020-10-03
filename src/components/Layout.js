@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <>
       <Helmet defer={false}>
-        <html lang="nl" />
+        <html />
         <title>{title}</title>
         <meta name="description" content={description} />
         <link
