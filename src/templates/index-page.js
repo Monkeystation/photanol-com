@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ReactGA from 'react-ga'
 
-//import {LogoPhotanol} from '../components/Icons'
 import LogoPhotanol from '../components/LogoPhotanol'
 import Layout from '../components/Layout'
 import IntroSection from '../sections/IntroSection'
