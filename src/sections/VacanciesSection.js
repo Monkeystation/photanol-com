@@ -20,6 +20,7 @@ const VacanciesSection = ({ vacancies }) => {
     setShowVacancyModal(true)
     var html = document.getElementsByTagName("html")[0];
     html.classList.add("is-clipped")
+    window.location.hash = toSeoUrl(vacancy.title)
     ReactGA.modalview('/jobs/' + vacancy.title)
   }
   
@@ -33,6 +34,30 @@ const VacanciesSection = ({ vacancies }) => {
     modalContent.current.scrollTo(0, 0)
   }, [vacancyData])
   
+  useEffect(() => {
+    vacancies.list.map((vacancy) => {
+      var deeplink = toSeoUrl(vacancy.title)
+      if(window.location.hash) {
+        if (window.location.hash.includes(deeplink)) {
+          setTimeout(() => {onVacancyButtonClick(vacancy)}, 500)
+        }
+      }
+    })
+  }, [])
+  
+  const toSeoUrl = (url) => {
+    return url.toString()             // Convert to string
+      .normalize('NFD')               // Change diacritics
+      .replace(/[\u0300-\u036f]/g,'') // Remove illegal characters
+      .replace(/\s+/g,'-')            // Change whitespace to dashes
+      .toLowerCase()                  // Change to lowercase
+      .replace(/&/g,'-and-')          // Replace ampersand
+      .replace(/[^a-z0-9\-]/g,'')     // Remove anything that is not a letter, number or dash
+      .replace(/-+/g,'-')             // Remove duplicate dashes
+      .replace(/^-*/,'')              // Remove starting dashes
+      .replace(/-*$/,'');             // Remove trailing dashes
+}
+  
   const Vacancies = () => {
     if (vacancies.list.length == 0) {
       return (<div className="blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancies.novacancies)}}></div>)
@@ -40,8 +65,9 @@ const VacanciesSection = ({ vacancies }) => {
     return (
       <div className="tile is-parent is-vertical">
       {vacancies.list.map((vacancy) => {
+        var deeplink = toSeoUrl(vacancy.title)
         return (
-          <div key={v4()} className="vacancy-card tile is-child pb-3">
+          <div key={v4()} className="vacancy-card tile is-child pb-3" id={deeplink}>
             <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
               <p className="blue-text has-text-weight-bold">
                 {vacancy.title}

@@ -10,7 +10,7 @@ converter.setOption('simpleLineBreaks', true)
 
 const TechnologySection = ({ technology }) => {
   const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
-  const [hasVideo, setHasVideo] = useState(null)
+  const [hasVideo, setHasVideo] = useState(true)
   const videoRef = useRef(null)
   
   const onBrandVideoModalOpen = () => {
@@ -28,7 +28,7 @@ const TechnologySection = ({ technology }) => {
   }
   
   useEffect(() => {
-    setTimeout(() => setHasVideo(true), 5000)
+    //setTimeout(() => setHasVideo(true), 5000)
   }, [])
   
   const VideoElement = useCallback(() => {
