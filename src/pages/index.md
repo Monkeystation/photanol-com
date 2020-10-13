@@ -127,7 +127,7 @@ roadmap:
       image: /img/7-demo-plant-starts-production.jpg
     - title: Scale up to commercial plant
       year: "2023"
-      text: "Proving commercial viability is next. Photonal is like a lego-block-style
+      text: "Proving commercial viability is next. Photanol is like a lego-block-style
         blueprint: once fine-tuned and optimized, reaching commercial scale
         ‘simply’ means joining together a 100 copies of our demo plant.
         Manufacturing capacity will increase to around 30,000 tonnes. Applying
