@@ -454,7 +454,7 @@ vacancies:
         * Personal competences: conceptual thinking, convincing, results driven, creative in problem solving, decision taker, pragmatic attitude and perseverance.
 
 
-        #### APPLY
+        #### HOW TO APPLY
 
 
         If you are interested in this position, please contact Hans Hilbrands:\
@@ -524,7 +524,7 @@ vacancies:
         * Applicant outside of EU is required to have a valid work/residence permit or visa
 
 
-        #### APPLY AND DEADLINE
+        #### HOW TO APPLY AND DEADLINE
 
 
         Please send your cover letter and resume to [jobs@photanol.com](jobs@photanol.com).
