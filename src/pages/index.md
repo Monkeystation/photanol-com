@@ -413,9 +413,13 @@ vacancies:
         #### POSITION
 
 
-        * Responsible for directing Technology and Research & Development in line with the Photanol growth strategy • Participating actively in defining the Photanol strategy, objectives and milestones
+        * Responsible for directing Technology and Research & Development in line with the Photanol growth strategy
 
-        * Developing and implementing the innovation route • Managing required budgets, staff, innovation facilities and timelines
+        * Participating actively in defining the Photanol strategy, objectives and milestones
+
+        * Developing and implementing the innovation route
+
+        * Managing required budgets, staff, innovation facilities and timelines
 
         * Striving for a balanced portfolio of projects based on thinking in opportunities, managing potential risks and delivering results
 
