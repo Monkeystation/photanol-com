@@ -398,6 +398,67 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - title: Chief Technology Officer (CTO)
+      description_short: >-
+        Currently Photanol has its own R&D facilities at the Amsterdam Science
+        Park, Prodock Amsterdam and they are starting up their new demonstration
+        plant at Chemie Park Delfzijl, in close cooperation with Nouryon. In
+        2021 this plant will produce the first
+
+        Photanol products, as preparation for the next phase towards commercial production 2024. In order to bring their Technology and Research & Development to the next stage, we are searching for a professional and entrepreneurial Chief Technology Officer.
+      description_full: >-
+        #### POSITION
+
+
+        * Responsible for directing Technology and Research & Development in line with the Photanol growth strategy • Participating actively in defining the Photanol strategy, objectives and milestones
+
+        * Developing and implementing the innovation route • Managing required budgets, staff, innovation facilities and timelines
+
+        * Striving for a balanced portfolio of projects based on thinking in opportunities, managing potential risks and delivering results
+
+        * Building and maintaining external networks with academic and industrial partners
+
+        * Initiating proposals for generating budgets from subsidy funds and for obtaining resources by external collaborations
+
+        * Determining and safeguarding unique knowledge as intellectual property
+
+        * Exchanging pro-actively relevant knowledge with Business Development and Operations
+
+        * Reporting to CEO and member of Management Team, next to CFO and COO.
+
+
+
+
+        #### PROFILE
+
+
+        * Master degree in Biotechnology, Chemical Engineering or an equivalent 
+
+        * Senior experience and proven track record in Process Technology and R&D in synthetic biology/biotech, chemical, food or related industries
+
+        * Capable of driving the innovation process with a portfolio of projects towards market launch; bridging market requirements and technological capabilities 
+
+        * Able to utilise external networks and partners for obtaining additional budgets and resources 
+
+        * Commitment for green innovation routes that contribute to a more sustainable world 
+
+        * Fits with the culture and dynamics of an entrepreneurial and innovative company, with a dedicated team and many challenges 
+
+        * Personal competences: conceptual thinking, convincing, results driven, creative in problem solving, decision taker, pragmatic attitude and perseverance.
+
+
+
+
+        #### APPLY
+
+
+        If you are interested in this position, please contact Hans Hilbrands, telephone: +31 (0)317-468686 / +31 (0)6-51025152 or apply through our website www.dupp.nl or e-mail your written application to info@dupp.nl 
+
+
+        Photanol selected DUPP – Food Executive Search for this vacancy as the only partner in the recruitment process.
+
+
+        We are looking forward to hearing from you!
     - title: Researcher Strain Development Team
       description_short: Photanol is looking for a researcher to join our Strain
         Development Team. The role is a full-time position based in our labs in
@@ -461,67 +522,6 @@ vacancies:
 
 
         The deadline is **October 31, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
-    - title: Chief Technology Officer (CTO)
-      description_short: >-
-        Currently Photanol has its own R&D facilities at the Amsterdam Science
-        Park, Prodock Amsterdam and they are starting up their new demonstration
-        plant at Chemie Park Delfzijl, in close cooperation with Nouryon. In
-        2021 this plant will produce the first
-
-        Photanol products, as preparation for the next phase towards commercial production 2024. In order to bring their Technology and Research & Development to the next stage, we are searching for a professional and entrepreneurial Chief Technology Officer.
-      description_full: >-
-        #### POSITION
-
-
-        * Responsible for directing Technology and Research & Development in line with the Photanol growth strategy • Participating actively in defining the Photanol strategy, objectives and milestones
-
-        * Developing and implementing the innovation route • Managing required budgets, staff, innovation facilities and timelines
-
-        * Striving for a balanced portfolio of projects based on thinking in opportunities, managing potential risks and delivering results
-
-        * Building and maintaining external networks with academic and industrial partners
-
-        * Initiating proposals for generating budgets from subsidy funds and for obtaining resources by external collaborations
-
-        * Determining and safeguarding unique knowledge as intellectual property
-
-        * Exchanging pro-actively relevant knowledge with Business Development and Operations
-
-        * Reporting to CEO and member of Management Team, next to CFO and COO.
-
-
-
-
-        #### PROFILE
-
-
-        * Master degree in Biotechnology, Chemical Engineering or an equivalent 
-
-        * Senior experience and proven track record in Process Technology and R&D in synthetic biology/biotech, chemical, food or related industries
-
-        * Capable of driving the innovation process with a portfolio of projects towards market launch; bridging market requirements and technological capabilities 
-
-        * Able to utilise external networks and partners for obtaining additional budgets and resources 
-
-        * Commitment for green innovation routes that contribute to a more sustainable world 
-
-        * Fits with the culture and dynamics of an entrepreneurial and innovative company, with a dedicated team and many challenges 
-
-        * Personal competences: conceptual thinking, convincing, results driven, creative in problem solving, decision taker, pragmatic attitude and perseverance.
-
-
-
-
-        #### APPLY
-
-
-        If you are interested in this position, please contact Hans Hilbrands, telephone: +31 (0)317-468686 / +31 (0)6-51025152 or apply through our website www.dupp.nl or e-mail your written application to info@dupp.nl 
-
-
-        Photanol selected DUPP – Food Executive Search for this vacancy as the only partner in the recruitment process.
-
-
-        We are looking forward to hearing from you!
 partners:
   pretitle: OUR PARTNERS
   title: The future needs like-minds.
