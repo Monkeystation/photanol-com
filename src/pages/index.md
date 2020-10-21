@@ -398,71 +398,6 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
-    - title: Process Engineer DSP and USP
-      description_full: >-
-        Do you have a passion for chemical engineering, biotechnology and
-        process engineering? Join a multi-disciplinary team that focuses on the
-        translation of science and technology to a valuable commercial process.
-        For the “Upscaling, Pilot and Engineering Team” of Photanol we are
-        looking for a full-time candidate to strengthen the development and
-        execution of process engineering strategies for the down stream
-        processing (DSP) linked to our photo bio-reactor production process
-        (USP).
-
-
-        #### RESPONSIBILITIES
-
-
-        Responsibilities include:
-
-
-        * Engineering support for pilot, demo and commercial installation.
-
-        * In particular focus on down stream processing for product recovery from photobioreactors, with overall view on integration with our photo-bio reactors (recycling, optimization)
-
-        * Maintain and develop models for Techno Economic Evaluation, and use these for scenario analysis to support the business strategy for DSP, as well as Up Stream Process.
-
-        * Develop and maintain process models to support process engineering.
-
-
-        #### CHARACTERISTICS
-
-
-        In brief, we are looking for a candidate with the following characteristics:
-
-
-        * Background in chemical engineering, (bio)process-technology or -engineering
-          (MSc/PDEng level), with affinity for DSP.
-        * Experience with modelling in Matlab, Excel.
-
-        * Result oriented, organized, and a team player.
-
-        * Drive and creativity for further sustainable process development.
-
-        * Comfortable with dynamics and flexibility of an ambitious scale-up company.
-
-        * Good reporting and writing skills in English.
-
-
-        #### APPLY AND DEADLINE
-
-
-        Please send your cover letter and resume to [jobs@photanol.com](jobs@photanol.com). The deadline is October 15 2020, but we review the applications on a rolling basis. We look forward to hearing from you!
-
-
-        Hayco Bloemen
-
-
-        Senior Process Development Engineer
-
-
-        hayco.bloemen@photanol.com
-
-
-        +31 610304928
-      description_short: Photanol is looking for a Process Engineer to join our DSP
-        and USP Team. The role is a full-time position based in Amsterdam
-        (Science Park).
     - title: Researcher Strain Development Team
       description_short: Photanol is looking for a researcher to join our Strain
         Development Team. The role is a full-time position based in our labs in
@@ -526,6 +461,67 @@ vacancies:
 
 
         The deadline is **October 31, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
+    - title: Chief Technology Officer (CTO)
+      description_short: >-
+        Currently Photanol has its own R&D facilities at the Amsterdam Science
+        Park, Prodock Amsterdam and they are starting up their new demonstration
+        plant at Chemie Park Delfzijl, in close cooperation with Nouryon. In
+        2021 this plant will produce the first
+
+        Photanol products, as preparation for the next phase towards commercial production 2024. In order to bring their Technology and Research & Development to the next stage, we are searching for a professional and entrepreneurial Chief Technology Officer.
+      description_full: >-
+        #### POSITION
+
+
+        * Responsible for directing Technology and Research & Development in line with the Photanol growth strategy • Participating actively in defining the Photanol strategy, objectives and milestones
+
+        * Developing and implementing the innovation route • Managing required budgets, staff, innovation facilities and timelines
+
+        * Striving for a balanced portfolio of projects based on thinking in opportunities, managing potential risks and delivering results
+
+        * Building and maintaining external networks with academic and industrial partners
+
+        * Initiating proposals for generating budgets from subsidy funds and for obtaining resources by external collaborations
+
+        * Determining and safeguarding unique knowledge as intellectual property
+
+        * Exchanging pro-actively relevant knowledge with Business Development and Operations
+
+        * Reporting to CEO and member of Management Team, next to CFO and COO.
+
+
+
+
+        #### PROFILE
+
+
+        * Master degree in Biotechnology, Chemical Engineering or an equivalent 
+
+        * Senior experience and proven track record in Process Technology and R&D in synthetic biology/biotech, chemical, food or related industries
+
+        * Capable of driving the innovation process with a portfolio of projects towards market launch; bridging market requirements and technological capabilities 
+
+        * Able to utilise external networks and partners for obtaining additional budgets and resources 
+
+        * Commitment for green innovation routes that contribute to a more sustainable world 
+
+        * Fits with the culture and dynamics of an entrepreneurial and innovative company, with a dedicated team and many challenges 
+
+        * Personal competences: conceptual thinking, convincing, results driven, creative in problem solving, decision taker, pragmatic attitude and perseverance.
+
+
+
+
+        #### APPLY
+
+
+        If you are interested in this position, please contact Hans Hilbrands, telephone: +31 (0)317-468686 / +31 (0)6-51025152 or apply through our website www.dupp.nl or e-mail your written application to info@dupp.nl 
+
+
+        Photanol selected DUPP – Food Executive Search for this vacancy as the only partner in the recruitment process.
+
+
+        We are looking forward to hearing from you!
 partners:
   pretitle: OUR PARTNERS
   title: The future needs like-minds.
