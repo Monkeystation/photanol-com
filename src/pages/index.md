@@ -403,11 +403,13 @@ vacancies:
         Technology Officer "
       description_full: >-
         Currently Photanol has its own R&D facilities at the Amsterdam Science
-        Park, Prodock Amsterdam and they are starting up their new demonstration
+        Park, Prodock Amsterdam and we are starting up our new demonstration
         plant at Chemie Park Delfzijl, in close cooperation with Nouryon. In
-        2021 this plant will produce the first
+        2021 this plant will produce the first Photanol products, as preparation
+        for the next phase towards commercial production 2024. 
 
-        Photanol products, as preparation for the next phase towards commercial production 2024. In order to bring their Technology and Research & Development to the next stage, we are searching for a professional and entrepreneurial Chief Technology Officer.
+
+        In order to bring our Technology and Research & Development to the next stage, we are searching for a professional and entrepreneurial Chief Technology Officer.
 
 
         #### POSITION
