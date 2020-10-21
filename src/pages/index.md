@@ -457,7 +457,11 @@ vacancies:
         #### APPLY
 
 
-        If you are interested in this position, please contact Hans Hilbrands, telephone: +31 (0)317-468686 / +31 (0)6-51025152 or apply through our website www.dupp.nl or e-mail your written application to info@dupp.nl 
+        If you are interested in this position, please contact Hans Hilbrands:\
+
+        Telephone: +31 (0)317-468686 / +31 (0)6-51025152 \
+
+        or apply through our website [www.dupp.nl](www.dupp.nl) or e-mail your written application to [info@dupp.nl ](mailto:info@dupp.nl)
 
 
         Photanol selected DUPP – Food Executive Search for this vacancy as the only partner in the recruitment process.
