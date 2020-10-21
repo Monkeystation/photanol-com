@@ -399,14 +399,17 @@ vacancies:
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
     - title: Chief Technology Officer (CTO)
-      description_short: >-
+      description_short: "To strengthen our team Photanol is looking for a Chief
+        Technology Officer "
+      description_full: >-
         Currently Photanol has its own R&D facilities at the Amsterdam Science
         Park, Prodock Amsterdam and they are starting up their new demonstration
         plant at Chemie Park Delfzijl, in close cooperation with Nouryon. In
         2021 this plant will produce the first
 
         Photanol products, as preparation for the next phase towards commercial production 2024. In order to bring their Technology and Research & Development to the next stage, we are searching for a professional and entrepreneurial Chief Technology Officer.
-      description_full: >-
+
+
         #### POSITION
 
 
@@ -427,8 +430,6 @@ vacancies:
         * Reporting to CEO and member of Management Team, next to CFO and COO.
 
 
-
-
         #### PROFILE
 
 
@@ -445,8 +446,6 @@ vacancies:
         * Fits with the culture and dynamics of an entrepreneurial and innovative company, with a dedicated team and many challenges 
 
         * Personal competences: conceptual thinking, convincing, results driven, creative in problem solving, decision taker, pragmatic attitude and perseverance.
-
-
 
 
         #### APPLY
