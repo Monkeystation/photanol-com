@@ -571,6 +571,9 @@ partners:
     - image: /img/carbon.svg
       alt: Renewable Carbon
       link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
   side_logo:
     image: /img/renewable-carbon-logo.png
     link: https://www.renewable-carbon.eu
