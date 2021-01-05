@@ -457,7 +457,10 @@ vacancies:
         ### How to apply
 
 
-        Please send your cover letter and resume to jobs@photanol.com. The deadline is January 31, 2021, but we review the applications on a rolling basis. We look forward to hearing from you!
+        Please send your cover letter and resume to jobs@photanol.com. The deadline is January 31, 2021, but we review the applications on a rolling basis. 
+
+
+        We are looking forward to hearing from you!
     - title: Chief Technology Officer (CTO)
       description_short: To strengthen our team Photanol is looking for a Chief
         Technology Officer.
