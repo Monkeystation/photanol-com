@@ -457,7 +457,7 @@ vacancies:
         ### How to apply
 
 
-        Please send your cover letter and resume to jobs@photanol.com. The deadline is January 31, 2021, but we review the applications on a rolling basis. 
+        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com). The deadline is January 31, 2021, but we review the applications on a rolling basis. 
 
 
         We are looking forward to hearing from you!
