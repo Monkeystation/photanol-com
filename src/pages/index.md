@@ -398,9 +398,69 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - title: Researcher - Strain Development Team
+      description_short: >
+        Passion for biotechnology and ready to change the world? Interested in
+        driving translation of science and technology to a commercial industrial
+        process? Join the Photanol team to develop optimized cyanobacteria to
+        produce monomers based on light and CO2. 
+      description_full: >-
+        Passion for biotechnology and ready to change the world? Interested in
+        driving translation of science and technology to a commercial industrial
+        process? Join the Photanol team to develop optimized cyanobacteria to
+        produce monomers based on light and CO2. We are looking for a candidate
+        to strengthen the development and execution of cyanobacterial strain
+        engineering strategies for the (improved) production of selected
+        products in industrial environment. You will get a key role in our
+        strain development team where we value creativity and out-of-the box
+        thinking, but also a structured and analytical way of working towards
+        our targets. 
+
+
+        The role is a full-time position based in our labs in Amsterdam. At Photanol, we offer an exciting work environment in which you have the possibility to grow. 
+
+
+        ### **Your responsibilities will include:**
+
+
+        * Formulation of research strategy for green chemicals 
+
+        * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment
+
+        * Development of new strain engineering tools and research protocols
+
+        * Development of analytical methods, including gas chromatography
+
+        * Supervision, training and support of junior lab personnel and interns
+
+        * Application and development of molecular techniques for strain construction and evaluation
+
+        * Cultivating cyanobacteria to evaluate performance of developed strains
+
+
+        ### **We are looking for someone with the following characteristics:**
+
+
+        * PhD level or >3-year experience in industrial R&D
+
+        * Proven track record in molecular biology or biotechnology 
+
+        * Background in cyanobacterial research (photosynthesis & strain development) preferred
+
+        * Background in chemistry/catalysis appreciated
+
+        * Good communication skills, both verbal and written, in the English language
+
+        * Personal qualities: creative, target-oriented, versatile, decision taker, pragmatic, self-motivated, team player and perseverance.
+
+
+        ### How to apply
+
+
+        Please send your cover letter and resume to jobs@photanol.com. The deadline is January 31, 2021, but we review the applications on a rolling basis. We look forward to hearing from you!
     - title: Chief Technology Officer (CTO)
-      description_short: "To strengthen our team Photanol is looking for a Chief
-        Technology Officer "
+      description_short: To strengthen our team Photanol is looking for a Chief
+        Technology Officer.
       description_full: >-
         Currently Photanol has its own R&D facilities at the Amsterdam Science
         Park, Prodock Amsterdam and we are starting up our new demonstration
