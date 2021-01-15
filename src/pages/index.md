@@ -398,6 +398,56 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - title: Bio Process Operator
+      description_short: "Are you interested in operating and optimizing our
+        Industrial pilot plant in Delfzijl? Join the Photanol team to work with
+        state of the art technology related to growing and harvesting (products
+        made by) cyanobacteria. "
+      description_full: >-
+        Do you have a passion for biotechnology and are you willing to change
+        the world? Interested in operating and optimizing our Industrial pilot
+        plant? Join the Photanol team to work with state of the art technology
+        related to growing and harvesting (products made by) cyanobacteria. We
+        are looking for a candidate to strengthen the our team in Delfzijl.
+        Someone with a hands-on mentality, that works responsibly, maintaining
+        operations upto a high standard, keeping track of logs and thinking of
+        ways to take the production process forward.  
+
+
+        #### POSITION AND PROFILE
+
+
+        * Acquire and maintain knowledge related to growing and harvesting (products made by) cyanobacteria 
+
+        * Assist the site supervisor in daily operations of the Industrial pilot plant 
+
+        * Work routinely and meticuously on maintaining optimal growth of cyanobacteria 
+
+        * Record and report findings to the Team in written documents and oral presentation 
+
+        * Physical placement of new photobioreactors and frequent cleaning of equipment 
+
+        * Troubleshooting upon unusual situations 
+
+        * Develop and adapt procedures and protocols for running the plant 
+
+        * Translate lab results to demonstration scale and commercial implementation 
+
+        * Continuously strive to optimise the plant performance and operation 
+
+        * Contribute to an open, pleasant and pro-active working environment at Photanol
+
+
+        The role is a full-time position based at our Industrial pilot plant in Delfzijl.
+
+
+        #### HOW TO APPLY
+
+
+        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com)​. The deadline is **January 31st 2021**. 
+
+
+        We are looking forward to hearing from you!
     - title: Researcher - Strain Development Team
       description_short: >
         Passion for biotechnology and ready to change the world? Interested in
