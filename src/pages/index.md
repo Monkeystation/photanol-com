@@ -134,7 +134,7 @@ roadmap:
         the learnings from the smaller scale demo set-up while embracing
         engineering insights from industries like agriculture, water treatment
         plants and others. Methodology that will enable Photanol to compete
-        extremely favorably with non-renewable chemicals. Proving that
+        extremely favourably with non-renewable chemicals. Proving that
         sustainability isn’t second place to economic profit."
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/9-scale-up-to-commercial-plant.jpg
