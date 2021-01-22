@@ -591,7 +591,7 @@ partners:
     - image: /img/nouryon.svg
       link: https://www.nouryon.com/
       alt: Nouryon
-    - image: /img/renolit-logo-zwart-rely-on-it.svg
+    - image: /img/renolit.svg
       link: https://www.renolit.com/
       alt: Renolit
     - image: /img/uva.svg
