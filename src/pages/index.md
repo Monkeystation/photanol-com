@@ -222,7 +222,7 @@ team:
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
       image: /img/team_klaas.jpg
     - name: Paul Koekoek
-      function: Director of Operations
+      function: COO
       text: Over twenty years of engineering excellence back our COO’s plans to
         sky-rocket circular chemistry. Paul led the demo plant construction and
         is now designing the engineering feats needed for commercial scale up.
