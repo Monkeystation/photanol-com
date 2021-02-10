@@ -317,7 +317,7 @@ team:
         optimizing strain productivity; employing various growth systems and
         conditions.
       name: Gabriel Brouchon
-      function: Researcher Upscaling
+      function: Researcher Piloting
       linkedin: https://www.linkedin.com/in/gabriel-brouchon/
       image: /img/team_gabriel.jpg
     - name: Danuta Kaczmarzyk
