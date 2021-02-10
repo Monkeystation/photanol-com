@@ -290,7 +290,7 @@ team:
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/team_eugenie.jpg
     - name: Juliette Martin
-      function: Researcher Piloting
+      function: Researcher Upscaling
       text: "Starting as our lab intern, Juliette grew with Photanol. And, thanks to
         the giga-loads of optimism, perseverance (and French cursing) she
         donates to process validation daily, she’s now a most-valued member of
