@@ -511,6 +511,9 @@ partners:
     - image: /img/eu.svg
       alt: European Regional Development Funds
       link: https://www.kansenvoorwest2.nl/nl/
+    - image: /img/nobian.png
+      link: https://www.nobian.com/
+      alt: Nobian
   side_logo:
     image: /img/renewable-carbon-logo.png
     link: https://www.renewable-carbon.eu
