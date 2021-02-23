@@ -479,7 +479,7 @@ vacancies:
         Wij zoeken een Laboratorium assistent voor ons onderzoekslaboratorium in
         Amsterdam. 
 
-        ---
+
 
         We are looking for a Lab assistant to work in our research laboratory in Amsterdam. 
 partners:
