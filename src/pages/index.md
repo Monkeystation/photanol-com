@@ -475,13 +475,9 @@ vacancies:
 
 
         We kijken uit naar je reactie!
-      description_short: >-
-        Wij zoeken een Laboratorium assistent voor ons onderzoekslaboratorium in
-        Amsterdam. 
-
-
-
-        We are looking for a Lab assistant to work in our research laboratory in Amsterdam. 
+      description_short: "Wij zoeken een Laboratorium assistent voor ons
+        onderzoekslaboratorium in Amsterdam/ We are looking for a Lab assistant
+        to work in our research laboratory in Amsterdam. "
 partners:
   pretitle: OUR PARTNERS
   title: The future needs like-minds.
