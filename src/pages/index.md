@@ -468,6 +468,89 @@ vacancies:
 
 
         We are looking forward to hearing from you!
+    - title: Laboratorium assistent/ Lab assistant
+      description_full: >-
+        Als Ondersteunend laborant help je jouw collega's op het moleculair
+        microbiologisch en het fermentatie lab met verschillende taken. Je komt
+        te werken in een internationaal team van gepassioneerde onderzoekers (ca
+        25) op ons R&D laboratorium op het Science Park in Amsterdam. Het
+        betreft een functie in de dagdienst (5- 8 uur per dag, 5 dagen per
+        week).
+
+
+        **VERANTWOORDELIJKHEDEN**
+
+
+        * Het bereiden van groeimedia (vloeibaar/vast) ten behoeve van microbiologisch onderzoek
+
+        * Het autoklaveren van microbiologisch afval
+
+        * Inname, registratie en beheer van laboratorium artikelen
+
+        * Voorraad van het lab op peil houden
+
+        * Het lab netjes houden door gebruikte materialen op te ruimen
+
+        * De monstername ten behoeve van routine analyses
+
+        * Beheer van onderhoudscontracten op gebied van lab apparatuur
+
+        * Onderhouden van contact met leveranciers
+
+        * Uitvoeren van kleine onderhoudswerkzaamheden op het lab
+
+        * Assisteren waar gevraagd met verschillende werkzaamheden op het laboratorium
+
+        * Helpen van je collega's waar dit nodig is
+
+        * Kortom, een leuke afwisselende functie in een groeiend bedrijf met mogelijkheden voor ontwikkeling
+
+
+        **PROFIEL**
+
+
+        * Een MLO3 opleiding in relevante richting (MLO of facility management)
+
+        * Je hebt eerder op een lab gewerkt of stage gelopen (pre)
+
+        * Je bent georganiseerd, consciëntieus en accuraat
+
+        * Je bent een gezellige collega
+
+        * Goede beheersing van de Nederlandse en Engelse taal in woord en geschrift
+
+        * Je bent 5 dagen per week beschikbaar voor ca. 5- 8 uur per dag (in overleg)
+
+
+        **ARBEIDSVOORWAARDEN**
+
+
+        * Een MLO3 opleiding in relevante richting (MLO of facility management) 
+
+        * Je hebt eerder op een lab gewerkt of stage gelopen (pre)
+
+        * Je bent georganiseerd, consciëntieus en accuraat
+
+        * Je bent een gezellige collega
+
+        * Goede beheersing van de Nederlandse en Engelse taal in woord en geschrift
+
+        * Je bent 5 dagen per week beschikbaar voor ca. 5- 8 uur per dag (in overleg)
+
+
+        **REAGEREN**
+
+
+        Heb je vragen of ben je geïnteresseerd in deze functie stuur dan je vragen of motivatiebrief, voorzien van een CV naar [jobs@photanol.nl](<mailto: jobs@photanol.nl>).
+
+
+        We kijken uit naar je reactie!
+      description_short: >-
+        Wij zoeken een Laboratorium assistent voor ons onderzoekslaboratorium in
+        Amsterdam. 
+
+
+        We are looking for a Lab assistant to work in our research laboratory in Amsterdam. 
 partners:
   pretitle: OUR PARTNERS
   title: The future needs like-minds.
