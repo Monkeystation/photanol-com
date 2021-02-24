@@ -471,7 +471,7 @@ vacancies:
         **REAGEREN**
 
 
-        Heb je vragen of ben je geïnteresseerd in deze functie stuur dan vóór 21 maart je vragen of motivatiebrief, voorzien van een CV naar [jobs@photanol.nl](<mailto: jobs@photanol.nl>).
+        Heb je vragen of ben je geïnteresseerd in deze functie stuur dan vóór 21 maart je vragen of motivatiebrief, voorzien van een CV naar [jobs@photanol.com.](<mailto: jobs@photanol.nl>)
 
 
         We kijken uit naar je reactie!
