@@ -305,7 +305,7 @@ team:
       linkedin: https://www.linkedin.com/in/mjacorreia/
       image: /img/team_maria.jpg
     - name: Anja Herdtfelder
-      function: Junior Researcher Strain Engineering
+      function: Researcher Strain Engineering
       text: Anja studied cloning for her degree in Life Science and Technology. At
         Photanol she optimizes cyanobacteria to deliver new compounds. Studying
         and iterating on results to create the most stable strains for our next
