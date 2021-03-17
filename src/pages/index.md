@@ -455,23 +455,17 @@ vacancies:
         **ARBEIDSVOORWAARDEN**
 
 
-        * Een MLO3 opleiding in relevante richting (MLO of facility management) 
+        * In eerste instantie wordt contract voor 1 jaar aangeboden
 
-        * Je hebt eerder op een lab gewerkt of stage gelopen (pre)
+        * Reiskostenvergoeding
 
-        * Je bent georganiseerd, consciëntieus en accuraat
-
-        * Je bent een gezellige collega
-
-        * Goede beheersing van de Nederlandse en Engelse taal in woord en geschrift
-
-        * Je bent 5 dagen per week beschikbaar voor ca. 5- 8 uur per dag (in overleg)
+        * Collectieve Pensioenregeling
 
 
         **REAGEREN**
 
 
-        Heb je vragen of ben je geïnteresseerd in deze functie stuur dan vóór 21 maart je vragen of motivatiebrief, voorzien van een CV naar [jobs@photanol.com.](<mailto: jobs@photanol.nl>)
+        Heb je vragen of ben je geïnteresseerd in deze functie stuur dan vóór 21 maart je vragen of motivatiebrief, voorzien van een CV naar [jobs@photanol.com](<mailto: jobs@photanol.nl>)
 
 
         We kijken uit naar je reactie!
