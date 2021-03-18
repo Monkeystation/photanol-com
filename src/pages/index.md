@@ -398,6 +398,68 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - description_short: "We are looking for a candidate to strengthen the execution
+        of cyanobacterial strain engineering strategies for the (improved)
+        production of selected products in industrial environment. "
+      title: Junior Researcher Strain Development
+      description_full: >-
+        Passion for biotechnology and ready to change the world? Interested in
+        driving translation of science and technology to a commercial industrial
+        process? Join the Photanol team to develop optimized cyanobacteria to
+        produce monomers based on light and CO2. We are looking for a candidate
+        to strengthen the execution of cyanobacterial strain engineering
+        strategies for the (improved) production of selected products in
+        industrial environment. You will get a role in our strain development
+        team where we value creativity and out-of-the box thinking, but also a
+        structured and analytical way of working towards our targets.
+
+
+        **POSITION**
+
+
+        The role is a full-time position based in our labs in Amsterdam. At Photanol, we offer an exciting work environment in which you have the possibility to grow.
+
+
+        * Application and development of molecular techniques for strain construction and evaluation
+
+        * Cultivating cyanobacteria to evaluate performance of developed strains.
+
+        * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment.
+
+        * Development of new strain engineering tools and research protocols
+
+        * Application of analytical methods, including gas chromatography
+
+
+        **PROFILE**
+
+
+        * MSc or BSc level in Biotechnology, Biochemistry, Microbiology, Molecular Biology or Systems biology
+
+        * Trained in molecular cloning techniques and microbiological safety
+
+        * Experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated.
+
+        * Ability to work independently, but also function as part of a team
+
+        * Versatile and able to perform under pressure
+
+        * Driven and a quick learner
+
+        * Creative, but target-oriented
+
+        * Good communication skills, both verbal and written, in the English language
+
+        * Applicant outside of EU is required to have a valid work/residence permit or visa.
+
+
+        **HOW TO APPLY**
+
+
+        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com)​. 
+
+
+        We are looking forward to hearing from you!
     - title: Laboratorium assistent/ Lab assistant
       description_full: >-
         Als Ondersteunend laborant help je jouw collega's op het moleculair
