@@ -7,6 +7,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
   if (data) {
     return (
       <IndexPageTemplate
+        preview={true}
         intro={data.intro}
         mission={data.mission}
         solution={data.solution}

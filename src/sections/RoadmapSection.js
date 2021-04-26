@@ -2,10 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ScrollAnimation from 'react-animate-on-scroll'
 import Roadmap from '../components/Roadmap'
+import RoadmapPreview from '../components/previews/RoadmapPreview'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween } from 'react-gsap'
 
-const RoadmapSection = ({ roadmap }) => {
+const RoadmapSection = ({ roadmap, preview }) => {
   var active = Math.max(1, roadmap.active - 1)
   return (
     <section className="section roadmap has-background-primary">
@@ -21,16 +22,19 @@ const RoadmapSection = ({ roadmap }) => {
           </div>
         </div>
       </div>
-      <Controller>
-        <Scene triggerElement=".timeline" indicators={false}>
-          {(progress, event) => {
-            if (progress === 1 && event.type === 'start') {
-              active = roadmap.active
-            }
-            return <Roadmap active={active} items={roadmap.items} />  
-          }}
-        </Scene>
-      </Controller>
+      {preview 
+        ? <RoadmapPreview active={active} items={roadmap.items} />  
+        : <Controller>
+          <Scene triggerElement=".timeline" indicators={false}>
+            {(progress, event) => {
+              if (progress === 1 && event.type === 'start') {
+                active = roadmap.active
+              }
+              return <Roadmap active={active} items={roadmap.items} />  
+            }}
+          </Scene>
+        </Controller>
+      }
     </section>
   )
 }

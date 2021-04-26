@@ -21,7 +21,7 @@ const InfographicSection = ({ infographic }) => (
         {infographic.items.map((item, index) => (
             <div key={index}>
               <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
-                <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' alt="Infographic" />
+                <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' alt="Infographic" loading="lazy" />
               </ScrollAnimation>
               <ScrollAnimation animateIn='fadeInDown' animateOnce={true}>
                 <div className="blue-text is-size-6-tablet" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></div>

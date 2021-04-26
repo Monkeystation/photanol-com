@@ -26,7 +26,7 @@ const PartnersSection = ({ partners }) => (
               <div className="logos is-flex">
                 {partners.logos.map((logo) => (
                   <a href={logo.link} key={v4()} className="partner-logo" target="_blank">
-                    <img src={PreviewCompatibleFile(logo.image)} alt='' />
+                    <img src={PreviewCompatibleFile(logo.image)} alt='' loading="lazy" />
                   </a>
                 ))}
               </div>

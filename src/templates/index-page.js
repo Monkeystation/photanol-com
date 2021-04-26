@@ -21,6 +21,7 @@ ReactGA.initialize('UA-126624514-4')
 ReactGA.set({ anonymizeIp: true })
 
 export const IndexPageTemplate = ({
+  preview=false,
   intro,
   mission,
   solution,
@@ -36,17 +37,17 @@ export const IndexPageTemplate = ({
   return (
     <>
       <div className="logo-container"><LogoPhotanol /></div>
-      <IntroSection intro={intro} />
-      <MissionSection mission={mission} />
+      <IntroSection intro={intro} preview={preview} />
+      <MissionSection mission={mission} preview={preview}  />
       {/*<SolutionSection solution={solution} />*/}
-      <RoadmapSection roadmap={roadmap} />
-      <TechnologySection technology={technology} />
-      <InfographicSection infographic={infographic} />
-      <SlideshowSection slideshow={slideshow} />
-      <TeamSection team={team} />
-      <VacanciesSection vacancies={vacancies} />
-      <PartnersSection partners={partners} />
-      <FooterSection footer={footer} />
+      <RoadmapSection roadmap={roadmap} preview={preview}  />
+      <TechnologySection technology={technology} preview={preview}  />
+      <InfographicSection infographic={infographic} preview={preview}  />
+      <SlideshowSection slideshow={slideshow} preview={preview}  />
+      <TeamSection team={team} preview={preview}  />
+      <VacanciesSection vacancies={vacancies} preview={preview}  />
+      <PartnersSection partners={partners} preview={preview}  />
+      <FooterSection footer={footer} preview={preview}  />
     </>
   )
 }
