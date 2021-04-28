@@ -3,6 +3,34 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type Image {
+      file: File @fileByRelativePath
+      alt: String
+    }
+
+    type Block {
+      type: String
+      paragraph: String
+      heading: String
+      subheading: String
+      quote: String
+      citation: String
+      image: Image
+      alt: String
+      youtubeId: String
+      align: Boolean
+    }
+
+    type MarkdownRemarkFrontmatter {
+      blocks: [Block]
+    }
+  `
+  createTypes(typeDefs)
+}
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
@@ -32,6 +60,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach((edge) => {
       const id = edge.node.id
+      console.log(edge)
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
