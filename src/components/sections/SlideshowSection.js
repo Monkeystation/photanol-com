@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween } from 'react-gsap'
 
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import useWindowSize from '../hooks/useWindowSize'
+import PreviewCompatibleImage from '../PreviewCompatibleImage'
+import useWindowSize from '../../hooks/useWindowSize'
 
 const SlideshowSection = ({ slideshow }) => {
   const size = useWindowSize()

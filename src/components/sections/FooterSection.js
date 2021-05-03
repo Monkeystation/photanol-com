@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ScrollAnimation from 'react-animate-on-scroll'
-import {IconTwitter, IconLinkedIn, IconYoutube} from '../components/Icons'
+import {IconTwitter, IconLinkedIn, IconYoutube} from '../Icons'
 
 const FooterSection = ({ footer }) => (
 <section className="section footer" id="contact">

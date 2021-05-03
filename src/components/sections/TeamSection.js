@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ScrollAnimation from 'react-animate-on-scroll'
 
-import Team from '../components/Team'
+import Team from '../Team'
 
 const TeamSection = ({ team }) => (
   <section className="section team" id="team">

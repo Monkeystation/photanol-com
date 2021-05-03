@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
 import ScrollAnimation from 'react-animate-on-scroll'
 
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import PreviewCompatibleImage from '../PreviewCompatibleImage'
+import PreviewCompatibleFile from '../PreviewCompatibleFile'
 
 const PartnersSection = ({ partners }) => (
   <section className="section partners">

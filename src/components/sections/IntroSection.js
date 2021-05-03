@@ -2,7 +2,7 @@ import React, {useState, useCallback} from 'react'
 import PropTypes from 'prop-types'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween, Timeline } from 'react-gsap'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import PreviewCompatibleFile from '../PreviewCompatibleFile'
 import showdown from 'showdown'
 
 const converter = new showdown.Converter()

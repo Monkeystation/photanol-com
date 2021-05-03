@@ -5,7 +5,7 @@ import showdown from 'showdown'
 import ReactGA from 'react-ga'
 import ScrollAnimation from 'react-animate-on-scroll'
 
-import {IconArrow} from '../components/Icons'
+import {IconArrow} from '../Icons'
 
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)

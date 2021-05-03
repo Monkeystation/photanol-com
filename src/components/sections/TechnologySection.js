@@ -2,7 +2,7 @@ import React, {useState, useEffect, useCallback, useRef} from 'react'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
 import ScrollAnimation from 'react-animate-on-scroll'
-import {IconPlay} from '../components/Icons'
+import {IconPlay} from '../Icons'
 import ReactGA from 'react-ga'
 
 const converter = new showdown.Converter()

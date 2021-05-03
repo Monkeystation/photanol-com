@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
+import PreviewCompatibleFile from '../PreviewCompatibleFile'
 import ScrollAnimation from 'react-animate-on-scroll'
 import showdown from 'showdown'
 

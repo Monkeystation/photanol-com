@@ -10,6 +10,8 @@ blocks:
   - type: subheading
     subheading: Subheading
   - type: paragraph
+    heading: Heading
+    subheading: Subheading
     paragraph: Paragraph
   - type: quote
     quote: Quote

@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ScrollAnimation from 'react-animate-on-scroll'
-import Roadmap from '../components/Roadmap'
-import RoadmapPreview from '../components/previews/RoadmapPreview'
+import Roadmap from '../Roadmap'
+import RoadmapPreview from '../previews/RoadmapPreview'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween } from 'react-gsap'
 

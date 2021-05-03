@@ -68,7 +68,7 @@ collections:
         name: blocks
         widget: list
         types:
-          - {label: Paragraph, name: paragraph, widget: object, summary: 'Text: {{fields.paragraph}}', fields: [{label: Paragraph, name: paragraph, widget: text}]}
+          - {label: Paragraph, name: paragraph, widget: object, summary: 'Text: {{fields.paragraph}}', fields: [{label: Heading (optional), name: heading, widget: string}, {label: Subheading (optional), name: subheading, widget: string}, {label: Paragraph, name: paragraph, widget: text}]}
           - {label: Heading, name: heading, widget: object, summary: 'Heading: {{fields.heading}}', fields: [{label: Heading, name: heading, widget: string}]}
           - {label: Subheading, name: subheading, widget: object, summary: 'Subheading: {{fields.subheading}}', fields: [{label: Subheading, name: subheading, widget: string}]}
           - {label: Quote, name: quote, widget: object, summary: 'Quote: {{fields.quote}}', fields: [{label: Quote, name: quote, widget: text}, {label: Citation, name: citation, widget: string}]}

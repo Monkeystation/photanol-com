@@ -4,6 +4,13 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Paragraph from '../components/blocks/Paragraph'
+import Heading from '../components/blocks/Heading'
+import Subheading from '../components/blocks/Subheading'
+import Quote from '../components/blocks/Quote'
+import Image from '../components/blocks/Image'
+import Video from '../components/blocks/Video'
+import ParagraphImage from '../components/blocks/ParagraphImage'
 
 export const NewsPageTemplate = ({
   title,
@@ -13,78 +20,41 @@ export const NewsPageTemplate = ({
   blocks,
 }) => {
   
-  const getBlockContent = block => {
-    console.log(block)
+  const getBlockContent = (block, index) => {
     switch(block.type) {
       case 'paragraph':
         return (
-          <p className="blue-text py-3">{block.paragraph}</p>
+          <Paragraph heading={block.heading} subheading={block.subheading} paragraph={block.paragraph} key={index} />
         )
       case 'heading':
         return (
-          <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">
-            {block.heading}
-          </h1>
+          <Heading text={block.heading} key={index} />
         )
       case 'subheading':
         return (
-          <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">
-            {block.subheading}
-          </h5>
+          <Subheading text={block.subheading} key={index} />
         )
       case 'quote':
         return (
-          <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">
-            {block.quote}
-          </h1>
+          <Quote quote={block.quote} citation={block.citation} key={index} />
         )
       case 'image':
         return (
-          <PreviewCompatibleImage 
-            className="has-ratio"
-            imageInfo={{
-              image: block.image.file, 
-              alt: block.image.alt,
-              style: {maxHeight: '100%'},
-              imgStyle: {objectFit: 'contain'}
-            }} 
-          />
+          <Image file={block.image.file} alt={block.image.alt} key={index} />
         )
       case 'video':
         return (
-          <figure class="image is-16by9">
-            <iframe 
-              className="has-ratio" 
-              id="ytplayer" 
-              type="text/html" 
-              src={`https://www.youtube-nocookie.com/embed/${block.youtubeId}?enablejsapi=1&version=3&playerapiid=ytplayer`} 
-              frameBorder="0" 
-              allowFullScreen>
-            </iframe> 
-          </figure>
-
+          <Video id={block.youtubeId} key={index} />
         )
       case 'paragraphimage':
         return (
-          <div className="columns">
-            <div className="column">
-              <PreviewCompatibleImage imageInfo={{
-                image: block.image.file, 
-                alt: block.image.alt,
-                style: {maxHeight: '100%'},
-                imgStyle: {objectFit: 'contain'}
-              }} />
-            </div>
-            <div className="column">
-              <p className="blue-text py-3">{block.paragraph}</p>
-            </div>
-          </div>
+          <ParagraphImage file={block.image.file} alt={block.image.alt} text={block.paragraph} key={index} />
         )
     }
   }
 
   return (
-    <section className="section">
+    <section className="news">
       <Helmet titleTemplate="%s | News">
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -105,9 +75,7 @@ export const NewsPageTemplate = ({
         </div>
         <div className="blocks">
             {blocks.map((block, index) => (
-              <div className="block" key={block.type + '_' + index}>
-                {getBlockContent(block)}
-              </div>
+              getBlockContent(block, index)
             ))}
           </div>
       </div>
@@ -179,6 +147,8 @@ export const pageQuery = graphql`
 
   fragment Paragraph on Block {
     type
+    heading
+    subheading
     paragraph
   }
 
