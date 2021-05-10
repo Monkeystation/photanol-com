@@ -228,13 +228,15 @@ team:
         is now designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/paul-koekoek-a2740043/
       image: /img/team_paul.jpg
-    - name: Peter Brenninkmeijer
+    - name: Ellen Berkers
       function: CFO
-      text: Peter co-raised the funding for our debut demo plant. Experienced in
-        unconventional financial models, he is the ideal CFO to guide us through
-        the uncharted landscapes of biotech innovation.
-      linkedin: https://www.linkedin.com/in/peterbrenninkmeijer/
-      image: /img/team_peter.jpg
+      text: Years of experience managing global transformations and fundraising makes
+        Ellen the bold financial leader Photanol needs. In fact, reporting and
+        forecasting our progress - step by step - is what she thrives on. While
+        we pioneer cyano brilliance, she’s busy transforming these breakthroughs
+        into the hardy business plan we need to keep scaling.
+      linkedin: https://www.linkedin.com/in/ellen-berkers-cfo2scale/
+      image: /img/ellen_1.jpg
     - name: Caroline van der Horst
       function: CTO (interim)
       text: >
