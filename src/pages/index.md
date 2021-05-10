@@ -4,7 +4,7 @@ intro:
   pretitle: A BIOTECH REVOLUTION
   title: |-
     We turn CO<small>2</small>
-    into circular
+    into renewable
     chemicals.
   video:
     file: /img/intro_video2.mp4
