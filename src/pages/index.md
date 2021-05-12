@@ -202,7 +202,7 @@ slideshow:
     alt: Bioplastics
 team:
   pretitle: MEET THE TEAM
-  title: Dedicated to restoring balance since 2012
+  title: Dedicated to restoring balance since 2008
   employees:
     - name: Veronique de Bruijn, MBA
       function: CEO
@@ -239,13 +239,12 @@ team:
       image: /img/ellen_1.jpg
     - name: Jan Wery
       function: "CTO "
-      text: >
-        A.K.A our Chief ‘North Star’ Navigator: It’s all very well having a bold
+      text: "A.K.A our Chief ‘North Star’ Navigator: It’s all very well having a bold
         and lofty mission like restoring balance on our planet, but it must be
         backed by the brains to roadmap us there. Jan’s 20 years in industrial
         biotech R&D is that brain. Jan dreams up and leads the multidisciplinary
         programs capable of transforming breakthrough lab-scale processes into
-        scalable success.
+        scalable success."
       linkedin: https://www.linkedin.com/in/jan-wery-60b19430/
       image: /img/jan_1.jpg
     - name: Aniek van der Woude
@@ -349,7 +348,7 @@ team:
         became our Junior Researcher in 2018 and can be found in the lab,
         strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
-      image: /img/team_joost.jpg
+      image: /img/joost-portret_web_8sept_18.jpg
     - name: Patrick Eikenboom
       function: Operator pilot and demo
       text: Patrick completed his B.A. thesis while interning at our pilot plant. Now,
@@ -381,13 +380,11 @@ team:
     - name: Mandy Gericke
       function: Junior Researcher Strain Engineering
       linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
-      text: >+
-        Coming to the world of Photonal after completing her Msc at the TU
-        delft, Mandy’s mission is to shape a better future through her work.
-        You’ll find her grafting away on biomolecular projects. Testing and
-        iterating DNA constructs to improve our cyano-genetics, then observing
-        their physiology for improvements.
-         
+      text: Coming to the world of Photonal after completing her Msc at the TU delft,
+        Mandy’s mission is to shape a better future through her work. You’ll
+        find her grafting away on biomolecular projects. Testing and iterating
+        DNA constructs to improve our cyano-genetics, then observing their
+        physiology for improvements.
       image: /img/team_mandy.jpg
     - name: Jadranka van Tilburg
       function: Financial Controller
@@ -473,12 +470,10 @@ team:
       image: /img/luuk.jpg
     - name: Pieter Oostlander
       function: Pilot Team Lead
-      text: >+
-        Our optimistic, perfectionist Pilot Team Lead, Pieter, ensures our pilot
+      text: Our optimistic, perfectionist Pilot Team Lead, Pieter, ensures our pilot
         operations are a success. He leads his team in achieving the results
         needed to transform lab strain triumphs into demo- and eventually
         industrial scale phototrophic production breakthroughs.
-         
       linkedin: https://www.linkedin.com/in/pieter-oostlander/
       image: /img/pieter_1.jpg
     - name: Ward Bulk
