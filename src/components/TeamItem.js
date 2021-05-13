@@ -22,7 +22,8 @@ class TeamItem extends React.PureComponent {
             onMouseEnter={hideCursor}
             onMouseOut={showCursor}
             target="_blank" 
-            className="button-secondary is-white"
+            className="button-secondary is-white" 
+            rel="noreferrer"
           >
             <span className="icon">
               <IconLinkedIn />

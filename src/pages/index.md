@@ -190,16 +190,6 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
 team:
   pretitle: MEET THE TEAM
   title: Dedicated to restoring balance since 2008.
@@ -578,6 +568,49 @@ partners:
     image: /img/renewable-carbon-logo.png
     link: https://www.renewable-carbon.eu
     alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
+testimonials:
+  pretitle: Let our partners tell you why
+  title: Proof
+  items:
+    - quote: "Photanol is one of the World Economic Forum Technology Pioneers for
+        2019, acknowledging the potentional and uniqueness of our solution for
+        the World of our next Generation. "
+      citation: Robert Frost
+      image: /img/wef.svg
+    - quote: "Photanol is one of the World Economic Forum Technology Pioneers for
+        2019, acknowledging the potentional and uniqueness of our solution for
+        the World of our next Generation. "
+      citation: Robert Frost
+      image: /img/corbion.svg
+    - citation: Robert Frost
+      quote: "Photanol is one of the World Economic Forum Technology Pioneers for
+        2019, acknowledging the potentional and uniqueness of our solution for
+        the World of our next Generation. "
+      image: /img/carbon.svg
+news:
+  pretitle: READ ALL ABOUT IT
+  title: Latest Updates
+  card:
+    title: Hungy for more?
+    text: Go to the archive or follow us on social media
+    page_link:
+      label: GO TO THE NEWS ARCHIVE
+      link: /news/
+    social_links:
+      link_twitter: https://twitter.com/photanol
+      link_linkedin: https://www.linkedin.com/company/photanol
+      link_youtube: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
+  count: 4
 footer:
   pretitle: JOIN THE REVOLUTION
   title: Change is created together.

@@ -1,3 +1,4 @@
+/* eslint-env browser */
 import React, {useState, useEffect, useRef} from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
@@ -52,7 +53,7 @@ const VacanciesSection = ({ vacancies }) => {
       .replace(/\s+/g,'-')            // Change whitespace to dashes
       .toLowerCase()                  // Change to lowercase
       .replace(/&/g,'-and-')          // Replace ampersand
-      .replace(/[^a-z0-9\-]/g,'')     // Remove anything that is not a letter, number or dash
+      .replace(/[^a-z0-9-]/g,'')     // Remove anything that is not a letter, number or dash
       .replace(/-+/g,'-')             // Remove duplicate dashes
       .replace(/^-*/,'')              // Remove starting dashes
       .replace(/-*$/,'');             // Remove trailing dashes
@@ -125,7 +126,8 @@ VacanciesSection.propTypes = {
         description_full: PropTypes.string,
       })
     ),
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default VacanciesSection

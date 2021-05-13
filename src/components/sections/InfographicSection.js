@@ -8,8 +8,7 @@ const converter = new showdown.Converter()
 
 const InfographicSection = ({ infographic }) => (
   <section className="section infographic">
-    <div className="containert">
-      <div className="columns">
+    <div className="columns">
         <div className="column is-12 is-10-widescreen is-offset-1-widescreen is-8-fullhd is-offset-2-fullhd" >
           <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
             <h5 className="subtitle blue-text has-text-centered has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
@@ -21,7 +20,7 @@ const InfographicSection = ({ infographic }) => (
         {infographic.items.map((item, index) => (
             <div key={index}>
               <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
-                <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' alt="Infographic" loading="lazy" />
+                <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' loading="lazy" />
               </ScrollAnimation>
               <ScrollAnimation animateIn='fadeInDown' animateOnce={true}>
                 <div className="blue-text is-size-6-tablet" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></div>
@@ -30,7 +29,6 @@ const InfographicSection = ({ infographic }) => (
           ))}
         </div>
       </div>
-    </div>
   </section>
 )
 
@@ -44,7 +42,8 @@ InfographicSection.propTypes = {
         text: PropTypes.string,
       })
     ),
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default InfographicSection

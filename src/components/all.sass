@@ -44,7 +44,6 @@ $size-6: 20px
 $size-7: 16px
 $size-8: 14px
 
-$widescreen-enabled: true
 $max-width: 2230px !default
 $tablet: 735px 
 $desktop: 1069px
@@ -57,6 +56,9 @@ $modal-content-width: 768px
 $modal-content-spacing-mobile: 0
 $modal-content-spacing-tablet: 0
 $section-padding: 6rem 10%
+$section-padding-large: 12rem 10%
+$section-padded-margin: 0 5%
+$section-padded-padding: 6rem 5%
 
 //Menu overrides
 $navbar-height: 5rem
@@ -75,6 +77,9 @@ $transition-duration: .5s
 .subtitle
   letter-spacing: 0.1rem
 
+.is-size-5
+  font-size: $size-5 !important
+
 .is-size-8
   font-size: $size-8 !important
 
@@ -87,21 +92,25 @@ $transition-duration: .5s
       width: 100%
       
 @import "~bulma"
+@import "./slick"
+@import "./slick-theme"
+@import "./accordion"
 @import "./roadmap"
 @import "./team"
-@import "../components/blocks/blocks"
-@import "../components/sections/introSection"
-@import "../components/sections/missionSection"
-@import "../components/sections/solutionSection"
-@import "../components/sections/roadmapSection"
-@import "../components/sections/technologySection"
-@import "../components/sections/infographicSection"
-@import "../components/sections/slideshowSection"
-@import "../components/sections/teamSection"
-@import "../components/sections/vacanciesSection"
-@import "../components/sections/partnersSection"
-@import "../components/sections/footerSection"
-@import "../components/sections/comingsoonSection"
+@import "./blocks/blocks"
+@import "./sections/introSection"
+@import "./sections/missionSection"
+@import "./sections/solutionSection"
+@import "./sections/roadmapSection"
+@import "./sections/technologySection"
+@import "./sections/infographicSection"
+@import "./sections/slideshowSection"
+@import "./sections/testimonialsSection"
+@import "./sections/teamSection"
+@import "./sections/vacanciesSection"
+@import "./sections/partnersSection"
+@import "./sections/footerSection"
+@import "./sections/comingsoonSection"
 
 .green-text
   color: $green-500 !important
@@ -203,7 +212,13 @@ small
   max-width: $max-width
   +mobile
     padding: 4rem 2rem
-  
+  &.is-padded
+    padding: $section-padded-padding
+    margin: $section-padded-margin
+    +mobile
+      margin: 0 auto
+      padding: 4rem 2rem
+
 .modal
   display: flex
   visibility: hidden
@@ -403,8 +418,3 @@ small
 .fadeInDown 
   animation-name: fadeInDown
 /* purgecss end ignore */
-  
-
-
-
-

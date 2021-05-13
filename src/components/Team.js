@@ -1,11 +1,9 @@
+/* eslint-disable react/no-direct-mutation-state */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { v4 } from 'uuid'
-import {IconLinkedIn} from './Icons'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
 import { TweenLite, Power1 } from 'gsap/all'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
 import TeamImage from '../components/TeamImage'
 import TeamItem from '../components/TeamItem'
@@ -16,10 +14,10 @@ const ITEM_WIDTH_TABLET = 290
 
 class Team extends React.Component {
   
-  constructor(props) {
-    super(props);
+  constructor({employees}) {
+    super()
     var layout = []
-    const nrOfItems = props.employees.length
+    const nrOfItems = employees.length
     for (var i = 0; i < nrOfItems; i++) {
       layout.push({itemOpacity: 1, imageOpacity: 1, active: false})
     }
@@ -57,11 +55,11 @@ class Team extends React.Component {
     window.removeEventListener('resize', this.updateDimensions);
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
+  shouldComponentUpdate() {
     return true
   }
 
-  handleClick = (offset) => {
+  handleClick(offset) {
     const {position, itemWidth, nrOfItems, activeItemId} = this.state
     var iol = this.itemsRef.offsetLeft
     var pos = -iol - position + offset
@@ -71,7 +69,7 @@ class Team extends React.Component {
     
     var obj = {position: this.state.position}
     var dist = Math.abs(activeItemId - targetItemId)
-    TweenLite.to(obj, (dist * 0.5), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
+    TweenLite.to(obj, (dist * 0.5), {position:target, ease: Power1.easeInOut, onUpdate:() => {
       this.updateItems(obj.position)
     }});
     
@@ -79,16 +77,16 @@ class Team extends React.Component {
     ReactGA.event({ category: 'team', action: 'view', label: employees[targetItemId].name})
   }
   
-  handleStart = () => {
+  handleStart() {
     const {activeItemId} = this.state
     this.state.oldActiveItemId = activeItemId
   }
   
-  handleDrag = (position) => {
+  handleDrag(position) {
     this.updateItems(position)
   }
   
-  handleStop = (dir) => {
+  handleStop(dir) {
     const {itemWidth, nrOfItems, activeItemId, oldActiveItemId} = this.state
     var targetItemId = activeItemId
     if (activeItemId === oldActiveItemId) {
@@ -98,7 +96,7 @@ class Team extends React.Component {
     var position = -target
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.5, {position:position, ease: Power1.easeInOut, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:position, ease: Power1.easeInOut, onUpdate:() => {
       this.updateItems(obj.position)
     }});
     
@@ -106,7 +104,7 @@ class Team extends React.Component {
     ReactGA.event({ category: 'team', action: 'view', label: employees[targetItemId].name})
   }
   
-  updateItems = (position) => {
+  updateItems(position) {
     if (!this.emRef) return
     const {itemWidth, nrOfItems, layout} = this.state
     var activeItemId = null
@@ -143,12 +141,12 @@ class Team extends React.Component {
     this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
-  itemClick = (index) => {
+  itemClick(index) {
     const {itemWidth} = this.state
     var emw = this.emRef.getBoundingClientRect().width
     var obj = {position: this.state.position}
     var target = -((index * itemWidth) + (itemWidth / 2)) + (emw / 2)
-    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:target, onUpdate:() => {
       this.updateItems(obj.position)
     }});
   }

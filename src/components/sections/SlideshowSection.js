@@ -88,6 +88,7 @@ SlideshowSection.propTypes = {
       alt: PropTypes.string,
     }),
   }),
+  preview: PropTypes.bool
 }
 
 export default SlideshowSection

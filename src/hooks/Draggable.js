@@ -1,4 +1,5 @@
 import React  from 'react'
+import PropTypes from 'prop-types'
 
 class Draggable extends React.Component {
   
@@ -92,6 +93,15 @@ class Draggable extends React.Component {
       </div>
     )
   }
+}
+
+Draggable.propTypes = {
+  position: PropTypes.number,
+  onStart: PropTypes.func,
+  onDrag: PropTypes.func,
+  onClick: PropTypes.func,
+  onStop: PropTypes.func,
+  children: PropTypes.element
 }
 
 export default Draggable

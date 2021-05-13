@@ -3,6 +3,10 @@ module.exports = {
     title: 'Photanol',
     description: 'We are a Circular Carbon Chemicals production platform company that utilises proprietary engineered cyanobacteria to process carbon dioxide (CO2) and sunlight into valuable chemicals.',
   },
+  flags: {
+    QUERY_ON_DEMAND: false,
+    DEV_SSR: false
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     { resolve: `gatsby-plugin-sass`, options: { indentedSyntax: true } },

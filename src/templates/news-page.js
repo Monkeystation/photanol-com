@@ -3,105 +3,62 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Paragraph from '../components/blocks/Paragraph'
-import Heading from '../components/blocks/Heading'
-import Subheading from '../components/blocks/Subheading'
-import Quote from '../components/blocks/Quote'
-import Image from '../components/blocks/Image'
-import Video from '../components/blocks/Video'
-import ParagraphImage from '../components/blocks/ParagraphImage'
+import NewsList from '../components/NewsList'
 
 export const NewsPageTemplate = ({
   title,
-  date,
-  description,
-  image,
-  blocks,
+  text,
+  articles
 }) => {
-  
-  const getBlockContent = (block, index) => {
-    switch(block.type) {
-      case 'paragraph':
-        return (
-          <Paragraph heading={block.heading} subheading={block.subheading} paragraph={block.paragraph} key={index} />
-        )
-      case 'heading':
-        return (
-          <Heading text={block.heading} key={index} />
-        )
-      case 'subheading':
-        return (
-          <Subheading text={block.subheading} key={index} />
-        )
-      case 'quote':
-        return (
-          <Quote quote={block.quote} citation={block.citation} key={index} />
-        )
-      case 'image':
-        return (
-          <Image file={block.image.file} alt={block.image.alt} key={index} />
-        )
-      case 'video':
-        return (
-          <Video id={block.youtubeId} key={index} />
-        )
-      case 'paragraphimage':
-        return (
-          <ParagraphImage file={block.image.file} alt={block.image.alt} text={block.paragraph} key={index} />
-        )
-    }
-  }
-
   return (
-    <section className="news">
-      <Helmet titleTemplate="%s | News">
+    <div className="news">
+      <Helmet titleTemplate="News">
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta name="description" content={text} />
       </Helmet>
-      <div className="container">
-        <div className="columns">
-          <div className="column">
-            <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">
-              {title}
-            </h1>
-            <p className="blue-text py-3">{description}</p>
-            <PreviewCompatibleImage imageInfo={{
-              image: image, 
-              style: {maxHeight: '100%'},
-              imgStyle: {objectFit: 'contain'}
-            }} />
+      <section className="news-intro">
+        <div className="container is-max-desktop">
+          <div className="columns">
+            <div className="column">
+              <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">
+                {title}
+              </h1>
+              <p className="blue-text py-3">{text}</p>
+            </div>
           </div>
         </div>
-        <div className="blocks">
-            {blocks.map((block, index) => (
-              getBlockContent(block, index)
-            ))}
-          </div>
-      </div>
-    </section>
+      </section>
+      <section className="articles">
+        <div className="container is-max-desktop">
+          <NewsList articles={articles} />
+        </div>
+      </section>
+    </div>
   )
 }
 
 NewsPageTemplate.propTypes = {
   title: PropTypes.string,
-  date: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  blocks: PropTypes.array,
+  text: PropTypes.string,
+  articles: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      description: PropTypes.string,
+      date: PropTypes.string,
+      image: PropTypes.object
+    })
+  )
 }
 
 const NewsPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
-
+  const page = data.page.frontmatter
+  const articles = data.articles.nodes.map(node => node.frontmatter)
   return (
     <Layout>
       <NewsPageTemplate
-        title={frontmatter.title}
-        date={frontmatter.date}
-        description={frontmatter.description}
-        image={frontmatter.image}
-        blocks={frontmatter.blocks}
+        title={page.title}
+        text={page.text}
+        articles={articles}
       />
     </Layout>
   )
@@ -109,98 +66,45 @@ const NewsPage = ({ data }) => {
 
 NewsPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
+    page: PropTypes.shape({
+      frontmatter: PropTypes.object
     }),
-  }),
+    articles: PropTypes.shape({
+      nodes: PropTypes.arrayOf(
+        PropTypes.shape({
+          frontmatter: PropTypes.object
+        })
+      )
+    })
+  })
 }
 
 export default NewsPage
 
 export const pageQuery = graphql`
-  query NewsPageByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query NewsPageTemplate {
+    page: markdownRemark(frontmatter: { templateKey: { eq: "news-page" } }) {
       id
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
-        description
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 80) {
-              ...GatsbyImageSharpFluid
+        text
+      }
+    }
+    articles: allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "news-article"}}}) {
+      nodes {
+        frontmatter {
+          title
+          description
+          date(formatString: "MMMM DD, YYYY")
+          image {
+            childImageSharp {
+              fluid(maxWidth: 500, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
-        blocks {
-          ...Paragraph
-          ...Heading
-          ...Subheading
-          ...Quote
-          ...Image
-          ...Video
-          ...ParagraphImage
-        }
       }
     }
-  }
-
-  fragment Paragraph on Block {
-    type
-    heading
-    subheading
-    paragraph
-  }
-
-  fragment Heading on Block {
-    type
-    heading
-  }
-
-  fragment Subheading on Block {
-    type
-    subheading
-  }
-
-  fragment Quote on Block {
-    type
-    quote
-    citation
-  }
-
-  fragment Image on Block {
-    type
-    image {
-      file {
-        childImageSharp {
-          fluid(maxWidth: 1280, quality: 80) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      alt
-    }
-    alt
-  }
-
-  fragment Video on Block {
-    type
-    youtubeId
-  }
-
-  fragment ParagraphImage on Block {
-    type
-    paragraph
-    image {
-      file {
-        childImageSharp {
-          fluid(maxWidth: 1280, quality: 80) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      alt
-    }
-    align
   }
 `

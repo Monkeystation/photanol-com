@@ -31,11 +31,28 @@ collections:
           - {label: Roadmap, name: roadmap, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Title, name: title, widget: string}, {label: Active item, name: active, widget: number, default: 1, valueType: "int", min: 1}, {label: Items, name: items, widget: list, summary: '{{fields.year}}', fields: [{label: Year, name: year, widget: string}, {label: Title, name: title, widget: string}, {label: Text, name: text, widget: text}, {label: Icon (400x400), name: icon, widget: image}, {label: Image (400x400), name: image, widget: image}]}]}
           - {label: Technology, name: technology, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Title, name: title, widget: string}, {label: Text, name: text, widget: text}, {label: Corporate Movie, name: video_item, widget: object, collapsed: true, fields: [{label: Button Label, name: label, widget: string}, {label: Youtube ID, name: link, widget: string}]}]}
           - {label: Infographic, name: infographic, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Items, name: items, widget: list, fields: [{label: SVG, name: image, widget: image}, {label: Alt, name: alt, widget: string}, {label: Text, name: text, widget: string}]}]}
-          - {label: Slideshow, name: slideshow, widget: object, fields: [{label: Image1, name: image1, widget: object, collapsed: true, fields: [{label: Image (1280x720), name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, collapsed: true, fields: [{label: Image (1280x720), name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, collapsed: true, fields: [{label: Image (1280x720), name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          #- {label: Slideshow, name: slideshow, widget: object, fields: [{label: Image1, name: image1, widget: object, collapsed: true, fields: [{label: Image (1280x720), name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, collapsed: true, fields: [{label: Image (1280x720), name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, collapsed: true, fields: [{label: Image (1280x720), name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Testimonials, name: testimonials, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Title, name: title, widget: string}, {label: Items, name: items, widget: list, fields: [{label: Quote, name: quote, widget: text}, {label: Citation, name: citation, widget: string}, {label: Image, name: image, widget: image}]}]}
           - {label: Team, name: team, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Title, name: title, widget: string}, {label: Employees, name: employees, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Function, name: function, widget: string}, {label: Text, name: text, widget: text}, {label: LinkedIn, name: linkedin, widget: string}, {label: Image (1200x1600), name: image, widget: image}]}]}
           - {label: Vacancies, name: vacancies, widget: object, fields: [{label: Vacancies, name: list, widget: list, fields: [{label: Job Title, name: title, widget: string}, {label: Short Description, name: description_short, widget: text}, {label: Full Description, name: description_full, widget: markdown}]}, {label: No vacancies, name: novacancies, widget: markdown}]}
+          - {label: News, name: news, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Title, name: title, widget: string}, {label: Max number of articles, name: count, widget: number}, {label: Card, name: card, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}, {label: Page Link, name: page_link, widget: object, fields: [{label: Label, name: label, widget: string}, {label: Link, name: link, widget: string}]}, {label: Social Links, name: social_links, widget: object, fields: [{label: Link Twitter, name: link_twitter, widget: string}, {label: Link LinkedIn, name: link_linkedin, widget: string}, {label: Link YouTube, name: link_youtube, widget: string}]}]}]}
           - {label: Partners, name: partners, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Title, name: title, widget: string}, {label: Logos, name: logos, widget: list, fields: [{label: SVG, name: image, widget: image}, {label: Alt, name: alt, widget: string}, {label: Link, name: link, widget: string}]}, {label: Side Logo, name: side_logo, widget: object, collapsed: true, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}, {label: Link, name: link, widget: string}]}]}
           - {label: Footer, name: footer, widget: object, fields: [{label: Pre-title, name: pretitle, widget: string}, {label: Title, name: title, widget: string}, {label: Links, name: links, widget: object, fields: [{label: Email General, name: email_general, widget: string}, {label: Email Press, name: email_press, widget: string}, {label: Email Vacancies, name: email_vacancies, widget: string}, {label: Link Twitter, name: link_twitter, widget: string}, {label: Link LinkedIn, name: link_linkedin, widget: string}, {label: Link YouTube, name: link_youtube, widget: string}]}]}
+      - file: "src/pages/faq/index.md"
+        label: "FAQ"
+        name: "faq"
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: faq-page}
+          - {label: Title, name: title, widget: string}
+          - {label: Text, name: text, widget: text}
+          - {label: Subjects, name: subjects, widget: list, fields: [{label: Subject, name: subject, widget: string}, {label: Questions, name: questions, widget: list, fields: [{label: Question, name: question, widget: string}, {label: Answer, name: answer, widget: text}]}]}
+      - file: "src/pages/news/index.md"
+        label: "News"
+        name: "news"
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: news-page}
+          - {label: Title, name: title, widget: string}
+          - {label: Text, name: text, widget: text}
       - file: "src/pages/replay-project/index.md"
         label: "Replay Project"
         name: "replay-project"
@@ -46,20 +63,20 @@ collections:
             name: content
             widget: list
             types:
-              - {label: Paragraph, name: paragraph, widget: object, summary: 'Text: {{fields.paragraph}}', fields: [{label: Paragraph, name: paragraph, widget: text}]}
+              - {label: Paragraph, name: paragraph, widget: object, summary: 'Text: {{fields.paragraph}}', fields: [{label: Heading (optional), name: heading, widget: string}, {label: Subheading (optional), name: subheading, widget: string}, {label: Paragraph, name: paragraph, widget: text}]}
               - {label: Heading, name: heading, widget: object, summary: 'Heading: {{fields.heading}}', fields: [{label: Heading, name: heading, widget: string}]}
               - {label: Subheading, name: subheading, widget: object, summary: 'Subheading: {{fields.subheading}}', fields: [{label: Subheading, name: subheading, widget: string}]}
               - {label: Quote, name: quote, widget: object, summary: 'Quote: {{fields.quote}}', fields: [{label: Quote, name: quote, widget: text}, {label: Citation, name: citation, widget: string}]}
-              - {label: Image, name: image, widget: object, summary: 'Image: {{fields.image}}', fields: [{label: Image (1280x720), name: image, widget: image, allow_multiple: false}, {label: Alt, name: alt, widget: string}]}
-              - {label: Video, name: video, widget: object, summary: 'Video: {{fields.video}}', fields: [{label: Video (mp4), name: video, widget: file, allow_multiple: false}, {label: Video poster (1280x720), name: poster, widget: file, allow_multiple: false}]}
-              - {label: Paragraph + Image, name: paragraphimage, widget: object, summary: 'Text + Image: {{fields.paragraph}}', fields: [{label: Paragraph, name: paragraph, widget: text}, {label: Image (1280x720), name: image, widget: image, allow_multiple: false}, {label: Image alt, name: alt, widget: string}, {label: Image align (left / right), name: align, widget: boolean, default: false}]}  
-  - label: News
+              - {label: Image, name: image, widget: object, summary: 'Image: {{fields.image.file}}', fields: [{label: Image, name: image, widget: object, fields: [{label: Image (1280x720), name: file, widget: image, allow_multiple: false}, {label: Alt, name: alt, widget: string}]}]}
+              - {label: Video, name: video, widget: object, summary: 'Video: {{fields.youtubeId}}', fields: [{label: Youtube ID, name: youtubeId, widget: string}]}
+              - {label: Paragraph + Image, name: paragraphimage, widget: object, summary: 'Text + Image: {{fields.paragraph}}', fields: [{label: Paragraph, name: paragraph, widget: text}, {label: Image, name: image, widget: object, summary: 'Image: {{fields.file}}', fields: [{label: Image (1280x720), name: file, widget: image, allow_multiple: false}, {label: Alt, name: alt, widget: string}]}, {label: Image align (left / right), name: align, widget: boolean, default: false}]}
+  - label: News Articles
     name: news
     folder: src/pages/news
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: Template Key, name: templateKey, widget: hidden, default: news-page}
+      - {label: Template Key, name: templateKey, widget: hidden, default: news-article}
       - {label: Title, name: title, widget: string}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Description, name: description, widget: text}

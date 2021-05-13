@@ -1,3 +1,4 @@
+/* eslint-env browser */
 import React, {useState, useEffect, useCallback, useRef} from 'react'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
@@ -10,7 +11,7 @@ converter.setOption('simpleLineBreaks', true)
 
 const TechnologySection = ({ technology }) => {
   const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
-  const [hasVideo, setHasVideo] = useState(true)
+  const [hasVideo] = useState(true)
   const videoRef = useRef(null)
   
   const onBrandVideoModalOpen = () => {
@@ -40,8 +41,7 @@ const TechnologySection = ({ technology }) => {
   
   return (
     <section className="section technology" id="technology">
-      <div className="containert">
-        <div className="columns">
+      <div className="columns">
           <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
             <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{technology.pretitle}</h5>
@@ -71,7 +71,6 @@ const TechnologySection = ({ technology }) => {
             <button className="modal-close is-large" aria-label="close" onClick={onBrandVideoModalClose}></button>
           </div>
         </div>
-      </div>
     </section>
   )
 }
@@ -82,7 +81,8 @@ TechnologySection.propTypes = {
     title: PropTypes.string,
     text: PropTypes.string,
     video_item: PropTypes.object,
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default TechnologySection

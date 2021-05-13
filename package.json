@@ -31,6 +31,7 @@
     "postinstall-postinstall": "^2.1.0",
     "prop-types": "^15.6.0",
     "react": "^16.14.0",
+    "react-accessible-accordion": "^3.3.4",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.14.0",
     "react-draggable": "^4.4.3",
@@ -39,7 +40,9 @@
     "react-helmet": "^6.0.0",
     "react-scroll": "^1.8.2",
     "react-scrollmagic": "^2.3.0",
+    "react-slick": "^0.28.1",
     "showdown": "^1.9.1",
+    "slick-carousel": "^1.8.1",
     "uuid": "^7.0.3"
   },
   "keywords": [
@@ -60,6 +63,7 @@
     "server": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
+    "eslint-config-react-app": "^6.0.0",
     "prettier": "^2.0.5"
   },
   "resolutions": {

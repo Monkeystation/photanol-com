@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Paragraph = ({heading, subheading, paragraph, key}) => (
-  <section className="block paragraph section" key={key}>
+const Paragraph = ({heading, subheading, paragraph}) => (
+  <section className="block paragraph section">
     <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">
       {heading}
     </h1>
@@ -13,5 +14,11 @@ const Paragraph = ({heading, subheading, paragraph, key}) => (
     </p>
   </section>
 )
+
+Paragraph.propTypes = {
+  heading: PropTypes.string, 
+  subheading: PropTypes.string, 
+  paragraph: PropTypes.string
+}
 
 export default Paragraph

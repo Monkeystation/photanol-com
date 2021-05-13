@@ -1,0 +1,51 @@
+/* purgecss start ignore */
+.accordion
+  padding-bottom: 4rem
+
+.accordion__item + .accordion__item
+  border-top: 1px solid $grey-400
+
+.accordion__button
+  cursor: pointer
+  padding: 1rem 0
+  +desktop
+    padding: 1rem
+  width: 100%
+  text-align: left
+  border: none
+  font-weight: bold
+
+  &:hover
+    background-color: $grey-200
+
+  &[aria-expanded='true'], &[aria-selected='true'] 
+    
+
+  &:after
+    float: right
+    content: ''
+    height: 8px
+    width: 8px
+    margin-top: 0.3rem
+    margin-right: 8px
+    border-bottom: 2px solid $blue-900
+    border-right: 2px solid $blue-900
+    transform: rotate(45deg)
+
+  &[aria-expanded='true']::after, &[aria-selected='true']::after
+    transform: rotate(225deg)
+
+[hidden]
+  display: none
+
+.accordion__panel
+  padding: 1rem 1rem 2rem 1rem
+  animation: fadein 0.35s ease-in
+
+@keyframes fadein
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+/* purgecss end ignore */

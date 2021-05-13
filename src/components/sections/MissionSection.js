@@ -1,20 +1,20 @@
+/* eslint-env browser */
 import React, {useState, useEffect, useCallback, useRef} from 'react'
 import PropTypes from 'prop-types'
-import ReactGA from 'react-ga'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 
 const MissionSection = ({ mission }) => {
   const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
-  const [hasVideo, setHasVideo] = useState(null)
+  const [hasVideo] = useState(null)
   const videoRef = useRef(null)
   
-  const onMissionVideoModalOpen = () => {
-    var html = document.getElementsByTagName("html")[0];
-    html.classList.add("is-clipped")
-    setShowMissionVideoModal(true)
-    ReactGA.modalview('/mission/mission-video')
-  }
+  // const onMissionVideoModalOpen = () => {
+  //   var html = document.getElementsByTagName("html")[0];
+  //   html.classList.add("is-clipped")
+  //   setShowMissionVideoModal(true)
+  //   ReactGA.modalview('/mission/mission-video')
+  // }
   
   const onMissionVideoModalClose = () => {
     var html = document.getElementsByTagName("html")[0];
@@ -35,7 +35,7 @@ const MissionSection = ({ mission }) => {
   }, [hasVideo])
   
   return (
-    <section className="section mission">
+    <section className="section is-large mission">
       <div className="columns">
         <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">
           <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
@@ -74,23 +74,8 @@ MissionSection.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     video_item: PropTypes.object,
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default MissionSection
-/*
-
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const Mission = ({ mission }) => (
-  
-)
-
-MissionSection.propTypes = {
-
-}
-
-export default Mission
-
-*/

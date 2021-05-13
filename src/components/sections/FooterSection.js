@@ -4,9 +4,8 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import {IconTwitter, IconLinkedIn, IconYoutube} from '../Icons'
 
 const FooterSection = ({ footer }) => (
-<section className="section footer" id="contact">
-  <div className="containert">
-    <div className="columns">
+<section className="section is-padded footer" id="contact">
+<div className="columns">
       <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
         <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
           <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{footer.pretitle}</h5>
@@ -51,7 +50,6 @@ const FooterSection = ({ footer }) => (
         </div>
       </div>
     </div>
-  </div>
 </section>
 )
 
@@ -60,7 +58,8 @@ FooterSection.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     links: PropTypes.object,
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default FooterSection

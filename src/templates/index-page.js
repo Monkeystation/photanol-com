@@ -7,15 +7,15 @@ import LogoPhotanol from '../components/LogoPhotanol'
 import Layout from '../components/Layout'
 import IntroSection from '../components/sections/IntroSection'
 import MissionSection from '../components/sections/MissionSection'
-import SolutionSection from '../components/sections/SolutionSection'
 import RoadmapSection from '../components/sections/RoadmapSection'
 import TechnologySection from '../components/sections/TechnologySection'
 import InfographicSection from '../components/sections/InfographicSection'
-import SlideshowSection from '../components/sections/SlideshowSection'
 import TeamSection from '../components/sections/TeamSection'
 import VacanciesSection from '../components/sections/VacanciesSection'
 import PartnersSection from '../components/sections/PartnersSection'
 import FooterSection from '../components/sections/FooterSection'
+import TestimonialsSection from '../components/sections/TestimonialsSection'
+import NewsSection from '../components/sections/NewsSection'
 
 ReactGA.initialize('UA-126624514-4')
 ReactGA.set({ anonymizeIp: true })
@@ -24,15 +24,15 @@ export const IndexPageTemplate = ({
   preview=false,
   intro,
   mission,
-  solution,
+  testimonials,
   roadmap,
   technology,
   infographic,
-  slideshow,
   team,
   vacancies,
+  news,
   partners,
-  footer,
+  footer
 }) => {
   return (
     <>
@@ -43,9 +43,11 @@ export const IndexPageTemplate = ({
       <RoadmapSection roadmap={roadmap} preview={preview}  />
       <TechnologySection technology={technology} preview={preview}  />
       <InfographicSection infographic={infographic} preview={preview}  />
-      <SlideshowSection slideshow={slideshow} preview={preview}  />
+      {/* <SlideshowSection slideshow={slideshow} preview={preview}  /> */}
+      <TestimonialsSection testimonials={testimonials} preview={preview}  />
       <TeamSection team={team} preview={preview}  />
       <VacanciesSection vacancies={vacancies} preview={preview}  />
+      <NewsSection news={news} preview={preview} />
       <PartnersSection partners={partners} preview={preview}  />
       <FooterSection footer={footer} preview={preview}  />
     </>
@@ -53,6 +55,7 @@ export const IndexPageTemplate = ({
 }
 
 IndexPageTemplate.propTypes = {
+  preview: PropTypes.bool,
   intro: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
@@ -115,6 +118,17 @@ IndexPageTemplate.propTypes = {
       alt: PropTypes.string,
     }),
   }),
+  testimonials: PropTypes.shape({
+    pretitle: PropTypes.string,
+    title: PropTypes.string,
+    items: PropTypes.arrayOf(
+      PropTypes.shape({
+        quote: PropTypes.string,
+        citation: PropTypes.string,
+        image: PropTypes.object
+      })
+    ),
+  }),
   team: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
@@ -132,6 +146,24 @@ IndexPageTemplate.propTypes = {
     novacancies: PropTypes.string,
     list: PropTypes.array,
   }),
+  news: PropTypes.shape({
+    title: PropTypes.string,
+    text: PropTypes.string,
+    count: PropTypes.number,
+    card: PropTypes.shape({
+      title: PropTypes.string,
+      text: PropTypes.string,
+      page_link: PropTypes.shape({
+        label: PropTypes.string,
+        link: PropTypes.string
+      }),
+      social_links: PropTypes.shape({
+        link_twitter: PropTypes.string,
+        link_linkedin: PropTypes.string,
+        link_youtube: PropTypes.string
+      })
+    })
+  }),
   partners: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
@@ -148,7 +180,7 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     links: PropTypes.object,
-  }),
+  })
 }
 
 const IndexPage = ({ data }) => {
@@ -163,8 +195,9 @@ const IndexPage = ({ data }) => {
         roadmap={frontmatter.roadmap}
         technology={frontmatter.technology}
         infographic={frontmatter.infographic}
-        slideshow={frontmatter.slideshow}
+        testimonials={frontmatter.testimonials}
         team={frontmatter.team}
+        news={frontmatter.news}
         vacancies={frontmatter.vacancies}
         partners={frontmatter.partners}
         footer={frontmatter.footer}
@@ -178,7 +211,7 @@ IndexPage.propTypes = {
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
     }),
-  }),
+  })
 }
 
 export default IndexPage
@@ -296,6 +329,17 @@ export const pageQuery = graphql`
             alt
           }
         }
+        testimonials {
+          pretitle
+          title
+          items {
+            quote
+            citation
+            image {
+              publicURL
+            }
+          }
+        }
         team {
           pretitle
           title
@@ -320,6 +364,24 @@ export const pageQuery = graphql`
             description_short
             description_full
           }
+        }
+        news {
+          pretitle
+          title
+          count
+          card {
+            title
+            text
+            page_link {
+              label
+              link
+            }
+            social_links {
+              link_twitter
+              link_linkedin
+              link_youtube
+            }
+          } 
         }
         partners {
           pretitle

@@ -1,3 +1,5 @@
+/* eslint-disable react/no-direct-mutation-state */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import showdown from 'showdown'
@@ -11,6 +13,8 @@ const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600
 const ITEM_WIDTH_MOBILE = 300
 const ACTIVE_ITEM_WIDTH_MOBILE = 320
+
+
 
 class RoadmapPreview extends React.Component {
   
@@ -74,7 +78,7 @@ class RoadmapPreview extends React.Component {
     var sw = this.tlRef.getBoundingClientRect().width
     var target = (sw / 2) - ((active - 1) * itemWidth) - (activeItemWidth / 2)
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 1, {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
+    TweenLite.to(obj, 1, {position:target, ease: Power1.easeInOut, onUpdate:() => {
       this.updateItems(obj.position)
     }});
   }
@@ -99,11 +103,9 @@ class RoadmapPreview extends React.Component {
     
     var obj = {position: this.state.position}
     var dist = Math.abs(activeItemId - targetItemId)
-    TweenLite.to(obj, (dist * 1), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
+    TweenLite.to(obj, (dist * 1), {position:target, ease: Power1.easeInOut, onUpdate:() => {
       this.updateItems(obj.position)
     }})
-    
-    const {items} = this.props
   }
   
   handleStart = () => {
@@ -126,11 +128,9 @@ class RoadmapPreview extends React.Component {
     var position = -target + (tlw / 2)
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.5, {position:position, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:position, onUpdate:() => {
       this.updateItems(obj.position)
     }});
-    
-    const {items} = this.props
   }
   
   updateItems = (position) => {
@@ -168,7 +168,7 @@ class RoadmapPreview extends React.Component {
   
   render() {
     const {items} = this.props
-    const {isMobile, position, layout} = this.state   
+    const {isMobile, layout} = this.state   
     
     return (
       <div className="timeline" ref={el => this.tlRef = el}>

@@ -27,6 +27,15 @@ exports.createSchemaCustomization = ({ actions }) => {
     type MarkdownRemarkFrontmatter {
       blocks: [Block]
     }
+
+    type Post {
+      templateKey: String!
+      title: String!
+      date: String!
+      description: String!
+      image: Image!
+      blocks: [Block]
+    }
   `
   createTypes(typeDefs)
 }
@@ -37,15 +46,13 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {
-        edges {
-          node {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              templateKey
-            }
+        nodes {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            templateKey
           }
         }
       }
@@ -56,16 +63,16 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.nodes
 
-    posts.forEach((edge) => {
-      const id = edge.node.id
-      console.log(edge)
+    posts.forEach((node) => {
+      const id = node.id
+      console.log(node)
       createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
+        path: node.fields.slug,
+        tags: node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${String(node.frontmatter.templateKey)}.js`
         ),
         // additional data can be passed via context
         context: {
@@ -77,9 +84,9 @@ exports.createPages = ({ actions, graphql }) => {
     // Tag pages:
     let tags = []
     // Iterate through each post, putting all found tags into `tags`
-    posts.forEach((edge) => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags)
+    posts.forEach((node) => {
+      if (_.get(node, `node.frontmatter.tags`)) {
+        tags = tags.concat(node.frontmatter.tags)
       }
     })
     // Eliminate duplicate tags

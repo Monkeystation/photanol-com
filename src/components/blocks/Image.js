@@ -1,8 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../PreviewCompatibleImage'
 
-const Image = ({file, alt, key}) => (
-  <section className="block image" key={key}>
+const Image = ({file, alt}) => (
+  <section className="block image">
     <PreviewCompatibleImage 
       className="has-ratio"
       imageInfo={{
@@ -14,5 +15,10 @@ const Image = ({file, alt, key}) => (
     />
   </section>
 )
+
+Image.propTypes = {
+  file: PropTypes.object, 
+  alt: PropTypes.string
+}
 
 export default Image

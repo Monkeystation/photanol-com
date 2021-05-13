@@ -6,7 +6,7 @@ import Team from '../Team'
 
 const TeamSection = ({ team }) => (
   <section className="section team" id="team">
-    <div className="containert text">
+    <div className="text">
       <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
         <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{team.pretitle}</h5>
       </ScrollAnimation>
@@ -23,7 +23,8 @@ TeamSection.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     employees: PropTypes.array,
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default TeamSection

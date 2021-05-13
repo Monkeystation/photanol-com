@@ -1,7 +1,7 @@
 import React, {useState, useCallback} from 'react'
 import PropTypes from 'prop-types'
 import { Controller, Scene } from 'react-scrollmagic'
-import { Tween, Timeline } from 'react-gsap'
+import { Tween } from 'react-gsap'
 import PreviewCompatibleFile from '../PreviewCompatibleFile'
 import showdown from 'showdown'
 
@@ -62,7 +62,8 @@ IntroSection.propTypes = {
       file: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       poster: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     })
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default IntroSection

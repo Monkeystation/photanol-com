@@ -5,8 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const SolutionSection = ({ solution }) => (
   <section className="section solution" id="product">
-    <div className="containert">
-      <div className="columns">
+    <div className="columns">
         <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
           <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{solution.pretitle}</h5>
@@ -21,7 +20,6 @@ const SolutionSection = ({ solution }) => (
           <img src="/img/animation-placeholder.jpg" width='100%' alt="Animation" />
         </div>
       </div>
-    </div>
   </section>
 )
 
@@ -30,7 +28,8 @@ SolutionSection.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     animation: PropTypes.object,
-  })
+  }),
+  preview: PropTypes.bool
 }
 
 export default SolutionSection

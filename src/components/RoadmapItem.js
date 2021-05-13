@@ -1,6 +1,5 @@
 import React from 'react'
 import showdown from 'showdown'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import {RoadmapCircle} from '../components/Icons'
 

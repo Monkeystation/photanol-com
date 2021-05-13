@@ -34,10 +34,8 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const {active, contactOffset} = this.state
+    const {active} = this.state
     const icon = (active) ? <IconClose /> : <IconHamburger />
-    
-    
     
     return (
       <nav
@@ -85,30 +83,6 @@ const Navbar = class extends React.Component {
   }
 }
 
+Navbar.displayName = "Navbar"
+
 export default Navbar
-
-/*
-
- <li><Link activeClass="active" to="first" spy={true} smooth={true} duration={250} containerId="containerElement">1st element</Link></li>
- 
- 
-<Link className="navbar-item" to="#product">
-  Product
-</Link>
-<Link className="navbar-item" to="#technology">
-  Technology
-</Link>
-<Link className="navbar-item" to="#team">
-  Team
-</Link>
-<Link className="navbar-item" to="#jobs">
-  Jobs
-</Link>
-<Link className="navbar-item" to="#contact">
-  Contact
-</Link>
-
-
-
-
-*/

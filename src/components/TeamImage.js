@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 class TeamImage extends React.PureComponent {
@@ -17,6 +18,13 @@ class TeamImage extends React.PureComponent {
       </div>
     )  
   }
+}
+
+TeamImage.propTypes = {
+  image: PropTypes.object,
+  alt: PropTypes.string,
+  opacity: PropTypes.number,
+  zIndex: PropTypes.number
 }
 
 export default TeamImage

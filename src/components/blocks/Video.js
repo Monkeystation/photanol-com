@@ -1,8 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Video = ({id, key}) => (
-  <section className="block video" key={key}>
-    <figure class="image is-16by9">
+const Video = ({id}) => (
+  <section className="block video">
+    <figure className="image is-16by9">
       <iframe 
         className="has-ratio" 
         id="ytplayer" 
@@ -14,5 +15,9 @@ const Video = ({id, key}) => (
     </figure>
   </section>
 )
+
+Video.propTypes = {
+  id: PropTypes.string
+}
 
 export default Video
