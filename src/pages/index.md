@@ -134,7 +134,7 @@ roadmap:
         the learnings from the smaller scale demo set-up while embracing
         engineering insights from industries like agriculture, water treatment
         plants and others. Methodology that will enable Photanol to compete
-        extremely favorably with non-renewable chemicals. Proving that
+        extremely favourably with non-renewable chemicals. Proving that
         sustainability isn’t second place to economic profit."
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/9-scale-up-to-commercial-plant.jpg
@@ -192,7 +192,7 @@ infographic:
       alt: Products
 team:
   pretitle: MEET THE TEAM
-  title: Dedicated to restoring balance since 2008.
+  title: Dedicated to restoring balance since 2008
   employees:
     - name: Veronique de Bruijn, MBA
       function: CEO
@@ -212,27 +212,31 @@ team:
       linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
       image: /img/team_klaas.jpg
     - name: Paul Koekoek
-      function: Director of Operations
+      function: COO
       text: Over twenty years of engineering excellence back our COO’s plans to
         sky-rocket circular chemistry. Paul led the demo plant construction and
         is now designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/paul-koekoek-a2740043/
       image: /img/team_paul.jpg
-    - name: Peter Brenninkmeijer
+    - name: Ellen Berkers
       function: CFO
-      text: Peter co-raised the funding for our debut demo plant. Experienced in
-        unconventional financial models, he is the ideal CFO to guide us through
-        the uncharted landscapes of biotech innovation.
-      linkedin: https://www.linkedin.com/in/peterbrenninkmeijer/
-      image: /img/team_peter.jpg
-    - name: Caroline van der Horst
-      function: CTO (interim)
-      text: >
-        Our acting technology officer, Caroline, hails from the agrifood
-        industry and leads the Photanol R&D teams through the intense journeys
-        of iteration needed for process perfection. 
-      linkedin: https://www.linkedin.com/in/carolinevanderhorst/
-      image: /img/team_caroline.jpg
+      text: Years of experience managing global transformations and fundraising makes
+        Ellen the bold financial leader Photanol needs. In fact, reporting and
+        forecasting our progress - step by step - is what she thrives on. While
+        we pioneer cyano brilliance, she’s busy transforming these breakthroughs
+        into the hardy business plan we need to keep scaling.
+      linkedin: https://www.linkedin.com/in/ellen-berkers-cfo2scale/
+      image: /img/ellen_1.jpg
+    - name: Jan Wery
+      function: "CTO "
+      text: "A.K.A our Chief ‘North Star’ Navigator: It’s all very well having a bold
+        and lofty mission like restoring balance on our planet, but it must be
+        backed by the brains to roadmap us there. Jan’s 20 years in industrial
+        biotech R&D is that brain. Jan dreams up and leads the multidisciplinary
+        programs capable of transforming breakthrough lab-scale processes into
+        scalable success."
+      linkedin: https://www.linkedin.com/in/jan-wery-60b19430/
+      image: /img/jan_1.jpg
     - name: Aniek van der Woude
       function: R&D Manager Strain Engineering
       text: With Photanol since 2012 and joining us fresh from her PhD in molecular
@@ -280,11 +284,12 @@ team:
       linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
       image: /img/team_eugenie.jpg
     - name: Juliette Martin
-      function: Researcher Piloting
-      text: "Starting as our lab intern, Juliette grew with Photanol. And, thanks to
-        the giga-loads of optimism, perseverance (and French cursing) she
-        donates to process validation daily, she’s now a most-valued member of
-        the pilot plant team. "
+      function: Technology Scale Up Scientist
+      text: "Starting with Photanol as an intern, Juliette is now our scientist in the
+        Upscaling Team; pioneering the optimum conditions for cyanos to
+        thrive:Conducting experiments in growth systems, testing and validating
+        the most successful conditions for scale-up....and singing them
+        lullabies. "
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/team_juliette.jpg
     - text: "Maria shares the Photanol change-maker gene. Her expertise is algae
@@ -295,19 +300,19 @@ team:
       linkedin: https://www.linkedin.com/in/mjacorreia/
       image: /img/team_maria.jpg
     - name: Anja Herdtfelder
-      function: Junior Researcher Strain Engineering
+      function: Researcher Strain Engineering
       text: Anja studied cloning for her degree in Life Science and Technology. At
         Photanol she optimizes cyanobacteria to deliver new compounds. Studying
         and iterating on results to create the most stable strains for our next
         organic acids.
       linkedin: https://www.linkedin.com/in/anja-herdtfelder/
       image: /img/team_anja.jpg
-    - text: Having worked in labs across several countries, Gabriel is in the ideal
-        agile mind needed to drive our upscaling science. His work involves
-        optimizing strain productivity; employing various growth systems and
-        conditions.
+    - text: "Compulsively curious, Gabriel first strengthened our strain engineering
+        scale-up team for three years before putting that experience to use
+        leading the build, optimization and validation of our pilot-size
+        photobioreactor tech. "
       name: Gabriel Brouchon
-      function: Researcher Upscaling
+      function: Researcher Piloting
       linkedin: https://www.linkedin.com/in/gabriel-brouchon/
       image: /img/team_gabriel.jpg
     - name: Danuta Kaczmarzyk
@@ -333,7 +338,7 @@ team:
         became our Junior Researcher in 2018 and can be found in the lab,
         strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
-      image: /img/team_joost.jpg
+      image: /img/joost-portret_web_8sept_18.jpg
     - name: Patrick Eikenboom
       function: Operator pilot and demo
       text: Patrick completed his B.A. thesis while interning at our pilot plant. Now,
@@ -365,7 +370,11 @@ team:
     - name: Mandy Gericke
       function: Junior Researcher Strain Engineering
       linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
-      text: " "
+      text: Coming to the world of Photonal after completing her Msc at the TU delft,
+        Mandy’s mission is to shape a better future through her work. You’ll
+        find her grafting away on biomolecular projects. Testing and iterating
+        DNA constructs to improve our cyano-genetics, then observing their
+        physiology for improvements.
       image: /img/team_mandy.jpg
     - name: Jadranka van Tilburg
       function: Financial Controller
@@ -383,121 +392,135 @@ team:
         circular energy solutions.
       linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
       image: /img/team_joost-t.jpg
+    - name: Johan Davidsson
+      function: Junior Researcher Strain Engineering
+      text: With us since October 2020, Johan’s personal mission is to disrupt the
+        traditional chemical industry to speed up the journey to a truly
+        sustainable future. You’ll find him in the lab, applying his molecular
+        biology techniques to modify and cultivate our cyanobacteria.
+      linkedin: https://www.linkedin.com/in/davidssonjohan/
+      image: /img/johan_1.jpg
+    - name: Céline Berruex
+      function: Junior Researcher Strain Engineering
+      text: With a globetrotter education gained across Switzerland, Australia and
+        Scotland, you’ll find Céline in the lab, headphones on, good music tuned
+        - optimizing our cyanobacteria strains for CO2 uptake. Conjuring up
+        growth experiments to evaluate each technique’s potential.
+      linkedin: https://www.linkedin.com/in/c%C3%A9line-berruex-455664134/
+      image: /img/celine.jpg
+    - name: Dennis Dienst
+      function: Senior Researcher Strain Engineering
+      text: With a passion for all phototrophic life, Dennis has turned a personal
+        obsession into a professional one - dedicating his all to hitting the
+        most efficient, iterative ‘design-build-test-learn’ workflows to empower
+        Photanol’s cyano strain engineering.
+      linkedin: https://www.linkedin.com/in/dennis-dienst-07272a198/
+      image: /img/dennis_1.jpg
+    - name: Diogo Sebastião
+      function: Bio-process Engineer
+      text: Moving from Portugal to the Netherlands in 2016, Diogo believes it’s here
+        at Photonal he can best progress the economic viability of sustainable
+        bio-processes. Diogo drives the techno-economic evaluations (TEE) that
+        allow us to navigate the long, bold, iterative design journey to
+        commercial plant success.
+      linkedin: https://www.linkedin.com/in/diogosebastiao/
+      image: /img/diogo.jpg
+    - name: Dean Posthuma
+      function: Junior Process Engineer
+      text: Fresh from Imperial College, TU Delft. Dean joined us at the end of 2020.
+        He spends his days helping us unlock the unconventional approaches and
+        smart processes that see cyanobacteria take the leading role in our new
+        era of green chemistry.
+      linkedin: https://www.linkedin.com/in/dean-posthuma/
+      image: /img/dean_2.jpg
+    - name: Joanna Kowalczyk
+      function: Researcher Strain Engineering
+      text: Years studying the intricacies of fungal biotech and renewable chemicals
+        is channelled into Joanna’s passionate development of custom microbes
+        that capture CO2 to make our greener bio-plastic monomers.
+      linkedin: https://www.linkedin.com/in/joanna-e-kowalczyk/
+      image: /img/joanna.jpg
+    - name: Judith Petit
+      function: Marketing & Comms Manager
+      text: Our chief image builder. Renewable biotech tends to be high on ethics but
+        low on marketing. But we need to balance this out if we’re going to
+        speed up our collective journey to a more sustainable world. Thanks to
+        Judith’s strategic and creative plans, we'll capture the hearts and
+        minds of many; convincing them to join our biotech revolution.
+      linkedin: https://www.linkedin.com/in/judith-petit/
+      image: /img/judith_2.jpg
+    - name: Luuk Couwenberg
+      function: Junior Researcher Strain Engineering
+      text: Guess what crushes Luuk’s heart? Plastic in nature. That’s why he’s
+        dedicated his education and now his daily work to learn everything about
+        biotechnology, to help in the transition to plastics that better fit the
+        planet. You’ll find him researching the cellular processes of our
+        cyanobacteria - validating the best ways to improve their metabolism.
+      linkedin: https://www.linkedin.com/in/luukcouwenberg/
+      image: /img/luuk.jpg
+    - name: Pieter Oostlander
+      function: Pilot Team Lead
+      text: Our optimistic, perfectionist Pilot Team Lead, Pieter, ensures our pilot
+        operations are a success. He leads his team in achieving the results
+        needed to transform lab strain triumphs into demo- and eventually
+        industrial scale phototrophic production breakthroughs.
+      linkedin: https://www.linkedin.com/in/pieter-oostlander/
+      image: /img/pieter_1.jpg
+    - name: Ward Bulk
+      function: Bio-process Operator
+      text: Ward studied Coastal & Marine Management, revelling in his thesis and
+        internship dedicated to the small and large scale growth of microalgae.
+        As our trusted Bio-process Operator, Ward now spends his days dreaming
+        up out-of-the-box innovation to help streamline our industrial
+        processes.
+      linkedin: https://www.linkedin.com/in/ward-bulk-60b47a19b/
+      image: /img/ward.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
-    - title: Chief Technology Officer (CTO)
-      description_short: "To strengthen our team Photanol is looking for a Chief
-        Technology Officer "
-      description_full: >-
-        Currently Photanol has its own R&D facilities at the Amsterdam Science
-        Park, Prodock Amsterdam and we are starting up our new demonstration
-        plant at Chemie Park Delfzijl, in close cooperation with Nouryon. In
-        2021 this plant will produce the first Photanol products, as preparation
-        for the next phase towards commercial production 2024. 
-
-
-        In order to bring our Technology and Research & Development to the next stage, we are searching for a professional and entrepreneurial Chief Technology Officer.
-
-
-        #### POSITION
-
-
-        * Responsible for directing Technology and Research & Development in line with the Photanol growth strategy
-
-        * Participating actively in defining the Photanol strategy, objectives and milestones
-
-        * Developing and implementing the innovation route
-
-        * Managing required budgets, staff, innovation facilities and timelines
-
-        * Striving for a balanced portfolio of projects based on thinking in opportunities, managing potential risks and delivering results
-
-        * Building and maintaining external networks with academic and industrial partners
-
-        * Initiating proposals for generating budgets from subsidy funds and for obtaining resources by external collaborations
-
-        * Determining and safeguarding unique knowledge as intellectual property
-
-        * Exchanging pro-actively relevant knowledge with Business Development and Operations
-
-        * Reporting to CEO and member of Management Team, next to CFO and COO.
-
-
-        #### PROFILE
-
-
-        * Master degree in Biotechnology, Chemical Engineering or an equivalent 
-
-        * Senior experience and proven track record in Process Technology and R&D in synthetic biology/biotech, chemical, food or related industries
-
-        * Capable of driving the innovation process with a portfolio of projects towards market launch; bridging market requirements and technological capabilities 
-
-        * Able to utilise external networks and partners for obtaining additional budgets and resources 
-
-        * Commitment for green innovation routes that contribute to a more sustainable world 
-
-        * Fits with the culture and dynamics of an entrepreneurial and innovative company, with a dedicated team and many challenges 
-
-        * Personal competences: conceptual thinking, convincing, results driven, creative in problem solving, decision taker, pragmatic attitude and perseverance.
-
-
-        #### HOW TO APPLY
-
-
-        If you are interested in this position, please contact Hans Hilbrands:\
-
-        Telephone: +31 (0)317-468686 / +31 (0)6-51025152 \
-
-        or apply through our website [www.dupp.nl](www.dupp.nl) or e-mail your written application to [info@dupp.nl ](mailto:info@dupp.nl)
-
-
-        Photanol selected DUPP – Food Executive Search for this vacancy as the only partner in the recruitment process.
-
-
-        We are looking forward to hearing from you!
-    - title: Researcher Strain Development Team
-      description_short: Photanol is looking for a researcher to join our Strain
-        Development Team. The role is a full-time position based in our labs in
-        Amsterdam.
+    - description_short: "We are looking for a candidate to strengthen the execution
+        of cyanobacterial strain engineering strategies for the (improved)
+        production of selected products in industrial environment. "
+      title: Junior Researcher Strain Development
       description_full: >-
         Passion for biotechnology and ready to change the world? Interested in
         driving translation of science and technology to a commercial industrial
         process? Join the Photanol team to develop optimized cyanobacteria to
-        produce monomers based on light and CO<sub>2</sub>. We are looking for
-        candidates to strengthen the development and execution of cyanobacterial
-        strain engineering strategies for the (improved) production of selected
-        products in industrial environment. You will get a key role in our
-        strain development team where we value creativity and out-of-the box
-        thinking, but also a structured and analytical way of working towards
-        our targets. 
+        produce monomers based on light and CO2. We are looking for a candidate
+        to strengthen the execution of cyanobacterial strain engineering
+        strategies for the (improved) production of selected products in
+        industrial environment. You will get a role in our strain development
+        team where we value creativity and out-of-the box thinking, but also a
+        structured and analytical way of working towards our targets.
 
 
-        The role is a full-time position based in our labs in Amsterdam. At Photanol, we offer an exciting work environment in which you have the possibility to grow. 
+        **POSITION**
 
 
-        #### RESPONSIBILITIES
+        The role is a full-time position based in our labs in Amsterdam. At Photanol, we offer an exciting work environment in which you have the possibility to grow.
 
 
-        * Finding creative and sustainable approaches to increase strain productivity and robustness in industrial environment
+        * Application and development of molecular techniques for strain construction and evaluation
 
-        * Application/development of molecular techniques for strain construction and evaluation
+        * Cultivating cyanobacteria to evaluate performance of developed strains.
 
-        * Cultivating cyanobacteria to evaluate performance of developed strains
+        * Find creative and sustainable approaches to increase strain productivity and robustness in industrial environment.
 
         * Development of new strain engineering tools and research protocols
 
+        * Application of analytical methods, including gas chromatography
 
-        #### CHARACTERISTICS
+
+        **PROFILE**
 
 
-        * MSc or BSc level in Biotechnology, Microbiology, Molecular Biology or Systems biology
+        * MSc or BSc level in Biotechnology, Biochemistry, Microbiology, Molecular Biology or Systems biology
 
-        * Trained in molecular cloning techniques and microbiological safety 
+        * Trained in molecular cloning techniques and microbiological safety
 
-        * Experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated
+        * Experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated.
 
         * Ability to work independently, but also function as part of a team
 
@@ -507,20 +530,92 @@ vacancies:
 
         * Creative, but target-oriented
 
-        * Good report and writing skills, in English
+        * Good communication skills, both verbal and written, in the English language
 
-        * Preferably with 1-2 years industrial R&D experience 
-
-        * Applicant outside of EU is required to have a valid work/residence permit or visa
+        * Applicant outside of EU is required to have a valid work/residence permit or visa.
 
 
-        #### HOW TO APPLY AND DEADLINE
+        **HOW TO APPLY**
 
 
-        Please send your cover letter and resume to [jobs@photanol.com](jobs@photanol.com).
+        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com)​. 
 
 
-        The deadline is **October 31, 2020**, but we review the applications on a rolling basis. We look forward to hearing from you!
+        We are looking forward to hearing from you!
+    - title: Laboratorium assistent/ Lab assistant
+      description_full: >-
+        Als Ondersteunend laborant help je jouw collega's op het moleculair
+        microbiologisch en het fermentatie lab met verschillende taken. Je komt
+        te werken in een internationaal team van gepassioneerde onderzoekers (ca
+        25) op ons R&D laboratorium op het Science Park in Amsterdam. Het
+        betreft een functie in de dagdienst (5- 8 uur per dag, 5 dagen per
+        week).
+
+
+        **VERANTWOORDELIJKHEDEN**
+
+
+        * Het bereiden van groeimedia (vloeibaar/vast) ten behoeve van microbiologisch onderzoek
+
+        * Het autoklaveren van microbiologisch afval
+
+        * Inname, registratie en beheer van laboratorium artikelen
+
+        * Voorraad van het lab op peil houden
+
+        * Het lab netjes houden door gebruikte materialen op te ruimen
+
+        * De monstername ten behoeve van routine analyses
+
+        * Beheer van onderhoudscontracten op gebied van lab apparatuur
+
+        * Onderhouden van contact met leveranciers
+
+        * Uitvoeren van kleine onderhoudswerkzaamheden op het lab
+
+        * Assisteren waar gevraagd met verschillende werkzaamheden op het laboratorium
+
+        * Helpen van je collega's waar dit nodig is
+
+        * Kortom, een leuke afwisselende functie in een groeiend bedrijf met mogelijkheden voor ontwikkeling
+
+
+        **PROFIEL**
+
+
+        * Een MLO3 opleiding in relevante richting (MLO of facility management)
+
+        * Je hebt eerder op een lab gewerkt of stage gelopen (pre)
+
+        * Je bent georganiseerd, consciëntieus en accuraat
+
+        * Je bent een gezellige collega
+
+        * Goede beheersing van de Nederlandse en Engelse taal in woord en geschrift
+
+        * Je bent 5 dagen per week beschikbaar voor ca. 5- 8 uur per dag (in overleg)
+
+
+        **ARBEIDSVOORWAARDEN**
+
+
+        * In eerste instantie wordt contract voor 1 jaar aangeboden
+
+        * Reiskostenvergoeding
+
+        * Collectieve Pensioenregeling
+
+
+        **REAGEREN**
+
+
+        Heb je vragen of ben je geïnteresseerd in deze functie stuur dan vóór 21 maart je vragen of motivatiebrief, voorzien van een CV naar [jobs@photanol.com](<mailto: jobs@photanol.nl>)
+
+
+        We kijken uit naar je reactie!
+      description_short: "Wij zoeken een Laboratorium assistent voor ons
+        onderzoekslaboratorium in Amsterdam/ We are looking for a Lab assistant
+        to work in our research laboratory in Amsterdam. "
 partners:
   pretitle: OUR PARTNERS
   title: The future needs like-minds.
@@ -564,6 +659,9 @@ partners:
     - image: /img/eu.svg
       alt: European Regional Development Funds
       link: https://www.kansenvoorwest2.nl/nl/
+    - image: /img/nobian.png
+      link: https://www.nobian.com/
+      alt: Nobian
   side_logo:
     image: /img/renewable-carbon-logo.png
     link: https://www.renewable-carbon.eu
