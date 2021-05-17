@@ -458,7 +458,7 @@ team:
         Judith’s strategic and creative plans, we'll capture the hearts and
         minds of many; convincing them to join our biotech revolution.
       linkedin: https://www.linkedin.com/in/judith-petit/
-      image: /img/photanol_©jurrerompa_e71a0137.jpg
+      image: /img/judith.jpg
     - name: Luuk Couwenberg
       function: Junior Researcher Strain Engineering
       text: Guess what crushes Luuk’s heart? Plastic in nature. That’s why he’s
