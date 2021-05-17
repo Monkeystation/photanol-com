@@ -202,7 +202,7 @@ slideshow:
     alt: Bioplastics
 team:
   pretitle: MEET THE TEAM
-  title: Dedicated to restoring balance since 2012
+  title: Dedicated to restoring balance since 2008
   employees:
     - name: Veronique de Bruijn, MBA
       function: CEO
