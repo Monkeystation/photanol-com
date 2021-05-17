@@ -458,7 +458,7 @@ team:
         Judith’s strategic and creative plans, we'll capture the hearts and
         minds of many; convincing them to join our biotech revolution.
       linkedin: https://www.linkedin.com/in/judith-petit/
-      image: /img/judith.jpg
+      image: /img/photanol_©jurrerompa_e71a0137.jpg
     - name: Luuk Couwenberg
       function: Junior Researcher Strain Engineering
       text: Guess what crushes Luuk’s heart? Plastic in nature. That’s why he’s
@@ -475,7 +475,7 @@ team:
         needed to transform lab strain triumphs into demo- and eventually
         industrial scale phototrophic production breakthroughs.
       linkedin: https://www.linkedin.com/in/pieter-oostlander/
-      image: /img/pieter_1.jpg
+      image: /img/pieter.jpg
     - name: Ward Bulk
       function: Bio-process Operator
       text: Ward studied Coastal & Marine Management, revelling in his thesis and
