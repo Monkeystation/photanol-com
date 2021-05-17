@@ -236,7 +236,7 @@ team:
         we pioneer cyano brilliance, she’s busy transforming these breakthroughs
         into the hardy business plan we need to keep scaling.
       linkedin: https://www.linkedin.com/in/ellen-berkers-cfo2scale/
-      image: /img/ellen_1.jpg
+      image: /img/ellen.jpg
     - name: Jan Wery
       function: "CTO "
       text: "A.K.A our Chief ‘North Star’ Navigator: It’s all very well having a bold
@@ -246,7 +246,7 @@ team:
         programs capable of transforming breakthrough lab-scale processes into
         scalable success."
       linkedin: https://www.linkedin.com/in/jan-wery-60b19430/
-      image: /img/jan_1.jpg
+      image: /img/jan.jpg
     - name: Aniek van der Woude
       function: R&D Manager Strain Engineering
       text: With Photanol since 2012 and joining us fresh from her PhD in molecular
@@ -409,7 +409,7 @@ team:
         sustainable future. You’ll find him in the lab, applying his molecular
         biology techniques to modify and cultivate our cyanobacteria.
       linkedin: https://www.linkedin.com/in/davidssonjohan/
-      image: /img/johan_1.jpg
+      image: /img/johan.jpg
     - name: Céline Berruex
       function: Junior Researcher Strain Engineering
       text: With a globetrotter education gained across Switzerland, Australia and
@@ -425,7 +425,7 @@ team:
         most efficient, iterative ‘design-build-test-learn’ workflows to empower
         Photanol’s cyano strain engineering.
       linkedin: https://www.linkedin.com/in/dennis-dienst-07272a198/
-      image: /img/dennis_1.jpg
+      image: /img/dennis.jpg
     - name: Diogo Sebastião
       function: Bio-process Engineer
       text: Moving from Portugal to the Netherlands in 2016, Diogo believes it’s here
@@ -442,7 +442,7 @@ team:
         smart processes that see cyanobacteria take the leading role in our new
         era of green chemistry.
       linkedin: https://www.linkedin.com/in/dean-posthuma/
-      image: /img/dean_2.jpg
+      image: /img/dean.jpg
     - name: Joanna Kowalczyk
       function: Researcher Strain Engineering
       text: Years studying the intricacies of fungal biotech and renewable chemicals
@@ -458,7 +458,7 @@ team:
         Judith’s strategic and creative plans, we'll capture the hearts and
         minds of many; convincing them to join our biotech revolution.
       linkedin: https://www.linkedin.com/in/judith-petit/
-      image: /img/judith_2.jpg
+      image: /img/judith.jpg
     - name: Luuk Couwenberg
       function: Junior Researcher Strain Engineering
       text: Guess what crushes Luuk’s heart? Plastic in nature. That’s why he’s
