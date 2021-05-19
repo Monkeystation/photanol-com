@@ -271,6 +271,22 @@ team:
       function: Senior Researcher / Upscaling Team Lead
       linkedin: https://www.linkedin.com/in/sabrina-botton-532757a1/
       image: /img/team_sabrina.jpg
+    - name: Pierre Hakkesteegt
+      function: Site Supervisor Delfzijl
+      text: Pierre is the one optimizing operations at our demo plant. Creating the
+        ideal conditions to maximize cyanobacteria growth, so we can maximize
+        the amount of CO₂ we convert into valuable product.
+      linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
+      image: /img/team_pierre.jpg
+    - name: Judith Petit
+      function: Marketing & Comms Manager
+      text: Our chief image builder. Renewable biotech tends to be high on ethics but
+        low on marketing. But we need to balance this out if we’re going to
+        speed up our collective journey to a more sustainable world. Thanks to
+        Judith’s strategic and creative plans, we'll capture the hearts and
+        minds of many; convincing them to join our biotech revolution.
+      linkedin: https://www.linkedin.com/in/judith-petit/
+      image: /img/judith.jpg
     - name: Théo Veaudor
       function: Researcher / Strain Engineering Team Lead
       text: A self-described 'lab-guy' with a PhD in cyanobacteria genetics and
@@ -285,14 +301,31 @@ team:
         guide them through the cultivation of our latest and greatest strains.
       linkedin: https://www.linkedin.com/in/koen-mulder-530564127/
       image: /img/team_koen.jpg
-    - name: Eugenie Troia
-      function: Lead Analytical Chemist
-      text: A background in environmental chemistry and the same vision for circular
-        solutions led Eugenie to Photanol. She powers the mission daily by
-        deducing what needs to stay, go, or be tweaked - on the way to strain
-        production upscale success.
-      linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
-      image: /img/team_eugenie.jpg
+    - name: Danuta Kaczmarzyk
+      function: Senior Researcher Strain Engineering
+      text: >
+        Danuta comes to us from Sweden’s Royal Institute of Technology, where
+        she worked as a researcher for the Microbial Metabolic Engineering
+        Group. Now she uses her expertise to engineer Photanol's strongest
+        cyanobacteria strains.
+      image: /img/team_danuta.jpg
+      linkedin: https://www.linkedin.com/company/photanol/
+    - name: Dennis Dienst
+      function: Senior Researcher Strain Engineering
+      text: With a passion for all phototrophic life, Dennis has turned a personal
+        obsession into a professional one - dedicating his all to hitting the
+        most efficient, iterative ‘design-build-test-learn’ workflows to empower
+        Photanol’s cyano strain engineering.
+      linkedin: https://www.linkedin.com/in/dennis-dienst-07272a198/
+      image: /img/dennis.jpg
+    - name: Pieter Oostlander
+      function: Pilot Team Lead
+      text: Our optimistic, perfectionist Pilot Team Lead, Pieter, ensures our pilot
+        operations are a success. He leads his team in achieving the results
+        needed to transform lab strain triumphs into demo- and eventually
+        industrial scale phototrophic production breakthroughs.
+      linkedin: https://www.linkedin.com/in/pieter-oostlander/
+      image: /img/pieter.jpg
     - name: Juliette Martin
       function: Technology Scale Up Scientist
       text: "Starting with Photanol as an intern, Juliette is now our scientist in the
@@ -309,6 +342,21 @@ team:
       function: Junior Researcher Upscaling
       linkedin: https://www.linkedin.com/in/mjacorreia/
       image: /img/team_maria.jpg
+    - name: Marc García López
+      function: Junior Researcher Upscaling
+      text: A passion for microbiology and its potential to mitigate climate breakdown
+        led Marc to an internship at Photanol. Today, those two loves continue
+        to drive his work as data scientist in the upscaling team.
+      image: /img/team_marc.jpg
+      linkedin: https://www.linkedin.com/in/marcgarcialopez93?originalSubdomain=es
+    - name: Eugenie Troia
+      function: Lead Analytical Chemist
+      text: A background in environmental chemistry and the same vision for circular
+        solutions led Eugenie to Photanol. She powers the mission daily by
+        deducing what needs to stay, go, or be tweaked - on the way to strain
+        production upscale success.
+      linkedin: https://www.linkedin.com/in/eugenie-troia-37b64243
+      image: /img/team_eugenie.jpg
     - name: Anja Herdtfelder
       function: Researcher Strain Engineering
       text: Anja studied cloning for her degree in Life Science and Technology. At
@@ -317,23 +365,15 @@ team:
         organic acids.
       linkedin: https://www.linkedin.com/in/anja-herdtfelder/
       image: /img/team_anja.jpg
-    - text: "Compulsively curious, Gabriel first strengthened our strain engineering
-        scale-up team for three years before putting that experience to use
-        leading the build, optimization and validation of our pilot-size
-        photobioreactor tech. "
-      name: Gabriel Brouchon
-      function: Researcher Piloting
-      linkedin: https://www.linkedin.com/in/gabriel-brouchon/
-      image: /img/team_gabriel.jpg
-    - name: Danuta Kaczmarzyk
-      function: Senior Researcher Strain Engineering
-      text: >
-        Danuta comes to us from Sweden’s Royal Institute of Technology, where
-        she worked as a researcher for the Microbial Metabolic Engineering
-        Group. Now she uses her expertise to engineer Photanol's strongest
-        cyanobacteria strains.
-      image: /img/team_danuta.jpg
-      linkedin: https://www.linkedin.com/company/photanol/
+    - name: Mandy Gericke
+      function: Junior Researcher Strain Engineering
+      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
+      text: Coming to the world of Photonal after completing her Msc at the TU delft,
+        Mandy’s mission is to shape a better future through her work. You’ll
+        find her grafting away on biomolecular projects. Testing and iterating
+        DNA constructs to improve our cyano-genetics, then observing their
+        physiology for improvements.
+      image: /img/team_mandy.jpg
     - name: Mara Vincelli
       function: Researcher Strain Engineering
       text: "A personal passion for environmental science drives Mara’s unlimited
@@ -349,59 +389,6 @@ team:
         strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
       image: /img/joost-portret_web_8sept_18.jpg
-    - name: Patrick Eikenboom
-      function: Operator pilot and demo
-      text: Patrick completed his B.A. thesis while interning at our pilot plant. Now,
-        he uses the same flexibility and drive to operate and test experimental
-        reactors and strains across multiple locations.
-      linkedin: https://www.linkedin.com/company/photanol/
-      image: /img/team_patrick.jpg
-    - name: Marc García López
-      function: Junior Researcher Upscaling
-      text: A passion for microbiology and its potential to mitigate climate breakdown
-        led Marc to an internship at Photanol. Today, those two loves continue
-        to drive his work as data scientist in the upscaling team.
-      image: /img/team_marc.jpg
-      linkedin: https://www.linkedin.com/in/marcgarcialopez93?originalSubdomain=es
-    - name: Pierre Hakkesteegt
-      function: Site Supervisor Delfzijl
-      text: Pierre is the one optimizing operations at our demo plant. Creating the
-        ideal conditions to maximize cyanobacteria growth, so we can maximize
-        the amount of CO₂ we convert into valuable product.
-      linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
-      image: /img/team_pierre.jpg
-    - name: Vera Boor
-      function: Junior Bioprocess Engineer
-      text: Dedicated to large scale, long-term cultivation of our cyanobacteria, Vera
-        runs five reactors across indoor and outdoor locations, and is
-        Photanol's trouble-shooter extraordinaire.
-      image: /img/team_vera.jpg
-      linkedin: https://www.linkedin.com/in/vera-boor/
-    - name: Mandy Gericke
-      function: Junior Researcher Strain Engineering
-      linkedin: https://www.linkedin.com/in/mandy-gericke-a08783171/
-      text: Coming to the world of Photonal after completing her Msc at the TU delft,
-        Mandy’s mission is to shape a better future through her work. You’ll
-        find her grafting away on biomolecular projects. Testing and iterating
-        DNA constructs to improve our cyano-genetics, then observing their
-        physiology for improvements.
-      image: /img/team_mandy.jpg
-    - name: Jadranka van Tilburg
-      function: Financial Controller
-      text: You’ll find Jadranka at the heart of Photanol. Her keen eye and roster of
-        experience helping us maintain organizational and financial harmony
-        across all Photanol operations.
-      linkedin: https://www.linkedin.com/in/jadranka-van-tilburg-wagner-32218279/
-      image: /img/team_jadranka.jpg
-    - name: Joost Teixeira de Mattos
-      function: Founder
-      text: Prof. Teixeira de Mattos is a leading expert on microbial physiology and
-        fermentation. Together with Prof. Hellingwerf, he defined the optimum
-        conditions for cultivating our cyanos and was integral in securing key
-        partner, Nouryon. In 2016, Joost moved on to a start-up innovating
-        circular energy solutions.
-      linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
-      image: /img/team_joost-t.jpg
     - name: Johan Davidsson
       function: Junior Researcher Strain Engineering
       text: With us since October 2020, Johan’s personal mission is to disrupt the
@@ -410,6 +397,13 @@ team:
         biology techniques to modify and cultivate our cyanobacteria.
       linkedin: https://www.linkedin.com/in/davidssonjohan/
       image: /img/johan.jpg
+    - name: Joanna Kowalczyk
+      function: Researcher Strain Engineering
+      text: Years studying the intricacies of fungal biotech and renewable chemicals
+        is channelled into Joanna’s passionate development of custom microbes
+        that capture CO2 to make our greener bio-plastic monomers.
+      linkedin: https://www.linkedin.com/in/joanna-e-kowalczyk/
+      image: /img/joanna.jpg
     - name: Céline Berruex
       function: Junior Researcher Strain Engineering
       text: With a globetrotter education gained across Switzerland, Australia and
@@ -418,14 +412,37 @@ team:
         growth experiments to evaluate each technique’s potential.
       linkedin: https://www.linkedin.com/in/c%C3%A9line-berruex-455664134/
       image: /img/celine.jpg
-    - name: Dennis Dienst
-      function: Senior Researcher Strain Engineering
-      text: With a passion for all phototrophic life, Dennis has turned a personal
-        obsession into a professional one - dedicating his all to hitting the
-        most efficient, iterative ‘design-build-test-learn’ workflows to empower
-        Photanol’s cyano strain engineering.
-      linkedin: https://www.linkedin.com/in/dennis-dienst-07272a198/
-      image: /img/dennis.jpg
+    - name: Luuk Couwenberg
+      function: Junior Researcher Strain Engineering
+      text: Guess what crushes Luuk’s heart? Plastic in nature. That’s why he’s
+        dedicated his education and now his daily work to learn everything about
+        biotechnology, to help in the transition to plastics that better fit the
+        planet. You’ll find him researching the cellular processes of our
+        cyanobacteria - validating the best ways to improve their metabolism.
+      linkedin: https://www.linkedin.com/in/luukcouwenberg/
+      image: /img/luuk.jpg
+    - text: "Compulsively curious, Gabriel first strengthened our strain engineering
+        scale-up team for three years before putting that experience to use
+        leading the build, optimization and validation of our pilot-size
+        photobioreactor tech. "
+      name: Gabriel Brouchon
+      function: Researcher Piloting
+      linkedin: https://www.linkedin.com/in/gabriel-brouchon/
+      image: /img/team_gabriel.jpg
+    - name: Patrick Eikenboom
+      function: Operator pilot and demo
+      text: Patrick completed his B.A. thesis while interning at our pilot plant. Now,
+        he uses the same flexibility and drive to operate and test experimental
+        reactors and strains across multiple locations.
+      linkedin: https://www.linkedin.com/company/photanol/
+      image: /img/team_patrick.jpg
+    - name: Vera Boor
+      function: Junior Bioprocess Engineer
+      text: Dedicated to large scale, long-term cultivation of our cyanobacteria, Vera
+        runs five reactors across indoor and outdoor locations, and is
+        Photanol's trouble-shooter extraordinaire.
+      image: /img/team_vera.jpg
+      linkedin: https://www.linkedin.com/in/vera-boor/
     - name: Diogo Sebastião
       function: Bio-process Engineer
       text: Moving from Portugal to the Netherlands in 2016, Diogo believes it’s here
@@ -443,39 +460,6 @@ team:
         era of green chemistry.
       linkedin: https://www.linkedin.com/in/dean-posthuma/
       image: /img/dean.jpg
-    - name: Joanna Kowalczyk
-      function: Researcher Strain Engineering
-      text: Years studying the intricacies of fungal biotech and renewable chemicals
-        is channelled into Joanna’s passionate development of custom microbes
-        that capture CO2 to make our greener bio-plastic monomers.
-      linkedin: https://www.linkedin.com/in/joanna-e-kowalczyk/
-      image: /img/joanna.jpg
-    - name: Judith Petit
-      function: Marketing & Comms Manager
-      text: Our chief image builder. Renewable biotech tends to be high on ethics but
-        low on marketing. But we need to balance this out if we’re going to
-        speed up our collective journey to a more sustainable world. Thanks to
-        Judith’s strategic and creative plans, we'll capture the hearts and
-        minds of many; convincing them to join our biotech revolution.
-      linkedin: https://www.linkedin.com/in/judith-petit/
-      image: /img/judith.jpg
-    - name: Luuk Couwenberg
-      function: Junior Researcher Strain Engineering
-      text: Guess what crushes Luuk’s heart? Plastic in nature. That’s why he’s
-        dedicated his education and now his daily work to learn everything about
-        biotechnology, to help in the transition to plastics that better fit the
-        planet. You’ll find him researching the cellular processes of our
-        cyanobacteria - validating the best ways to improve their metabolism.
-      linkedin: https://www.linkedin.com/in/luukcouwenberg/
-      image: /img/luuk.jpg
-    - name: Pieter Oostlander
-      function: Pilot Team Lead
-      text: Our optimistic, perfectionist Pilot Team Lead, Pieter, ensures our pilot
-        operations are a success. He leads his team in achieving the results
-        needed to transform lab strain triumphs into demo- and eventually
-        industrial scale phototrophic production breakthroughs.
-      linkedin: https://www.linkedin.com/in/pieter-oostlander/
-      image: /img/pieter.jpg
     - name: Ward Bulk
       function: Bio-process Operator
       text: Ward studied Coastal & Marine Management, revelling in his thesis and
@@ -485,6 +469,15 @@ team:
         processes.
       linkedin: https://www.linkedin.com/in/ward-bulk-60b47a19b/
       image: /img/ward.jpg
+    - name: Joost Teixeira de Mattos
+      function: Founder
+      text: Prof. Teixeira de Mattos is a leading expert on microbial physiology and
+        fermentation. Together with Prof. Hellingwerf, he defined the optimum
+        conditions for cultivating our cyanos and was integral in securing key
+        partner, Nouryon. In 2016, Joost moved on to a start-up innovating
+        circular energy solutions.
+      linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
+      image: /img/team_joost-t.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
