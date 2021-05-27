@@ -286,7 +286,7 @@ team:
         Judith’s strategic and creative plans, we'll capture the hearts and
         minds of many; convincing them to join our biotech revolution.
       linkedin: https://www.linkedin.com/in/judith-petit/
-      image: /img/judith.jpg
+      image: /img/photanol_©jurrerompa_e71a0137.jpg
     - name: Théo Veaudor
       function: Researcher / Strain Engineering Team Lead
       text: A self-described 'lab-guy' with a PhD in cyanobacteria genetics and
