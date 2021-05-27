@@ -403,7 +403,7 @@ team:
         is channelled into Joanna’s passionate development of custom microbes
         that capture CO2 to make our greener bio-plastic monomers.
       linkedin: https://www.linkedin.com/in/joanna-e-kowalczyk/
-      image: /img/joanna.jpg
+      image: /img/photanol_©jurrerompa_e71a0473.jpg
     - name: Céline Berruex
       function: Junior Researcher Strain Engineering
       text: With a globetrotter education gained across Switzerland, Australia and
