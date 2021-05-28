@@ -278,15 +278,6 @@ team:
         the amount of CO₂ we convert into valuable product.
       linkedin: https://www.linkedin.com/in/pierrehakkesteegt/
       image: /img/team_pierre.jpg
-    - name: Judith Petit
-      function: Marketing & Comms Manager
-      text: Our chief image builder. Renewable biotech tends to be high on ethics but
-        low on marketing. But we need to balance this out if we’re going to
-        speed up our collective journey to a more sustainable world. Thanks to
-        Judith’s strategic and creative plans, we'll capture the hearts and
-        minds of many; convincing them to join our biotech revolution.
-      linkedin: https://www.linkedin.com/in/judith-petit/
-      image: /img/photanol_©jurrerompa_e71a0137.jpg
     - name: Théo Veaudor
       function: Researcher / Strain Engineering Team Lead
       text: A self-described 'lab-guy' with a PhD in cyanobacteria genetics and
