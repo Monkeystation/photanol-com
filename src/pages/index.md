@@ -99,7 +99,7 @@ roadmap:
       year: "2020"
       title: First demonstration plant
       icon: /img/roadmap_construction.png
-      image: /img/6-first-demonstration-plant.png
+      image: /img/5.-img_20201104_143813-2-.jpg
     - text: We admit we’re a tad ambitious, and the goals we set often keep us up at
         night. But it’s also led us to two great partners. Now, a third
         powerhouse is backing the Photanol mission - signing a partnership
