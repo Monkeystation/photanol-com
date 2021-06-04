@@ -83,7 +83,7 @@ export const DynamicPageTemplate = ({
       </section>
       <div className="section">
         <div className="blocks">
-          {blocks.map((block, index) => (
+          {blocks.length && blocks.map((block, index) => (
             getBlockContent(block, index)
           ))}
         </div>
