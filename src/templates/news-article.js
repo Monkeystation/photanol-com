@@ -76,7 +76,7 @@ export const NewsArticleTemplate = ({
           </div>
         </div>
         <div className="blocks">
-            {blocks.length && blocks.map((block, index) => (
+            {blocks && blocks.length && blocks.map((block, index) => (
               getBlockContent(block, index)
             ))}
           </div>
