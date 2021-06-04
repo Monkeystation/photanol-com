@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 
-const MissionSection = ({ mission }) => {
+const MissionSection = ({ mission, preview }) => {
   const [showMissionVideoModal, setShowMissionVideoModal] = useState(false)
   const [hasVideo] = useState(null)
   const videoRef = useRef(null)
@@ -38,10 +38,10 @@ const MissionSection = ({ mission }) => {
     <section className="section is-large mission">
       <div className="columns">
         <div className="column is-12-mobile is-10-tablet is-12-desktop is-10-widescreen is-9-fullhd">
-          <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
+          <ScrollAnimation animateIn='fadeInUp' animateOnce={true} initiallyVisible={preview}>
             <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{mission.pretitle}</h5>
           </ScrollAnimation>
-          <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
+          <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true} initiallyVisible={preview}>
             <h1 className="title is-family-secondary has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-desktop is-size-1-fullhd">{mission.title}</h1>
           </ScrollAnimation>
         </div>

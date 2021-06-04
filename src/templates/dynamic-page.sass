@@ -1,0 +1,47 @@
+.dynamic
+  .header  
+    position: relative
+    .background 
+      object-fit: cover
+      object-position: center center
+      width: 100%
+      height: 420px
+      overflow: hidden
+      +tablet
+        padding-left: 2rem
+        padding-right: 2rem
+        height: 500px
+      +desktop
+        padding-left: 4rem
+        padding-right: 4rem
+        height: 500px
+      +widescreen
+        height: 600px
+      +fullhd
+        height: 848px
+    .text-panel
+      background-color: $blue-900
+      position: absolute
+      left: 0
+      top: 0
+      padding: 5% 10%
+      margin-top: -5rem
+      width: 80%
+      +tablet
+        width: 60%
+      +widescreen
+        width: 50%
+  .video
+    padding: 4rem 0
+    +tablet
+      padding: 6rem 0
+  .quote
+    .title
+      background: linear-gradient(45deg,#4cb4e7,#62b55a 12.5%,#fcea0d 25%,#62b55a 37.5%,#4cb4e7 50%,#62b55a 62.5%,#fcea0d 75%,#62b55a 87.5%,#4cb4e7)
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
+  .paragraphimage
+    .columns
+      gap: 6rem
+    .column
+      padding: 0

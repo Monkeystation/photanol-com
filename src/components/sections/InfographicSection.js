@@ -6,11 +6,11 @@ import showdown from 'showdown'
 
 const converter = new showdown.Converter()
 
-const InfographicSection = ({ infographic }) => (
+const InfographicSection = ({ infographic, preview }) => (
   <section className="section infographic">
     <div className="columns">
         <div className="column is-12 is-10-widescreen is-offset-1-widescreen is-8-fullhd is-offset-2-fullhd" >
-          <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
+          <ScrollAnimation animateIn='fadeInUp' animateOnce={true} initiallyVisible={preview}>
             <h5 className="subtitle blue-text has-text-centered has-text-weight-bold is-uppercase is-7">{infographic.pretitle}</h5>
           </ScrollAnimation>
         </div>
@@ -19,10 +19,10 @@ const InfographicSection = ({ infographic }) => (
         <div className="column is-12 is-8-desktop is-offset-2-desktop is-6-widescreen is-offset-3-widescreen">
         {infographic.items.map((item, index) => (
             <div key={index}>
-              <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
+              <ScrollAnimation animateIn='fadeIn' animateOnce={true} initiallyVisible={preview}>
                 <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' loading="lazy" />
               </ScrollAnimation>
-              <ScrollAnimation animateIn='fadeInDown' animateOnce={true}>
+              <ScrollAnimation animateIn='fadeInDown' animateOnce={true} initiallyVisible={preview}>
                 <div className="blue-text is-size-6-tablet" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></div>
               </ScrollAnimation>
             </div>

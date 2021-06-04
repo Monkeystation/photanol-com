@@ -15,7 +15,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       type: String
       paragraph: String
       heading: String
-      subheading: String
+      preheading: String
       quote: String
       citation: String
       image: Image
@@ -35,6 +35,17 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String!
       image: Image!
       blocks: [Block]
+    }
+
+    type Vacancy {
+      title: String
+      description_short: String
+      description_full: String
+    }
+
+    type MarkdownRemarkFrontmatterVacancies {
+      novacancies: String
+      list: [Vacancy]
     }
   `
   createTypes(typeDefs)

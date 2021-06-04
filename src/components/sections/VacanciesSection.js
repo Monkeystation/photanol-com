@@ -11,7 +11,7 @@ import {IconArrow} from '../Icons'
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
 
-const VacanciesSection = ({ vacancies }) => {
+const VacanciesSection = ({ vacancies, preview }) => {
   const [showVacancyModal, setShowVacancyModal] = useState(false)
   const [vacancyData, setVacancyData] = useState({})
   const modalContent = useRef(null)
@@ -69,7 +69,7 @@ const VacanciesSection = ({ vacancies }) => {
         var deeplink = toSeoUrl(vacancy.title)
         return (
           <div key={v4()} className="vacancy-card tile is-child pb-3" id={deeplink}>
-            <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
+            <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true} initiallyVisible={preview}>
               <p className="blue-text has-text-weight-bold">
                 {vacancy.title}
               </p>
@@ -95,7 +95,7 @@ const VacanciesSection = ({ vacancies }) => {
   return (
     <section className="section vacancies-wrapper" id="jobs">
       <div className="content">
-        <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
+        <ScrollAnimation animateIn='fadeInUp' animateOnce={true} initiallyVisible={preview}>
           <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{'VACANCIES'}</h5>
         </ScrollAnimation>
         <div className="vacancies">

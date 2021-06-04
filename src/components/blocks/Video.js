@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Video = ({id}) => (
-  <section className="block video">
+  <section className="video wide-section">
     <figure className="image is-16by9">
       <iframe 
         className="has-ratio" 

@@ -34,6 +34,7 @@ $family-primary: $family-sans-serif
 $family-secondary: $family-serif
 $body-line-height: 137%
 $title-line-height: 117%
+$text: $blue-900
 
 $size-1: 100px
 $size-2: 88px
@@ -57,7 +58,7 @@ $modal-content-spacing-mobile: 0
 $modal-content-spacing-tablet: 0
 $section-padding: 6rem 10%
 $section-padding-large: 12rem 10%
-$section-padded-margin: 0 5%
+$section-padded-margin: 0rem 5%
 $section-padded-padding: 6rem 5%
 
 //Menu overrides
@@ -94,6 +95,7 @@ $transition-duration: .5s
 @import "~bulma"
 @import "./slick"
 @import "./slick-theme"
+@import "../templates/dynamic-page"
 @import "./accordion"
 @import "./roadmap"
 @import "./team"
@@ -132,6 +134,9 @@ $transition-duration: .5s
   
 a
   transition: color $transition-duration $easing
+  color: $green-500
+  &:hover
+    color: $blue-900
 
 /* purgecss ignore */
 small 
@@ -218,6 +223,11 @@ small
     +mobile
       margin: 0 auto
       padding: 4rem 2rem
+
+.wide-section
+    padding: 6rem 0
+    +mobile
+      padding: 6rem 0
 
 .modal
   display: flex

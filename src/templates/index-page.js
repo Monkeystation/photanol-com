@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ReactGA from 'react-ga'
@@ -10,6 +10,7 @@ import MissionSection from '../components/sections/MissionSection'
 import RoadmapSection from '../components/sections/RoadmapSection'
 import TechnologySection from '../components/sections/TechnologySection'
 import InfographicSection from '../components/sections/InfographicSection'
+import SlideshowSection from '../components/sections/SlideshowSection'
 import TeamSection from '../components/sections/TeamSection'
 import VacanciesSection from '../components/sections/VacanciesSection'
 import PartnersSection from '../components/sections/PartnersSection'
@@ -28,12 +29,45 @@ export const IndexPageTemplate = ({
   roadmap,
   technology,
   infographic,
+  slideshow,
   team,
   vacancies,
   news,
   partners,
   footer
 }) => {
+  const [ccLoaded, setCcLoaded] = useState(false);
+
+  useEffect(() => {
+    const scriptTag = document.createElement('script');
+    scriptTag['src'] = '/static/cookieconsent.min.js';
+    scriptTag['data-cfasync'] = 'false';
+    scriptTag.addEventListener('load', () => setCcLoaded(true));
+    document.body.append(scriptTag);
+  }, []);
+
+  useEffect(() => {
+    if (!ccLoaded) return;
+    window.cookieconsent.initialise({
+      // "palette": {
+      //   "popup": {
+      //     "background": "#ffffff",
+      //     "text": "#0a064a"
+      //   },
+      //   "button": {
+      //     "background": "#f7f8fa",
+      //     "text": "#0a064a"
+      //   }
+      // },
+      "content": {
+        "message": "We use cookies to enhance your browsing experience and to analyze our website traffic through Google Analytics.",
+        "dismiss": "OK",
+        "link": "Learn more",
+        "href": "/legal-disclaimer.pdf"
+      }
+    });
+  }, [ccLoaded]);
+  
   return (
     <>
       <div className="logo-container"><LogoPhotanol /></div>
@@ -43,11 +77,11 @@ export const IndexPageTemplate = ({
       <RoadmapSection roadmap={roadmap} preview={preview}  />
       <TechnologySection technology={technology} preview={preview}  />
       <InfographicSection infographic={infographic} preview={preview}  />
-      {/* <SlideshowSection slideshow={slideshow} preview={preview}  /> */}
+      <SlideshowSection slideshow={slideshow} preview={preview}  />
       <TestimonialsSection testimonials={testimonials} preview={preview}  />
       <TeamSection team={team} preview={preview}  />
       <VacanciesSection vacancies={vacancies} preview={preview}  />
-      <NewsSection news={news} preview={preview} />
+      {/* <NewsSection news={news} preview={preview} /> */}
       <PartnersSection partners={partners} preview={preview}  />
       <FooterSection footer={footer} preview={preview}  />
     </>
@@ -180,6 +214,7 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     links: PropTypes.object,
+    erdf_logo: PropTypes.object
   })
 }
 
@@ -191,11 +226,12 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         intro={frontmatter.intro}
         mission={frontmatter.mission}
-        solution={frontmatter.solution}
+        // solution={frontmatter.solution}
         roadmap={frontmatter.roadmap}
         technology={frontmatter.technology}
         infographic={frontmatter.infographic}
         testimonials={frontmatter.testimonials}
+        slideshow={frontmatter.slideshow}
         team={frontmatter.team}
         news={frontmatter.news}
         vacancies={frontmatter.vacancies}
@@ -415,6 +451,14 @@ export const pageQuery = graphql`
             link_twitter
             link_linkedin
             link_youtube
+          }
+          erdf_logo {
+            image {
+              publicURL
+            }
+            alt
+            link
+            label
           }
         }
       }

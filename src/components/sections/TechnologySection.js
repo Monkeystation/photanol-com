@@ -9,7 +9,7 @@ import ReactGA from 'react-ga'
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
 
-const TechnologySection = ({ technology }) => {
+const TechnologySection = ({ technology, preview }) => {
   const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
   const [hasVideo] = useState(true)
   const videoRef = useRef(null)
@@ -43,10 +43,10 @@ const TechnologySection = ({ technology }) => {
     <section className="section technology" id="technology">
       <div className="columns">
           <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-            <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
+            <ScrollAnimation animateIn='fadeInUp' animateOnce={true} initiallyVisible={preview}>
               <h5 className="subtitle blue-text has-text-weight-bold is-uppercase is-7">{technology.pretitle}</h5>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
+            <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true} initiallyVisible={preview}>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{technology.title}</h1>
             </ScrollAnimation>
           </div>

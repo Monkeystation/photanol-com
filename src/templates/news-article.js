@@ -4,13 +4,11 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Paragraph from '../components/blocks/Paragraph'
-import Heading from '../components/blocks/Heading'
-import Subheading from '../components/blocks/Subheading'
 import Quote from '../components/blocks/Quote'
 import Image from '../components/blocks/Image'
 import Video from '../components/blocks/Video'
-import ParagraphImage from '../components/blocks/ParagraphImage'
+import Text from '../components/blocks/Text'
+import ImageText from '../components/blocks/ImageText'
 
 export const NewsArticleTemplate = ({
   title,
@@ -21,17 +19,14 @@ export const NewsArticleTemplate = ({
   
   const getBlockContent = (block, index) => {
     switch(block.type) {
-      case 'paragraph':
+      case 'text':
         return (
-          <Paragraph heading={block.heading} subheading={block.subheading} paragraph={block.paragraph} key={index} />
-        )
-      case 'heading':
-        return (
-          <Heading text={block.heading} key={index} />
-        )
-      case 'subheading':
-        return (
-          <Subheading text={block.subheading} key={index} />
+          <Text
+            heading={block.heading} 
+            preheading={block.preheading} 
+            paragraph={block.paragraph} 
+            key={index} 
+          />
         )
       case 'quote':
         return (
@@ -45,10 +40,18 @@ export const NewsArticleTemplate = ({
         return (
           <Video id={block.youtubeId} key={index} />
         )
-      case 'paragraphimage':
-        return (
-          <ParagraphImage file={block.image.file} alt={block.image.alt} text={block.paragraph} key={index} />
-        )
+        case 'imagetext':
+          return (
+            <ImageText
+              file={block.image.file} 
+              alt={block.image.alt} 
+              align={block.align} 
+              heading={block.heading} 
+              preheading={block.preheading} 
+              paragraph={block.paragraph} 
+              key={index} 
+            />
+          )
     }
   }
 
@@ -132,33 +135,21 @@ export const pageQuery = graphql`
           }
         }
         blocks {
-          ...Paragraph
-          ...Heading
-          ...Subheading
+          ...Text
           ...Quote
           ...Image
           ...Video
-          ...ParagraphImage
+          ...ImageText
         }
       }
     }
   }
 
-  fragment Paragraph on Block {
+  fragment Text on Block {
     type
+    preheading
     heading
-    subheading
     paragraph
-  }
-
-  fragment Heading on Block {
-    type
-    heading
-  }
-
-  fragment Subheading on Block {
-    type
-    subheading
   }
 
   fragment Quote on Block {
@@ -187,9 +178,8 @@ export const pageQuery = graphql`
     youtubeId
   }
 
-  fragment ParagraphImage on Block {
+  fragment imageText on Block {
     type
-    paragraph
     image {
       file {
         childImageSharp {
@@ -201,5 +191,8 @@ export const pageQuery = graphql`
       alt
     }
     align
+    preheading
+    heading
+    paragraph
   }
 `

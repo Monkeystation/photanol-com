@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../PreviewCompatibleImage'
 
 const Image = ({file, alt}) => (
-  <section className="block image">
+  <section className="image">
     <PreviewCompatibleImage 
       className="has-ratio"
       imageInfo={{

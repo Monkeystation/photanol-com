@@ -1,10 +1,8 @@
 import CMS from 'netlify-cms-app'
-import uploadcare from 'netlify-cms-media-library-uploadcare'
-import cloudinary from 'netlify-cms-media-library-cloudinary'
-
+import DynamicPagePreview from './preview-templates/DynamicPagePreview'
+import NewsArticlePreview from './preview-templates/NewsArticlePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 
-CMS.registerMediaLibrary(uploadcare)
-CMS.registerMediaLibrary(cloudinary)
-
 CMS.registerPreviewTemplate('index', IndexPagePreview)
+CMS.registerPreviewTemplate('dynamic-page', DynamicPagePreview)
+CMS.registerPreviewTemplate('news', NewsArticlePreview)

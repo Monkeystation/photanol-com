@@ -8,7 +8,7 @@ import showdown from 'showdown'
 const converter = new showdown.Converter()
 converter.setOption('simpleLineBreaks', true)
 
-const IntroSection = ({ intro }) => {
+const IntroSection = ({ intro, preview }) => {
   const offset = 80
   const [height, setHeight] = useState(0)
   
@@ -36,6 +36,7 @@ const IntroSection = ({ intro }) => {
                 duration={.5}
                 //totalProgress={progress * 1.5}
                 ease={"power1.out"}
+                disabled={preview}
               >
               <section className="text-panel-wrapper">
                 <div className="text-panel">

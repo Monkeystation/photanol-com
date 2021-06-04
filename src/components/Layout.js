@@ -48,6 +48,7 @@ const TemplateWrapper = ({ children }) => {
         />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
         <link href="https://use.typekit.net/hig4obp.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="/static/cookieconsent.min.css" />
       </Helmet>
       <Navbar />
       {children}

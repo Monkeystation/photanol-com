@@ -11,10 +11,10 @@ const RoadmapSection = ({ roadmap, preview }) => {
     <section className="section roadmap has-background-primary">
       <div className="columns">
           <div className="column is-8-fullhd is-offset-2-fullhd">
-            <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
+            <ScrollAnimation animateIn='fadeInUp' animateOnce={true} initiallyVisible={preview} initiallyVisible={preview}>
               <h5 className="subtitle white-text has-text-weight-bold is-uppercase is-7">{roadmap.pretitle}</h5>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true}>
+            <ScrollAnimation animateIn='fadeInUp' delay={200} animateOnce={true} initiallyVisible={preview} initiallyVisible={preview}>
               <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-3 is-size-4-mobile">{roadmap.title}</h1>
             </ScrollAnimation>
           </div>
