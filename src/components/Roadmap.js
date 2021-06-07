@@ -1,16 +1,12 @@
 /* eslint-disable react/no-direct-mutation-state */
 import React from 'react'
 import PropTypes from 'prop-types'
-import showdown from 'showdown'
 import { TweenLite, Power1 } from 'gsap/all'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
 import Cursor from '../components/Cursor'
 import RoadmapItem from './RoadmapItem'
 import ReactGA from 'react-ga'
-
-const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true)
 
 const ITEM_WIDTH = 300
 const ACTIVE_ITEM_WIDTH = 600

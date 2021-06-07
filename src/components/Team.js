@@ -14,10 +14,10 @@ const ITEM_WIDTH_TABLET = 290
 
 class Team extends React.Component {
   
-  constructor({employees}) {
-    super()
+  constructor(props) {
+    super(props)
     var layout = []
-    const nrOfItems = employees.length
+    const nrOfItems = props.employees.length
     for (var i = 0; i < nrOfItems; i++) {
       layout.push({itemOpacity: 1, imageOpacity: 1, active: false})
     }
@@ -59,7 +59,7 @@ class Team extends React.Component {
     return true
   }
 
-  handleClick(offset) {
+  handleClick = (offset) => {
     const {position, itemWidth, nrOfItems, activeItemId} = this.state
     var iol = this.itemsRef.offsetLeft
     var pos = -iol - position + offset
@@ -77,16 +77,16 @@ class Team extends React.Component {
     ReactGA.event({ category: 'team', action: 'view', label: employees[targetItemId].name})
   }
   
-  handleStart() {
+  handleStart = () => {
     const {activeItemId} = this.state
     this.state.oldActiveItemId = activeItemId
   }
   
-  handleDrag(position) {
+  handleDrag = (position) => {
     this.updateItems(position)
   }
   
-  handleStop(dir) {
+  handleStop = (dir) => {
     const {itemWidth, nrOfItems, activeItemId, oldActiveItemId} = this.state
     var targetItemId = activeItemId
     if (activeItemId === oldActiveItemId) {
@@ -104,7 +104,7 @@ class Team extends React.Component {
     ReactGA.event({ category: 'team', action: 'view', label: employees[targetItemId].name})
   }
   
-  updateItems(position) {
+  updateItems = (position) => {
     if (!this.emRef) return
     const {itemWidth, nrOfItems, layout} = this.state
     var activeItemId = null
@@ -141,7 +141,7 @@ class Team extends React.Component {
     this.setState({position: position, layout: layout, activeItemId: activeItemId})
   }
   
-  itemClick(index) {
+  itemClick = (index) => {
     const {itemWidth} = this.state
     var emw = this.emRef.getBoundingClientRect().width
     var obj = {position: this.state.position}
