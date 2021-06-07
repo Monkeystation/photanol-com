@@ -73,10 +73,11 @@ collections:
   - label: "Dynamic pages"
     name: "dynamic-page"
     folder: "src/pages/page"
-    path: "{{path}}/index"
-    media_folder: "{{media_folder}}"
-    create: true
+    path: "{{title}}/index"
     slug: "index"
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
+    create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: dynamic-page}
       - {label: Title, name: title, widget: string}
@@ -86,11 +87,11 @@ collections:
         name: blocks
         widget: list
         types:
-          - {label: Text, name: text, widget: object, summary: 'Text: {{fields.preheading}} - {{fields.heading}} - {{fields.paragraph}}', fields: [{label: Preheading, name: preheading, widget: string, required: false}, {label: Heading, name: heading, widget: string, required: false}, {label: Paragraph, name: paragraph, widget: text}]}
+          - {label: Text, name: text, widget: object, summary: 'Text: {{fields.preheading}} - {{fields.heading}} - {{fields.paragraph}}', fields: [{label: Preheading, name: preheading, widget: string, required: false}, {label: Heading, name: heading, widget: string, required: false}, {label: Paragraph, name: paragraph, widget: markdown, required: false}]}
           - {label: Quote, name: quote, widget: object, summary: 'Quote: {{fields.quote}}', fields: [{label: Quote, name: quote, widget: text}, {label: Citation, name: citation, widget: string, required: false}]}
           - {label: Image, name: image, widget: object, summary: 'Image: {{fields.image.file}}', fields: [{label: Image, name: image, widget: object, fields: [{label: Image (1920x1080), name: file, widget: image, allow_multiple: false}, {label: Alt, name: alt, widget: string}]}]}
           - {label: Video, name: video, widget: object, summary: 'Video: {{fields.youtubeId}}', fields: [{label: Youtube ID, name: youtubeId, widget: string}]}
-          - {label: Image + Text, name: imagetext, widget: object, summary: 'Image + Text: {{fields.image.file}} - {{fields.preheading}} - {{fields.heading}} - {{fields.paragraph}}', fields: [{label: Image, name: image, widget: object, summary: 'Image: {{fields.file}}', fields: [{label: Image (1280x720), name: file, widget: image, allow_multiple: false}, {label: Alt, name: alt, widget: string}]}, {label: Image align (left / right), name: align, widget: boolean, default: false}, {label: Preheading, name: preheading, widget: string, required: false}, {label: Heading, name: heading, widget: string, required: false}, {label: Paragraph, name: paragraph, widget: text}]}
+          - {label: Image + Text, name: imagetext, widget: object, summary: 'Image + Text: {{fields.image.file}} - {{fields.preheading}} - {{fields.heading}} - {{fields.paragraph}}', fields: [{label: Image, name: image, widget: object, summary: 'Image: {{fields.file}}', fields: [{label: Image (1280x720), name: file, widget: image, allow_multiple: false}, {label: Alt, name: alt, widget: string}]}, {label: Align image right, name: align, widget: boolean, default: false}, {label: Preheading, name: preheading, widget: string, required: false}, {label: Heading, name: heading, widget: string, required: false}, {label: Paragraph, name: paragraph, widget: markdown, required: false}]}
   - label: News articles
     name: news
     folder: src/pages/news

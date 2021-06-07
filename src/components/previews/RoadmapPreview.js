@@ -2,12 +2,9 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import showdown from 'showdown'
 import Slider from 'react-slick'
 import PreviewCompatibleImage from '../PreviewCompatibleImage'
-
-const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true)
+import HTMLContent from '../HTMLContent'
 
 class RoadmapPreview extends React.Component {
   
@@ -35,10 +32,7 @@ class RoadmapPreview extends React.Component {
               <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">{item.year}</h2>
             </div>
             <div style={{width: '300px'}} className="ml-4">
-              <div 
-                className="white-text" 
-                dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}
-              />
+              <HTMLContent className="white-text" content={text} />
             </div>
           </div>
         ))}

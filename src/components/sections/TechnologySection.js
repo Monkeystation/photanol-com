@@ -1,13 +1,10 @@
 /* eslint-env browser */
 import React, {useState, useEffect, useCallback, useRef} from 'react'
 import PropTypes from 'prop-types'
-import showdown from 'showdown'
 import ScrollAnimation from 'react-animate-on-scroll'
 import {IconPlay} from '../Icons'
 import ReactGA from 'react-ga'
-
-const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true)
+import HTMLContent from '../HTMLContent'
 
 const TechnologySection = ({ technology, preview }) => {
   const [showBrandVideoModal, setShowBrandVideoModal] = useState(false)
@@ -53,7 +50,7 @@ const TechnologySection = ({ technology, preview }) => {
         </div>
         <div className="columns">
           <div className="column is-12 is-8-widescreen is-offset-2-fullhd text-columns">
-            <article className="blue-text technology-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(technology.text)}}></article>
+            <HTMLContent className="blue-text technology-text" content={technology.text} />
             <button className="button-primary mt-4" onClick={onBrandVideoModalOpen}>
               <span className="icon">
                 <IconPlay />

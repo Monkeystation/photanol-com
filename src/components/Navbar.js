@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
+import {Link as GatsbyLink} from 'gatsby'
 import {IconClose} from '../components/Icons'
 import {IconHamburger} from '../components/Icons'
 import ReactGA from 'react-ga'
@@ -35,6 +36,7 @@ const Navbar = class extends React.Component {
 
   render() {
     const {active} = this.state
+    const {type} = this.props
     const icon = (active) ? <IconClose /> : <IconHamburger />
     
     return (
@@ -63,18 +65,27 @@ const Navbar = class extends React.Component {
               {/*<Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
                 product
               </Link>*/}
-              <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                technology
-              </Link>
-              <Link className="navbar-item" activeClass="is-active" to="team" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                team
-              </Link>
-              <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} hashSpy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                jobs
-              </Link>
-              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                contact
-              </Link>
+              {type !== 'dynamic' &&
+                <>
+                  <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    technology
+                  </Link>
+                  <Link className="navbar-item" activeClass="is-active" to="team" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    team
+                  </Link>
+                  <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} hashSpy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    jobs
+                  </Link>
+                  <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    contact
+                  </Link>
+                </>
+              }
+              {type === 'dynamic' &&
+                <GatsbyLink className="navbar-item" to="/">
+                  Return to homepage
+                </GatsbyLink>
+              } 
             </div>
           </div>
         </div>

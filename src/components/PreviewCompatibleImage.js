@@ -16,7 +16,7 @@ const PreviewCompatibleImage = React.forwardRef(({ imageInfo, className = '' }, 
   }
 
   if (image && typeof image === 'string')
-    return <img style={style} className={className} ref={ref} src={image} alt={alt} />
+    return <img style={style} className={className} ref={ref} src={image} alt={alt} style={{width: '100%', objectFit: 'cover'}} />
 
   return null
 })

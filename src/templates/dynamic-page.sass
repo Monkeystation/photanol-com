@@ -1,6 +1,8 @@
 .dynamic
   .header  
     position: relative
+    .frame-content &
+      margin-top: 5rem
     .background 
       object-fit: cover
       object-position: center center
@@ -31,17 +33,28 @@
         width: 60%
       +widescreen
         width: 50%
-  .video
+  > .section 
+    padding: 3rem 10%
+  .blocks
+    .section
+      padding: 3rem 0
+      +desktop
+        padding: 3rem 10%
+      p
+        padding-bottom: 3rem
+  .video,
+  .image
     padding: 4rem 0
     +tablet
       padding: 6rem 0
   .quote
     .title
-      background: linear-gradient(45deg,#4cb4e7,#62b55a 12.5%,#fcea0d 25%,#62b55a 37.5%,#4cb4e7 50%,#62b55a 62.5%,#fcea0d 75%,#62b55a 87.5%,#4cb4e7)
+      background: $gradient
       -webkit-background-clip: text
       -webkit-text-fill-color: transparent
   .paragraphimage
     .columns
-      gap: 6rem
-    .column
-      padding: 0
+      +tablet
+        gap: 1.5rem
+      +desktop
+        gap: 3rem

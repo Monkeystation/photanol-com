@@ -2,14 +2,11 @@
 import React, {useState, useEffect, useRef} from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
-import showdown from 'showdown'
 import ReactGA from 'react-ga'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 import {IconArrow} from '../Icons'
-
-const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true)
+import HTMLContent from '../HTMLContent'
 
 const VacanciesSection = ({ vacancies, preview }) => {
   const [showVacancyModal, setShowVacancyModal] = useState(false)
@@ -61,7 +58,7 @@ const VacanciesSection = ({ vacancies, preview }) => {
   
   const Vacancies = () => {
     if (vacancies.list.length == 0) {
-      return (<div className="blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancies.novacancies)}}></div>)
+      return (<HTMLContent className="blue-text" content={vacancies.novacancies} />)
     }
     return (
       <div className="tile is-parent is-vertical">
@@ -105,7 +102,7 @@ const VacanciesSection = ({ vacancies, preview }) => {
             <div className="modal-content" ref={modalContent}>
               <div className="box">
                 <h1 className="title is-family-secondary green-text has-text-weight-bold is-size-4">{vacancyData.title}</h1>
-                <div className="vacancy-body blue-text" dangerouslySetInnerHTML={{__html: converter.makeHtml(vacancyData.description_full)}}></div>
+                <HTMLContent className="vacancy-body blue-text" content={vacancyData.description_full} />
               </div>
             </div>
             <button className="modal-close is-large" aria-label="close" onClick={onVacancyModalClose}></button>

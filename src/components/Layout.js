@@ -6,7 +6,7 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ type, children }) => {
   const { title, description } = useSiteMetadata()
   return (
     <>
@@ -50,13 +50,14 @@ const TemplateWrapper = ({ children }) => {
         <link href="https://use.typekit.net/hig4obp.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="/static/cookieconsent.min.css" />
       </Helmet>
-      <Navbar />
+      <Navbar type={type} />
       {children}
     </>
   )
 }
 
 TemplateWrapper.propTypes = {
+  type: PropTypes.string,
   children: PropTypes.any
 }
 

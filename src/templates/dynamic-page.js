@@ -12,12 +12,23 @@ import ImageText from '../components/blocks/ImageText'
 
 export const DynamicPageTemplate = ({
   preview=false,
-  path=null,
   title,
   description,
   image,
   blocks,
 }) => {
+
+  const stringToSlug = (str) => {
+    str = str.replace(/^\s+|\s+$/g, '');
+    str = str.toLowerCase();
+    var from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+    var to   = "aaaaeeeeiiiioooouuuunc------";
+    for (var i=0, l=from.length ; i<l ; i++) {
+      str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+    }
+    str = str.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+    return str;
+}
   
   const getBlockContent = (block, index) => {
     switch(block.type) {
@@ -35,37 +46,45 @@ export const DynamicPageTemplate = ({
           <Quote quote={block.quote} citation={block.citation} key={index} />
         )
       case 'image':
-        return (
-          <Image file={block.image.file} alt={block.image.alt} key={index} />
-        )
+        if ('image' in block) {
+          return (
+            <Image file={block.image.file} alt={block.image.alt} key={index} />
+          )
+        } else {
+          return null
+        }
       case 'video':
         return (
           <Video id={block.youtubeId} key={index} />
         )
       case 'imagetext':
-        return (
-          <ImageText 
-            file={block.image.file} 
-            alt={block.image.alt} 
-            align={block.align} 
-            heading={block.heading} 
-            preheading={block.preheading} 
-            paragraph={block.paragraph} 
-            key={index} 
-          />
-        )
+        if ('image' in block) {
+          return (
+            <ImageText 
+              file={block.image.file} 
+              alt={block.image.alt} 
+              align={block.align} 
+              heading={block.heading} 
+              preheading={block.preheading} 
+              paragraph={block.paragraph} 
+              key={index} 
+            />
+          )
+        } else {
+          return null
+        }
     }
   }
 
   return (
     <section className="dynamic">
-      <Helmet titleTemplate="%s | News">
+      <Helmet titleTemplate="%s | Photanol">
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
       {preview && 
         <p className="blue-text py-3 has-text-weight-bold" style={{backgroundColor: 'rgb(221, 245, 249)', textAlign: 'center'}}>
-          <a href={"https://photanol.com/page/" + path} target="_blank">https://photanol.com/page/{path}</a>
+          <a href={"/page/" + stringToSlug(title)} target="_blank">https://photanol.com/page/{stringToSlug(title)}</a>
         </p>
       }
       <section className="header">
@@ -94,7 +113,6 @@ export const DynamicPageTemplate = ({
 
 DynamicPageTemplate.propTypes = {
   preview: PropTypes.bool,
-  path: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -104,7 +122,7 @@ DynamicPageTemplate.propTypes = {
 const DynamicPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
   return (
-    <Layout>
+    <Layout type="dynamic">
       <DynamicPageTemplate
         title={frontmatter.title}
         date={frontmatter.date}
@@ -127,10 +145,10 @@ DynamicPage.propTypes = {
 export default DynamicPage
 
 export const pageQuery = graphql`
-  query DynamicPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "dynamic-page" } }) {
+  query DynamicPageTemplate($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
       frontmatter {
-        path
         title
         description
         image {

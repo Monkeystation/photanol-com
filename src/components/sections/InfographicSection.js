@@ -2,9 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleFile from '../PreviewCompatibleFile'
 import ScrollAnimation from 'react-animate-on-scroll'
-import showdown from 'showdown'
-
-const converter = new showdown.Converter()
+import HTMLContent from '../HTMLContent'
 
 const InfographicSection = ({ infographic, preview }) => (
   <section className="section infographic">
@@ -23,7 +21,7 @@ const InfographicSection = ({ infographic, preview }) => (
                 <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' loading="lazy" />
               </ScrollAnimation>
               <ScrollAnimation animateIn='fadeInDown' animateOnce={true} initiallyVisible={preview}>
-                <div className="blue-text is-size-6-tablet" dangerouslySetInnerHTML={{__html: converter.makeHtml(item.text)}}></div>
+                <HTMLContent className="blue-text is-size-6-tablet" content={item.text} />
               </ScrollAnimation>
             </div>
           ))}

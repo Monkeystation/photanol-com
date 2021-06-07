@@ -3,10 +3,7 @@ import PropTypes from 'prop-types'
 import { Controller, Scene } from 'react-scrollmagic'
 import { Tween } from 'react-gsap'
 import PreviewCompatibleFile from '../PreviewCompatibleFile'
-import showdown from 'showdown'
-
-const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true)
+import HTMLContent from '../HTMLContent'
 
 const IntroSection = ({ intro, preview }) => {
   const offset = 80
@@ -42,7 +39,10 @@ const IntroSection = ({ intro, preview }) => {
                 <div className="text-panel">
                   <div className="container text">
                     <h5 className="subtitle green-text has-text-weight-bold is-uppercase is-7">{intro.pretitle}</h5>
-                    <h1 className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd" dangerouslySetInnerHTML={{__html: converter.makeHtml(intro.title)}}></h1>
+                    <HTMLContent 
+                      className="title blue-text has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-desktop is-size-2-fullhd"
+                      content={intro.title}
+                    />
                   </div>
                 </div>
               </section>
