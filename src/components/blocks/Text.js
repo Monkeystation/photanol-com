@@ -16,7 +16,7 @@ const Text = ({preheading, heading, paragraph}) => (
             {heading}
           </h1>
         }
-        <HTMLContent className="blue-text py-3" content={paragraph} />
+        <HTMLContent className="blue-text" content={paragraph} />
       </div>
     </div>
   </section>

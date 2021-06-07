@@ -82,7 +82,7 @@ export const DynamicPageTemplate = ({
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      {preview && 
+      {preview && title &&
         <p className="blue-text py-3 has-text-weight-bold" style={{backgroundColor: 'rgb(221, 245, 249)', textAlign: 'center'}}>
           <a href={"/page/" + stringToSlug(title)} target="_blank">https://photanol.com/page/{stringToSlug(title)}</a>
         </p>
@@ -107,6 +107,7 @@ export const DynamicPageTemplate = ({
           ))}
         </div>
       </div>
+      <div className="footer"></div>
     </section>
   )
 }

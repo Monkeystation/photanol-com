@@ -36,6 +36,7 @@
   > .section 
     padding: 3rem 10%
   .blocks
+    position: relative
     .section
       padding: 3rem 0
       +desktop
@@ -43,7 +44,7 @@
       p
         padding-bottom: 3rem
   .video,
-  .image
+  .image:not(.is-16by9)
     padding: 4rem 0
     +tablet
       padding: 6rem 0
@@ -58,3 +59,7 @@
         gap: 1.5rem
       +desktop
         gap: 3rem
+  .footer
+    height: 20px
+    background: $gradient
+    margin-top: 3rem
