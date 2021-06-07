@@ -103,7 +103,6 @@ DynamicPageTemplate.propTypes = {
 
 const DynamicPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  console.log(frontmatter)
   return (
     <Layout>
       <DynamicPageTemplate

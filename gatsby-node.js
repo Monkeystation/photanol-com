@@ -78,7 +78,6 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach((node) => {
       const id = node.id
-      console.log(node)
       createPage({
         path: node.fields.slug,
         tags: node.frontmatter.tags,
