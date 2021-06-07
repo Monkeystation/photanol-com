@@ -282,15 +282,6 @@ team:
         guide them through the cultivation of our latest and greatest strains.
       linkedin: https://www.linkedin.com/in/koen-mulder-530564127/
       image: /img/team_koen.jpg
-    - name: Danuta Kaczmarzyk
-      function: Senior Researcher Strain Engineering
-      text: >
-        Danuta comes to us from Sweden’s Royal Institute of Technology, where
-        she worked as a researcher for the Microbial Metabolic Engineering
-        Group. Now she uses her expertise to engineer Photanol's strongest
-        cyanobacteria strains.
-      image: /img/team_danuta.jpg
-      linkedin: https://www.linkedin.com/company/photanol/
     - name: Dennis Dienst
       function: Senior Researcher Strain Engineering
       text: With a passion for all phototrophic life, Dennis has turned a personal
@@ -463,7 +454,59 @@ vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
-  list: []
+  list:
+    - title: Research Internship Strain Development
+      description_short: "Are you a student and share our passion for green
+        biotechnology? Are you looking for an exciting internship to gain
+        experience in cutting-edge research and technological development? Join
+        the Photanol team to develop optimized cyanobacteria to produce monomers
+        based on light and CO2. "
+      description_full: >-
+        We offer thesis internships in our strain development team to equip you
+        with extensive hands-on experience in genetic engineering and cell
+        culture. We value technological enthusiasm, creativity and critical
+        thinking, but also a structured and analytical way of working towards
+        our targets.
+
+
+        POSITION
+
+
+        * The role is a full-time internship based in our labs in Amsterdam
+
+        * Application and development of molecular techniques for strain construction and evaluation
+
+        * Cultivating cyanobacteria to evaluate performance of developed strains
+
+        * Application of analytical methods, including liquid and gas chromatograph
+
+        * The minimum duration of the internship is 6 month
+
+
+        PROFILE
+
+
+        * BSc level in Biotechnology, Biochemistry, Microbiology, Molecular Biology or Systems biology
+
+        * Trained in molecular cloning techniques and microbiological safety
+
+        * Ability to work independently, but also function as part of a team
+
+        * Driven and a quick learner
+
+        * Creative, but target-oriented
+
+        * Good communication skills, both verbal and written, in the English language
+
+        * Applicant outside of EU is required to have a valid work/residence permit or visa.
+
+
+
+
+        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com)
+
+
+        We are looking forward to hearing from you!
 partners:
   pretitle: OUR PARTNERS
   title: The future needs like-minds.
