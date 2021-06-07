@@ -47,6 +47,18 @@ exports.createSchemaCustomization = ({ actions }) => {
       novacancies: String
       list: [Vacancy]
     }
+
+    type Testimonial {
+      quote: String
+      citation: String
+      image: File @fileByRelativePath
+    }
+
+    type MarkdownRemarkFrontmatterTestimonials {
+      pretitle: String
+      title: String
+      items: [Testimonial]
+    }
   `
   createTypes(typeDefs)
 }
