@@ -47,18 +47,8 @@ export const IndexPageTemplate = ({
   }, []);
 
   useEffect(() => {
-    if (!ccLoaded) return;
+    if (!ccLoaded || preview) return;
     window.cookieconsent.initialise({
-      // "palette": {
-      //   "popup": {
-      //     "background": "#ffffff",
-      //     "text": "#0a064a"
-      //   },
-      //   "button": {
-      //     "background": "#f7f8fa",
-      //     "text": "#0a064a"
-      //   }
-      // },
       "content": {
         "message": "We use cookies to enhance your browsing experience and to analyze our website traffic through Google Analytics.",
         "dismiss": "OK",
@@ -78,7 +68,7 @@ export const IndexPageTemplate = ({
       <TechnologySection technology={technology} preview={preview}  />
       <InfographicSection infographic={infographic} preview={preview}  />
       <SlideshowSection slideshow={slideshow} preview={preview}  />
-      {'items' in testimonials && testimonials.items.length > 0 &&
+      {testimonials && testimonials.items.length > 0 &&
         <TestimonialsSection testimonials={testimonials} preview={preview} />
       }
       <TeamSection team={team} preview={preview}  />

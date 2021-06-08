@@ -97,10 +97,12 @@ export const DynamicPageTemplate = ({
           }} />
         </div>
         <div className="text-panel">
-        <h1 className="title is-family-secondary white-text has-text-weight-bold is-size-3 is-size-4-mobile mb-2">
-          {title}
-        </h1>
-        <p className="white-text">{description}</p>
+          <h1 className="title is-family-secondary white-text has-text-weight-bold is-size-3 is-size-4-mobile mb-2">
+            {title}
+          </h1>
+          {description &&
+            <p className="white-text">{description}</p>
+          }
          </div>
       </section>
       <div className="section">
