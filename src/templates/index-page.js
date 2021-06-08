@@ -78,7 +78,7 @@ export const IndexPageTemplate = ({
       <TechnologySection technology={technology} preview={preview}  />
       <InfographicSection infographic={infographic} preview={preview}  />
       <SlideshowSection slideshow={slideshow} preview={preview}  />
-      {testimonials.items.length > 0 &&
+      {'items' in testimonials && testimonials.items.length > 0 &&
         <TestimonialsSection testimonials={testimonials} preview={preview} />
       }
       <TeamSection team={team} preview={preview}  />

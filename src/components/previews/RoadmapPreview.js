@@ -32,7 +32,7 @@ class RoadmapPreview extends React.Component {
               <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">{item.year}</h2>
             </div>
             <div style={{width: '300px'}} className="ml-4">
-              <HTMLContent className="white-text" content={text} />
+              <HTMLContent className="white-text" content={item.text} />
             </div>
           </div>
         ))}
