@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../PreviewCompatibleImage'
+import ScrollAnimation from 'react-animate-on-scroll'
 
-const Image = ({file, alt}) => (
+const Image = ({file, alt, preview}) => (
   <section className="image">
     <div className="columns">
       <div className="column">
@@ -22,7 +23,8 @@ const Image = ({file, alt}) => (
 
 Image.propTypes = {
   file: PropTypes.object, 
-  alt: PropTypes.string
+  alt: PropTypes.string,
+  preview: PropTypes.bool
 }
 
 export default Image

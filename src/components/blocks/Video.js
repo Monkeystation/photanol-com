@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ScrollAnimation from 'react-animate-on-scroll'
 
-const Video = ({id}) => (
+const Video = ({id, preview}) => (
   <section className="video wide-section">
     <div className="columns">
       <div className="column">
@@ -21,7 +22,8 @@ const Video = ({id}) => (
 )
 
 Video.propTypes = {
-  id: PropTypes.string
+  id: PropTypes.string,
+  preview: PropTypes.bool
 }
 
 export default Video

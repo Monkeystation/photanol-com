@@ -9,6 +9,7 @@ import Image from '../components/blocks/Image'
 import Video from '../components/blocks/Video'
 import Text from '../components/blocks/Text'
 import ImageText from '../components/blocks/ImageText'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export const DynamicPageTemplate = ({
   preview=false,
@@ -39,23 +40,24 @@ export const DynamicPageTemplate = ({
             preheading={block.preheading} 
             paragraph={block.paragraph} 
             key={index} 
+            preview={preview}
           />
         )
       case 'quote':
         return (
-          <Quote quote={block.quote} citation={block.citation} key={index} />
+          <Quote quote={block.quote} citation={block.citation} key={index} preview={preview} />
         )
       case 'image':
         if ('image' in block) {
           return (
-            <Image file={block.image.file} alt={block.image.alt} key={index} />
+            <Image file={block.image.file} alt={block.image.alt} key={index} preview={preview} />
           )
         } else {
           return null
         }
       case 'video':
         return (
-          <Video id={block.youtubeId} key={index} />
+          <Video id={block.youtubeId} key={index} preview={preview} />
         )
       case 'imagetext':
         if ('image' in block) {
@@ -68,6 +70,7 @@ export const DynamicPageTemplate = ({
               preheading={block.preheading} 
               paragraph={block.paragraph} 
               key={index} 
+              preview={preview}
             />
           )
         } else {
@@ -94,10 +97,10 @@ export const DynamicPageTemplate = ({
           }} />
         </div>
         <div className="text-panel">
-        <h1 className="title is-family-secondary white-text has-text-weight-bold is-size-3 is-size-4-mobile">
+        <h1 className="title is-family-secondary white-text has-text-weight-bold is-size-3 is-size-4-mobile mb-2">
           {title}
         </h1>
-        <p className="white-text py-3">{description}</p>
+        <p className="white-text">{description}</p>
          </div>
       </section>
       <div className="section">
