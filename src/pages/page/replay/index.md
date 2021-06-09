@@ -2,7 +2,7 @@
 templateKey: dynamic-page
 title: RePLAy
 description: "Reinventing bioplastic: CO₂ + sunlight = PLA"
-image: /img/5.-img_20201104_143813-2-.jpg
+image: /img/demo.jpg
 blocks:
   - type: text
     paragraph: >-
