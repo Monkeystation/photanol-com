@@ -205,6 +205,7 @@
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  display: block;
 }
 .cc-btn + .cc-btn {
   margin-left: 0.5em;
