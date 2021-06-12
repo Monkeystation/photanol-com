@@ -22,32 +22,38 @@
       +fullhd
         height: 848px
     .text-panel
+      display: flex
+      flex-direction: column
+      justify-content: center
       background-color: $blue-900
       position: absolute
       left: 0
       top: 0
-      padding: 5% 10%
+      padding: 5% 5%
       margin-top: -5rem
-      width: 80%
+      width: 70%
+      min-height: 200px
       +tablet
-        width: 60%
+        width: 40%
+        min-height: 300px
       +widescreen
-        width: 50%
+        width: 40%
+        min-height: 350px
   > .section 
     padding: 3rem 10%
   .blocks
     position: relative
     .section
-      padding: 3rem 0
+      padding: 1.5rem 0
       +desktop
-        padding: 3rem 10%
-      p
-        padding-bottom: 2rem
+        padding: 1.5rem 10%
+      p:not(:last-child)
+        padding-bottom: 1rem
   .video,
   .image:not(.is-16by9)
-    padding: 4rem 0
+    padding: 2rem 0
     +tablet
-      padding: 6rem 0
+      padding: 3rem 0
   .quote
     .title
       background: $gradient
@@ -57,9 +63,11 @@
     .columns
       +tablet
         gap: 1.5rem
+        .padded
+          padding-top: 5.5rem
       +desktop
         gap: 3rem
   .footer
-    height: 20px
+    height: .5rem
     background: $gradient
-    margin-top: 3rem
+    margin-top: 1.5rem

@@ -576,16 +576,6 @@ testimonials:
         the World of our next Generation. "
       citation: Robert Frost
       image: /img/wef.svg
-    - quote: "Photanol is one of the World Economic Forum Technology Pioneers for
-        2019, acknowledging the potentional and uniqueness of our solution for
-        the World of our next Generation. "
-      citation: Robert Frost
-      image: /img/wef.svg
-    - quote: "Photanol is one of the World Economic Forum Technology Pioneers for
-        2019, acknowledging the potentional and uniqueness of our solution for
-        the World of our next Generation. "
-      citation: Robert Frost
-      image: /img/wef.svg
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates

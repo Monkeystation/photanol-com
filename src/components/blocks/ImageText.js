@@ -38,7 +38,7 @@ const ImageText = ({file, alt, align, preheading, heading, paragraph, preview}) 
         }
       </div>
       {align && 
-        <div className="column is-4 is-6-desktop is-7-widescreen">
+        <div className={`column is-4 is-6-desktop is-7-widescreen ${heading ? "padded" : ""}`}>
           <PreviewCompatibleImage imageInfo={{
             image: file, 
             alt: alt,

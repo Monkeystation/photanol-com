@@ -16,7 +16,7 @@ const InfographicSection = ({ infographic, preview }) => (
       <div className="columns">
         <div className="column is-12 is-8-desktop is-offset-2-desktop is-6-widescreen is-offset-3-widescreen">
         {infographic.items.map((item, index) => (
-            <div key={index}>
+            <div className="infographic-item" key={index}>
               <ScrollAnimation animateIn='fadeIn' animateOnce={true} initiallyVisible={preview}>
                 <img src={PreviewCompatibleFile(item.image)} alt={item.alt} width='100%' loading="lazy" />
               </ScrollAnimation>
