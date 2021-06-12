@@ -44,6 +44,7 @@ const VacanciesSection = ({ vacancies, preview }) => {
   }, [])
   
   const toSeoUrl = (url) => {
+    if (!url) return;
     return url.toString()             // Convert to string
       .normalize('NFD')               // Change diacritics
       .replace(/[\u0300-\u036f]/g,'') // Remove illegal characters
