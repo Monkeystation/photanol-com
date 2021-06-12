@@ -1,57 +1,87 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ReactGA from 'react-ga'
 
 import LogoPhotanol from '../components/LogoPhotanol'
 import Layout from '../components/Layout'
-import IntroSection from '../sections/IntroSection'
-import MissionSection from '../sections/MissionSection'
-import SolutionSection from '../sections/SolutionSection'
-import RoadmapSection from '../sections/RoadmapSection'
-import TechnologySection from '../sections/TechnologySection'
-import InfographicSection from '../sections/InfographicSection'
-import SlideshowSection from '../sections/SlideshowSection'
-import TeamSection from '../sections/TeamSection'
-import VacanciesSection from '../sections/VacanciesSection'
-import PartnersSection from '../sections/PartnersSection'
-import FooterSection from '../sections/FooterSection'
+import IntroSection from '../components/sections/IntroSection'
+import MissionSection from '../components/sections/MissionSection'
+import RoadmapSection from '../components/sections/RoadmapSection'
+import TechnologySection from '../components/sections/TechnologySection'
+import InfographicSection from '../components/sections/InfographicSection'
+import SlideshowSection from '../components/sections/SlideshowSection'
+import TeamSection from '../components/sections/TeamSection'
+import VacanciesSection from '../components/sections/VacanciesSection'
+import PartnersSection from '../components/sections/PartnersSection'
+import FooterSection from '../components/sections/FooterSection'
+import TestimonialsSection from '../components/sections/TestimonialsSection'
+import NewsSection from '../components/sections/NewsSection'
 
 ReactGA.initialize('UA-126624514-4')
 ReactGA.set({ anonymizeIp: true })
 
 export const IndexPageTemplate = ({
+  preview=false,
   intro,
   mission,
-  solution,
+  testimonials,
   roadmap,
   technology,
   infographic,
   slideshow,
   team,
   vacancies,
+  news,
   partners,
-  footer,
+  footer
 }) => {
+  const [ccLoaded, setCcLoaded] = useState(false);
+
+  useEffect(() => {
+    const scriptTag = document.createElement('script');
+    scriptTag['src'] = '/static/cookieconsent.min.js';
+    scriptTag['data-cfasync'] = 'false';
+    scriptTag.addEventListener('load', () => setCcLoaded(true));
+    document.body.append(scriptTag);
+  }, []);
+
+  useEffect(() => {
+    if (!ccLoaded || preview) return;
+    window.cookieconsent.initialise({
+      "content": {
+        "message": "We use cookies to enhance your browsing experience and to analyze our website traffic through Google Analytics.",
+        "dismiss": "OK",
+        "link": "Learn more",
+        "href": "/legal-disclaimer.pdf"
+      }
+    });
+  }, [ccLoaded]);
+  
   return (
     <>
       <div className="logo-container"><LogoPhotanol /></div>
-      <IntroSection intro={intro} />
-      <MissionSection mission={mission} />
+      <IntroSection intro={intro} preview={preview} />
+      <MissionSection mission={mission} preview={preview}  />
       {/*<SolutionSection solution={solution} />*/}
-      <RoadmapSection roadmap={roadmap} />
-      <TechnologySection technology={technology} />
-      <InfographicSection infographic={infographic} />
-      <SlideshowSection slideshow={slideshow} />
-      <TeamSection team={team} />
-      <VacanciesSection vacancies={vacancies} />
-      <PartnersSection partners={partners} />
-      <FooterSection footer={footer} />
+      <RoadmapSection roadmap={roadmap} preview={preview}  />
+      <TechnologySection technology={technology} preview={preview}  />
+      <InfographicSection infographic={infographic} preview={preview}  />
+      <SlideshowSection slideshow={slideshow} preview={preview}  />
+      {testimonials && testimonials.items.length > 0 &&
+        <TestimonialsSection testimonials={testimonials} preview={preview} />
+      }
+      <TeamSection team={team} preview={preview}  />
+      <VacanciesSection vacancies={vacancies} preview={preview}  />
+      {/* <NewsSection news={news} preview={preview} /> */}
+      <PartnersSection partners={partners} preview={preview}  />
+      <FooterSection footer={footer} preview={preview}  />
     </>
   )
 }
 
 IndexPageTemplate.propTypes = {
+  preview: PropTypes.bool,
   intro: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
@@ -114,6 +144,17 @@ IndexPageTemplate.propTypes = {
       alt: PropTypes.string,
     }),
   }),
+  testimonials: PropTypes.shape({
+    pretitle: PropTypes.string,
+    title: PropTypes.string,
+    items: PropTypes.arrayOf(
+      PropTypes.shape({
+        quote: PropTypes.string,
+        citation: PropTypes.string,
+        image: PropTypes.object
+      })
+    ),
+  }),
   team: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
@@ -131,6 +172,24 @@ IndexPageTemplate.propTypes = {
     novacancies: PropTypes.string,
     list: PropTypes.array,
   }),
+  news: PropTypes.shape({
+    title: PropTypes.string,
+    text: PropTypes.string,
+    count: PropTypes.number,
+    card: PropTypes.shape({
+      title: PropTypes.string,
+      text: PropTypes.string,
+      page_link: PropTypes.shape({
+        label: PropTypes.string,
+        link: PropTypes.string
+      }),
+      social_links: PropTypes.shape({
+        link_twitter: PropTypes.string,
+        link_linkedin: PropTypes.string,
+        link_youtube: PropTypes.string
+      })
+    })
+  }),
   partners: PropTypes.shape({
     pretitle: PropTypes.string,
     title: PropTypes.string,
@@ -147,7 +206,8 @@ IndexPageTemplate.propTypes = {
     pretitle: PropTypes.string,
     title: PropTypes.string,
     links: PropTypes.object,
-  }),
+    erdf_logo: PropTypes.object
+  })
 }
 
 const IndexPage = ({ data }) => {
@@ -158,12 +218,14 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         intro={frontmatter.intro}
         mission={frontmatter.mission}
-        solution={frontmatter.solution}
+        // solution={frontmatter.solution}
         roadmap={frontmatter.roadmap}
         technology={frontmatter.technology}
         infographic={frontmatter.infographic}
+        testimonials={frontmatter.testimonials}
         slideshow={frontmatter.slideshow}
         team={frontmatter.team}
+        news={frontmatter.news}
         vacancies={frontmatter.vacancies}
         partners={frontmatter.partners}
         footer={frontmatter.footer}
@@ -177,7 +239,7 @@ IndexPage.propTypes = {
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
     }),
-  }),
+  })
 }
 
 export default IndexPage
@@ -295,6 +357,17 @@ export const pageQuery = graphql`
             alt
           }
         }
+        testimonials {
+          pretitle
+          title
+          items {
+            quote
+            citation
+            image {
+              publicURL
+            }
+          }
+        }
         team {
           pretitle
           title
@@ -319,6 +392,24 @@ export const pageQuery = graphql`
             description_short
             description_full
           }
+        }
+        news {
+          pretitle
+          title
+          count
+          card {
+            title
+            text
+            page_link {
+              label
+              link
+            }
+            social_links {
+              link_twitter
+              link_linkedin
+              link_youtube
+            }
+          } 
         }
         partners {
           pretitle
@@ -352,6 +443,14 @@ export const pageQuery = graphql`
             link_twitter
             link_linkedin
             link_youtube
+          }
+          erdf_logo {
+            image {
+              publicURL
+            }
+            alt
+            link
+            label
           }
         }
       }

@@ -1,0 +1,35 @@
+// FOOTER
+.section.footer 
+  background-color: $grey-100
+  +tablet
+    margin-bottom: 5% !important
+  .footer-elements
+    display: flex
+    align-items: space-between
+    flex-wrap: wrap
+  .footer-element
+    flex: 1
+    padding: 16px 32px 16px 0
+  .social-media 
+    display: flex
+    flex-wrap: wrap
+    +tablet
+      flex-wrap: nowrap
+  .social-media > a
+    padding-top: 0.5rem
+    padding-right: 2rem
+    +widescreen
+      padding-top: 0
+  .erdf
+    border-top: 1px solid $grey-400
+    padding-top: 2rem
+    .erdf-logo
+      display: flex
+      align-items: center
+      width: 400px
+      gap: 1.5rem
+      +mobile
+        width: 100%
+        gap: 1rem
+      img
+        width: 70px

@@ -6,6 +6,37 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
+    type Image {
+      file: File @fileByRelativePath
+      alt: String
+    }
+
+    type Block {
+      type: String
+      paragraph: String
+      heading: String
+      preheading: String
+      quote: String
+      citation: String
+      image: Image
+      alt: String
+      youtubeId: String
+      align: Boolean
+    }
+
+    type MarkdownRemarkFrontmatter {
+      blocks: [Block]
+    }
+
+    type Post {
+      templateKey: String!
+      title: String!
+      date: String!
+      description: String!
+      image: Image!
+      blocks: [Block]
+    }
+
     type Vacancy {
       title: String
       description_short: String
@@ -15,6 +46,18 @@ exports.createSchemaCustomization = ({ actions }) => {
     type MarkdownRemarkFrontmatterVacancies {
       novacancies: String
       list: [Vacancy]
+    }
+
+    type Testimonial {
+      quote: String
+      citation: String
+      image: File @fileByRelativePath
+    }
+
+    type MarkdownRemarkFrontmatterTestimonials {
+      pretitle: String
+      title: String
+      items: [Testimonial]
     }
   `
   createTypes(typeDefs)
@@ -26,15 +69,13 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {
-        edges {
-          node {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              templateKey
-            }
+        nodes {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            templateKey
           }
         }
       }
@@ -45,15 +86,15 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.nodes
 
-    posts.forEach((edge) => {
-      const id = edge.node.id
+    posts.forEach((node) => {
+      const id = node.id
       createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
+        path: node.fields.slug,
+        tags: node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${String(node.frontmatter.templateKey)}.js`
         ),
         // additional data can be passed via context
         context: {
@@ -65,9 +106,9 @@ exports.createPages = ({ actions, graphql }) => {
     // Tag pages:
     let tags = []
     // Iterate through each post, putting all found tags into `tags`
-    posts.forEach((edge) => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags)
+    posts.forEach((node) => {
+      if (_.get(node, `node.frontmatter.tags`)) {
+        tags = tags.concat(node.frontmatter.tags)
       }
     })
     // Eliminate duplicate tags

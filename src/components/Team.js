@@ -1,11 +1,9 @@
+/* eslint-disable react/no-direct-mutation-state */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { v4 } from 'uuid'
-import {IconLinkedIn} from './Icons'
 import Draggable from '../hooks/Draggable'
 import isTouchDevice from '../hooks/isTouchDevice'
 import { TweenLite, Power1 } from 'gsap/all'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import Cursor from '../components/Cursor'
 import TeamImage from '../components/TeamImage'
 import TeamItem from '../components/TeamItem'
@@ -17,7 +15,7 @@ const ITEM_WIDTH_TABLET = 290
 class Team extends React.Component {
   
   constructor(props) {
-    super(props);
+    super(props)
     var layout = []
     const nrOfItems = props.employees.length
     for (var i = 0; i < nrOfItems; i++) {
@@ -57,7 +55,7 @@ class Team extends React.Component {
     window.removeEventListener('resize', this.updateDimensions);
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
+  shouldComponentUpdate() {
     return true
   }
 
@@ -71,7 +69,7 @@ class Team extends React.Component {
     
     var obj = {position: this.state.position}
     var dist = Math.abs(activeItemId - targetItemId)
-    TweenLite.to(obj, (dist * 0.5), {position:target, ease: Power1.easeInOut, onUpdate:(el) => {
+    TweenLite.to(obj, (dist * 0.5), {position:target, ease: Power1.easeInOut, onUpdate:() => {
       this.updateItems(obj.position)
     }});
     
@@ -98,7 +96,7 @@ class Team extends React.Component {
     var position = -target
     
     var obj = {position: this.state.position}
-    TweenLite.to(obj, 0.5, {position:position, ease: Power1.easeInOut, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:position, ease: Power1.easeInOut, onUpdate:() => {
       this.updateItems(obj.position)
     }});
     
@@ -148,7 +146,7 @@ class Team extends React.Component {
     var emw = this.emRef.getBoundingClientRect().width
     var obj = {position: this.state.position}
     var target = -((index * itemWidth) + (itemWidth / 2)) + (emw / 2)
-    TweenLite.to(obj, 0.5, {position:target, onUpdate:(el) => {
+    TweenLite.to(obj, 0.5, {position:target, onUpdate:() => {
       this.updateItems(obj.position)
     }});
   }

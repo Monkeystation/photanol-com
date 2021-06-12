@@ -1,11 +1,7 @@
 import React from 'react'
-import showdown from 'showdown'
-import PreviewCompatibleFile from '../components/PreviewCompatibleFile'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import {RoadmapCircle} from '../components/Icons'
-
-const converter = new showdown.Converter()
-converter.setOption('simpleLineBreaks', true)
+import HTMLContent from './HTMLContent'
 
 const RoadmapItem = (props) => {
   const {isMobile, index, width, onClick, imageSize, showText, opacity, title, icon, image, year, text} = props
@@ -35,10 +31,10 @@ const RoadmapItem = (props) => {
             <h2 className="blue-300-text has-text-weight-bold has-text-centered item-year">
               {year}
             </h2>
-            <div 
+            <HTMLContent 
               className="item-text white-text" 
               style={{ display: 'block', opacity: opacity }} 
-              dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}
+              content={text}
             />
           </div>
         </div>
@@ -72,10 +68,10 @@ const RoadmapItem = (props) => {
             </h2>
           </div>
         </div>
-        <div 
+        <HTMLContent 
           className="item-text white-text" 
           style={{ display: showText ? 'block' : 'none', opacity: opacity }} 
-          dangerouslySetInnerHTML={{__html: converter.makeHtml(text)}}
+          content={text}
         />
       </div>
     )

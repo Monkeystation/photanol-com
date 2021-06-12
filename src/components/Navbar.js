@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
+import {Link as GatsbyLink} from 'gatsby'
 import {IconClose} from '../components/Icons'
 import {IconHamburger} from '../components/Icons'
 import ReactGA from 'react-ga'
@@ -34,10 +35,9 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const {active, contactOffset} = this.state
+    const {active} = this.state
+    const {type} = this.props
     const icon = (active) ? <IconClose /> : <IconHamburger />
-    
-    
     
     return (
       <nav
@@ -65,18 +65,27 @@ const Navbar = class extends React.Component {
               {/*<Link className="navbar-item" activeClass="is-active" to="product" spy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
                 product
               </Link>*/}
-              <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                technology
-              </Link>
-              <Link className="navbar-item" activeClass="is-active" to="team" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                team
-              </Link>
-              <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} hashSpy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                jobs
-              </Link>
-              <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
-                contact
-              </Link>
+              {type !== 'dynamic' &&
+                <>
+                  <Link className="navbar-item" activeClass="is-active" to="technology" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    technology
+                  </Link>
+                  <Link className="navbar-item" activeClass="is-active" to="team" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    team
+                  </Link>
+                  <Link className="navbar-item" activeClass="is-active" to="jobs" spy={true} hashSpy={true} smooth={true} duration={1500} offset={-50} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    jobs
+                  </Link>
+                  <Link className="navbar-item" activeClass="is-active" to="contact" spy={true} hashSpy={true} smooth={true} duration={1500} offset={0} onClick={() => this.toggleHamburger()} onSetActive={this.handleSetActive}>
+                    contact
+                  </Link>
+                </>
+              }
+              {type === 'dynamic' &&
+                <GatsbyLink className="navbar-item" to="/">
+                  Return to homepage
+                </GatsbyLink>
+              } 
             </div>
           </div>
         </div>
@@ -85,30 +94,6 @@ const Navbar = class extends React.Component {
   }
 }
 
+Navbar.displayName = "Navbar"
+
 export default Navbar
-
-/*
-
- <li><Link activeClass="active" to="first" spy={true} smooth={true} duration={250} containerId="containerElement">1st element</Link></li>
- 
- 
-<Link className="navbar-item" to="#product">
-  Product
-</Link>
-<Link className="navbar-item" to="#technology">
-  Technology
-</Link>
-<Link className="navbar-item" to="#team">
-  Team
-</Link>
-<Link className="navbar-item" to="#jobs">
-  Jobs
-</Link>
-<Link className="navbar-item" to="#contact">
-  Contact
-</Link>
-
-
-
-
-*/

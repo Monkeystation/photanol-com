@@ -1,4 +1,6 @@
+/* eslint-env browser */
 import React, {useState, useEffect} from 'react'
+import PropTypes from 'prop-types'
 import {IconArrow} from '../components/Icons'
 
 // Hook
@@ -25,7 +27,7 @@ export default function Cursor({parent, hide}) {
       });
     }
     
-    function handleLeave(e) {
+    function handleLeave() {
       setOpacity(0)
       setScale(0)
     }
@@ -53,4 +55,9 @@ export default function Cursor({parent, hide}) {
       <span>Swipe</span>
     </div>
   );
+}
+
+Cursor.propTypes = {
+  parent: PropTypes.object,
+  hide: PropTypes.bool
 }

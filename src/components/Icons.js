@@ -97,3 +97,5 @@ export const LogoPhotanol = React.forwardRef((props, ref) => (
     </defs>
     </svg>
 ))
+
+LogoPhotanol.displayName = 'LogoPhotanol'

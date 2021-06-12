@@ -1,0 +1,30 @@
+// SLIDESHOW
+.slideshow
+  width: 100%
+  height: calc((min(#{$max-width}, 100vw) / 16 * 3) + 12rem)
+  position: relative
+  +mobile
+    height: calc((100vw / 16 * 27) + 8rem)
+  .image
+    position: absolute !important
+    padding-top: 6rem
+    width: 33.4%
+    +mobile
+      padding-top: 4rem
+      width: 100%
+  #image1
+    top: 0%
+    right: calc(100% - 33.4%)
+    +mobile
+      right: 0%
+  #image2
+    top: 0%
+    right: 33.4%
+    +mobile
+      top: calc(100vw / 16 * 9)
+      right: 0%
+  #image3
+    top: 0%
+    right: 0%
+    +mobile
+      top: calc(100vw / 16 * 18)

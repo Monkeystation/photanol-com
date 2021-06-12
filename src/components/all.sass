@@ -1,4 +1,4 @@
-@import "~bulma/sass/utilities/initial-variables"
+@import "~bulma/sass/utilities/initial-variables";
 //@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap')
 //@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap')
 //@import url("https://use.typekit.net/hig4obp.css")
@@ -34,6 +34,7 @@ $family-primary: $family-sans-serif
 $family-secondary: $family-serif
 $body-line-height: 137%
 $title-line-height: 117%
+$text: $blue-900
 
 $size-1: 100px
 $size-2: 88px
@@ -44,7 +45,6 @@ $size-6: 20px
 $size-7: 16px
 $size-8: 14px
 
-$widescreen-enabled: true
 $max-width: 2230px !default
 $tablet: 735px 
 $desktop: 1069px
@@ -57,6 +57,10 @@ $modal-content-width: 768px
 $modal-content-spacing-mobile: 0
 $modal-content-spacing-tablet: 0
 $section-padding: 6rem 10%
+$section-padding-large: 12rem 10%
+$section-padded-margin: 0rem 5%
+$section-padded-padding: 6rem 5%
+$footer-padding: 0
 
 //Menu overrides
 $navbar-height: 5rem
@@ -75,6 +79,9 @@ $transition-duration: .5s
 .subtitle
   letter-spacing: 0.1rem
 
+.is-size-5
+  font-size: $size-5 !important
+
 .is-size-8
   font-size: $size-8 !important
 
@@ -87,20 +94,27 @@ $transition-duration: .5s
       width: 100%
       
 @import "~bulma"
+/*! purgecss start ignore */
+@import "./slick"
+@import "./slick-theme"
+@import "../templates/dynamic-page"
+@import "./accordion"
 @import "./roadmap"
 @import "./team"
-@import "../sections/introSection"
-@import "../sections/missionSection"
-@import "../sections/solutionSection"
-@import "../sections/roadmapSection"
-@import "../sections/technologySection"
-@import "../sections/infographicSection"
-@import "../sections/slideshowSection"
-@import "../sections/teamSection"
-@import "../sections/vacanciesSection"
-@import "../sections/partnersSection"
-@import "../sections/footerSection"
-@import "../sections/comingsoonSection"
+@import "./blocks/blocks"
+@import "./sections/introSection"
+@import "./sections/missionSection"
+@import "./sections/solutionSection"
+@import "./sections/roadmapSection"
+@import "./sections/technologySection"
+@import "./sections/infographicSection"
+@import "./sections/slideshowSection"
+@import "./sections/testimonialsSection"
+@import "./sections/teamSection"
+@import "./sections/vacanciesSection"
+@import "./sections/partnersSection"
+@import "./sections/footerSection"
+@import "./sections/comingsoonSection"
 
 .green-text
   color: $green-500 !important
@@ -122,8 +136,10 @@ $transition-duration: .5s
   
 a
   transition: color $transition-duration $easing
+  color: $green-500
+  &:hover
+    color: $blue-900
 
-/* purgecss ignore */
 small 
   position: relative
   top: 0.2em
@@ -202,7 +218,18 @@ small
   max-width: $max-width
   +mobile
     padding: 4rem 2rem
-  
+  &.is-padded
+    padding: $section-padded-padding
+    margin: $section-padded-margin
+    +mobile
+      margin: 0 auto
+      padding: 4rem 2rem
+
+.wide-section
+    padding: 6rem 0
+    +mobile
+      padding: 6rem 0
+
 .modal
   display: flex
   visibility: hidden
@@ -365,8 +392,6 @@ small
       width: 43%
 
 // ANIMATIONS
-/* purgecss start ignore */
-
 .animated
   animation-duration: 1s
   animation-fill-mode: both
@@ -402,8 +427,3 @@ small
 .fadeInDown 
   animation-name: fadeInDown
 /* purgecss end ignore */
-  
-
-
-
-

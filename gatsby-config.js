@@ -3,6 +3,10 @@ module.exports = {
     title: 'Photanol',
     description: 'We are a Circular Carbon Chemicals production platform company that utilises proprietary engineered cyanobacteria to process carbon dioxide (CO2) and sunlight into valuable chemicals.',
   },
+  // flags: {
+  //   QUERY_ON_DEMAND: false,
+  //   DEV_SSR: false
+  // },
   plugins: [
     'gatsby-plugin-react-helmet',
     { resolve: `gatsby-plugin-sass`, options: { indentedSyntax: true } },
@@ -46,7 +50,8 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 2048,
+              maxWidth: 1920,
+              quality: 80,
             },
           },
           {
@@ -67,7 +72,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
-        develop: true, // Activates purging in npm run develop
+        develop: false, // Activates purging in npm run develop
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
         printRejected: false,
         whitelist: ['small'],
