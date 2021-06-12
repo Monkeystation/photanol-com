@@ -93,6 +93,7 @@ export const DynamicPageTemplate = ({
       <section className="header">
         <div className="background">
           <PreviewCompatibleImage imageInfo={{
+            style: {height: '100%'},
             image: image
           }} />
         </div>

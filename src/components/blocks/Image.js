@@ -4,7 +4,7 @@ import PreviewCompatibleImage from '../PreviewCompatibleImage'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const Image = ({file, alt, preview}) => (
-  <section className="image">
+  <section className="image wide-section">
     <div className="columns">
       <div className="column">
         <PreviewCompatibleImage 
