@@ -6,16 +6,16 @@ description: Groene chemie uit CO₂ en zonlicht
 image: /img/prodock.jpeg
 blocks:
   - type: text
-    heading: Groene chemie uit CO₂ en zonlicht
+    heading: ""
     paragraph: De Metropoolregio Amsterdam heeft in de Ruimtelijk-Economische
       ACTIE-Agenda 2016 - 2020 speerpunten geformuleerd voor de ontwikkeling van
       de MRA. De MRA moet minder afhankelijk zijn van externe energie- en
       grondstofbronnen en zich ontwikkelen tot een internationale grondstofhub.
       Een van de prioriteiten binnen deze ambitie is het realiseren van een
       circulaire en biobased economie met CO₂ als bouwstof.
-    preheading: Kansen voor west
+    preheading: CO₂ als grondstof voor een circulaire economie
   - type: text
-    preheading: ""
+    preheading: Groene chemie uit CO₂ en zonlicht
     paragraph: >-
       Ook is het regionale economische beleid er op gericht om samen met het
       bedrijfsleven, de creatieve sector en kennisinstellingen te werken aan
