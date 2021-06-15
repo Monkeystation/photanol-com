@@ -18,11 +18,11 @@ blocks:
       environmental consequences. New bioplastic production technologies that
       rely on raw materials, which are abundantly available, are urgently needed
       to meet the demand for >285 million tons of packaging by 2050.
-    preheading: Need
-    heading: ""
+    preheading: The Need for PLA
+    heading: 285 million tons by 2050
   - type: quote
     quote: CO₂ + sunlight = PLA
-    citation: Reinventing bioplastic
+    citation: ""
   - type: text
     paragraph: The H2020 RePLAy project focusses on the development of Photanol's
       proprietary technology to produce lactic acid, the key ingredient for PLA,
@@ -36,7 +36,8 @@ blocks:
       used compared to current methods. Photanol has reached important upscaling
       milestones obtaining permits and successful construction and operation of
       a first-of-a-kind outside pilot and demo plant.
-    preheading: Solution
+    preheading: The solution is
+    heading: Photanol's unique technology
   - type: text
     paragraph: >-
       Our demo plant has the capacity to produce up to 10 tons per year. It’s
@@ -49,7 +50,8 @@ blocks:
 
 
       Our first commercial plant is planned to kick-off production in 2024. Rest assured, our teams are working hard to optimize and maximize production. Constantly iterating to evidence that Photanol is not only the most future-proof solution but also the solution with the lowest footprint of any sustainable option. Our economically sound business cases and new tech breakthroughs acting as instruments in our mission to restore balance to the planet, while powering the world.
-    preheading: Strategy towards a commercial plant
+    preheading: "Strategy towards "
+    heading: Commercial plant
   - type: image
     image:
       file: /img/replay.jpg
