@@ -190,6 +190,75 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
+partners:
+  pretitle: OUR PARTNERS
+  title: The future needs like-minds.
+  logos:
+    - image: /img/mibiton.svg
+      link: https://www.mibiton.nl/
+      alt: Mibiton
+    - image: /img/nouryon.svg
+      link: https://www.nouryon.com/
+      alt: Nouryon
+    - image: /img/renolit.svg
+      link: https://www.renolit.com/
+      alt: Renolit
+    - image: /img/uva.svg
+      link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
+    - image: /img/nobian.png
+      link: https://www.nobian.com/
+      alt: Nobian
+  side_logo:
+    image: /img/renewable-carbon-logo.png
+    link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
+testimonials:
+  pretitle: Let our partners tell you why
+  title: Proof
+  items:
+    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
+        acknowledging the potentional and uniqueness of our solution for the
+        World of our next Generation. "
+      citation: World Economic Forum
+      image: /img/wef.svg
 team:
   pretitle: MEET THE TEAM
   title: Dedicated to restoring balance since 2008
@@ -507,75 +576,6 @@ vacancies:
 
 
         We are looking forward to hearing from you!
-partners:
-  pretitle: OUR PARTNERS
-  title: The future needs like-minds.
-  logos:
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/nouryon.svg
-      link: https://www.nouryon.com/
-      alt: Nouryon
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: Renolit
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/corbion.svg
-      alt: Corbion
-      link: http://www.corbion.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
-    - image: /img/horizon2020.svg
-      alt: Horizon 2020
-      link: https://ec.europa.eu/programmes/horizon2020/
-    - image: /img/nom.svg
-      alt: NOM
-      link: https://www.nom.nl/
-    - image: /img/rvo.svg
-      link: https://english.rvo.nl/
-      alt: Netherlands Enterprise Agency
-    - image: /img/groeifonds.svg
-      alt: Groeifonds
-      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
-    - image: /img/icos.svg
-      alt: ICOS
-      link: http://www.icoscapital.com/
-    - image: /img/carbon.svg
-      alt: Renewable Carbon
-      link: http://www.renewable-carbon.eu/
-    - image: /img/eu.svg
-      alt: European Regional Development Funds
-      link: https://www.kansenvoorwest2.nl/nl/
-    - image: /img/nobian.png
-      link: https://www.nobian.com/
-      alt: Nobian
-  side_logo:
-    image: /img/renewable-carbon-logo.png
-    link: https://www.renewable-carbon.eu
-    alt: Renewable Carbon
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
-testimonials:
-  pretitle: Let our partners tell you why
-  title: Proof
-  items:
-    - quote: "Photanol is one of the World Economic Forum Technology Pioneers for
-        2019, acknowledging the potentional and uniqueness of our solution for
-        the World of our next Generation. "
-      citation: Robert Frost
-      image: /img/wef.svg
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
