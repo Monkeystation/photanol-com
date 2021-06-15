@@ -1,8 +1,8 @@
 ---
 templateKey: dynamic-page
-title: Photanol
+title: Kansen voor West
 path: company
-description: Groene chemie uit CO₂ en zonlicht.
+description: Groene chemie uit CO₂ en zonlicht
 image: /img/prodock.jpeg
 blocks:
   - type: text
