@@ -18,8 +18,8 @@ blocks:
       environmental consequences. New bioplastic production technologies that
       rely on raw materials, which are abundantly available, are urgently needed
       to meet the demand for >285 million tons of packaging by 2050.
-    preheading: Replay
-    heading: "Reinventing bioplastic: CO₂ + sunlight = PLA"
+    preheading: Need
+    heading: ""
   - type: text
     paragraph: The H2020 RePLAy project focusses on the development of Photanol's
       proprietary technology to produce lactic acid, the key ingredient for PLA,
