@@ -14,8 +14,10 @@ blocks:
       Een van de prioriteiten binnen deze ambitie is het realiseren van een
       circulaire en biobased economie met CO₂ als bouwstof.
     preheading: CO₂ als grondstof voor een circulaire economie
+  - type: quote
+    quote: Groene chemie uit CO₂ en zonlicht
   - type: text
-    preheading: Groene chemie uit CO₂ en zonlicht
+    preheading: ""
     paragraph: >-
       Ook is het regionale economische beleid er op gericht om samen met het
       bedrijfsleven, de creatieve sector en kennisinstellingen te werken aan
@@ -25,7 +27,7 @@ blocks:
       Dit project met titel ‘Groene chemie uit CO₂ en zonlicht’ past binnen deze speerpunten. In het project werken de universiteit-spin-of Photanol, multinational AkzoNobel en de Universiteit van Amsterdam samen om CO₂ te gebruiken als grondstof voor nieuwe producten. Dit doen ze met behulp van technologie waarvan de grondslag is gelegd bij de UvA en die door Photanol wordt doorontwikkeld tot een commercieel toepasbaar proces.
     heading: ""
   - type: imagetext
-    align: true
+    align: false
     paragraph: >-
       De technologie is gebaseerd op genetisch gemodificeerde bacteriën
       (cyanobacteriën) die hun mogelijkheid tot fotosynthese (het gebruik van
@@ -39,10 +41,10 @@ blocks:
     image:
       file: /img/prodock_2.jpg
       alt: Pilot plant Prodock Amsterdam
-    heading: ""
-    preheading: De unieke Photanol technologie
-  - type: text
+    heading: De unieke Photanol technologie
     preheading: ""
+  - type: text
+    preheading: Een nieuwe productieroute voor MCA
     paragraph: >-
       In het project wordt een nieuwe biobased productieroute ontwikkeld voor de
       basis chemische grondstof Monochloorazijnzuur (MCA). AkzoNobel is de
@@ -58,5 +60,5 @@ blocks:
 
 
       De resultaten van het project zullen door Photanol en AkzoNobel gezamenlijk worden geëxploiteerd. De vorm waarin dit zal gebeuren wordt momenteel nog verder uitgewerkt en zal vergelijkbaar zijn met andere bewezen samenwerkingsverbanden in de biobased chemie zoals bijvoorbeeld in het geval van BioAmber en/of Avantium; een Joint Venture met een grote onderneming.
-    heading: Een nieuwe productieroute voor MCA
+    heading: ""
 ---
