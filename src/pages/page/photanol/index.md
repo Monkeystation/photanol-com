@@ -26,8 +26,7 @@ blocks:
 
       Dit project met titel ‘Groene chemie uit CO₂ en zonlicht’ past binnen deze speerpunten. In het project werken de universiteit-spin-of Photanol, multinational AkzoNobel en de Universiteit van Amsterdam samen om CO₂ te gebruiken als grondstof voor nieuwe producten. Dit doen ze met behulp van technologie waarvan de grondslag is gelegd bij de UvA en die door Photanol wordt doorontwikkeld tot een commercieel toepasbaar proces.
     heading: ""
-  - type: imagetext
-    align: false
+  - type: text
     paragraph: >-
       De technologie is gebaseerd op genetisch gemodificeerde bacteriën
       (cyanobacteriën) die hun mogelijkheid tot fotosynthese (het gebruik van
@@ -38,11 +37,7 @@ blocks:
 
 
       AkzoNobel is de eindklant voor dit proces en wil het toepassen omdat het de milieu-impact van de productie van chemische verbindingen sterk verlaagd, en daar vragen de eindklanten van AkzoNobel om. Het project is dus marktgedreven.
-    image:
-      file: /img/prodock_2.jpg
-      alt: Pilot plant Prodock Amsterdam
     heading: De unieke Photanol technologie
-    preheading: ""
   - type: text
     preheading: Een nieuwe productieroute voor MCA
     paragraph: >-
@@ -61,4 +56,8 @@ blocks:
 
       De resultaten van het project zullen door Photanol en AkzoNobel gezamenlijk worden geëxploiteerd. De vorm waarin dit zal gebeuren wordt momenteel nog verder uitgewerkt en zal vergelijkbaar zijn met andere bewezen samenwerkingsverbanden in de biobased chemie zoals bijvoorbeeld in het geval van BioAmber en/of Avantium; een Joint Venture met een grote onderneming.
     heading: ""
+  - type: image
+    image:
+      alt: Pilot plant Prodock Amsterdam
+      file: /img/prodock_2.jpg
 ---
