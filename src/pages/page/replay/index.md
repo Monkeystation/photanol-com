@@ -19,9 +19,10 @@ blocks:
       rely on raw materials, which are abundantly available, are urgently needed
       to meet the demand for >285 million tons of packaging by 2050.
     preheading: Need
-    heading: Reinventing bioplastic
+    heading: ""
   - type: quote
     quote: CO₂ + sunlight = PLA
+    citation: Reinventing bioplastic
   - type: text
     paragraph: The H2020 RePLAy project focusses on the development of Photanol's
       proprietary technology to produce lactic acid, the key ingredient for PLA,
