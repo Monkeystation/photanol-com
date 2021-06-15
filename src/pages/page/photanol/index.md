@@ -6,14 +6,14 @@ description: Groene chemie uit CO₂ en zonlicht
 image: /img/prodock.jpeg
 blocks:
   - type: text
-    heading: ""
+    heading: voor een circulaire economie
     paragraph: De Metropoolregio Amsterdam heeft in de Ruimtelijk-Economische
       ACTIE-Agenda 2016 - 2020 speerpunten geformuleerd voor de ontwikkeling van
       de MRA. De MRA moet minder afhankelijk zijn van externe energie- en
       grondstofbronnen en zich ontwikkelen tot een internationale grondstofhub.
       Een van de prioriteiten binnen deze ambitie is het realiseren van een
       circulaire en biobased economie met CO₂ als bouwstof.
-    preheading: CO₂ als grondstof voor een circulaire economie
+    preheading: "CO₂ als grondstof "
   - type: quote
     quote: Groene chemie uit CO₂ en zonlicht
   - type: text
@@ -37,9 +37,10 @@ blocks:
 
 
       AkzoNobel is de eindklant voor dit proces en wil het toepassen omdat het de milieu-impact van de productie van chemische verbindingen sterk verlaagd, en daar vragen de eindklanten van AkzoNobel om. Het project is dus marktgedreven.
-    heading: De unieke Photanol technologie
+    heading: technologie van Photanol
+    preheading: De unieke
   - type: text
-    preheading: Een nieuwe productieroute voor MCA
+    preheading: MCA
     paragraph: >-
       In het project wordt een nieuwe biobased productieroute ontwikkeld voor de
       basis chemische grondstof Monochloorazijnzuur (MCA). AkzoNobel is de
@@ -55,9 +56,9 @@ blocks:
 
 
       De resultaten van het project zullen door Photanol en AkzoNobel gezamenlijk worden geëxploiteerd. De vorm waarin dit zal gebeuren wordt momenteel nog verder uitgewerkt en zal vergelijkbaar zijn met andere bewezen samenwerkingsverbanden in de biobased chemie zoals bijvoorbeeld in het geval van BioAmber en/of Avantium; een Joint Venture met een grote onderneming.
-    heading: ""
+    heading: "Een nieuwe productieroute "
   - type: image
     image:
       alt: Pilot plant Prodock Amsterdam
-      file: /img/prodock_2.jpg
+      file: /img/img_2370-4-.jpg
 ---
