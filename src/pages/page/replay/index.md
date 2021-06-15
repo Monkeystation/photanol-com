@@ -34,10 +34,6 @@ blocks:
       milestones obtaining permits and successful construction and operation of
       a first-of-a-kind outside pilot and demo plant.
     preheading: solution
-  - type: image
-    image:
-      file: /img/replay.jpg
-      alt: Pilot plant
   - type: text
     paragraph: >-
       Our demo plant has the capacity to produce up to 10 tons per year. It’s
@@ -51,6 +47,10 @@ blocks:
 
       Our first commercial plant is planned to kick-off production in 2024. Rest assured, our teams are working hard to optimize and maximize production. Constantly iterating to evidence that Photanol is not only the most future-proof solution but also the solution with the lowest footprint of any sustainable option. Our economically sound business cases and new tech breakthroughs acting as instruments in our mission to restore balance to the planet, while powering the world.
     preheading: Strategy
+  - type: image
+    image:
+      file: /img/replay.jpg
+      alt: Pilot plant
   - type: imagetext
     align: true
     image:
