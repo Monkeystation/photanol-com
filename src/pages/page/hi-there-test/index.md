@@ -1,6 +1,6 @@
 ---
 templateKey: dynamic-page
-title: Hi there - test
+title: Hi there
 description: This is a test.
 image: /img/photanol-delfzijl-bewerking-2.jpeg
 blocks:
