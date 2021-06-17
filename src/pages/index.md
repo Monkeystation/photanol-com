@@ -137,7 +137,7 @@ roadmap:
         extremely favourably with non-renewable chemicals. Proving that
         sustainability isn’t second place to economic profit. "
       icon: /img/roadmap_scale_commercial_plant.png
-      image: /img/9-scale-up-to-commercial-plant.jpg
+      image: /img/photanol_sketch_birdsview_web.png
     - year: "2024"
       title: Commercial production
       text: "Our first commercial plant is planned to kick-off production in 2024.
