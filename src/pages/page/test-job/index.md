@@ -9,4 +9,8 @@ blocks:
       file: /img/10-commercial-production.jpg
       alt: alt
     preheading: Afbeelding
+  - type: image
+    image:
+      file: /img/2-platform-spinout.jpg
+      alt: alt
 ---
