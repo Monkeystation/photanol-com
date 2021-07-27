@@ -570,7 +570,7 @@ vacancies:
         * Applicant outside of EU is required to have a valid work/residence permit or visa.
 
 
-        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com)
+        Please send your cover letter and resume to: [internships@photanol.com](mailto:jobs@photanol.com)
 
 
         We are looking forward to hearing from you!
