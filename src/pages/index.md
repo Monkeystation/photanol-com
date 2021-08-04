@@ -574,6 +574,93 @@ vacancies:
 
 
         We are looking forward to hearing from you!
+    - title: Pilot Researcher/Operator
+      description_short: >-
+        Do you have a passion for biotechnology, engineering, and phototrophic
+        production processes? 
+         
+        Join a multi-disciplinary team that focuses on the translation of science and technology to a valuable commercial process. 
+      description_full: >-
+        For the Pilot-team of Photanol we are looking for a full-time candidate
+        to strengthen the development and execution of ongoing research
+        activities at pilot-scale for the production of selected products in
+        photo-bioreactors. At pilot-scale (up to 1000 liters) the knowledge from
+        lab-scale (few liters) experiments is brought to industrially relevant
+        conditions for photo-bioreactor operations at commercial scale. The
+        knowledge acquired at pilot-scale supports the Photanol Demo-scale
+        facility.
+
+
+
+
+        **Responsibilities include:** ​ 
+
+
+        * Setting up experiments, data acquisition and reporting on experimental results from pilot scale experiments
+
+        * Support the operation, construction, and development of the Photanol pilot scale production facilities
+
+        * Plan, coordinate and execute technology scale-up activities corresponding to related milestones and key deliverables
+
+        * Support the translation from lab-scale results to pilot and commercial implementation.
+
+        * Communication of experimental results to the strain-engineering, up-scaling, and the demo-facility teams for smooth knowledge transfer between all departments
+
+        * Create and maintain a high-quality professional environment at work, at or above industry standards
+
+        * Contribute to creating an open, pleasant, and productive working environment at Photanol.
+
+        * Ensure a safe working environment is maintained
+
+        * Ensure confidentiality of the research is maintained
+
+
+
+
+        **In brief, we are looking for a candidate with the following characteristics:** 
+
+
+        * Background in (bio)process-technology or -engineering (BSc or MSc-level)
+
+        * Experience with cultivation of cyanobacteria and/or micro-algae using photo bioreactors at lab- or pilot-scale would be welcomed
+
+        * A scientific mindset towards experimental work and experiment planning
+
+        * Diligent sample analysis on daily pilot samples, excellent wet-lab skills
+
+        * Result oriented, organized, and a team player
+
+        * Drive and creativity for further sustainable process development
+
+        * Comfortable with dynamics and flexibility of an ambitious scale-up company 
+
+        * Willing and able to perform technical/practical work on pilot-scale photobioreactors
+
+        * Good reporting and writing skills in English
+
+
+        ​ 
+
+
+        Interested? Please send your cover letter and resume before August 20th 2021 to: 
+
+
+        ​ 
+
+
+        Pieter C. Oostlander PhD.
+
+
+        Pilot Team Lead
+
+
+        Tel: +31 6 226 27 563
+
+
+        E-mail: pieter.oostlander@photanol.com
+
+
+        Website: www.photanol.com
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
