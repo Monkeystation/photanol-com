@@ -122,7 +122,7 @@ roadmap:
         with even better economics. After biochemicals, biofuels are Photanol’s
         next disruptive ambition.
       year: "2021"
-      title: Demo plant starts production
+      title: Demo plant starts validating production process
       icon: /img/roadmap_demo_production.png
       image: /img/5.-img_20201104_143813-2-.jpg
     - title: Scale up to commercial plant
