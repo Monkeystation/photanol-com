@@ -564,7 +564,11 @@ vacancies:
         * Ensure a safe working environment is maintained.
 
         * Ensure confidentiality of the research is maintained.
-          In brief, we are looking for a candidate with the following characteristics:
+
+
+        In brief, we are looking for a candidate with the following characteristics:
+
+
         * Background in bioprocess-technology or -engineering (BSc, MSc).
 
         * Preferably experience in a photo-bioreactor pilot environment.
