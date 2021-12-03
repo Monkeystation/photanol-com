@@ -524,6 +524,67 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - title: Pilot Team-lead
+      description_short: Do you have a passion for biotechnology and sustainability?
+        Join a multi-disciplinary team that focuses on the translation of
+        science and technology to a valuable commercial process to produce
+        circular carbon chemicals. For the “Operations Team” of Photanol we are
+        looking for a full-time candidate to lead our pilot team in Amsterdam,
+        to further develop and operate our photo bio-reactor pilot plants
+      description_full: >-
+        Do you have a passion for biotechnology and sustainability? Join a
+        multi-disciplinary team that focuses on the translation of science and
+        technology to a valuable commercial process to produce circular carbon
+        chemicals. For the “Operations Team” of Photanol we are looking for a
+        full-time candidate to lead our pilot team in Amsterdam, to further
+        develop and operate our photo bio-reactor pilot plants.
+
+
+        Responsibilities include:
+
+
+        * Lead, Plan & Coordination of pilot activities together with pilot team (1 lead + 2 researcher FTE’s) and project leads.
+
+        * Collaborating at pilot operations: running our pilots together with the team. 
+
+        * Reporting and information sharing with our demo in Delfzijl and lab operations in Amsterdam.
+
+        * Maintain external contacts on photo-bioreactor developments, translate to Photanol context.
+
+        * Develop pilot operations to determine and improve the performance of (production) strains as well as for process development purposes.
+
+        * Point of contact for operational aspects for the pilot (Prodock, permits, etc).
+
+        * Build, maintain and utilize networks with people and organizations relevant to Photanol.
+
+        * Create and maintain a high-quality professional environment at work, at or above industry standards.
+
+        * Contribute to creating an open, pleasant, and productive working environment at Photanol.
+
+        * Ensure a safe working environment is maintained.
+
+        * Ensure confidentiality of the research is maintained.
+          In brief, we are looking for a candidate with the following characteristics:
+        * Background in bioprocess-technology or -engineering (BSc, MSc).
+
+        * Preferably experience in a photo-bioreactor pilot environment.
+
+        * Result oriented, organized, and a team player.
+
+        * Drive and creativity for further sustainable pilot development.
+
+        * Comfortable with dynamics and flexibility of an ambitious scale-up company.
+
+        * Good reporting and writing skills in English.
+
+
+        Interested? Please send your cover letter and resume to (before Dec 31 2021):
+
+        Hayco Bloemen, Senior Process Development Engineer
+
+        Tel: + 31 6 10304928
+
+        E-mail: hayco.bloemen@photanol.com
     - title: Researcher Cyanobacteria
       description_short: Passion for biotechnology and ready to change the world?
         Interested in driving translation of science and technology to a
@@ -635,67 +696,6 @@ vacancies:
 
 
         Please send your cover letter and resume to jobs@photanol.com. The deadline is **December 10**, 2021, but we review the applications on a rolling basis. We look forward to hearing from you!
-    - title: Pilot Team-lead
-      description_short: Do you have a passion for biotechnology and sustainability?
-        Join a multi-disciplinary team that focuses on the translation of
-        science and technology to a valuable commercial process to produce
-        circular carbon chemicals. For the “Operations Team” of Photanol we are
-        looking for a full-time candidate to lead our pilot team in Amsterdam,
-        to further develop and operate our photo bio-reactor pilot plants
-      description_full: >-
-        Do you have a passion for biotechnology and sustainability? Join a
-        multi-disciplinary team that focuses on the translation of science and
-        technology to a valuable commercial process to produce circular carbon
-        chemicals. For the “Operations Team” of Photanol we are looking for a
-        full-time candidate to lead our pilot team in Amsterdam, to further
-        develop and operate our photo bio-reactor pilot plants.
-
-
-        Responsibilities include:
-
-
-        * Lead, Plan & Coordination of pilot activities together with pilot team (1 lead + 2 researcher FTE’s) and project leads.
-
-        * Collaborating at pilot operations: running our pilots together with the team. 
-
-        * Reporting and information sharing with our demo in Delfzijl and lab operations in Amsterdam.
-
-        * Maintain external contacts on photo-bioreactor developments, translate to Photanol context.
-
-        * Develop pilot operations to determine and improve the performance of (production) strains as well as for process development purposes.
-
-        * Point of contact for operational aspects for the pilot (Prodock, permits, etc).
-
-        * Build, maintain and utilize networks with people and organizations relevant to Photanol.
-
-        * Create and maintain a high-quality professional environment at work, at or above industry standards.
-
-        * Contribute to creating an open, pleasant, and productive working environment at Photanol.
-
-        * Ensure a safe working environment is maintained.
-
-        * Ensure confidentiality of the research is maintained.
-          In brief, we are looking for a candidate with the following characteristics:
-        * Background in bioprocess-technology or -engineering (BSc, MSc).
-
-        * Preferably experience in a photo-bioreactor pilot environment.
-
-        * Result oriented, organized, and a team player.
-
-        * Drive and creativity for further sustainable pilot development.
-
-        * Comfortable with dynamics and flexibility of an ambitious scale-up company.
-
-        * Good reporting and writing skills in English.
-
-
-        Interested? Please send your cover letter and resume to (before Dec 31 2021):
-
-        Hayco Bloemen, Senior Process Development Engineer
-
-        Tel: + 31 6 10304928
-
-        E-mail: hayco.bloemen@photanol.com
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
