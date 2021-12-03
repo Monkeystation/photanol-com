@@ -575,7 +575,7 @@ vacancies:
 
         * Comfortable with dynamics and flexibility of an ambitious scale-up company.
 
-        * Good reporting and writing skills in English.
+        * Good reporting and writing skills in English. 
 
 
         Interested? Please send your cover letter and resume to (before Dec 31 2021):
