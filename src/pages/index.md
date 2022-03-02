@@ -351,22 +351,6 @@ team:
         guide them through the cultivation of our latest and greatest strains.
       linkedin: https://www.linkedin.com/in/koen-mulder-530564127/
       image: /img/team_koen.jpg
-    - name: Dennis Dienst
-      function: Senior Researcher Strain Engineering
-      text: With a passion for all phototrophic life, Dennis has turned a personal
-        obsession into a professional one - dedicating his all to hitting the
-        most efficient, iterative ‘design-build-test-learn’ workflows to empower
-        Photanol’s cyano strain engineering.
-      linkedin: https://www.linkedin.com/in/dennis-dienst-07272a198/
-      image: /img/dennis.jpg
-    - name: Pieter Oostlander
-      function: Pilot Team Lead
-      text: Our optimistic, perfectionist Pilot Team Lead, Pieter, ensures our pilot
-        operations are a success. He leads his team in achieving the results
-        needed to transform lab strain triumphs into demo- and eventually
-        industrial scale phototrophic production breakthroughs.
-      linkedin: https://www.linkedin.com/in/pieter-oostlander/
-      image: /img/pieter.jpg
     - name: Juliette Martin
       function: Technology Scale Up Scientist
       text: "Starting with Photanol as an intern, Juliette is now our scientist in the
@@ -376,13 +360,6 @@ team:
         lullabies. "
       linkedin: https://www.linkedin.com/in/juliette-martin-46444aa5/
       image: /img/team_juliette.jpg
-    - text: "Maria shares the Photanol change-maker gene. Her expertise is algae
-        biotech; specifically micro algae ID and cultivation, and it’s her lab
-        work that ensures our next big strains are robust and future-proof. "
-      name: Maria João Correia
-      function: Junior Researcher Upscaling
-      linkedin: https://www.linkedin.com/in/mjacorreia/
-      image: /img/team_maria.jpg
     - name: Marc García López
       function: Junior Researcher Upscaling
       text: A passion for microbiology and its potential to mitigate climate breakdown
@@ -462,14 +439,6 @@ team:
         cyanobacteria - validating the best ways to improve their metabolism.
       linkedin: https://www.linkedin.com/in/luukcouwenberg/
       image: /img/luuk.jpg
-    - text: "Compulsively curious, Gabriel first strengthened our strain engineering
-        scale-up team for three years before putting that experience to use
-        leading the build, optimization and validation of our pilot-size
-        photobioreactor tech. "
-      name: Gabriel Brouchon
-      function: Researcher Piloting
-      linkedin: https://www.linkedin.com/in/gabriel-brouchon/
-      image: /img/team_gabriel.jpg
     - name: Patrick Eikenboom
       function: Operator pilot and demo
       text: Patrick completed his B.A. thesis while interning at our pilot plant. Now,
@@ -477,13 +446,6 @@ team:
         reactors and strains across multiple locations.
       linkedin: https://www.linkedin.com/company/photanol/
       image: /img/team_patrick.jpg
-    - name: Vera Boor
-      function: Junior Bioprocess Engineer
-      text: Dedicated to large scale, long-term cultivation of our cyanobacteria, Vera
-        runs five reactors across indoor and outdoor locations, and is
-        Photanol's trouble-shooter extraordinaire.
-      image: /img/team_vera.jpg
-      linkedin: https://www.linkedin.com/in/vera-boor/
     - name: Diogo Sebastião
       function: Bio-process Engineer
       text: Moving from Portugal to the Netherlands in 2016, Diogo believes it’s here
