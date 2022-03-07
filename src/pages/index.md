@@ -485,7 +485,73 @@ vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
-  list: []
+  list:
+    - title: Pilot Researcher
+      description_short: Do you have a passion for biotechnology, engineering, and
+        phototrophic production processes? Join a multi-disciplinary team that
+        focuses on the translation of science and technology to a valuable
+        commercial process. For the pilot-team of Photanol we are looking for a
+        full-time candidate to execute research activities for scale-up of our
+        production strains in our pilot-photo-bioreactors, as well as
+        improvements of the production process itself. The knowledge acquired at
+        pilot-scale in Amsterdam supports the Photanol Demo-scale facility in
+        Delfzijl and provides a handshake for engineering activities for
+        commercial design.
+      description_full: >-
+        Responsibilities include: 
+
+
+        * Setting up and executing experiments, data acquisition and reporting on experimental results from pilot scale experiments.
+
+        * Support the operation, construction, and development of the Photanol pilot scale production facilities.
+
+        * Support the translation from lab-scale results to pilot and commercial implementation, and vice versa (scale-up and scale-down) 
+
+        * Communication of experimental results within project teams. 
+
+        * Create and maintain a high-quality professional environment at work, at or above industry standards.
+
+        * Contribute to creating an open, pleasant, and productive working environment at Photanol.
+
+        * Ensure a safe working environment is maintained.
+
+        * Ensure confidentiality of the research is maintained.
+
+
+
+
+        In brief, we are looking for a candidate with the following characteristics: 
+
+
+        * Background in (bio)process-technology or -engineering (BSc or MSc-level). 
+
+        * A scientific mindset towards experimental work, planning and reporting. 
+
+        * Good reporting and writing skills in English. 
+
+        * Hands-on mentality, diligent sample analysis, excellent wet-lab skills, as well as technical/practical work on pilot-scale photobioreactors development.
+
+        * Result oriented, organized, and a team player. 
+
+        * Drive and creativity for further sustainable process development. 
+
+        * Comfortable with dynamics and flexibility of an ambitious scale-up company. 
+
+        * Experience with cultivation of cyanobacteria and/or micro-algae using photo bioreactors at lab- or pilot-scale would be welcomed.
+
+
+
+        Interested? 
+
+        Please send your cover letter and resume to (before March 25 2022):
+
+        Hayco Bloemen, Senior Process Development Engineer
+
+        Tel: + 31 6 10304928
+
+        E-mail: hayco.bloemen@photanol.com
+
+        Website: www.photanol.com
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
