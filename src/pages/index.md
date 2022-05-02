@@ -486,6 +486,60 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - title: Pilot Technician - Operator
+      description_short: >-
+        Heb je een passie voor biotechnologie en duurzaamheid? Kom bij ons team
+        dat werkt aan de
+
+        vertaalslag van wetenschap naar een commercieel proces. Voor het pilot team van Photanol (15-20 min lopen vanaf Amsterdam Sloterdijk) zijn we op zoek naar een full-time technician-operator om onze photo-bioreactor pilots te bedrijven en te verbeteren. De kennis die we daarbij opdoen staat in dienst van de opschaling naar onze demo faciliteit in Delfzijl, en wordt toegepast bij de engineering voor het commerciele process.
+      description_full: >-
+        Heb je een passie voor biotechnologie en duurzaamheid? Kom bij ons team
+        dat werkt aan de
+
+        vertaalslag van wetenschap naar een commercieel proces. Voor het pilot team van Photanol (15-20 min lopen vanaf Amsterdam Sloterdijk) zijn we op zoek naar een full-time technician-operator om onze photo-bioreactor pilots te bedrijven en te verbeteren. De kennis die we daarbij opdoen staat in dienst van de opschaling naar onze demo faciliteit in Delfzijl, en wordt toegepast bij de engineering voor het commerciele process.
+
+
+        Werkzaamheden en Verantwoordelijkheden bevatten:
+
+
+        * Uitvoeren van experimenten op de pilots, data verzameling en rapportage
+
+        * Ondersteuning voor verdere opschaling
+
+        * Verbeteren van de pilots
+
+        * Samenwerking binnen het team
+
+        * Opzetten en onderhouden van werkvoorschriften en protocollen
+
+        * Mede zorgdragen voor een veilige werkomgeving
+
+        * Mede zorgdragen voor vertrouwelijkheid van het onderzoek
+
+
+        We zoeken een kandidaat met de volgende eigenschappen:
+
+
+        * Achtergrond in biotechnologie of engineering (MLO/HLO/HBO).
+
+        * Pragmatisch, gedegen in monster analyse, en comfortabel met praktische werkzaamheden
+          rond opstarten van pilot reactoren.
+        * Georganiseerd, resultaat gedreven, samenwerken in het team
+
+        * Voelt zich prettig bij de dynamiek van een start-up
+
+
+        Geinteressseerd?
+
+        Stuur dan je brief met CV naar (voor 15 mei 2022):
+
+        Hayco Bloemen, Senior Process Development Engineer
+
+        Tel: + 31 6 10304928
+
+        E-mail: hayco.bloemen@photanol.com
+
+        Website: www.photanol.com
     - title: Pilot Researcher
       description_short: Do you have a passion for biotechnology, engineering, and
         phototrophic production processes? Join a multi-disciplinary team that
