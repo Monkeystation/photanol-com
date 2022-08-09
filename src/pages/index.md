@@ -126,7 +126,7 @@ roadmap:
       icon: /img/roadmap_demo_production.png
       image: /img/5.-img_20201104_143813-2-.jpg
     - title: Scale up to commercial plant
-      year: "2023"
+      year: "2027"
       text: "Proving commercial viability is next. Photanol is like a lego-block-style
         blueprint: once fine-tuned and optimized, reaching commercial scale
         ‘simply’ means joining together a 100 copies of our demo plant.
@@ -138,9 +138,9 @@ roadmap:
         sustainability isn’t second place to economic profit. "
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/photanol_sketch_birdsview_web.png
-    - year: "2024"
+    - year: "2028"
       title: Commercial production
-      text: "Our first commercial plant is planned to kick-off production in 2024.
+      text: "Our first commercial plant is planned to kick-off production in 2028.
         Rest assured, our upscaling teams are working hard to optimize and
         maximize production. Constantly iterating to evidence that Photanol is
         not only the most future-proof solution but also the solution with the
@@ -149,7 +149,7 @@ roadmap:
         mission to restore balance to the planet, while powering the world. "
       icon: /img/roadmap_commercial_production.png
       image: /img/10-commercial-production.jpg
-  active: 6
+  active: 4
 technology:
   pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
   title: "Cyanobacteria: natural, all-in-one factories."
