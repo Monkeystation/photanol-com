@@ -287,15 +287,6 @@ team:
         is now designing the engineering feats needed for commercial scale up.
       linkedin: https://www.linkedin.com/in/paul-koekoek-a2740043/
       image: /img/team_paul.jpg
-    - name: Ellen Berkers
-      function: CFO
-      text: Years of experience managing global transformations and fundraising makes
-        Ellen the bold financial leader Photanol needs. In fact, reporting and
-        forecasting our progress - step by step - is what she thrives on. While
-        we pioneer cyano brilliance, she’s busy transforming these breakthroughs
-        into the hardy business plan we need to keep scaling.
-      linkedin: https://www.linkedin.com/in/ellen-berkers-cfo2scale/
-      image: /img/ellen.jpg
     - name: Jan Wery
       function: "CTO "
       text: "A.K.A our Chief ‘North Star’ Navigator: It’s all very well having a bold
