@@ -535,63 +535,6 @@ vacancies:
         Application and information:
 
         Please send your cover letter and resume to jobs@photanol.com. The deadline is October 1, 2022, but we review the applications on a rolling basis. We look forward to hearing from you!
-    - title: Researcher Cyanobacteria
-      description_short: Passion for biotechnology and ready to change the world?
-        Interested in driving translation of science and technology to a
-        commercial industrial process? Join the Photanol team to develop
-        optimized cyanobacteria to produce monomers based on light and CO2
-      description_full: >-
-        We are looking for a candidate to strengthen our team for the
-        development and execution of cyanobacterial strain evaluation
-        strategies. In this position, you will be responsible for the assessment
-        of cyanobacterial physiology throughout the entire strain development
-        process. You are expected to design, set up, and perform experiments to
-        evaluate and improve productivity of selected compounds in an industrial
-        environment. You will get a key role in our research team where we value
-        creativity and out-of-the box thinking, but also a structured and
-        analytical way of working towards our targets. 
-
-
-        The role is a full-time position based in our labs in Amsterdam. At Photanol, we offer an exciting international and multi-disciplinary work environment in which you have the possibility to grow. 
-
-
-        Your responsibilities will include:
-
-        •	Identify and implement creative and sustainable approaches to increase strain productivity and robustness under industrially relevant conditions
-
-        •	Cultivating cyanobacteria to evaluate performance of developed strains 
-
-        •	Setup and operate different lab scale photobioreactors (in different modes)
-
-        •	Use technical knowledge to identify, troubleshoot, and assist with the optimization of cultivation conditions
-
-        •	Development of analytical methods, including gas chromatography
-
-        •	Development of new strain engineering production and research protocols
-
-        •	Data management and reporting including ELN, SOPs and project reports (oral and written) 
-
-        •	Supervision, training and support of junior lab personnel and interns
-
-
-        We are looking for someone with the following characteristics:
-
-        •	Background in cyanobacterial/ microalgal research (photosynthesis & physiology) required
-
-        •	PhD level or >3-year experience in industrial R&D
-
-        •	Proven track record in microbiology, biochemistry or biotechnology
-
-        •	Experience in microbial physiology is an advantage for this position 
-
-        •	Background in chemistry/ catalysis appreciated
-
-        •	Good communication skills, both verbal and written, in the English language
-
-        •	Personal qualities: team player, creative, target-oriented, versatile and flexible, decision taker, pragmatic, self-motivated, and perseverance.
-
-
-        Please send your cover letter and resume to jobs@photanol.com. The deadline is October 1, 2022, but we review the applications on a rolling basis. We look forward to hearing from you!
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
