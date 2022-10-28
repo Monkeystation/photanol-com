@@ -534,7 +534,7 @@ vacancies:
 
         Application and information:
 
-        Please send your cover letter and resume to jobs@photanol.com. The deadline is October 1, 2022, but we review the applications on a rolling basis. We look forward to hearing from you!
+        Please send your cover letter and resume to jobs@photanol.com. The deadline is January 31, 2022, but we review the applications on a rolling basis. We look forward to hearing from you!
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
