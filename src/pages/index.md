@@ -477,65 +477,7 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
-    - title: Laboratory Support Technician
-      description_short: Join the Photanol team to support the development of a
-        process to produce biochemicals based on light and CO2
-      description_full: >-
-        Your tasks and responsibilities:
-
-
-        As a Laboratory Support Technician, you help your colleagues in the molecular microbiology and fermentation lab with various tasks. You will work in an international team of passionate researchers (about 30) at our R&D laboratory at the Science Park in Amsterdam. This is a day shift position (5-8 hours a day, 5 days a week).
-
-
-        •	Preparation of microbiological reagents and solutions
-
-        •	Autoclaving microbiological waste
-
-        •	Maintaining inventory of and replenishing laboratory supplies
-
-        •	Technical maintenance of laboratory equipment and work environment
-
-        •	Routine laboratory tasks
-
-        •	Assisting with routine analysis (sampling, nutrient measurements)
-
-        •	Helping colleagues where necessary
-
-
-        Your profile:
-
-
-        •	MBO in Life Sciences, level 3 or 4
-
-        •	Experience with microbiology (sterile working)
-
-        •	You have previously worked in a lab or did an internship (pre).
-
-        •	You are organized, conscientious and accurate
-
-        •	You are a pleasant colleague.
-
-        •	Good knowledge of spoken and written English and Dutch
-
-        •	You are available 5 days a week for approximately 5-8 hours per day (in consultation).
-
-
-        We offer:
-
-
-        •	A 40-hour/week contract of one year, with the possibility of extension
-
-        •	8% holiday allowance
-
-        •	Travel allowance
-
-        •	Cohesive team in a growing company and room for your own input
-
-
-        Application and information:
-
-        Please send your cover letter and resume to jobs@photanol.com. The deadline is January 31, 2022, but we review the applications on a rolling basis. We look forward to hearing from you!
-    - title: Pilot Researcher
+    - title: Process and Pilot engineer
       description_short: "For the pilot & engineering team of Photanol we are looking
         for a full-time candidate to support our process engineering activities
         for our pilot photo bio reactors and scale-up our process to commercial
@@ -615,6 +557,64 @@ vacancies:
         E-mail: hayco.bloemen@photanol.com
 
         Website: www.photanol.com
+    - title: Laboratory Support Technician
+      description_short: Join the Photanol team to support the development of a
+        process to produce biochemicals based on light and CO2
+      description_full: >-
+        Your tasks and responsibilities:
+
+
+        As a Laboratory Support Technician, you help your colleagues in the molecular microbiology and fermentation lab with various tasks. You will work in an international team of passionate researchers (about 30) at our R&D laboratory at the Science Park in Amsterdam. This is a day shift position (5-8 hours a day, 5 days a week).
+
+
+        •	Preparation of microbiological reagents and solutions
+
+        •	Autoclaving microbiological waste
+
+        •	Maintaining inventory of and replenishing laboratory supplies
+
+        •	Technical maintenance of laboratory equipment and work environment
+
+        •	Routine laboratory tasks
+
+        •	Assisting with routine analysis (sampling, nutrient measurements)
+
+        •	Helping colleagues where necessary
+
+
+        Your profile:
+
+
+        •	MBO in Life Sciences, level 3 or 4
+
+        •	Experience with microbiology (sterile working)
+
+        •	You have previously worked in a lab or did an internship (pre).
+
+        •	You are organized, conscientious and accurate
+
+        •	You are a pleasant colleague.
+
+        •	Good knowledge of spoken and written English and Dutch
+
+        •	You are available 5 days a week for approximately 5-8 hours per day (in consultation).
+
+
+        We offer:
+
+
+        •	A 40-hour/week contract of one year, with the possibility of extension
+
+        •	8% holiday allowance
+
+        •	Travel allowance
+
+        •	Cohesive team in a growing company and room for your own input
+
+
+        Application and information:
+
+        Please send your cover letter and resume to jobs@photanol.com. The deadline is January 31, 2022, but we review the applications on a rolling basis. We look forward to hearing from you!
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
