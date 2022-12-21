@@ -522,7 +522,6 @@ vacancies:
         •	Ensure confidentiality of the research is maintained.
 
 
-
         In brief, we are looking for a candidate with the following characteristics:
 
 
