@@ -15,6 +15,82 @@ mission:
   video_item:
     label: Watch brandmovie
     link: ijMRUWfbp88
+technology:
+  pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
+  title: "Cyanobacteria: natural, all-in-one factories."
+  text: >-
+    Petro-chemicals mean mining more fossil fuel, emitting more carbon. They’re
+    also resource, land and time thirsty - the kind of industry that has led to
+    a planet out of balance. The Photanol solution helps reset that balance. 
+
+
+    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients for personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
+
+
+    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
+  video_item:
+    label: Watch corporate film
+    link: WN6sSfN-Apg
+partners:
+  pretitle: OUR PARTNERS
+  title: The future needs like-minds.
+  logos:
+    - image: /img/mibiton.svg
+      link: https://www.mibiton.nl/
+      alt: Mibiton
+    - image: /img/nouryon.svg
+      link: https://www.nouryon.com/
+      alt: Nouryon
+    - image: /img/renolit.svg
+      link: https://www.renolit.com/
+      alt: Renolit
+    - image: /img/uva.svg
+      link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
+    - image: /img/nobian.png
+      link: https://www.nobian.com/
+      alt: Nobian
+  side_logo:
+    image: /img/renewable-carbon-logo.png
+    link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
 solution:
   pretitle: THE FUTURE LOOKS DIFFERENT
   title: The future is circular.
@@ -150,22 +226,6 @@ roadmap:
       icon: /img/roadmap_commercial_production.png
       image: /img/10-commercial-production.jpg
   active: 4
-technology:
-  pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
-  title: "Cyanobacteria: natural, all-in-one factories."
-  text: >-
-    Petro-chemicals mean mining more fossil fuel, emitting more carbon. They’re
-    also resource, land and time thirsty - the kind of industry that has led to
-    a planet out of balance. The Photanol solution helps reset that balance. 
-
-
-    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients for personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
-
-
-    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
-  video_item:
-    label: Watch corporate film
-    link: WN6sSfN-Apg
 infographic:
   pretitle: How it works
   items:
@@ -190,66 +250,6 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
-partners:
-  pretitle: OUR PARTNERS
-  title: The future needs like-minds.
-  logos:
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/nouryon.svg
-      link: https://www.nouryon.com/
-      alt: Nouryon
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: Renolit
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/corbion.svg
-      alt: Corbion
-      link: http://www.corbion.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
-    - image: /img/horizon2020.svg
-      alt: Horizon 2020
-      link: https://ec.europa.eu/programmes/horizon2020/
-    - image: /img/nom.svg
-      alt: NOM
-      link: https://www.nom.nl/
-    - image: /img/rvo.svg
-      link: https://english.rvo.nl/
-      alt: Netherlands Enterprise Agency
-    - image: /img/groeifonds.svg
-      alt: Groeifonds
-      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
-    - image: /img/icos.svg
-      alt: ICOS
-      link: http://www.icoscapital.com/
-    - image: /img/carbon.svg
-      alt: Renewable Carbon
-      link: http://www.renewable-carbon.eu/
-    - image: /img/eu.svg
-      alt: European Regional Development Funds
-      link: https://www.kansenvoorwest2.nl/nl/
-    - image: /img/nobian.png
-      link: https://www.nobian.com/
-      alt: Nobian
-  side_logo:
-    image: /img/renewable-carbon-logo.png
-    link: https://www.renewable-carbon.eu
-    alt: Renewable Carbon
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
 testimonials:
   pretitle: Let our partners tell you why
   title: Proof
@@ -589,6 +589,58 @@ vacancies:
         Application and information:
 
         Please send your cover letter and resume to jobs@photanol.com. We look forward to hearing from you!
+    - title: Research Technician Strain Engineering
+      description_full: >
+        We are looking for a candidate to strengthen the execution of
+        cyanobacterial strain engineering strategies for the (improved)
+        production of selected products in an industrial environment. You will
+        get a role in our strain development team where we value creativity and
+        out-of-the box thinking, but also a structured and analytical way of
+        working towards our targets. 
+
+
+        The role is a full-time position based in our brand-new labs in Amsterdam. At Photanol, we offer an exciting international work environment in which you have the possibility to grow. 
+
+
+        Your responsibilities will include:
+
+        -	Identify and implement creative and sustainable approaches to increase strain productivity and robustness
+
+        -	Cultivating cyanobacteria to evaluate performance of developed strains 
+
+        -	Identify, troubleshoot, and assist with the optimization of cultivation conditions
+
+        -	Application and development of molecular techniques for strain engineering and evaluation
+
+        -	Development of analytical methods
+
+        -	Data management and reporting including ELN, SOPs and project reports (oral and written) 
+
+
+        We are looking for someone with the following characteristics:
+
+        -	BSc (HLO)/MSc level in Biotechnology, Biochemistry, Microbiology, Molecular Biology or Systems Biology
+
+        -	Trained in molecular cloning techniques and microbiological safety
+
+        -	Happy to have a hands-on job in the laboratory 
+
+        -	Experience with cyanobacterial research (photosynthesis & metabolism) is highly appreciated
+
+        -	Personal qualities: team player, creative, target-oriented, versatile and flexible, decision taker, pragmatic, self-motivated, and perseverance.
+
+        -	Well-versed with electronic data management tools 
+
+        -	Good communication skills, both verbal and written, in the English language
+
+        -	Applicant outside of EU is required to have a valid work/residence permit or visa.
+
+
+        Please send your cover letter and resume to jobs@photanol.com. The deadline is March 12, 2023, but we review the applications on a rolling basis. We look forward to hearing from you!
+      description_short: Passion for biotechnology and ready to change the world?
+        Interested in driving translation of science and technology to a
+        commercial industrial process? Join the Photanol team to develop
+        optimized cyanobacteria to produce monomers based on light and CO2
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
