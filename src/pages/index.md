@@ -535,7 +535,7 @@ vacancies:
         Application and information:
 
         Please send your cover letter and resume to jobs@photanol.com. We look forward to hearing from you!
-    - title: Research Technician Strain Synthesis
+    - title: "Research Technician Strain Synthesis "
       description_short: "We are looking for a candidate to strengthen the execution
         of cyanobacterial strain engineering strategies for the (improved)
         production of selected products in an industrial environment. You will
