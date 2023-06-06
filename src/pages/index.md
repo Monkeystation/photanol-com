@@ -15,82 +15,6 @@ mission:
   video_item:
     label: Watch brandmovie
     link: ijMRUWfbp88
-technology:
-  pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
-  title: "Cyanobacteria: natural, all-in-one factories."
-  text: >-
-    Petro-chemicals mean mining more fossil fuel, emitting more carbon. They’re
-    also resource, land and time thirsty - the kind of industry that has led to
-    a planet out of balance. The Photanol solution helps reset that balance. 
-
-
-    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients for personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
-
-
-    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
-  video_item:
-    label: Watch corporate film
-    link: WN6sSfN-Apg
-partners:
-  pretitle: OUR PARTNERS
-  title: The future needs like-minds.
-  logos:
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/nouryon.svg
-      link: https://www.nouryon.com/
-      alt: Nouryon
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: Renolit
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/corbion.svg
-      alt: Corbion
-      link: http://www.corbion.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
-    - image: /img/horizon2020.svg
-      alt: Horizon 2020
-      link: https://ec.europa.eu/programmes/horizon2020/
-    - image: /img/nom.svg
-      alt: NOM
-      link: https://www.nom.nl/
-    - image: /img/rvo.svg
-      link: https://english.rvo.nl/
-      alt: Netherlands Enterprise Agency
-    - image: /img/groeifonds.svg
-      alt: Groeifonds
-      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
-    - image: /img/icos.svg
-      alt: ICOS
-      link: http://www.icoscapital.com/
-    - image: /img/carbon.svg
-      alt: Renewable Carbon
-      link: http://www.renewable-carbon.eu/
-    - image: /img/eu.svg
-      alt: European Regional Development Funds
-      link: https://www.kansenvoorwest2.nl/nl/
-    - image: /img/nobian.png
-      link: https://www.nobian.com/
-      alt: Nobian
-  side_logo:
-    image: /img/renewable-carbon-logo.png
-    link: https://www.renewable-carbon.eu
-    alt: Renewable Carbon
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
 solution:
   pretitle: THE FUTURE LOOKS DIFFERENT
   title: The future is circular.
@@ -226,6 +150,22 @@ roadmap:
       icon: /img/roadmap_commercial_production.png
       image: /img/10-commercial-production.jpg
   active: 4
+technology:
+  pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
+  title: "Cyanobacteria: natural, all-in-one factories."
+  text: >-
+    Petro-chemicals mean mining more fossil fuel, emitting more carbon. They’re
+    also resource, land and time thirsty - the kind of industry that has led to
+    a planet out of balance. The Photanol solution helps reset that balance. 
+
+
+    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients for personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
+
+
+    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
+  video_item:
+    label: Watch corporate film
+    link: WN6sSfN-Apg
 infographic:
   pretitle: How it works
   items:
@@ -250,15 +190,6 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
-testimonials:
-  pretitle: Let our partners tell you why
-  title: Proof
-  items:
-    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
-        acknowledging the potentional and uniqueness of our solution for the
-        World of our next Generation. "
-      citation: World Economic Forum
-      image: /img/wef.svg
 team:
   pretitle: MEET THE TEAM
   title: Dedicated to restoring balance since 2008
@@ -487,54 +418,55 @@ vacancies:
         As a Laboratory Support Technician, you help your colleagues in the molecular microbiology and fermentation lab with various tasks. You will work in an international team of passionate researchers (about 30) at our R&D laboratory at the Science Park in Amsterdam. This is a day shift position (5-8 hours a day, 5 days a week).
 
 
-        •	Preparation of microbiological reagents and solutions
+        * Preparation of microbiological reagents and solutions
 
-        •	Autoclaving microbiological waste
+        * Autoclaving microbiological waste
 
-        •	Maintaining inventory of and replenishing laboratory supplies
+        * Maintaining inventory of and replenishing laboratory supplies
 
-        •	Technical maintenance of laboratory equipment and work environment
+        * Technical maintenance of laboratory equipment and work environment
 
-        •	Routine laboratory tasks
+        * Routine laboratory tasks
 
-        •	Assisting with routine analysis (sampling, nutrient measurements)
+        * Assisting with routine analysis (sampling, nutrient measurements)
 
-        •	Helping colleagues where necessary
+        * Helping colleagues where necessary
 
 
         Your profile:
 
 
-        •	MBO in Life Sciences, level 3 or 4
+        * MBO in Life Sciences, level 3 or 4
 
-        •	Experience with microbiology (sterile working)
+        * Experience with microbiology (sterile working)
 
-        •	You have previously worked in a lab or did an internship (pre).
+        * You have previously worked in a lab or did an internship (pre).
 
-        •	You are organized, conscientious and accurate
+        * You are organized, conscientious and accurate
 
-        •	You are a pleasant colleague.
+        * You are a pleasant colleague.
 
-        •	Good knowledge of spoken and written English and Dutch
+        * Good knowledge of spoken and written English and Dutch
 
-        •	You are available 5 days a week for approximately 5-8 hours per day (in consultation).
+        * You are available 5 days a week for approximately 5-8 hours per day (in consultation).
 
 
         We offer:
 
 
-        •	A 40-hour/week contract of one year, with the possibility of extension
+        * A 40-hour/week contract of one year, with the possibility of extension
 
-        •	8% holiday allowance
+        * 8% holiday allowance
 
-        •	Travel allowance
+        * Travel allowance
 
-        •	Cohesive team in a growing company and room for your own input
+        * Cohesive team in a growing company and room for your own input
 
 
         Application and information:
 
-        Please send your cover letter and resume to jobs@photanol.com. We look forward to hearing from you!
+
+        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com). We look forward to hearing from you!
     - title: "Research Technician Strain Synthesis "
       description_short: "We are looking for a candidate to strengthen the execution
         of cyanobacterial strain engineering strategies for the (improved)
@@ -543,730 +475,116 @@ vacancies:
         techniques. We value creativity and out-of-the box thinking, but also a
         structured and analytical way of working towards our targets. "
       description_full: >-
-        <!--\[if gte mso 9]><xml>
-         <o:OfficeDocumentSettings>
-          <o:AllowPNG/>
-         </o:OfficeDocumentSettings>
-        </xml><!\[endif]-->
-
-
-        <!--\[if gte mso 9]><xml>
-         <w:WordDocument>
-          <w:View>Normal</w:View>
-          <w:Zoom>0</w:Zoom>
-          <w:TrackMoves/>
-          <w:TrackFormatting/>
-          <w:PunctuationKerning/>
-          <w:ValidateAgainstSchemas/>
-          <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-          <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-          <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-          <w:DoNotPromoteQF/>
-          <w:LidThemeOther>NL</w:LidThemeOther>
-          <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-          <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-          <w:Compatibility>
-           <w:BreakWrappedTables/>
-           <w:SnapToGridInCell/>
-           <w:WrapTextWithPunct/>
-           <w:UseAsianBreakRules/>
-           <w:DontGrowAutofit/>
-           <w:SplitPgBreakAndParaMark/>
-           <w:EnableOpenTypeKerning/>
-           <w:DontFlipMirrorIndents/>
-           <w:OverrideTableStyleHps/>
-          </w:Compatibility>
-          <m:mathPr>
-           <m:mathFont m:val="Cambria Math"/>
-           <m:brkBin m:val="before"/>
-           <m:brkBinSub m:val="&#45;-"/>
-           <m:smallFrac m:val="off"/>
-           <m:dispDef/>
-           <m:lMargin m:val="0"/>
-           <m:rMargin m:val="0"/>
-           <m:defJc m:val="centerGroup"/>
-           <m:wrapIndent m:val="1440"/>
-           <m:intLim m:val="subSup"/>
-           <m:naryLim m:val="undOvr"/>
-          </m:mathPr></w:WordDocument>
-        </xml><!\[endif]-->
-
-
-        <!--\[if gte mso 9]><xml>
-         <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
-          DefSemiHidden="false" DefQFormat="false" DefPriority="99"
-          LatentStyleCount="376">
-          <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
-          <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
-          <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 5"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 6"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 7"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 8"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index 9"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 1"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 2"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 3"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 4"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 5"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 6"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 7"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 8"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" Name="toc 9"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Normal Indent"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="footnote text"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="annotation text"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="header"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="footer"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="index heading"/>
-          <w:LsdException Locked="false" Priority="35" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="caption"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="table of figures"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="envelope address"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="envelope return"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="footnote reference"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="annotation reference"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="line number"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="page number"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="endnote reference"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="endnote text"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="table of authorities"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="macro"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="toa heading"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Bullet"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Number"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List 5"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Bullet 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Bullet 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Bullet 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Bullet 5"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Number 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Number 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Number 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Number 5"/>
-          <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Closing"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Signature"/>
-          <w:LsdException Locked="false" Priority="1" SemiHidden="true"
-           UnhideWhenUsed="true" Name="Default Paragraph Font"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text Indent"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Continue"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Continue 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Continue 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Continue 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="List Continue 5"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Message Header"/>
-          <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Salutation"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Date"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text First Indent"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text First Indent 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Note Heading"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text Indent 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Body Text Indent 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Block Text"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Hyperlink"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="FollowedHyperlink"/>
-          <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
-          <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Document Map"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Plain Text"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="E-mail Signature"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Top of Form"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Bottom of Form"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Normal (Web)"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Acronym"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Address"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Cite"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Code"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Definition"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Keyboard"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Preformatted"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Sample"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Typewriter"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="HTML Variable"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Normal Table"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="annotation subject"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="No List"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Outline List 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Outline List 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Outline List 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Simple 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Simple 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Simple 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Classic 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Classic 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Classic 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Classic 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Colorful 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Colorful 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Colorful 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Columns 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Columns 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Columns 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Columns 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Columns 5"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 5"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 6"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 7"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Grid 8"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 4"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 5"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 6"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 7"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table List 8"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table 3D effects 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table 3D effects 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table 3D effects 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Contemporary"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Elegant"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Professional"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Subtle 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Subtle 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Web 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Web 2"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Web 3"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Balloon Text"/>
-          <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Table Theme"/>
-          <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
-          <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
-          <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
-          <w:LsdException Locked="false" Priority="61" Name="Light List"/>
-          <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
-          <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
-          <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
-          <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
-          <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
-          <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
-          <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
-          <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
-          <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
-          <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
-          <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
-          <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
-          <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
-          <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
-          <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
-          <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
-          <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
-          <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
-          <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
-          <w:LsdException Locked="false" Priority="34" QFormat="true"
-           Name="List Paragraph"/>
-          <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
-          <w:LsdException Locked="false" Priority="30" QFormat="true"
-           Name="Intense Quote"/>
-          <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
-          <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
-          <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
-          <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
-          <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
-          <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
-          <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
-          <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
-          <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
-          <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
-          <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
-          <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
-          <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
-          <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
-          <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
-          <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
-          <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
-          <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
-          <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
-          <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
-          <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
-          <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
-          <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
-          <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
-          <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
-          <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
-          <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
-          <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
-          <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
-          <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
-          <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
-          <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
-          <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
-          <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
-          <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
-          <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
-          <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
-          <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
-          <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
-          <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
-          <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
-          <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
-          <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
-          <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
-          <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
-          <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
-          <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
-          <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
-          <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
-          <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
-          <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
-          <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
-          <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
-          <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
-          <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
-          <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
-          <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
-          <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
-          <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
-          <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
-          <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
-          <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
-          <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
-          <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
-          <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
-          <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
-          <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
-          <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
-          <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
-          <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
-          <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
-          <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
-          <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
-          <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
-          <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
-          <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
-          <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
-          <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
-          <w:LsdException Locked="false" Priority="19" QFormat="true"
-           Name="Subtle Emphasis"/>
-          <w:LsdException Locked="false" Priority="21" QFormat="true"
-           Name="Intense Emphasis"/>
-          <w:LsdException Locked="false" Priority="31" QFormat="true"
-           Name="Subtle Reference"/>
-          <w:LsdException Locked="false" Priority="32" QFormat="true"
-           Name="Intense Reference"/>
-          <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
-          <w:LsdException Locked="false" Priority="37" SemiHidden="true"
-           UnhideWhenUsed="true" Name="Bibliography"/>
-          <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-           UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
-          <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
-          <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
-          <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
-          <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
-          <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
-          <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
-          <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
-          <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
-          <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
-          <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
-          <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
-          <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
-          <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="Grid Table 1 Light Accent 1"/>
-          <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
-          <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
-          <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
-          <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="Grid Table 6 Colorful Accent 1"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="Grid Table 7 Colorful Accent 1"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="Grid Table 1 Light Accent 2"/>
-          <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
-          <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
-          <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
-          <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="Grid Table 6 Colorful Accent 2"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="Grid Table 7 Colorful Accent 2"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="Grid Table 1 Light Accent 3"/>
-          <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
-          <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
-          <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
-          <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="Grid Table 6 Colorful Accent 3"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="Grid Table 7 Colorful Accent 3"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="Grid Table 1 Light Accent 4"/>
-          <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
-          <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
-          <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
-          <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="Grid Table 6 Colorful Accent 4"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="Grid Table 7 Colorful Accent 4"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="Grid Table 1 Light Accent 5"/>
-          <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
-          <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
-          <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
-          <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="Grid Table 6 Colorful Accent 5"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="Grid Table 7 Colorful Accent 5"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="Grid Table 1 Light Accent 6"/>
-          <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
-          <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
-          <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
-          <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="Grid Table 6 Colorful Accent 6"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="Grid Table 7 Colorful Accent 6"/>
-          <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
-          <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
-          <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
-          <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
-          <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
-          <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
-          <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="List Table 1 Light Accent 1"/>
-          <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
-          <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
-          <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
-          <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="List Table 6 Colorful Accent 1"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="List Table 7 Colorful Accent 1"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="List Table 1 Light Accent 2"/>
-          <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
-          <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
-          <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
-          <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="List Table 6 Colorful Accent 2"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="List Table 7 Colorful Accent 2"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="List Table 1 Light Accent 3"/>
-          <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
-          <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
-          <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
-          <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="List Table 6 Colorful Accent 3"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="List Table 7 Colorful Accent 3"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="List Table 1 Light Accent 4"/>
-          <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
-          <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
-          <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
-          <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="List Table 6 Colorful Accent 4"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="List Table 7 Colorful Accent 4"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="List Table 1 Light Accent 5"/>
-          <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
-          <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
-          <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
-          <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="List Table 6 Colorful Accent 5"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="List Table 7 Colorful Accent 5"/>
-          <w:LsdException Locked="false" Priority="46"
-           Name="List Table 1 Light Accent 6"/>
-          <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
-          <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
-          <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
-          <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
-          <w:LsdException Locked="false" Priority="51"
-           Name="List Table 6 Colorful Accent 6"/>
-          <w:LsdException Locked="false" Priority="52"
-           Name="List Table 7 Colorful Accent 6"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Mention"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Smart Hyperlink"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Hashtag"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Unresolved Mention"/>
-          <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-           Name="Smart Link"/>
-         </w:LatentStyles>
-        </xml><!\[endif]-->
-
-
-        <!--\[if gte mso 10]>
-
-        <style>
-         /* Style Definitions */
-         table.MsoNormalTable
-        	{mso-style-name:"Table Normal";
-        	mso-tstyle-rowband-size:0;
-        	mso-tstyle-colband-size:0;
-        	mso-style-noshow:yes;
-        	mso-style-priority:99;
-        	mso-style-parent:"";
-        	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-        	mso-para-margin:0cm;
-        	mso-pagination:widow-orphan;
-        	font-size:12.0pt;
-        	font-family:"Calibri",sans-serif;
-        	mso-ascii-font-family:Calibri;
-        	mso-ascii-theme-font:minor-latin;
-        	mso-hansi-font-family:Calibri;
-        	mso-hansi-theme-font:minor-latin;
-        	mso-bidi-font-family:"Times New Roman";
-        	mso-bidi-theme-font:minor-bidi;
-        	mso-ansi-language:NL;
-        	mso-fareast-language:EN-US;}
-        </style>
-
-        <!\[endif]-->
-
-
-        <!--StartFragment-->
-
-
-        The role is a full-time position based in our brand-new labs in Amsterdam. At Photanol, we offer an exciting international work environment in a young team in which you have the possibility to grow.
-
-
-         
+        The role is a full-time position based in our brand-new labs in
+        Amsterdam. At Photanol, we offer an exciting international work
+        environment in a young team in which you have the possibility to grow.
 
 
         Your responsibilities will include:
 
 
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Application and development of molecular cloning techniques for strain engineering
+        * Application and development of molecular cloning techniques for strain engineering
 
+        * Identify and implement workflows for improving the efficiency and effectiveness of the strain development process
 
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Identify and implement workflows for improving the efficiency and effectiveness of the strain development process
+        * Development and implementation of new genetic engineering tools and writing of standard operating procedures (SOP)
 
+        * Support application of robotics
 
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Development and implementation of new genetic engineering tools and writing of standard operating procedures (SOP)
-
-
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Support application of robotics
-
-
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Data management and reporting including project reports (oral and written), strain maintenance and inventory management (ELN)
-
-
-         
+        * Data management and reporting including project reports (oral and written), strain maintenance and inventory management (ELN)
 
 
         We are looking for someone with the following characteristics:
 
 
-        <!--\[if !supportLists]-->-          <!--\[endif]-->BSc (HLO) level in Biotechnology, Biochemistry, Microbiology, Molecular Biology
+        * BSc (HLO) level in Biotechnology, Biochemistry, Microbiology, Molecular Biology
 
+        * Trained in molecular cloning techniques and microbiological safety
 
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Trained in molecular cloning techniques and microbiological safety
+        * Happy to have a hands-on job in the laboratory
 
+        * Experience with cyanobacterial/algal research is appreciated
 
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Happy to have a hands-on job in the laboratory
+        * Personal qualities: team player, creative, target-oriented, versatile and flexible, pragmatic.
 
+        * Good communication skills, both verbal and written, in the English language
 
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Experience with cyanobacterial/algal research is appreciated
-
-
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Personal qualities: team player, creative, target-oriented, versatile and flexible, pragmatic.
-
-
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Good communication skills, both verbal and written, in the English language
-
-
-        <!--\[if !supportLists]-->-          <!--\[endif]-->Applicant outside of EU is required to have a valid work/residence permit or visa.
-
-
-         
+        * Applicant outside of EU is required to have a valid work/residence permit or visa.
 
 
         Please send your cover letter and resume to [joanna.kowalczyk@photanol.com](mailto:joanna.kowalczyk@photanol.com)
 
 
         The position is available per July/August 2023.
-
-
-        <!--EndFragment-->
+partners:
+  pretitle: OUR PARTNERS
+  title: The future needs like-minds.
+  logos:
+    - image: /img/mibiton.svg
+      link: https://www.mibiton.nl/
+      alt: Mibiton
+    - image: /img/nouryon.svg
+      link: https://www.nouryon.com/
+      alt: Nouryon
+    - image: /img/renolit.svg
+      link: https://www.renolit.com/
+      alt: Renolit
+    - image: /img/uva.svg
+      link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
+    - image: /img/nobian.png
+      link: https://www.nobian.com/
+      alt: Nobian
+  side_logo:
+    image: /img/renewable-carbon-logo.png
+    link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
+testimonials:
+  pretitle: Let our partners tell you why
+  title: Proof
+  items:
+    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
+        acknowledging the potentional and uniqueness of our solution for the
+        World of our next Generation. "
+      citation: World Economic Forum
+      image: /img/wef.svg
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
