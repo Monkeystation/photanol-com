@@ -190,6 +190,75 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
+partners:
+  pretitle: OUR PARTNERS
+  title: The future needs like-minds.
+  logos:
+    - image: /img/mibiton.svg
+      link: https://www.mibiton.nl/
+      alt: Mibiton
+    - image: /img/nouryon.svg
+      link: https://www.nouryon.com/
+      alt: Nouryon
+    - image: /img/renolit.svg
+      link: https://www.renolit.com/
+      alt: Renolit
+    - image: /img/uva.svg
+      link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
+    - image: /img/nobian.png
+      link: https://www.nobian.com/
+      alt: Nobian
+  side_logo:
+    image: /img/renewable-carbon-logo.png
+    link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
+testimonials:
+  pretitle: Let our partners tell you why
+  title: Proof
+  items:
+    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
+        acknowledging the potentional and uniqueness of our solution for the
+        World of our next Generation. "
+      citation: World Economic Forum
+      image: /img/wef.svg
 team:
   pretitle: MEET THE TEAM
   title: Dedicated to restoring balance since 2008
@@ -408,11 +477,25 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
-    - title: Laboratory Support Technician
-      description_short: Join the Photanol team to support the development of a
-        process to produce biochemicals based on light and CO2
+    - title: Laboratory Support Technician / Laboratorium Support Analist
+      description_short: >-
+        Join the Photanol team to support the development of a process to
+        produce biochemicals based on light and CO2 
+
+        / 
+
+        Sluit je aan bij het Photanol-team en ondersteun de ontwikkeling van een proces voor de productie van biochemicaliën op basis van licht en CO2
       description_full: >-
-        Your tasks and responsibilities:
+        *Voor Nederlands, zie onderaan*
+
+
+        Join the Photanol team to support the development of a process to produce biochemicals based on light and CO2
+
+
+        Location: Amsterdam
+
+
+        *Your tasks and responsibilities*
 
 
         As a Laboratory Support Technician, you help your colleagues in the molecular microbiology and fermentation lab with various tasks. You will work in an international team of passionate researchers (about 30) at our R&D laboratory at the Science Park in Amsterdam. This is a day shift position (5-8 hours a day, 5 days a week).
@@ -433,28 +516,28 @@ vacancies:
         * Helping colleagues where necessary
 
 
-        Your profile:
+        *Your profile*
 
 
         * MBO in Life Sciences, level 3 or 4
 
         * Experience with microbiology (sterile working)
 
-        * You have previously worked in a lab or did an internship (pre).
+        * You have previously worked in a lab or did an internship (pre)
 
         * You are organized, conscientious and accurate
 
-        * You are a pleasant colleague.
+        * You are a pleasant colleague
 
         * Good knowledge of spoken and written English and Dutch
 
         * You are available 5 days a week for approximately 5-8 hours per day (in consultation).
 
 
-        We offer:
+        We offer
 
 
-        * A 40-hour/week contract of one year, with the possibility of extension
+        * A 32-40 hour/week contract of six months, with the possibility of extension
 
         * 8% holiday allowance
 
@@ -463,10 +546,88 @@ vacancies:
         * Cohesive team in a growing company and room for your own input
 
 
-        Application and information:
+        *Application and information*
 
 
-        Please send your cover letter and resume to [jobs@photanol.com](mailto:jobs@photanol.com). We look forward to hearing from you!
+        Please send your cover letter and resume to mara.vincelli@photanol.com.
+
+
+        **N﻿ederlands (Dutch):**
+
+
+        Laboratorium support analist bij het onderzoekslaboratorium van Photanol
+
+
+        *Functieomschrijving*
+
+
+        Als Ondersteunend laborant help je jouw collega's op het moleculair microbiologisch en het fermentatie lab met verschillende taken. Je komt te werken in een internationaal team van gepassioneerde onderzoekers (ca 30) op ons R&D laboratorium op het Science Park in Amsterdam. Het betreft een functie in de dagdienst (5- 8 h per dag, 5 dagen per week).
+
+
+        Verantwoordelijkheden
+
+
+        * Het bereiden van groeimedia (vloeibaar/vast) ten behoeve van microbiologisch onderzoek
+
+        * Het autoklaveren van microbiologisch afval
+
+        * Inname, registratie en beheer van laboratorium artikelen
+
+        * Voorraad van het lab op peil houden
+
+        * Het lab netjes houden door gebruikte materialen op te ruimen
+
+        * De monstername ten behoeve van routine analyses
+
+        * Beheer van onderhoudscontracten op gebied van lab apparatuur
+
+        * Onderhouden van contact met leveranciers
+
+        * Uitvoeren van kleine onderhoudswerkzaamheden op het lab
+
+        * Assisteren waar gevraagd met verschillende werkzaamheden op het laboratorium
+
+        * Helpen van je collega's waar dit nodig is
+
+
+        Kortom een leuke afwisselende functie in een groeiend bedrijf met mogelijkheden voor ontwikkeling
+
+
+        *Profiel*
+
+
+        * Een MLO3 of MLO4 opleiding in relevante richting 
+
+        * Ervaring met microbiologie (steriel werken)
+
+        * Je hebt eerder op een lab gewerkt of stagegelopen (pre)
+
+        * Je bent georganiseerd, consciëntieus en accuraat
+
+        * Je bent een gezellige collega
+
+        * Goede beheersing van de Nederlandse en Engelse taal in woord en geschrift
+
+        * Je bent 5 dagen per week beschikbaar voor ca. 5- 8 h per dag (in overleg).
+
+
+        Arbeidsvoorwaarden
+
+
+        * Dienstverband: in eerste instantie wordt contract voor 6 maanden aangeboden
+
+        * Reiskostenvergoeding
+
+        * Collectieve Pensioenregeling
+
+
+        *Reageren*
+
+
+        Heb je vragen of ben je geïnteresseerd in deze functie stuur dan je vragen of motivatiebrief, voorzien van een c.v. naar mara.vincelli@photanol.com
+
+
+        De positie is per direct beschikbaar.
     - title: "Research Technician Strain Synthesis "
       description_short: "We are looking for a candidate to strengthen the execution
         of cyanobacterial strain engineering strategies for the (improved)
@@ -516,75 +677,6 @@ vacancies:
 
 
         The position is available per July/August 2023.
-partners:
-  pretitle: OUR PARTNERS
-  title: The future needs like-minds.
-  logos:
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/nouryon.svg
-      link: https://www.nouryon.com/
-      alt: Nouryon
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: Renolit
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/corbion.svg
-      alt: Corbion
-      link: http://www.corbion.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
-    - image: /img/horizon2020.svg
-      alt: Horizon 2020
-      link: https://ec.europa.eu/programmes/horizon2020/
-    - image: /img/nom.svg
-      alt: NOM
-      link: https://www.nom.nl/
-    - image: /img/rvo.svg
-      link: https://english.rvo.nl/
-      alt: Netherlands Enterprise Agency
-    - image: /img/groeifonds.svg
-      alt: Groeifonds
-      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
-    - image: /img/icos.svg
-      alt: ICOS
-      link: http://www.icoscapital.com/
-    - image: /img/carbon.svg
-      alt: Renewable Carbon
-      link: http://www.renewable-carbon.eu/
-    - image: /img/eu.svg
-      alt: European Regional Development Funds
-      link: https://www.kansenvoorwest2.nl/nl/
-    - image: /img/nobian.png
-      link: https://www.nobian.com/
-      alt: Nobian
-  side_logo:
-    image: /img/renewable-carbon-logo.png
-    link: https://www.renewable-carbon.eu
-    alt: Renewable Carbon
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
-testimonials:
-  pretitle: Let our partners tell you why
-  title: Proof
-  items:
-    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
-        acknowledging the potentional and uniqueness of our solution for the
-        World of our next Generation. "
-      citation: World Economic Forum
-      image: /img/wef.svg
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
