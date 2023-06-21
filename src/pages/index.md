@@ -703,8 +703,8 @@ footer:
     link_youtube: https://www.youtube.com/channel/UCG3ekip74dE4E6XKpVyRbSQ
     email_vacanties: jobs@photanol.com
   erdf_logo:
-    image: /img/eu-flag.svg
-    alt: European Regional Development Fund
-    link: https://ec.europa.eu/regional_policy/en/funding/erdf/
-    label: This website is co-funded by the European Regional Development Fund
+    image: /img/logo-cms.svg
+    alt: "-"
+    link: "-"
+    label: For partnering opportunities reach out via everything@photanol.com
 ---
