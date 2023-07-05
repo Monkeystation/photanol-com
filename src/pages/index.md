@@ -15,82 +15,6 @@ mission:
   video_item:
     label: Watch brandmovie
     link: ijMRUWfbp88
-technology:
-  pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
-  title: "Cyanobacteria: natural, all-in-one factories."
-  text: >-
-    Petro-chemicals mean mining more fossil fuel, emitting more carbon. They’re
-    also resource, land and time thirsty - the kind of industry that has led to
-    a planet out of balance. The Photanol solution helps reset that balance. 
-
-
-    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients for personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
-
-
-    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
-  video_item:
-    label: Watch corporate film
-    link: WN6sSfN-Apg
-partners:
-  pretitle: OUR PARTNERS
-  title: The future needs like-minds.
-  logos:
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/nouryon.svg
-      link: https://www.nouryon.com/
-      alt: Nouryon
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: Renolit
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/corbion.svg
-      alt: Corbion
-      link: http://www.corbion.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
-    - image: /img/horizon2020.svg
-      alt: Horizon 2020
-      link: https://ec.europa.eu/programmes/horizon2020/
-    - image: /img/nom.svg
-      alt: NOM
-      link: https://www.nom.nl/
-    - image: /img/rvo.svg
-      link: https://english.rvo.nl/
-      alt: Netherlands Enterprise Agency
-    - image: /img/groeifonds.svg
-      alt: Groeifonds
-      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
-    - image: /img/icos.svg
-      alt: ICOS
-      link: http://www.icoscapital.com/
-    - image: /img/carbon.svg
-      alt: Renewable Carbon
-      link: http://www.renewable-carbon.eu/
-    - image: /img/eu.svg
-      alt: European Regional Development Funds
-      link: https://www.kansenvoorwest2.nl/nl/
-    - image: /img/nobian.png
-      link: https://www.nobian.com/
-      alt: Nobian
-  side_logo:
-    image: /img/renewable-carbon-logo.png
-    link: https://www.renewable-carbon.eu
-    alt: Renewable Carbon
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
 solution:
   pretitle: THE FUTURE LOOKS DIFFERENT
   title: The future is circular.
@@ -155,62 +79,34 @@ roadmap:
         with Nouryon. With two significant partners on board, proven scalability
         of both our circular organic acids - lactic and glycolic – became the
         key milestones at our debut pilot plants.
-    - year: "2019"
-      title: Pilot plant validation
-      text: For each proven chemical, early wins in the lab must transform into
-        processes that can scale. Over the course of eight years we validated
-        our organic acids, producing consistently good results over prolonged
-        periods at kg scale, at three different plants. Both Corbion and Nouryon
-        proved their strategic value by contributing decades of downstream
-        expertise. Photanol was now able to demonstrate cost, waste and energy
-        efficiency throughout the entire process.
-      icon: /img/roadmap_pilt_validation.png
-      image: /img/5-pilot-plant-validation.jpg
     - text: "Fresh off the press in September 2020: We are live at our first
-        demonstration scale plant in Delfzijl. Cyanobacteria have been set free
-        across thousands of meters of tubing laid out in a controlled
-        greenhouse. Sunlight powering the bacteria’s productive magic. Creating
-        a massive and very impressive bio-plant. All with big thanks to funding
-        from four new investors and H2020 Project RePLAy. "
+        Industrial Pilot plant in Delfzijl. Cyanobacteria have been set free
+        across thousands of meters of tubing laid out in a controlled greenhouse
+        optimised for process development. Sunlight powering the bacteria’s
+        productive magic. All with big thanks to funding from four new investors
+        and H2020 Project RePLAy. "
       year: "2020"
       title: First demonstration plant
       icon: /img/roadmap_construction.png
       image: /img/7-demo-plant-starts-production.jpg
-    - text: We admit we’re a tad ambitious, and the goals we set often keep us up at
-        night. But it’s also led us to two great partners. Now, a third
-        powerhouse is backing the Photanol mission - signing a partnership
-        agreement. With Renolit joining the Photanol journey, we can bring
-        circular innovation to yet another industry - healthcare. Renolit
-        applies polymers in the global medical world and will iterate with
-        Photanol tech to provide truly circular production of plastics (PP/PE)
-        for this essential sector, as well as for the Renolit Group’s other
-        applications.
+    - text: With Renolit joining the Photanol journey, we can bring circular
+        innovation to yet another industry - healthcare. Renolit applies
+        polymers in the global medical world and will iterate with Photanol tech
+        to provide truly circular production of plastics (PP/PE) for this
+        essential sector, as well as for the Renolit Group’s other applications.
       year: "2020"
       title: Strategic partnership with Renolit
       icon: /img/roadmap_partnerships.png
       image: /img/8-strategic-partnership-renolit.jpg
-    - text: Our demo plant has the capacity to produce up to 10 tons per year. It’s
-        the intermediary step to producing the kilotons needed for large scale
-        commercial needs. It’s also the testing ground for fine-tuning processes
-        and discovering the optimum equilibrium between investment and returns.
-        Proving that when upscaled, the Photanol process can produce as cost
-        efficiently as old school fossil fuel operations. And, in the long term
-        with even better economics. After biochemicals, biofuels are Photanol’s
-        next disruptive ambition.
-      year: "2021"
-      title: Demo plant starts validating production process
-      icon: /img/roadmap_demo_production.png
-      image: /img/5.-img_20201104_143813-2-.jpg
     - title: Scale up to commercial plant
       year: "2027"
       text: "Proving commercial viability is next. Photanol is like a lego-block-style
         blueprint: once fine-tuned and optimized, reaching commercial scale
-        ‘simply’ means joining together a 100 copies of our demo plant.
-        Manufacturing capacity will increase to around 30,000 tonnes. Applying
-        the learnings from the smaller scale demo set-up while embracing
-        engineering insights from industries like agriculture, water treatment
-        plants and others. Methodology that will enable Photanol to compete
-        extremely favourably with non-renewable chemicals. Proving that
+        ‘simply’ means manufacturing capacity will increase to around 30,000
+        tonnes. Applying the learnings from the smaller scale demo set-up while
+        embracing engineering insights from industries like agriculture, water
+        treatment plants and others. Methodology that will enable Photanol to
+        compete extremely favourably with non-renewable chemicals. Proving that
         sustainability isn’t second place to economic profit. "
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/photanol_sketch_birdsview_web.png
@@ -226,6 +122,22 @@ roadmap:
       icon: /img/roadmap_commercial_production.png
       image: /img/10-commercial-production.jpg
   active: 4
+technology:
+  pretitle: A PARADIGM SHIFT FOR A SUSTAINABLE FUTURE
+  title: "Cyanobacteria: natural, all-in-one factories."
+  text: >-
+    Petro-chemicals mean mining more fossil fuel, emitting more carbon. They’re
+    also resource, land and time thirsty - the kind of industry that has led to
+    a planet out of balance. The Photanol solution helps reset that balance. 
+
+
+    We can create any carbon compound. Which means we can make the monomers used for different plastics, the ingredients for personal care products and detergents; even fuels - clean, renewable and circular. All thanks to innovation that follows nature’s lead. 
+
+
+    Photanol works with the superpower of cyanobacteria to photosynthesize. Optimizing the bacteria to absorb more CO<small>2</small>, adapting its metabolic pathways to produce a desired chemical. Transforming the bacteria into highly-efficient mini factories that run on sunlight, produce just oxygen as by-product and need radically less land and water than traditional variants. All primed for scalability thanks to Photanol’s platform technology. 
+  video_item:
+    label: Watch corporate film
+    link: WN6sSfN-Apg
 infographic:
   pretitle: How it works
   items:
@@ -250,6 +162,66 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
+partners:
+  pretitle: OUR PARTNERS
+  title: The future needs like-minds.
+  logos:
+    - image: /img/mibiton.svg
+      link: https://www.mibiton.nl/
+      alt: Mibiton
+    - image: /img/nouryon.svg
+      link: https://www.nouryon.com/
+      alt: Nouryon
+    - image: /img/renolit.svg
+      link: https://www.renolit.com/
+      alt: Renolit
+    - image: /img/uva.svg
+      link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
+    - image: /img/nobian.png
+      link: https://www.nobian.com/
+      alt: Nobian
+  side_logo:
+    image: /img/renewable-carbon-logo.png
+    link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
 testimonials:
   pretitle: Let our partners tell you why
   title: Proof
