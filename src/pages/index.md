@@ -420,10 +420,7 @@ team:
       text: "As part of the upscaling team, Alessia's main research goal is to develop
         methods increasing the efficiency, scalability and applicability of
         Photanol's technology of turning CO2 into renewable chemicals through
-        the power of photosynthesis. Accordingly, she conducts research to
-        identify and address technical challenges that arise during the
-        implementation of our technology, as well as to optimize cultivation
-        conditions to maximize yields in our production process. "
+        the power of photosynthesis. "
       linkedin: https://www.linkedin.com/in/alessia-de-maio-132a94174/
       image: /img/alessia-de-maio.jpg
       function: Junior Researcher
