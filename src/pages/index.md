@@ -399,6 +399,19 @@ team:
         -Purchase Orders - Research Laboratory Skills - DNA Extraction -
         Microbiology - Molecular Biology
       image: /img/maarten.jpg
+    - name: Daniel Antón-García
+      linkedin: https://www.linkedin.com/in/danielantongarcia/
+      function: Team Lead
+      text: >-
+        Researcher at Photanol, employing cyanobacteria to convert CO2 into
+        renewable chemicals.
+
+
+        Recently submitted my Doctoral Thesis titled "Tailored diketopyrrolopyrrolebased organic dyes in photoelectrochemical cells for solar fuel synthesis".
+
+
+        Interdisciplinary background in photoelectrochemistry, organic and organometallic synthesis, catalysis, materials chemistry, analytical chemistry, and artificial photosynthesis.
+      image: /img/daniel-anton-garcia.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
