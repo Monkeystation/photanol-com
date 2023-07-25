@@ -387,6 +387,11 @@ team:
         circular energy solutions.
       linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
       image: /img/team_joost-t.jpg
+    - name: Anna Behle
+      function: "Strain engineer "
+      text: Researcher & project lead
+      linkedin: https://www.linkedin.com/in/anna-behle-90b432208/?originalSubdomain=nl
+      image: /img/anna-behle.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
