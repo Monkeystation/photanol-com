@@ -402,15 +402,10 @@ team:
     - name: Daniel Antón-García
       linkedin: https://www.linkedin.com/in/danielantongarcia/
       function: Team Lead
-      text: >-
-        Researcher at Photanol, employing cyanobacteria to convert CO2 into
-        renewable chemicals.
-
-
-        Recently submitted my Doctoral Thesis titled "Tailored diketopyrrolopyrrolebased organic dyes in photoelectrochemical cells for solar fuel synthesis".
-
-
-        Interdisciplinary background in photoelectrochemistry, organic and organometallic synthesis, catalysis, materials chemistry, analytical chemistry, and artificial photosynthesis.
+      text: Researcher at Photanol, employing cyanobacteria to convert CO2 into
+        renewable chemicals. Recently submitted my Doctoral Thesis titled
+        "Tailored diketopyrrolopyrrolebased organic dyes in photoelectrochemical
+        cells for solar fuel synthesis".
       image: /img/daniel-anton-garcia.jpg
     - name: "Joppe Verbokkem "
       linkedin: https://www.linkedin.com/in/joppeverbokkem/
