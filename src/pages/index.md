@@ -465,7 +465,8 @@ team:
       image: /img/pooja-rangan.jpg
     - name: Max	Guillaume
       function: Researcher | MSc Bioinformatics & Systems Biology
-      text: Researcher currently pursuing his PhD
+      text: Researcher who is also currently pursuing his PhD at the University of
+        Amsterdam
       linkedin: https://www.linkedin.com/in/mcguillaume/
       image: /img/max-guillaume.jpg
 vacancies:
