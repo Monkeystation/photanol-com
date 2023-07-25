@@ -412,6 +412,11 @@ team:
 
         Interdisciplinary background in photoelectrochemistry, organic and organometallic synthesis, catalysis, materials chemistry, analytical chemistry, and artificial photosynthesis.
       image: /img/daniel-anton-garcia.jpg
+    - name: "Joppe Verbokkem "
+      linkedin: https://www.linkedin.com/in/joppeverbokkem/
+      function: Director | Finance & Business Development
+      text: Director Finance & Business Development
+      image: /img/joppe.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
