@@ -409,7 +409,9 @@ team:
     - name: "Joppe Verbokkem "
       linkedin: https://www.linkedin.com/in/joppeverbokkem/
       function: Director | Finance & Business Development
-      text: Director Finance & Business Development
+      text: >
+        MSc Finance · University of Groningen | Strong background in corporate
+        finance, business development and fundraising.
       image: /img/joppe.jpg
     - name: Amyatai Enters
       linkedin: https://www.linkedin.com/in/amyatai-enters-3b76a5199/
