@@ -392,6 +392,13 @@ team:
       text: Researcher & project lead
       linkedin: https://www.linkedin.com/in/anna-behle-90b432208/?originalSubdomain=nl
       image: /img/anna-behle.jpg
+    - name: Maarten Keij
+      function: Research Technician
+      linkedin: https://www.linkedin.com/in/maarten-keij-588b09184/
+      text: Molecular Cloning - PCR - Analytical Thinking - Gel Electrophoresis
+        -Purchase Orders - Research Laboratory Skills - DNA Extraction -
+        Microbiology - Molecular Biology
+      image: /img/maarten.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
