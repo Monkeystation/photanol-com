@@ -582,7 +582,10 @@ vacancies:
         * Good communication skills, both verbal and written, in the English language.
 
 
-        Please send your cover letter and resume to joanna.kowalczyk@photanol.com.The position is available per September 2023.
+        Please send your cover letter and resume to joanna.kowalczyk@photanol.com
+
+
+        The position is available per September 2023.
       description_short: "We are looking for an MSc internship candidate (preferably
         enrolled in last year) for a period of at least 6 months in our labs in
         Amsterdam. You will get a role in our Strain Synthesis team with
