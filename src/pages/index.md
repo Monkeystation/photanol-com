@@ -458,6 +458,11 @@ team:
       text: Fermentation specialist with a strong background in the beverage industry,
         who decided to broaden her horizons by exploring the biotech industry.
       image: /img/chata-mundell.jpg
+    - name: Pooja Rangan
+      function: Office Administrator
+      linkedin: https://www.linkedin.com/in/pooja-rangan-4b224b174/
+      text: Experienced software professional with BSc in IT
+      image: /img/pooja-rangan.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
