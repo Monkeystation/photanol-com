@@ -417,6 +417,22 @@ team:
       function: Director | Finance & Business Development
       text: Director Finance & Business Development
       image: /img/joppe.jpg
+    - name: Amyatai Enters
+      linkedin: https://www.linkedin.com/in/amyatai-enters-3b76a5199/
+      function: Junior Researcher
+      text: Cultivation of cyanobacteria · Molecular techniques · Method development
+      image: /img/amyatai-enters.jpg
+    - name: Alessia De Maio
+      text: >-
+        As part of the upscaling team, my main goal is to develop methods to
+        increase the efficiency, scalability and applicability of Photanol's
+        technology of turning CO2 into renewable chemicals through the power of
+        photosynthesis. 
+
+        Specifically I conduct research to identify and address technical challenges that arise during the implementation of our technology, as well as to optimize cultivation conditions to maximize yields in our production process. 
+      linkedin: https://www.linkedin.com/in/alessia-de-maio-132a94174/
+      image: /img/alessia-de-maio.jpg
+      function: Junior Researcher
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
