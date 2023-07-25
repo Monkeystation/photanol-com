@@ -395,9 +395,8 @@ team:
     - name: Maarten Keij
       function: Research Technician
       linkedin: https://www.linkedin.com/in/maarten-keij-588b09184/
-      text: Molecular Cloning - PCR - Analytical Thinking - Gel Electrophoresis
-        -Purchase Orders - Research Laboratory Skills - DNA Extraction -
-        Microbiology - Molecular Biology
+      text: Molecular Cloning · PCR · Gel Electrophoresis · Microbiology · Molecular
+        Biology
       image: /img/maarten.jpg
     - name: Daniel Antón-García
       linkedin: https://www.linkedin.com/in/danielantongarcia/
