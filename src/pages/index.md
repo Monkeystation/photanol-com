@@ -447,7 +447,8 @@ team:
       linkedin: https://www.linkedin.com/in/chata-m-12630a9b/
       function: Project Lead & Pilot Researcher
       text: Fermentation specialist with a strong background in the beverage industry,
-        who decided to broaden her horizons by exploring the biotech industry.
+        who decided to broaden her horizon and explore the biotech industry by
+        joining Photanol in 2022.
       image: /img/chata-mundell.jpg
     - name: Pooja Rangan
       function: Office Administrator
