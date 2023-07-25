@@ -443,6 +443,15 @@ team:
       text: "Junior Researcher at Photanol "
       image: /img/valentine.jpg
       linkedin: https://www.linkedin.com/in/valentine-nguyen-78b74a1b9/
+    - name: Matthew Booth
+      image: /img/matthew-booth.jpg
+      linkedin: https://www.linkedin.com/in/matthew-booth-5323baa4/
+      text: "Experienced researcher with a demonstrated history of working in the
+        biochemical research industry. Skilled in Matlab, data analysis,
+        statistics, wet lab techniques and bioreactor operation. Strong research
+        professional working towards an Engineering Doctorate (EngD) in
+        Biochemical Engineering from University College London. "
+      function: " Research Scientist"
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
