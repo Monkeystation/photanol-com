@@ -432,8 +432,8 @@ team:
       image: /img/áureo-cutillas.jpg
       linkedin: https://www.linkedin.com/in/aureo-cutillas-farray/
     - name: Valentine	Nguyen
-      function: Junior Researcher R&D | MSc in Industrial Biotechnology
-      text: "Junior Researcher at Photanol "
+      function: "Junior Researcher R&D "
+      text: Junior Researcher with MSc in Industrial Biotechnology
       image: /img/valentine.jpg
       linkedin: https://www.linkedin.com/in/valentine-nguyen-78b74a1b9/
     - name: Matthew Booth
@@ -455,12 +455,12 @@ team:
     - name: Pooja Rangan
       function: Office Administrator
       linkedin: https://www.linkedin.com/in/pooja-rangan-4b224b174/
-      text: Experienced software professional with BSc in IT
+      text: Experienced software professional with BSc in Information Technology
       image: /img/pooja-rangan.jpg
     - name: Max	Guillaume
-      function: Researcher | MSc Bioinformatics & Systems Biology
-      text: Researcher who is also currently pursuing his PhD at the University of
-        Amsterdam
+      function: Researcher
+      text: "Researcher with a MSc in Bioinformatics & Systems Biology, who is
+        currently pursuing his PhD at the University of Amsterdam. "
       linkedin: https://www.linkedin.com/in/mcguillaume/
       image: /img/max-guillaume.jpg
 vacancies:
