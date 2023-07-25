@@ -449,6 +449,41 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
+    - title: "Master Internship | Strain Synthesis "
+      description_full: >-
+        Your responsibilities will include:
+
+
+        * Application and development of molecular techniques for strain engineering;
+
+        * Design and implementation of automated protocols that accelerate the efficiency and effectiveness of the strain development process;
+
+        * Support the work infrastructure and ensure the continuity of the strain development pipeline, including strain maintenance and inventory management (ELN);
+
+        * Data management and reporting including project reports (oral and written). 
+
+
+        We are looking for someone with the following characteristics: 
+
+
+        * MSc level in Systems Biology, Biotechnology, Biochemistry, Microbiology, Molecular Biology or similar;
+
+        * Experience with Python programming language or similar; 
+
+        * Trained in molecular cloning techniques and microbiological safety - Personal qualities: creative, target-oriented, and self-motivated;
+
+        * Good communication skills, both verbal and written, in the English language.
+
+
+        Please send your cover letter and resume to joanna.kowalczyk@photanol.com\
+
+        \
+
+        The position is available per September 2023.
+      description_short: "We are looking for an MSc internship candidate (preferably
+        enrolled in last year) for a period of at least 6 months in our labs in
+        Amsterdam. You will get a role in our Strain Synthesis team with
+        emphasis on toolbox development and lab automation. "
     - title: "Research Technician Strain Synthesis "
       description_short: "We are looking for a candidate to strengthen the execution
         of cyanobacterial strain engineering strategies for the (improved)
@@ -556,41 +591,6 @@ vacancies:
 
 
         Please send your cover letter and resume to jobs@photanol.com. The position is available per August 2023, and we review the applications on a rolling basis. We look forward to hearing from you!
-    - title: "Master Internship | Strain Synthesis "
-      description_full: >-
-        Your responsibilities will include:
-
-
-        * Application and development of molecular techniques for strain engineering;
-
-        * Design and implementation of automated protocols that accelerate the efficiency and effectiveness of the strain development process;
-
-        * Support the work infrastructure and ensure the continuity of the strain development pipeline, including strain maintenance and inventory management (ELN);
-
-        * Data management and reporting including project reports (oral and written). 
-
-
-        We are looking for someone with the following characteristics: 
-
-
-        * MSc level in Systems Biology, Biotechnology, Biochemistry, Microbiology, Molecular Biology or similar;
-
-        * Experience with Python programming language or similar; 
-
-        * Trained in molecular cloning techniques and microbiological safety - Personal qualities: creative, target-oriented, and self-motivated;
-
-        * Good communication skills, both verbal and written, in the English language.
-
-
-        Please send your cover letter and resume to joanna.kowalczyk@photanol.com\
-
-        \
-
-        The position is available per September 2023.
-      description_short: "We are looking for an MSc internship candidate (preferably
-        enrolled in last year) for a period of at least 6 months in our labs in
-        Amsterdam. You will get a role in our Strain Synthesis team with
-        emphasis on toolbox development and lab automation. "
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
