@@ -452,6 +452,12 @@ team:
         professional working towards an Engineering Doctorate (EngD) in
         Biochemical Engineering from University College London. "
       function: " Research Scientist"
+    - name: Chanta Mundell
+      linkedin: https://www.linkedin.com/in/chata-m-12630a9b/
+      function: Project Lead & Pilot Researcher
+      text: Fermentation specialist with a strong background in the beverage industry,
+        who decided to broaden her horizons by exploring the biotech industry.
+      image: /img/chata-mundell.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
