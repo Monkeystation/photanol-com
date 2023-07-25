@@ -463,6 +463,11 @@ team:
       linkedin: https://www.linkedin.com/in/pooja-rangan-4b224b174/
       text: Experienced software professional with BSc in IT
       image: /img/pooja-rangan.jpg
+    - name: Max	Guillaume
+      function: Researcher | MSc Bioinformatics & Systems Biology
+      text: Researcher currently pursuing his PhD
+      linkedin: https://www.linkedin.com/in/mcguillaume/
+      image: /img/max-guillaume.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
