@@ -433,6 +433,16 @@ team:
       linkedin: https://www.linkedin.com/in/alessia-de-maio-132a94174/
       image: /img/alessia-de-maio.jpg
       function: Junior Researcher
+    - name: Áureo Cutillas
+      function: Junior Researcher | Strain Development
+      text: Strain Development researcher
+      image: /img/áureo-cutillas.jpg
+      linkedin: https://www.linkedin.com/in/aureo-cutillas-farray/
+    - name: Valentine	Nguyen
+      function: Junior Researcher R&D | MSc in Industrial Biotechnology
+      text: "Junior Researcher at Photanol "
+      image: /img/valentine.jpg
+      linkedin: https://www.linkedin.com/in/valentine-nguyen-78b74a1b9/
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
