@@ -169,9 +169,6 @@ partners:
     - image: /img/mibiton.svg
       link: https://www.mibiton.nl/
       alt: Mibiton
-    - image: /img/nouryon.svg
-      link: https://www.nouryon.com/
-      alt: Nouryon
     - image: /img/renolit.svg
       link: https://www.renolit.com/
       alt: Renolit
@@ -205,9 +202,6 @@ partners:
     - image: /img/eu.svg
       alt: European Regional Development Funds
       link: https://www.kansenvoorwest2.nl/nl/
-    - image: /img/nobian.png
-      link: https://www.nobian.com/
-      alt: Nobian
   side_logo:
     image: /img/renewable-carbon-logo.png
     link: https://www.renewable-carbon.eu
@@ -468,55 +462,6 @@ vacancies:
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
-    - title: "Research Technician Strain Synthesis "
-      description_short: "We are looking for a candidate to strengthen the execution
-        of cyanobacterial strain engineering strategies for the (improved)
-        production of selected products in an industrial environment. You will
-        get a role in our strain synthesis team with emphasis on molecular
-        techniques. We value creativity and out-of-the box thinking, but also a
-        structured and analytical way of working towards our targets. "
-      description_full: >-
-        The role is a full-time position based in our brand-new labs in
-        Amsterdam. At Photanol, we offer an exciting international work
-        environment in a young team in which you have the possibility to grow.
-
-
-        Your responsibilities will include:
-
-
-        * Application and development of molecular cloning techniques for strain engineering
-
-        * Identify and implement workflows for improving the efficiency and effectiveness of the strain development process
-
-        * Development and implementation of new genetic engineering tools and writing of standard operating procedures (SOP)
-
-        * Support application of robotics
-
-        * Data management and reporting including project reports (oral and written), strain maintenance and inventory management (ELN)
-
-
-        We are looking for someone with the following characteristics:
-
-
-        * BSc (HLO) level in Biotechnology, Biochemistry, Microbiology, Molecular Biology
-
-        * Trained in molecular cloning techniques and microbiological safety
-
-        * Happy to have a hands-on job in the laboratory
-
-        * Experience with cyanobacterial/algal research is appreciated
-
-        * Personal qualities: team player, creative, target-oriented, versatile and flexible, pragmatic.
-
-        * Good communication skills, both verbal and written, in the English language
-
-        * Applicant outside of EU is required to have a valid work/residence permit or visa.
-
-
-        Please send your cover letter and resume to [joanna.kowalczyk@photanol.com](mailto:joanna.kowalczyk@photanol.com)
-
-
-        The position is available per July/August 2023.
     - title: Junior Researcher Strain Engineering
       description_short: "Passion for biotechnology and ready to change the world?
         Interested in driving translation of science and technology to a
