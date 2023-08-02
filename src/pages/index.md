@@ -40,23 +40,23 @@ roadmap:
         theorized it was possible to adapt cyanobacteria to synthesize ethanol.
         With the potential to create any carbon chemical. The real game-changer?
         Absorbing CO<small>2</small>. Based on cyanobacteria’s power to
-        photosynthesize, the process the professors dreamt up extracts
-        CO<small>2</small> from the atmosphere while producing essential
-        industrial compounds. Months of iteration in the lab led to success, our
-        first patent and the birth of Photanol’s renewable revolution. "
+        photosynthesize, the process the professors dreamt up uses
+        CO<small>2</small> as a feedstock while producing essential industrial
+        compounds. Months of iteration in the lab led to success, our first
+        patent and the birth of Photanol’s renewable revolution. "
     - year: "2012"
       title: Platform spin-out
       icon: /img/roadmap_spinout.png
       image: /img/2-platform-spinout.jpg
       text: >-
-        In order to nurture our fledgling circular ambitions, we needed to
-        demonstrate commercial potential. Our technology must be capable of
-        producing an entire platform of compounds. Transforming any chemical to
-        a sustainable one. Early investment rounds allowed us to form a
-        dedicated Photanol team to power the effort.
+        In order to nurture our circular ambitions, we needed to demonstrate
+        commercial potential. Our technology must be capable of producing an
+        entire platform of compounds. Transforming any chemical to a sustainable
+        one. An early investment round allowed us to form a dedicated Photanol
+        team to power the effort.
 
 
-        They validated that our first patent could lead to many more; enhancing cyanobacteria for 17 individual strains. Proving that what we had on our hands could rock the world. We were officially in the business of restoring balance on our planet.
+        They validated that our first patent could lead to many more; enhancing cyanobacteria for 17 different products. We were officially in the business of restoring balance on our planet.
     - year: "2014"
       title: Strategic partnership with Corbion
       icon: /img/roadmap_partnerships.png
@@ -66,10 +66,10 @@ roadmap:
         vision for circular chemistry. One with specific expertise and a
         commercial need. Corbion is a fermentation expert. They produce lactic
         acid from beet or cane sugar – the raw material needed for PLA (poly
-        lactic acid used for biodegradable bioplastic packaging).
+        lactic acid used for biodegradable bioplastic).
 
 
-        The partnership with Corbion enabled us to develop renewable lactic acid with highest purity; made from CO<small>2</small>. Using 24 times less land and 25 times less water than traditional equivalents.
+        The partnership with Corbion enabled us to focus on the develop of renewable lactic acid made directly from CO<small>2</small>. Using 24 times less land and 25 times less water than traditional equivalents.
     - year: "2016"
       title: Strategic partnership with Nouryon
       icon: /img/roadmap_partnerships.png
@@ -82,11 +82,10 @@ roadmap:
     - text: "Fresh off the press in September 2020: We are live at our first
         Industrial Pilot plant in Delfzijl. Cyanobacteria have been set free
         across thousands of meters of tubing laid out in a controlled greenhouse
-        optimised for process development. Sunlight powering the bacteria’s
-        productive magic. All with big thanks to funding from four new investors
-        and H2020 Project RePLAy. "
+        optimised for process development. All with big thanks to funding from
+        four new investors and H2020 Project RePLAy. "
       year: "2020"
-      title: First demonstration plant
+      title: Industrial Pilot Plant
       icon: /img/roadmap_construction.png
       image: /img/7-demo-plant-starts-production.jpg
     - text: With Renolit joining the Photanol journey, we can bring circular
@@ -100,14 +99,11 @@ roadmap:
       image: /img/8-strategic-partnership-renolit.jpg
     - title: Scale up to commercial plant
       year: "2027"
-      text: "Proving commercial viability is next. Photanol is like a lego-block-style
-        blueprint: once fine-tuned and optimized, reaching commercial scale
-        ‘simply’ means manufacturing capacity will increase to around 30,000
-        tonnes. Applying the learnings from the smaller scale demo set-up while
-        embracing engineering insights from industries like agriculture, water
-        treatment plants and others. Methodology that will enable Photanol to
-        compete extremely favourably with non-renewable chemicals. Proving that
-        sustainability isn’t second place to economic profit. "
+      text: "Proving commercial viability is next. Photanol is a modular blueprint.
+        Manufacturing capacity will increase to around 30,000 tons. A
+        methodology that will enable Photanol to compete with non-renewable
+        chemicals. Proving that sustainability isn’t second place to economic
+        profit. "
       icon: /img/roadmap_scale_commercial_plant.png
       image: /img/photanol_sketch_birdsview_web.png
     - year: "2028"
@@ -162,69 +158,6 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
-partners:
-  pretitle: OUR PARTNERS
-  title: The future needs like-minds.
-  logos:
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: Renolit
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/corbion.svg
-      alt: Corbion
-      link: http://www.corbion.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
-    - image: /img/horizon2020.svg
-      alt: Horizon 2020
-      link: https://ec.europa.eu/programmes/horizon2020/
-    - image: /img/nom.svg
-      alt: NOM
-      link: https://www.nom.nl/
-    - image: /img/rvo.svg
-      link: https://english.rvo.nl/
-      alt: Netherlands Enterprise Agency
-    - image: /img/groeifonds.svg
-      alt: Groeifonds
-      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
-    - image: /img/icos.svg
-      alt: ICOS
-      link: http://www.icoscapital.com/
-    - image: /img/carbon.svg
-      alt: Renewable Carbon
-      link: http://www.renewable-carbon.eu/
-    - image: /img/eu.svg
-      alt: European Regional Development Funds
-      link: https://www.kansenvoorwest2.nl/nl/
-  side_logo:
-    image: /img/renewable-carbon-logo.png
-    link: https://www.renewable-carbon.eu
-    alt: Renewable Carbon
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
-testimonials:
-  pretitle: Let our partners tell you why
-  title: Proof
-  items:
-    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
-        acknowledging the potentional and uniqueness of our solution for the
-        World of our next Generation. "
-      citation: World Economic Forum
-      image: /img/wef.svg
 team:
   pretitle: MEET THE TEAM
   title: Dedicated to restoring balance since 2008
@@ -554,6 +487,69 @@ vacancies:
         enrolled in last year) for a period of at least 6 months in our labs in
         Amsterdam. You will get a role in our Strain Synthesis team with
         emphasis on toolbox development and lab automation. "
+partners:
+  pretitle: OUR PARTNERS
+  title: The future needs like-minds.
+  logos:
+    - image: /img/mibiton.svg
+      link: https://www.mibiton.nl/
+      alt: Mibiton
+    - image: /img/renolit.svg
+      link: https://www.renolit.com/
+      alt: Renolit
+    - image: /img/uva.svg
+      link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
+  side_logo:
+    image: /img/renewable-carbon-logo.png
+    link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
+testimonials:
+  pretitle: Let our partners tell you why
+  title: Proof
+  items:
+    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
+        acknowledging the potentional and uniqueness of our solution for the
+        World of our next Generation. "
+      citation: World Economic Forum
+      image: /img/wef.svg
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
