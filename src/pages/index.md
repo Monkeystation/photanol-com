@@ -158,6 +158,69 @@ infographic:
         carbon compound, with the power to transform many industries to
         circular.
       alt: Products
+partners:
+  pretitle: OUR PARTNERS
+  title: The future needs like-minds.
+  logos:
+    - image: /img/mibiton.svg
+      link: https://www.mibiton.nl/
+      alt: Mibiton
+    - image: /img/renolit.svg
+      link: https://www.renolit.com/
+      alt: Renolit
+    - image: /img/uva.svg
+      link: https://www.uva.nl/
+      alt: Universiteit van Amsterdam
+    - image: /img/corbion.svg
+      alt: Corbion
+      link: http://www.corbion.com/
+    - image: /img/wef.svg
+      link: https://www.weforum.org/
+      alt: World Economic Forum
+    - image: /img/horizon2020.svg
+      alt: Horizon 2020
+      link: https://ec.europa.eu/programmes/horizon2020/
+    - image: /img/nom.svg
+      alt: NOM
+      link: https://www.nom.nl/
+    - image: /img/rvo.svg
+      link: https://english.rvo.nl/
+      alt: Netherlands Enterprise Agency
+    - image: /img/groeifonds.svg
+      alt: Groeifonds
+      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
+    - image: /img/icos.svg
+      alt: ICOS
+      link: http://www.icoscapital.com/
+    - image: /img/carbon.svg
+      alt: Renewable Carbon
+      link: http://www.renewable-carbon.eu/
+    - image: /img/eu.svg
+      alt: European Regional Development Funds
+      link: https://www.kansenvoorwest2.nl/nl/
+  side_logo:
+    image: /img/renewable-carbon-logo.png
+    link: https://www.renewable-carbon.eu
+    alt: Renewable Carbon
+slideshow:
+  image1:
+    image: /img/co2.jpg
+    alt: Emissions
+  image2:
+    image: /img/slide2.jpg
+    alt: Cyanobacteria
+  image3:
+    image: /img/slide3.jpg
+    alt: Bioplastics
+testimonials:
+  pretitle: Let our partners tell you why
+  title: Proof
+  items:
+    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
+        acknowledging the potentional and uniqueness of our solution for the
+        World of our next Generation. "
+      citation: World Economic Forum
+      image: /img/wef.svg
 team:
   pretitle: MEET THE TEAM
   title: Dedicated to restoring balance since 2008
@@ -394,162 +457,7 @@ vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
-  list:
-    - title: Junior Researcher Strain Engineering
-      description_short: "Passion for biotechnology and ready to change the world?
-        Interested in driving translation of science and technology to a
-        commercial industrial process? Join the Photanol team to develop
-        optimized cyanobacteria to produce circular chemicals based on light and
-        CO2. We are looking for a candidate to strengthen the execution of
-        cyanobacterial strain engineering strategies for the (improved)
-        production of selected products. You will get a role in our strain
-        engineering team with emphasis on strain evaluation for productivity. "
-      description_full: >-
-        The role is a full-time position based in our brand-new labs in
-        Amsterdam. At Photanol, we offer an exciting international work
-        environment in a young team in which you have the possibility to grow. 
-
-
-        We are looking for candidates with hands-on experience in one or more of the following fields:
-
-
-        * Cyanobacteria: photosynthesis, genetic modification
-
-        * Metabolic modelling
-
-        * Biotechnology: 
-
-
-        Your responsibilities will include:
-
-
-        * Identify and implement creative and sustainable approaches to increase strain productivity and robustness
-
-        * Cultivating cyanobacteria to evaluate performance of developed strains 
-
-        * Development of analytical methods
-
-        * Data management and reporting including ELN, SOPs and project reports (oral and written) 
-
-
-        We are looking for someone with the following characteristics:
-
-
-        * MSc level in Biotechnology, Biochemistry, Microbiology, Molecular Biology or Systems Biology
-
-        * Trained in molecular cloning techniques and microbiological safety 
-
-        * Experience with cyanobacterial research (photosynthesis & metabolism) highly appreciated
-
-        * Happy to have a hands-on job in the laboratory 
-
-        * Personal qualities: team player, creative, target-oriented, versatile and flexible, decision taker, pragmatic, self-motivated, and perseverance.
-
-        * Well-versed with electronic data management tools 
-
-        * Good communication skills, both verbal and written, in the English language
-
-        * Applicant outside of EU is required to have a valid work/residence permit or visa.
-
-
-        Please send your cover letter and resume to jobs@photanol.com. The position is available per August 2023, and we review the applications on a rolling basis. We look forward to hearing from you!
-    - title: "Master Internship | Strain Synthesis "
-      description_full: >-
-        Your responsibilities will include:
-
-
-        * Application and development of molecular techniques for strain engineering;
-
-        * Design and implementation of automated protocols that accelerate the efficiency and effectiveness of the strain development process;
-
-        * Support the work infrastructure and ensure the continuity of the strain development pipeline, including strain maintenance and inventory management (ELN);
-
-        * Data management and reporting including project reports (oral and written). 
-
-
-        We are looking for someone with the following characteristics: 
-
-
-        * MSc level in Systems Biology, Biotechnology, Biochemistry, Microbiology, Molecular Biology or similar;
-
-        * Experience with Python programming language or similar; 
-
-        * Trained in molecular cloning techniques and microbiological safety - Personal qualities: creative, target-oriented, and self-motivated;
-
-        * Good communication skills, both verbal and written, in the English language.
-
-
-        Please send your cover letter and resume to joanna.kowalczyk@photanol.com
-
-
-        The position is available per September 2023.
-      description_short: "We are looking for an MSc internship candidate (preferably
-        enrolled in last year) for a period of at least 6 months in our labs in
-        Amsterdam. You will get a role in our Strain Synthesis team with
-        emphasis on toolbox development and lab automation. "
-partners:
-  pretitle: OUR PARTNERS
-  title: The future needs like-minds.
-  logos:
-    - image: /img/mibiton.svg
-      link: https://www.mibiton.nl/
-      alt: Mibiton
-    - image: /img/renolit.svg
-      link: https://www.renolit.com/
-      alt: Renolit
-    - image: /img/uva.svg
-      link: https://www.uva.nl/
-      alt: Universiteit van Amsterdam
-    - image: /img/corbion.svg
-      alt: Corbion
-      link: http://www.corbion.com/
-    - image: /img/wef.svg
-      link: https://www.weforum.org/
-      alt: World Economic Forum
-    - image: /img/horizon2020.svg
-      alt: Horizon 2020
-      link: https://ec.europa.eu/programmes/horizon2020/
-    - image: /img/nom.svg
-      alt: NOM
-      link: https://www.nom.nl/
-    - image: /img/rvo.svg
-      link: https://english.rvo.nl/
-      alt: Netherlands Enterprise Agency
-    - image: /img/groeifonds.svg
-      alt: Groeifonds
-      link: https://www.economicboardgroningen.nl/geld-advies/groeifonds
-    - image: /img/icos.svg
-      alt: ICOS
-      link: http://www.icoscapital.com/
-    - image: /img/carbon.svg
-      alt: Renewable Carbon
-      link: http://www.renewable-carbon.eu/
-    - image: /img/eu.svg
-      alt: European Regional Development Funds
-      link: https://www.kansenvoorwest2.nl/nl/
-  side_logo:
-    image: /img/renewable-carbon-logo.png
-    link: https://www.renewable-carbon.eu
-    alt: Renewable Carbon
-slideshow:
-  image1:
-    image: /img/co2.jpg
-    alt: Emissions
-  image2:
-    image: /img/slide2.jpg
-    alt: Cyanobacteria
-  image3:
-    image: /img/slide3.jpg
-    alt: Bioplastics
-testimonials:
-  pretitle: Let our partners tell you why
-  title: Proof
-  items:
-    - quote: "Photanol is one of the World Economic Forum Technology Pioneers,
-        acknowledging the potentional and uniqueness of our solution for the
-        World of our next Generation. "
-      citation: World Economic Forum
-      image: /img/wef.svg
+  list: []
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
