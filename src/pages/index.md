@@ -487,5 +487,5 @@ footer:
     image: /img/logo-cms.svg
     alt: "-"
     link: "-"
-    label: For partnering opportunities reach out via everything@photanol.com
+    label: For partnering opportunities reach out via partners@photanol.com
 ---
