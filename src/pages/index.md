@@ -233,15 +233,6 @@ team:
         moonshot and transition to a circular future.
       linkedin: https://www.linkedin.com/in/veronique-de-bruijn-3406a53/
       image: /img/team_veronique_sp.jpg
-    - name: Prof. dr. Klaas Hellingwerf
-      function: CSO
-      text: "Our Founder and CSO, Prof. Hellingwerf, is a top five knowledge leader in
-        the cyano-fermentation field and a well-respected authority on microbial
-        photosynthesis. Prof. Hellingwerf continues researching and networking
-        across continents to progress sustainable science and the Photanol
-        vision. "
-      linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
-      image: /img/team_klaas.jpg
     - name: Jan Wery
       function: "CTO "
       text: "A.K.A our Chief ‘North Star’ Navigator: It’s all very well having a bold
@@ -252,6 +243,22 @@ team:
         scalable success."
       linkedin: https://www.linkedin.com/in/jan-wery-60b19430/
       image: /img/jan.jpg
+    - name: "Joppe Verbokkem "
+      linkedin: https://www.linkedin.com/in/joppeverbokkem/
+      function: Director | Finance & Business Development
+      text: >
+        MSc Finance · University of Groningen | Strong background in corporate
+        finance, business development and fundraising.
+      image: /img/joppe.jpg
+    - name: Prof. dr. Klaas Hellingwerf
+      function: CSA
+      text: "Our Founder and CSO, Prof. Hellingwerf, is a top five knowledge leader in
+        the cyano-fermentation field and a well-respected authority on microbial
+        photosynthesis. Prof. Hellingwerf continues researching and networking
+        across continents to progress sustainable science and the Photanol
+        vision. "
+      linkedin: https://www.linkedin.com/in/klaas-hellingwerf-809a2b10
+      image: /img/team_klaas.jpg
     - name: Aniek van der Woude
       function: R&D Manager Strain Engineering
       text: With Photanol since 2012 and joining us fresh from her PhD in molecular
@@ -396,13 +403,6 @@ team:
         "Tailored diketopyrrolopyrrolebased organic dyes in photoelectrochemical
         cells for solar fuel synthesis".
       image: /img/daniel-anton-garcia.jpg
-    - name: "Joppe Verbokkem "
-      linkedin: https://www.linkedin.com/in/joppeverbokkem/
-      function: Director | Finance & Business Development
-      text: >
-        MSc Finance · University of Groningen | Strong background in corporate
-        finance, business development and fundraising.
-      image: /img/joppe.jpg
     - name: Amyatai Enters
       linkedin: https://www.linkedin.com/in/amyatai-enters-3b76a5199/
       function: Junior Researcher
