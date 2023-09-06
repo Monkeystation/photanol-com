@@ -470,9 +470,8 @@ vacancies:
         Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. 
 
 
-        We are currently looking for microbiology and/or biotechnology students interested in joining the Upscaling Team at Photanol. \
+        We are currently looking for microbiology and/or biotechnology students interested in joining the Upscaling Team at Photanol. 
 
-        \
 
         **The internship will include:**
 
@@ -519,19 +518,18 @@ vacancies:
         * an unforgettable internship to gain experience and knowledge - we will guide you along the way.
 
 
-        Please send your cover letter and motivation to [matthew.booth@photanol.com](mailto:matthew.booth@photanol.com).\
+        Please send your cover letter and motivation to [matthew.booth@photanol.com](mailto:matthew.booth@photanol.com).
 
-        We are looking forward to hearing from you!\
+        We are looking forward to hearing from you!
 
-        \
 
-        **Photanol B.V.**\
+        **Photanol B.V.**
 
-         Science Park 301\
+        Science Park 301
 
-        1098 XH Amsterdam\
+        1098 XH Amsterdam
 
-        The Netherland
+        The Netherlands
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
