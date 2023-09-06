@@ -459,7 +459,10 @@ vacancies:
     [jobs@photanol.com](mailto:jobs@photanol.com).
   list:
     - title: "Research Internship Upscaling Team (minimum period: 6 months) "
-      description_short: >-
+      description_short: "We are currently looking for passionate microbiology and/or
+        biotechnology students interested in joining the Upscaling Team at
+        Photanol. "
+      description_full: >-
         Passion for biotechnology and ready to change the world? Interested in
         driving translation of science and technology to a commercial industrial
         process? 
@@ -467,8 +470,10 @@ vacancies:
         Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. 
 
 
-        We are currently looking for microbiology and/or biotechnology students interested in joining the Upscaling Team at Photanol. 
-      description_full: >-
+        We are currently looking for microbiology and/or biotechnology students interested in joining the Upscaling Team at Photanol. \
+
+        \
+
         **The internship will include:**
 
 
