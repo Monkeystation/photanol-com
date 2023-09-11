@@ -488,12 +488,10 @@ vacancies:
         This position therefore requires microbiological understanding of Photanol technology and technical background to run our bench scale equipment. 
 
 
-
-
         **In brief, we are looking for students with the following characteristics:**
 
 
-        * background in microbiology or biotechnology (BSc level);
+        * background in microbiology or biotechnology (minimum BSc level, MSc level preferred);
 
         * good microbiology laboratory practice;
 
@@ -503,13 +501,13 @@ vacancies:
 
         * good reporting and writing skills in English;
 
-        * available for a minimum of 6 months.
+        * ideally start before the end of the year or in January 2024, available for a minimum of 6 months. 
 
 
         **What we have to offer:**
 
 
-        *  a young and international team of ambitious researchers welcoming you in their team;
+        * a young and international team of ambitious researchers welcoming you in their team;
 
         * exciting work environment in modern office and brand-new labs at Amsterdam Science Park;
 
@@ -518,7 +516,7 @@ vacancies:
         * an unforgettable internship to gain experience and knowledge - we will guide you along the way.
 
 
-        Please send your cover letter and motivation to [matthew.booth@photanol.com](mailto:matthew.booth@photanol.com).
+        Please send your cover letter and motivation to [jobs@photanol.com](mailto:jobs@photanol.com).
 
         We are looking forward to hearing from you!
 
