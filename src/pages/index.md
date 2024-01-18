@@ -267,14 +267,6 @@ team:
         strains.
       linkedin: https://www.linkedin.com/in/aniek-van-der-woude-35ba7a37/
       image: /img/team_aniek.jpg
-    - name: Hayco Bloemen
-      function: Senior Process Development Engineer
-      text: Hayco describes his job as ‘making cyanos happy’. Which means he leads his
-        team in the process development and validation needed to help our
-        bacteria grow. Putting innovation into practice; turning 'what ifs' into
-        reality.
-      linkedin: https://www.linkedin.com/in/hayco-bloemen/
-      image: /img/team_hayco.jpg
     - text: Sabrina’s personal ambition is to use bacteria as a platform for
         sustainable innovation. After several years at different research
         institutes, she now uses her expertise to support Photanol’s upscaling
@@ -343,21 +335,6 @@ team:
         strengthening our upscaling team.
       linkedin: https://www.linkedin.com/in/joost-van-baarsen-8b8821197/
       image: /img/joost-portret_web_8sept_18.jpg
-    - name: Joanna Kowalczyk
-      function: Researcher Strain Engineering
-      text: Years studying the intricacies of fungal biotech and renewable chemicals
-        is channelled into Joanna’s passionate development of custom microbes
-        that capture CO2 to make our greener bio-plastic monomers.
-      linkedin: https://www.linkedin.com/in/joanna-e-kowalczyk/
-      image: /img/photanol_©jurrerompa_e71a0473.jpg
-    - name: Céline Berruex
-      function: Junior Researcher Strain Engineering
-      text: With a globetrotter education gained across Switzerland, Australia and
-        Scotland, you’ll find Céline in the lab, headphones on, good music tuned
-        - optimizing our cyanobacteria strains for CO2 uptake. Conjuring up
-        growth experiments to evaluate each technique’s potential.
-      linkedin: https://www.linkedin.com/in/c%C3%A9line-berruex-455664134/
-      image: /img/celine.jpg
     - name: Dean Posthuma
       function: Junior Process Engineer
       text: Fresh from Imperial College, TU Delft. Dean joined us at the end of 2020.
@@ -366,35 +343,6 @@ team:
         era of green chemistry.
       linkedin: https://www.linkedin.com/in/dean-posthuma/
       image: /img/dean.jpg
-    - name: Ward Bulk
-      function: Bio-process Operator
-      text: Ward studied Coastal & Marine Management, revelling in his thesis and
-        internship dedicated to the small and large scale growth of microalgae.
-        As our trusted Bio-process Operator, Ward now spends his days dreaming
-        up out-of-the-box innovation to help streamline our industrial
-        processes.
-      linkedin: https://www.linkedin.com/in/ward-bulk-60b47a19b/
-      image: /img/ward.jpg
-    - name: Joost Teixeira de Mattos
-      function: Founder
-      text: Prof. Teixeira de Mattos is a leading expert on microbial physiology and
-        fermentation. Together with Prof. Hellingwerf, he defined the optimum
-        conditions for cultivating our cyanos and was integral in securing key
-        partner, Nouryon. In 2016, Joost moved on to a start-up innovating
-        circular energy solutions.
-      linkedin: https://www.linkedin.com/in/joost-teixeira-de-mattos-461a3748/
-      image: /img/team_joost-t.jpg
-    - name: Anna Behle
-      function: "Strain engineer "
-      text: Researcher & project lead
-      linkedin: https://www.linkedin.com/in/anna-behle-90b432208/?originalSubdomain=nl
-      image: /img/anna-behle.jpg
-    - name: Maarten Keij
-      function: Research Technician
-      linkedin: https://www.linkedin.com/in/maarten-keij-588b09184/
-      text: Molecular Cloning · PCR · Gel Electrophoresis · Microbiology · Molecular
-        Biology
-      image: /img/maarten.jpg
     - name: Daniel Antón-García
       linkedin: https://www.linkedin.com/in/danielantongarcia/
       function: Team Lead
@@ -403,11 +351,6 @@ team:
         "Tailored diketopyrrolopyrrolebased organic dyes in photoelectrochemical
         cells for solar fuel synthesis".
       image: /img/daniel-anton-garcia.jpg
-    - name: Amyatai Enters
-      linkedin: https://www.linkedin.com/in/amyatai-enters-3b76a5199/
-      function: Junior Researcher
-      text: Cultivation of cyanobacteria · Molecular techniques · Method development
-      image: /img/amyatai-enters.jpg
     - name: Alessia De Maio
       text: "As part of the upscaling team, Alessia's main research goal is to develop
         methods increasing the efficiency, scalability and applicability of
@@ -421,11 +364,6 @@ team:
       text: Strain Development researcher
       image: /img/áureo-cutillas.jpg
       linkedin: https://www.linkedin.com/in/aureo-cutillas-farray/
-    - name: Valentine	Nguyen
-      function: "Junior Researcher R&D "
-      text: Junior Researcher with MSc in Industrial Biotechnology
-      image: /img/valentine.jpg
-      linkedin: https://www.linkedin.com/in/valentine-nguyen-78b74a1b9/
     - name: Matthew Booth
       image: /img/matthew-booth.jpg
       linkedin: https://www.linkedin.com/in/matthew-booth-5323baa4/
@@ -435,24 +373,6 @@ team:
         professional working towards an Engineering Doctorate (EngD) in
         Biochemical Engineering from University College London. "
       function: " Research Scientist"
-    - name: Chata Mundell
-      linkedin: https://www.linkedin.com/in/chata-m-12630a9b/
-      function: Project Lead & Pilot Researcher
-      text: Fermentation specialist with a strong background in the beverage industry,
-        who decided to broaden her horizon and explore the biotech industry by
-        joining Photanol in 2022.
-      image: /img/chata-mundell.jpg
-    - name: Pooja Rangan
-      function: Office Administrator
-      linkedin: https://www.linkedin.com/in/pooja-rangan-4b224b174/
-      text: Experienced software professional with BSc in Information Technology
-      image: /img/pooja-rangan.jpg
-    - name: Max	Guillaume
-      function: Researcher
-      text: "Researcher with a MSc in Bioinformatics & Systems Biology, who is
-        currently pursuing his PhD at the University of Amsterdam. "
-      linkedin: https://www.linkedin.com/in/mcguillaume/
-      image: /img/max-guillaume.jpg
 vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
