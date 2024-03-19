@@ -377,77 +377,7 @@ vacancies:
   novacancies: At the moment there are no vacancies but we're always on the
     lookout for talent. Send an open application to
     [jobs@photanol.com](mailto:jobs@photanol.com).
-  list:
-    - title: "Research Internship Upscaling Team (minimum period: 6 months) "
-      description_short: "We are currently looking for passionate microbiology and/or
-        biotechnology students interested in joining the Upscaling Team at
-        Photanol. "
-      description_full: >-
-        Passion for biotechnology and ready to change the world? Interested in
-        driving translation of science and technology to a commercial industrial
-        process? 
-
-        Join the Photanol team to develop optimized cyanobacteria to produce monomers based on light and CO2. 
-
-
-        We are currently looking for microbiology and/or biotechnology students interested in joining the Upscaling Team at Photanol. 
-
-
-        **The internship will include:**
-
-
-        * cultivating cyanobacteria in a range of photobioreactors, from bench to pilot scale,
-
-        * contributing to find creative and sustainable solutions to solve contamination issues,
-
-        * testing of Photanol’s modified strains on stability and productivity,
-
-        * executing daily microbiological laboratory activities.
-
-
-        This position therefore requires microbiological understanding of Photanol technology and technical background to run our bench scale equipment. 
-
-
-        **In brief, we are looking for students with the following characteristics:**
-
-
-        * background in microbiology or biotechnology (minimum BSc level, MSc level preferred);
-
-        * good microbiology laboratory practice;
-
-        * practical experience with cultivation of Cyanobacteria / Algae at bench and/or pilot scale would be highly appreciated;
-
-        * ability to work independently;
-
-        * good reporting and writing skills in English;
-
-        * ideally start before the end of the year or in January 2024, available for a minimum of 6 months. 
-
-
-        **What we have to offer:**
-
-
-        * a young and international team of ambitious researchers welcoming you in their team;
-
-        * exciting work environment in modern office and brand-new labs at Amsterdam Science Park;
-
-        * internship reimbursement;
-
-        * an unforgettable internship to gain experience and knowledge - we will guide you along the way.
-
-
-        Please send your cover letter and motivation to [jobs@photanol.com](mailto:jobs@photanol.com).
-
-        We are looking forward to hearing from you!
-
-
-        **Photanol B.V.**
-
-        Science Park 301
-
-        1098 XH Amsterdam
-
-        The Netherlands
+  list: []
 news:
   pretitle: READ ALL ABOUT IT
   title: Latest Updates
